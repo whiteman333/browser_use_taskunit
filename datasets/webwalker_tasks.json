@@ -1,0 +1,2473 @@
+[
+    {
+        "task_id": 0,
+        "confirmed_task": "浙江大学计算机学院吴朝晖教授讲授的《网格计算》课程是哪一年首次上传到浙江大学计算机学院的教学资源中？",
+        "website": "http://www.cs.zju.edu.cn/csen",
+        "answer": "2009年",
+        "info": {
+            "domain": "education",
+            "source_website": [
+                "http://www.cs.zju.edu.cn/csen/2009/1224/c26995a1202793/page.htm"
+            ],
+            "golden_path": [
+                "root->研究生教育->课程简介->网格计算（教学大纲）"
+            ],
+            "type": "single_source",
+            "difficulty_level": "hard",
+            "lang": "zh"
+        }
+    },
+    {
+        "task_id": 1,
+        "confirmed_task": "浙江大学计算机学院设计管理课程的教学大纲首次上传是在哪个年份的几月份？",
+        "website": "http://www.cs.zju.edu.cn/csen",
+        "answer": "2003年7月",
+        "info": {
+            "domain": "education",
+            "source_website": [
+                "http://www.cs.zju.edu.cn/csen/2003/0701/c26995a1202838/page.htm"
+            ],
+            "golden_path": [
+                "root->研究生教育->课程简介->“设计管理”课程教学大纲"
+            ],
+            "type": "single_source",
+            "difficulty_level": "hard",
+            "lang": "zh"
+        }
+    },
+    {
+        "task_id": 2,
+        "confirmed_task": "浙江大学计算机学院“图形与创意”课程上传于哪一年，并且课程内容包括研究哪个关键环节？",
+        "website": "http://www.cs.zju.edu.cn/csen",
+        "answer": "2003年，视觉修辞",
+        "info": {
+            "domain": "education",
+            "source_website": [
+                "http://www.cs.zju.edu.cn/csen/2003/0701/c26995a1202853/page.htm"
+            ],
+            "golden_path": [
+                "root->研究生教育->课程简介->“图形与创意”课程教学大纲"
+            ],
+            "type": "single_source",
+            "difficulty_level": "hard",
+            "lang": "zh"
+        }
+    },
+    {
+        "task_id": 3,
+        "confirmed_task": "浙江大学计算机学院学位管理记录中的最早记录日期是？",
+        "website": "http://www.cs.zju.edu.cn/csen",
+        "answer": "2004-03-25",
+        "info": {
+            "domain": "education",
+            "source_website": [
+                "http://www.cs.zju.edu.cn/csen/26996/list3.htm"
+            ],
+            "golden_path": [
+                "root->研究生教育->学位管理->尾页"
+            ],
+            "type": "single_source",
+            "difficulty_level": "hard",
+            "lang": "zh"
+        }
+    },
+    {
+        "task_id": 4,
+        "confirmed_task": "2011年春季入学浙江大学计算机学院的工程硕士（计算机技术专业）第二学期的期末课程考试中，计算机图形学、操作系统与嵌入式设计、网络计算这三门考试时间加起来一共是多久？",
+        "website": "http://www.cs.zju.edu.cn/csen",
+        "answer": "6小时",
+        "info": {
+            "domain": "education",
+            "source_website": [
+                "http://www.cs.zju.edu.cn/csen/2011/0831/c26994a1203067/page.htm"
+            ],
+            "golden_path": [
+                "root->研究生教育->通知公告->2011年春季入学的工程硕士（计算机技术专业）第二学期课程考试通知"
+            ],
+            "type": "single_source",
+            "difficulty_level": "hard",
+            "lang": "zh"
+        }
+    },
+    {
+        "task_id": 5,
+        "confirmed_task": "在浙江大学计算机学院2011年4月14日发布的通告中，因未在规定时间内交费报到而被取消入学资格的2011年春季学员有几位？",
+        "website": "http://www.cs.zju.edu.cn/csen",
+        "answer": "3",
+        "info": {
+            "domain": "education",
+            "source_website": [
+                "http://www.cs.zju.edu.cn/csen/2011/0414/c26994a1203267/page.htm"
+            ],
+            "golden_path": [
+                "root->研究生教育->通知公告->关于计算机学院录取的工程硕士取消入学资格的通告"
+            ],
+            "type": "single_source",
+            "difficulty_level": "hard",
+            "lang": "zh"
+        }
+    },
+    {
+        "task_id": 6,
+        "confirmed_task": "浙江大学计算机学院施青松老师讲授“高级计算机系统结构”课程开始的日期是什么？",
+        "website": "http://www.cs.zju.edu.cn/csen",
+        "answer": "2008年5月10日",
+        "info": {
+            "domain": "education",
+            "source_website": [
+                "http://www.cs.zju.edu.cn/csen/2008/0506/c26996a1202860/page.htm"
+            ],
+            "golden_path": [
+                "root->研究生教育->学位管理->08年春入学工程硕士（计算机技术专业）增补课程通知"
+            ],
+            "type": "single_source",
+            "difficulty_level": "hard",
+            "lang": "zh"
+        }
+    },
+    {
+        "task_id": 7,
+        "confirmed_task": "浙江大学计算机学院乔丽清的信息是谁在2019年6月11日上传的？",
+        "website": "http://www.cs.zju.edu.cn/csen",
+        "answer": "胡迪斐",
+        "info": {
+            "domain": "education",
+            "source_website": [
+                "http://www.cs.zju.edu.cn/csen/2019/0611/c27061a1223570/page.htm"
+            ],
+            "golden_path": [
+                "root->教师名录->机关->乔丽清"
+            ],
+            "type": "single_source",
+            "difficulty_level": "hard",
+            "lang": "zh"
+        }
+    },
+    {
+        "task_id": 8,
+        "confirmed_task": "在浙江大学计算机学院2023年硕士研究生招生中，整体计算机类和港澳台地区的复试面试时间分别是什么时候？",
+        "website": "http://www.cs.zju.edu.cn/csen",
+        "answer": "计算机类复试面试时间为2023年3月25日，港澳台地区为2023年4月22日下午1:30-4:00。",
+        "info": {
+            "domain": "education",
+            "source_website": [
+                "http://www.cs.zju.edu.cn/csen/2023/0318/c27010a2730330/page.htm",
+                "http://www.cs.zju.edu.cn/csen/2023/0417/c27010a2743659/page.htm"
+            ],
+            "golden_path": [
+                "root->招生就业->硕士招生->浙江大学计算机学院2023年硕士研究生招生复试录取工作方案（1号通知）",
+                "root->招生就业->硕士招生->计算机学院2023年招收港澳台地区硕士研究生复试录取方案"
+            ],
+            "type": "multi_source",
+            "difficulty_level": "hard",
+            "lang": "zh"
+        }
+    },
+    {
+        "task_id": 9,
+        "confirmed_task": "比较2010年和2023年浙江大学计算机学院硕士研究生考试安排，指出主要变化是什么？",
+        "website": "http://www.cs.zju.edu.cn/csen",
+        "answer": "2010年为笔试形式，安排在11月6日晚上；2023年为上机考试，安排在3月24日下午。主要变化是考试形式和日期的变化。",
+        "info": {
+            "domain": "education",
+            "source_website": [
+                "http://www.cs.zju.edu.cn/csen/2010/1104/c26994a1203257/page.htm",
+                "http://www.cs.zju.edu.cn/csen/2023/0318/c27010a2730340/page.htm"
+            ],
+            "golden_path": [
+                "root->研究生教育->通知公告->2010春入学计算机技术专业工程硕士数字媒体考试通知",
+                "root->招生就业->硕士招生->浙江大学计算机学院2023年硕士研究生招生上机考试说明（3号通知）(更新)"
+            ],
+            "type": "multi_source",
+            "difficulty_level": "hard",
+            "lang": "zh"
+        }
+    },
+    {
+        "task_id": 10,
+        "confirmed_task": "在2011年春季入学的计算机学院工程硕士学生名单中，有哪些学生最终因未缴费而被取消入学资格？",
+        "website": "http://www.cs.zju.edu.cn/csen",
+        "answer": "刘文军、申屠哲泱、叶见春",
+        "info": {
+            "domain": "education",
+            "source_website": [
+                "http://www.cs.zju.edu.cn/csen/2011/0315/c26994a1203265/page.htm",
+                "http://www.cs.zju.edu.cn/csen/2011/0414/c26994a1203267/page.htm"
+            ],
+            "golden_path": [
+                "root->研究生教育->通知公告->2011年春入学计算机学院专业学位（工程硕士）研究生入学报到及开学典礼通知",
+                "root->研究生教育->通知公告->关于计算机学院录取的工程硕士取消入学资格的通告"
+            ],
+            "type": "multi_source",
+            "difficulty_level": "hard",
+            "lang": "zh"
+        }
+    },
+    {
+        "task_id": 11,
+        "confirmed_task": "在2011年春天，浙江大学计算机学院入学报到需要提交的费用是多少，且哪些人因学位申请迟迟未进行而失去资格？",
+        "website": "http://www.cs.zju.edu.cn/csen",
+        "answer": "学费为30000元全程，需在报到时缴纳18000元；失去学位申请资格的主要是李昂等117名持续超期未完成学位申请的学生。",
+        "info": {
+            "domain": "education",
+            "source_website": [
+                "http://www.cs.zju.edu.cn/csen/2009/0417/c26996a1202870/page.htm",
+                "http://www.cs.zju.edu.cn/csen/2011/0315/c26994a1203265/page.htm"
+            ],
+            "golden_path": [
+                "root->研究生教育->学位管理->关于终止李昂等117名超期非全日制硕士研究生学位申请资格公示的通知",
+                "root->研究生教育->通知公告->2011年春入学计算机学院专业学位（工程硕士）研究生入学报到及开学典礼通知"
+            ],
+            "type": "multi_source",
+            "difficulty_level": "hard",
+            "lang": "zh"
+        }
+    },
+    {
+        "task_id": 12,
+        "confirmed_task": "在2017年5月22日和2018年6月19日浙江大学活动中，分别由哪些国际知名教授来访并进行学术演讲？",
+        "website": "http://www.cs.zju.edu.cn/csen",
+        "answer": "Yale Patt教授和Roger Zimmermann教授",
+        "info": {
+            "domain": "education",
+            "source_website": [
+                "http://www.cs.zju.edu.cn/csen/2017/0515/c27029a1296303/page.htm",
+                "http://www.cs.zju.edu.cn/csen/2018/0621/c27029a1296313/page.htm"
+            ],
+            "golden_path": [
+                "root->学术讲座->【研究生读书报告】学术大师大讲堂之美国工程院院士Yale Patt教授报告",
+                "root->学术讲座->新加坡国立大学计算机系Roger Zimmermann教授应邀来院作报告"
+            ],
+            "type": "multi_source",
+            "difficulty_level": "medium",
+            "lang": "zh"
+        }
+    },
+    {
+        "task_id": 13,
+        "confirmed_task": "When and where was the ICSE duplicate submission statement agreed upon?",
+        "website": "http://www.icse-conferences.org",
+        "answer": "November 2002, Charleston, South Carolina.",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "http://www.icse-conferences.org/duplicate.html"
+            ],
+            "golden_path": [
+                "root->ORGANIZING ICSE->ICSE Duplicate Submission   Statement"
+            ],
+            "type": "single_source",
+            "difficulty_level": "medium",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 14,
+        "confirmed_task": "Which tutorial at ICSE 2002 focused on the challenges of building web application systems, and what was the primary submission category emphasized by the ICSE for software engineering practitioners?",
+        "website": "http://www.icse-conferences.org",
+        "answer": "Tutorial 5 ('Meeting the Challenges of Web Application Development: The Web Engineering Approach') focused on building web application systems. The primary submission category emphasized by ICSE for software engineering practitioners was 'To provide opportunities for participation by software practitioners.'",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "http://www.icse-conferences.org/2002/cfp/index.html",
+                "http://www.icse-conferences.org/2002/info/tutorials.html"
+            ],
+            "golden_path": [
+                "root->Orlando, Florida, USA->Types of Submissions",
+                "root->Orlando, Florida, USA->Tutorials"
+            ],
+            "type": "multi_source",
+            "difficulty_level": "medium",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 15,
+        "confirmed_task": "Which scholars presented the IMPACT project on safety-critical systems and software inspections, reviews, and walkthroughs at the ICSE 2002 conference?",
+        "website": "http://www.icse-conferences.org",
+        "answer": "The IMPACT presentations at ICSE 2002 were headed by John Knight on safety-critical systems and Oliver Laitenberger on software inspections, reviews, and walkthroughs.",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "http://www.icse-conferences.org/2002/info/soa.html",
+                "http://www.icse-conferences.org/2002/info/impact.html"
+            ],
+            "golden_path": [
+                "root->Orlando, Florida, USA->State-of-the-Art Presentations",
+                "root->Orlando, Florida, USA->IMPACT Presentations"
+            ],
+            "type": "multi_source",
+            "difficulty_level": "medium",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 16,
+        "confirmed_task": "What visual modeling language for complex systems was introduced in the ICSE 2002 tutorial led by Joseph Gil and others on May 21, 2002?",
+        "website": "http://www.icse-conferences.org",
+        "answer": "Advanced Visual Modeling: Beyond UML",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "http://www.icse-conferences.org/2002/info/tutorials.html"
+            ],
+            "golden_path": [
+                "root->Orlando, Florida, USA->Tutorials"
+            ],
+            "type": "single_source",
+            "difficulty_level": "medium",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 17,
+        "confirmed_task": "Who were the program committee chairs for the ICSE 2002 conference, and when and where was this conference held?",
+        "website": "http://www.icse-conferences.org",
+        "answer": "The program committee chairs for the 2002 ICSE conference were Michal Young and Jeff Magee. The conference was held from May 19-25, 2002 in Orlando, Florida, USA.",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "http://www.icse-conferences.org/2002/info/ccommittee.html"
+            ],
+            "golden_path": [
+                "root->Orlando, Florida, USA->Conference Committee"
+            ],
+            "type": "single_source",
+            "difficulty_level": "medium",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 18,
+        "confirmed_task": "What are the submission deadlines for technical papers and the doctoral symposium at the ICSE 2002 conference?",
+        "website": "http://www.icse-conferences.org",
+        "answer": "The technical paper submission deadline was September 25, 2001, and the doctoral symposium submission deadline was January 6, 2002.",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "http://www.icse-conferences.org/2002/cfp/techpapers.html",
+                "http://www.icse-conferences.org/2002/cfp/docsymp.html"
+            ],
+            "golden_path": [
+                "root->ICSE 2002->Types of Submissions->Technical Papers",
+                "root->ICSE 2002->Types of Submissions->Doctoral Symposium Applications"
+            ],
+            "type": "multi_source",
+            "difficulty_level": "hard",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 19,
+        "confirmed_task": "On which day was the 5K Fun Run event held during the ICSE Conference 2002?",
+        "website": "http://www.icse-conferences.org",
+        "answer": "May 23rd",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "http://www.icse-conferences.org/2002/travel/fiveKrun.html"
+            ],
+            "golden_path": [
+                "root->Orlando, Florida, USA->ICSE 5K Run"
+            ],
+            "type": "single_source",
+            "difficulty_level": "medium",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 20,
+        "confirmed_task": "Who was the General Chair of the ICSE conference in 2002?",
+        "website": "http://www.icse-conferences.org",
+        "answer": "Will Tracz",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "http://www.icse-conferences.org/2002/"
+            ],
+            "golden_path": [
+                "root->Toronto, Ontario, Canada->ICSE 2002"
+            ],
+            "type": "single_source",
+            "difficulty_level": "medium",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 21,
+        "confirmed_task": "What was the other workshop held on the same day as the Workshop on Software Quality at ICSE 2002?",
+        "website": "http://www.icse-conferences.org",
+        "answer": "Workshop on Architecting Dependable Systems.",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "http://www.icse-conferences.org/2002/info/workshops.html"
+            ],
+            "golden_path": [
+                "root->Orlando, Florida, USA->Workshops"
+            ],
+            "type": "single_source",
+            "difficulty_level": "medium",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 22,
+        "confirmed_task": "Where and when was the ICSE 2003 Program Committee Meeting held?",
+        "website": "http://www.icse-conferences.org",
+        "answer": "The ICSE 2003 Program Committee Meeting was held in Room Crystal A-C from 17:30 to 18:30.",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "http://www.icse-conferences.org/2002/cal/meetings.html"
+            ],
+            "golden_path": [
+                "root->Orlando, Florida, USA->Conference Meetings"
+            ],
+            "type": "single_source",
+            "difficulty_level": "medium",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 23,
+        "confirmed_task": "What types of proposals had submission deadlines between September 10, 2001, and January 6, 2002?",
+        "website": "http://www.icse-conferences.org",
+        "answer": "Full Paper, Panel Proposals, State of the Art Proposals, Tutorial Proposals, Workshop Proposals, Poster and Demo Proposals.",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "http://www.icse-conferences.org/2002/cfp/deadlines.html"
+            ],
+            "golden_path": [
+                "root->ICSE 2002->Types of Submissions->submission deadlines"
+            ],
+            "type": "single_source",
+            "difficulty_level": "hard",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 24,
+        "confirmed_task": "What were the exact dates and the General Chair for the ICSE conference in 2004?",
+        "website": "http://www.icse-conferences.org",
+        "answer": "The ICSE 2004 conference was held from May 23 to 28, and the General Chair was Anthony Finkelstein.",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "http://www.icse-conferences.org/2004/index.html",
+                "http://www.icse-conferences.org/history.html"
+            ],
+            "golden_path": [
+                "root->ICSE 2004",
+                "root->HISTORY"
+            ],
+            "type": "multi_source",
+            "difficulty_level": "easy",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 25,
+        "confirmed_task": "Was David Notkin a member of the program committee for ICSE 2002 where he gave the keynote speech on 'ArchJava: Connecting Software Architecture to Implementation'?",
+        "website": "http://www.icse-conferences.org",
+        "answer": "Yes, David Notkin was a member of the ICSE 2002 program committee.",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "http://www.icse-conferences.org/2002/info/papers.html",
+                "http://www.icse-conferences.org/2002/info/pcommittee.html"
+            ],
+            "golden_path": [
+                "root->ICSE 2002->Technical Papers",
+                "root->ICSE 2002->Program Committee"
+            ],
+            "type": "multi_source",
+            "difficulty_level": "medium",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 49,
+        "confirmed_task": "Which program funded the SUPPLY project involving EHA, when did the project start, and how long will it last?",
+        "website": "https://ehaweb.org",
+        "answer": "The SUPPLY project that EHA is involved in is funded by the EU4Health program. It started on September 1, 2022, and lasts for 18 months.",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://ehaweb.org/organization/newsroom/news-and-updates/eha-to-participate-in-an-eu-funded-project-supply/"
+            ],
+            "golden_path": [
+                "root->News & views->Read more"
+            ],
+            "type": "single_source",
+            "difficulty_level": "medium",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 50,
+        "confirmed_task": "In 2024, what specific group's hematology diagnostic care did EHA launch a major consultation to understand?",
+        "website": "https://ehaweb.org",
+        "answer": "Adolescents and Young Adults (AYA).",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://ehaweb.org/organization/newsroom/news-and-updates/tag/survey"
+            ],
+            "golden_path": [
+                "root->News & views->Press releases->survey"
+            ],
+            "type": "single_source",
+            "difficulty_level": "hard",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 51,
+        "confirmed_task": "Which doctor presented the randomized study results on kinase inhibitors for acute myeloid leukemia treatment at the EHA conference in June 2015?",
+        "website": "https://ehaweb.org",
+        "answer": "Dr Ehninger",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://ehaweb.org/organization/newsroom/news-and-updates/category/press-releases?start=45"
+            ],
+            "golden_path": [
+                "root->News & views->Press releases->4"
+            ],
+            "type": "single_source",
+            "difficulty_level": "hard",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 52,
+        "confirmed_task": "Who became the Managing Director of the European Hematology Association in January 2023, and when did they officially assume the position?",
+        "website": "https://ehaweb.org",
+        "answer": "Ignacio Quiles Lara became the new Managing Director of the European Hematology Association on January 9, 2023.",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://ehaweb.org/organization/newsroom/news-and-updates/appointment-of-new-eha-managing-director/"
+            ],
+            "golden_path": [
+                "root->News & views->Press releases->Read more"
+            ],
+            "type": "single_source",
+            "difficulty_level": "hard",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 53,
+        "confirmed_task": "When did the European Hematology Association (EHA) initiate the bridge funding program to support the rebuilding of hematology in Ukraine?",
+        "website": "https://ehaweb.org",
+        "answer": "April 2022",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://ehaweb.org/organization/newsroom/news-and-updates/rebuilding-the-future-for-hematology-in-ukraine-today/"
+            ],
+            "golden_path": [
+                "root->News & views->Press releases->Read more"
+            ],
+            "type": "single_source",
+            "difficulty_level": "hard",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 54,
+        "confirmed_task": "EHA为早期职业研究人员提供哪种专注于计算和定量生物学方面的培训项目？",
+        "website": "https://ehaweb.org",
+        "answer": "Computational Biology Training in Hematology",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://ehaweb.org/research/research-trainings/"
+            ],
+            "golden_path": [
+                "root->Research trainings"
+            ],
+            "type": "single_source",
+            "difficulty_level": "easy",
+            "lang": ""
+        }
+    },
+    {
+        "task_id": 55,
+        "confirmed_task": "If Gavriilaki is currently a member of the SWG Committee and can be reappointed once, until what year can she serve if she starts her new term in 2024?",
+        "website": "https://ehaweb.org",
+        "answer": "2030",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://ehaweb.org/organization/committees/swg-unit/"
+            ],
+            "golden_path": [
+                "root->SWG Committee"
+            ],
+            "type": "single_source",
+            "difficulty_level": "easy",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 56,
+        "confirmed_task": "When did EHA join ECO based on the anniversary date?",
+        "website": "https://ehaweb.org",
+        "answer": "EHA joined the European Cancer Organisation (ECO) on November 17-18, 2020.",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://ehaweb.org/organization/newsroom/news-and-updates/tag/eco"
+            ],
+            "golden_path": [
+                "root->News & views->ECO"
+            ],
+            "type": "single_source",
+            "difficulty_level": "medium",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 57,
+        "confirmed_task": "Which experts explained intermediate and advanced Hodgkin lymphoma cases during the December 15, 2020 guidelines workshop, and when did the interactive discussion start?",
+        "website": "https://ehaweb.org",
+        "answer": "Dr. T. Skrypets and Dr. D. Dujmovic explained the cases; the interactive discussion started at 16:00 CET.",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://ehaweb.org/guidelines/clinical-practice-guidelines/guidelines-workshops-3/hodgkin-lymphoma-2/"
+            ],
+            "golden_path": [
+                "root->Guidelines Workshops->Learn More"
+            ],
+            "type": "single_source",
+            "difficulty_level": "medium",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 58,
+        "confirmed_task": "Which Italian professor gave an overview presentation of the guidelines at the EHA-organized workshop on mild to moderate inherited bleeding disorders held on April 20, 2021, and what was their specific role?",
+        "website": "https://ehaweb.org",
+        "answer": "The Italian professor F. Rodeghiero conducted the guidelines overview presentation at the EHA workshop.",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://ehaweb.org/guidelines/clinical-practice-guidelines/guidelines-workshops-3/bleeding-disorders-2/"
+            ],
+            "golden_path": [
+                "root->Guidelines Workshops->Learn More"
+            ],
+            "type": "single_source",
+            "difficulty_level": "medium",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 59,
+        "confirmed_task": "Who won the first EHA-ISTH Joint Fellowship at the 16th EHA Congress and where was it awarded?",
+        "website": "https://ehaweb.org",
+        "answer": "Dr A van Hylckama Vlieg won the first EHA-ISTH Joint Fellowship at the 16th EHA Congress in London, UK.",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://ehaweb.org/organization/newsroom/news-and-updates/category/press-releases?start=90"
+            ],
+            "golden_path": [
+                "root->News & views->Press releases->7"
+            ],
+            "type": "single_source",
+            "difficulty_level": "hard",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 60,
+        "confirmed_task": "How many countries were represented at the EHA-PTHiT Mini Hematology Tutorial in November 2021?",
+        "website": "https://ehaweb.org",
+        "answer": "34",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://ehaweb.org/organization/newsroom/news-and-updates/eha-and-pthit-successfully-conclude-the-second-joint-virtual-mini-hematology-tutorial/"
+            ],
+            "golden_path": [
+                "root->News & views->Meeting reports->Read more"
+            ],
+            "type": "single_source",
+            "difficulty_level": "hard",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 61,
+        "confirmed_task": "During 2021, from when to when was the content of the EHA-SWG virtual meeting available?",
+        "website": "https://ehaweb.org",
+        "answer": "The EHA-SWG virtual meeting content was available from April 22, 2021, to May 29, 2021.",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://ehaweb.org/organization/newsroom/news-and-updates/archive/2021/5/31"
+            ],
+            "golden_path": [
+                "root->News & views->Meeting reports->May 31 2021"
+            ],
+            "type": "single_source",
+            "difficulty_level": "hard",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 62,
+        "confirmed_task": "Who are the recipients of the inaugural EHA Bilateral Collaborative Grants 2021, and what projects are they working on?",
+        "website": "https://ehaweb.org",
+        "answer": "Andrea Ditadi and Eirini Trompouki for 'Dissecting the role of transposable element-mediated inflammation in human hematopoietic stem cell development'; Ashok Kumar Jayavelu and Beat Bornhauser for 'Proteogenomic guidance for the treatment of high-risk acute lymphoblastic leukemia'.",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://ehaweb.org/organization/newsroom/news-and-updates/eha-congratulates-the-2021-bilateral-collaborative-grant-winners/"
+            ],
+            "golden_path": [
+                "root->News & views->Press releases->Read more"
+            ],
+            "type": "single_source",
+            "difficulty_level": "hard",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 63,
+        "confirmed_task": "In February 2024, how was the land revenue share decision made in the Illuvium game, and how many council members voted in favor of this proposal?",
+        "website": "https://illuvium.io",
+        "answer": "Five votes in favor.",
+        "info": {
+            "domain": "game",
+            "source_website": [
+                "https://illuvium.io/news/illuvium-dao-governance-newsletter-february-2024"
+            ],
+            "golden_path": [
+                "root->News->Illuvium DAO Governance Newsletter - February 2024"
+            ],
+            "type": "single_source",
+            "difficulty_level": "medium",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 64,
+        "confirmed_task": "In the update of Illuvium Zero version 1.0.3, if converting 20 units of Hyperion into Solon at 150% efficiency, how many units of Solon can be obtained?",
+        "website": "https://illuvium.io",
+        "answer": "21 Solon",
+        "info": {
+            "domain": "game",
+            "source_website": [
+                "https://illuvium.io/news/illuvium-zero-patch-notes-1-0-3"
+            ],
+            "golden_path": [
+                "root->News->Illuvium: Zero Patch Notes 1.0.3"
+            ],
+            "type": "single_source",
+            "difficulty_level": "medium",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 65,
+        "confirmed_task": "On what date does Pre-Season 1 of Airdrop #1 conclude, and what is the total ILV allocation for Airdrop #1 during Pre-Season 1 and Pre-Season 2 combined?",
+        "website": "https://illuvium.io",
+        "answer": "Pre-Season 1 ends on June 30, 23:59 UTC. The total ILV allocation for Airdrop #1 during Pre-Season 1 and Pre-Season 2 combined is 30,000 ILV.",
+        "info": {
+            "domain": "game",
+            "source_website": [
+                "https://illuvium.io/news/illuvium-airdrop-season-details"
+            ],
+            "golden_path": [
+                "root->News->Illuvium: Airdrop Season Details"
+            ],
+            "type": "single_source",
+            "difficulty_level": "medium",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 66,
+        "confirmed_task": "What are the two primary reasons the IIP-49 proposal was declined and the IIP-51 proposal was approved by the Illuvium Council?",
+        "website": "https://illuvium.io",
+        "answer": "IIP-49 was declined for focusing on non-core features, overlapping with existing systems, and inefficiency, whereas IIP-51 was approved for effectively addressing community concerns, improving participant incentives, and demonstrating strong DAO collaboration.",
+        "info": {
+            "domain": "game",
+            "source_website": [
+                "https://illuvium.io/news/illuvium-dao-governance-newsletter-may-2024"
+            ],
+            "golden_path": [
+                "root->News->Illuvium DAO Governance Newsletter - May 2024"
+            ],
+            "type": "single_source",
+            "difficulty_level": "medium",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 67,
+        "confirmed_task": "How much did the ILV price change in the Illuvium job posting on October 22 compared to past information, and what are the unique aspects of this job opportunity?",
+        "website": "https://illuvium.io",
+        "answer": "The ILV price decreased by $1.53, from $40.17 to $38.64. The job is unique because it is 100% remote and emphasizes autonomy, adaptability, innovation, and core design skills.",
+        "info": {
+            "domain": "game",
+            "source_website": [
+                "https://illuvium.io/jobs/1888798"
+            ],
+            "golden_path": [
+                "root->Jobs->Game UX/UI Designer"
+            ],
+            "type": "single_source",
+            "difficulty_level": "medium",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 68,
+        "confirmed_task": "When does Pre-season 2 of Illuvium end before the official game launch on July 25, 2024?",
+        "website": "https://illuvium.io",
+        "answer": "Pre-season 2 ends on July 18, 2024, at 23:59:59 UTC.",
+        "info": {
+            "domain": "game",
+            "source_website": [
+                "https://illuvium.io/news/illuvium-overworld-and-arena-patch-notes-0-4-3"
+            ],
+            "golden_path": [
+                "root->News->Illuvium Overworld & Arena Patch Notes 0.4.3"
+            ],
+            "type": "single_source",
+            "difficulty_level": "medium",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 69,
+        "confirmed_task": "What were the key bug fixes in the Illuvium: Zero version 1.1.4 released on November 1, 2024, that improved the game's stability?",
+        "website": "https://illuvium.io",
+        "answer": "Key bug fixes in Illuvium: Zero version 1.1.4 include warning pop-ups for insufficient storage capacity, extra interaction button issues during initial land transfer, and crash resolutions on iPhones, enhancing game stability.",
+        "info": {
+            "domain": "game",
+            "source_website": [
+                "https://illuvium.io/news/illuvium-zero-patch-notes-1-1-4"
+            ],
+            "golden_path": [
+                "root->News->Illuvium: Zero Patch Notes 1.1.4"
+            ],
+            "type": "single_source",
+            "difficulty_level": "medium",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 70,
+        "confirmed_task": "How many ILV will be distributed during the rewards process of Pre-season 2?",
+        "website": "https://illuvium.io",
+        "answer": "10,000 ILV",
+        "info": {
+            "domain": "game",
+            "source_website": [
+                "https://illuvium.io/news/transitioning-from-pre-season-1-to-pre-season-2-testnet"
+            ],
+            "golden_path": [
+                "root->News->Transitioning from Pre-Season 1 to Pre-Season 2 Testnet"
+            ],
+            "type": "single_source",
+            "difficulty_level": "medium",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 71,
+        "confirmed_task": "Which Illuvial line received an Omega damage boost in Illuvium: Arena Beta 3 v0.3.5 patch to effectively counter stronger front-line units?",
+        "website": "https://illuvium.io",
+        "answer": "Shoebill Line",
+        "info": {
+            "domain": "game",
+            "source_website": [
+                "https://illuvium.io/news/illuvium-arena-beta-3-v0-3-5-patch-notes"
+            ],
+            "golden_path": [
+                "root->News->Illuvium: Arena Beta 3 v0.3.5 Patch Notes"
+            ],
+            "type": "single_source",
+            "difficulty_level": "medium",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 72,
+        "confirmed_task": "In 2024, how much ILV reward can creators participating in the Creator Program and players engaging in the Play-2-Airdrop during Private Beta 4 on the Illuvium platform earn?",
+        "website": "https://illuvium.io",
+        "answer": "Creators can earn 100 ILV weekly in the Creator Reward Program, and 200,000 ILV will be distributed over six months for players in the Play-2-Airdrop during Private Beta 4.",
+        "info": {
+            "domain": "game",
+            "source_website": [
+                "https://illuvium.io/news/illuvium-creator-program-is-getting-an-upgrade",
+                "https://illuvium.io/news/register-now-for-private-beta-4"
+            ],
+            "golden_path": [
+                "root->News->Illuvium Creator Program Is Getting An Upgrade!",
+                "root->News->Register Now for Private Beta 4!"
+            ],
+            "type": "multi_source",
+            "difficulty_level": "medium",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 73,
+        "confirmed_task": "What was the required launch date for Illuvium Zero according to proposal IIP-39, and when did it actually launch on iOS and Google Play for the testnet?",
+        "website": "https://illuvium.io",
+        "answer": "IIP-39 requires Illuvium Zero to launch before Illuvium Overworld. Illuvium Zero Beta went live on iOS and Google Play on July 25, 2024.",
+        "info": {
+            "domain": "game",
+            "source_website": [
+                "https://illuvium.io/news/illuvium-dao-governance-newsletter-april-2024",
+                "https://illuvium.io/news/illuvium-zero-beta-launch-on-ios-google-play-&-epic-games"
+            ],
+            "golden_path": [
+                "root->News->Illuvium DAO Governance Newsletter - April 2024",
+                "root->News->Illuvium: Zero Beta Launch on iOS, Google Play, & Epic Games"
+            ],
+            "type": "multi_source",
+            "difficulty_level": "medium",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 74,
+        "confirmed_task": "What were the specific changes passed in IIP-66 regarding the removal of the fuel system by the Illuvium DAO between September and October 2024?",
+        "website": "https://illuvium.io",
+        "answer": "IIP-66-R passed in October, removing the bonus fuel system and introducing a minimum order size for fuel trades for improved market transparency.",
+        "info": {
+            "domain": "game",
+            "source_website": [
+                "https://illuvium.io/news/illuvium-dao-governance-newsletter-october-2024",
+                "https://illuvium.io/news/illuvium-dao-governance-newsletter-september-2024"
+            ],
+            "golden_path": [
+                "root->News->Illuvium Beyond - Your Next D1SK->Illuvium DAO Governance Newsletter - October 2024",
+                "root->News->Illuvium Beyond - Your Next D1SK->Illuvium DAO Governance Newsletter - September 2024"
+            ],
+            "type": "multi_source",
+            "difficulty_level": "hard",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 75,
+        "confirmed_task": "Which proposal between IIP-67 and IIP-69 was ultimately adopted and improved the reward structure for Illuvium Beyond in September and October 2024?",
+        "website": "https://illuvium.io",
+        "answer": "IIP-69",
+        "info": {
+            "domain": "game",
+            "source_website": [
+                "https://illuvium.io/news/illuvium-dao-governance-newsletter-september-2024",
+                "https://illuvium.io/news/illuvium-dao-governance-newsletter-october-2024"
+            ],
+            "golden_path": [
+                "root->News->Illuvium Beyond - Your Next D1SK->Illuvium DAO Governance Newsletter - September 2024",
+                "root->News->Illuvium Beyond - Your Next D1SK->Illuvium DAO Governance Newsletter - October 2024"
+            ],
+            "type": "multi_source",
+            "difficulty_level": "hard",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 76,
+        "confirmed_task": "What were the key reasons for updating Illuvium Beyond's leaderboard and reward structure by shifting from IIP-67 to IIP-69 between September and October 2024?",
+        "website": "https://illuvium.io",
+        "answer": "IIP-69 replaced IIP-67 to create a sustainable rewards structure with expanded leaderboards and incentives linked to Wave 3 sales, encouraging long-term ecosystem health.",
+        "info": {
+            "domain": "game",
+            "source_website": [
+                "https://illuvium.io/news/illuvium-dao-governance-newsletter-september-2024",
+                "https://illuvium.io/news/illuvium-dao-governance-newsletter-october-2024"
+            ],
+            "golden_path": [
+                "root->News->Illuvium Beyond - Your Next D1SK->Illuvium DAO Governance Newsletter - September 2024",
+                "root->News->Illuvium Beyond - Your Next D1SK->Illuvium DAO Governance Newsletter - October 2024"
+            ],
+            "type": "multi_source",
+            "difficulty_level": "hard",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 77,
+        "confirmed_task": "What proposal related to the leaderboard structure and rewards for Illuvium Beyond was passed during the Illuvium DAO meetings in September and October 2024, and what specific changes were announced afterward?",
+        "website": "https://illuvium.io",
+        "answer": "IIP-69 proposed a new leaderboard structure and rewards for Illuvium Beyond, and in October, the Leaderboard Ranks were expanded with sales performance incentives.",
+        "info": {
+            "domain": "game",
+            "source_website": [
+                "https://illuvium.io/news/illuvium-dao-governance-newsletter-september-2024",
+                "https://illuvium.io/news/illuvium-dao-governance-newsletter-october-2024"
+            ],
+            "golden_path": [
+                "root->News->Illuvium Beyond - Your Next D1SK->Illuvium DAO Governance Newsletter - September 2024",
+                "root->News->Illuvium Beyond - Your Next D1SK->Illuvium DAO Governance Newsletter - October 2024"
+            ],
+            "type": "multi_source",
+            "difficulty_level": "hard",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 78,
+        "confirmed_task": "What was the specific proposal passed in the October 2024 Illuvium DAO governance regarding the reward structure for Illuvium Beyond, and how does it differ from the Illuvium Creator Rewards Program's reward distribution?",
+        "website": "https://illuvium.io",
+        "answer": "The proposal IIP-69 redesigned the reward structure for Illuvium Beyond, while the Illuvium Creator Rewards Program offers a weekly pool of 100 ILV tokens.",
+        "info": {
+            "domain": "game",
+            "source_website": [
+                "https://illuvium.io/news/illuvium-dao-governance-newsletter-october-2024",
+                "https://illuvium.io/news/join-the-illuvium-creator-rewards-program"
+            ],
+            "golden_path": [
+                "root->News->Illuvium Beyond - Your Next D1SK->Illuvium DAO Governance Newsletter - October 2024",
+                "root->News->Illuvium Creator Program: The Show Goes On!->here"
+            ],
+            "type": "multi_source",
+            "difficulty_level": "hard",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 79,
+        "confirmed_task": "朱晓旭副教授在2021年和2022年各获得了哪些与其研究相关的成就或发表了哪些作品？",
+        "website": "https://scst.suda.edu.cn",
+        "answer": "2021年，朱晓旭副教授获得江苏省一流在线课程《Python程序设计》奖，并发表了多篇论文，其中包括《融合情感分析的隐式反问句识别模型》。2022年，他发表了参与合作的论文《Employing Temporal Information and Propagation Structure to Detect Rumors》。",
+        "info": {
+            "domain": "education",
+            "source_website": [
+                "https://scst.suda.edu.cn/0f/a4/c11250a528292/page.htm"
+            ],
+            "golden_path": [
+                "root->导师简介->朱晓旭副教授"
+            ],
+            "type": "single_source",
+            "difficulty_level": "medium",
+            "lang": "zh"
+        }
+    },
+    {
+        "task_id": 80,
+        "confirmed_task": "李军辉教授在2023年发表的关于未来智能神经机器翻译的一篇论文中提到的合作作者有哪些，并在哪个会议上发表？",
+        "website": "https://scst.suda.edu.cn",
+        "answer": "合作作者包括Xinglin Lyu, Min Zhang, Chenchen Ding, Hideki Tanaka, 和Masao Utiyama，论文在IEEE/ACM TASLP会议上发表。",
+        "info": {
+            "domain": "education",
+            "source_website": [
+                "https://scst.suda.edu.cn/11/68/c11250a528744/page.htm"
+            ],
+            "golden_path": [
+                "root->导师简介->李军辉教授"
+            ],
+            "type": "single_source",
+            "difficulty_level": "medium",
+            "lang": "zh"
+        }
+    },
+    {
+        "task_id": 81,
+        "confirmed_task": "苏州大学计算机科学与技术学院教授王宜怀在2020到2022年间出版了多少本书？",
+        "website": "https://scst.suda.edu.cn",
+        "answer": "四本",
+        "info": {
+            "domain": "education",
+            "source_website": [
+                "https://scst.suda.edu.cn/10/68/c11250a528488/page.htm"
+            ],
+            "golden_path": [
+                "root->导师简介->王宜怀教授"
+            ],
+            "type": "single_source",
+            "difficulty_level": "medium",
+            "lang": "zh"
+        }
+    },
+    {
+        "task_id": 82,
+        "confirmed_task": "苏州大学计算机科学与技术学院周国栋教授在2017年获得的科技进步奖是由哪个省颁发的？",
+        "website": "https://scst.suda.edu.cn",
+        "answer": "江苏省",
+        "info": {
+            "domain": "education",
+            "source_website": [
+                "https://scst.suda.edu.cn/11/27/c30767a528679/page.htm"
+            ],
+            "golden_path": [
+                "root->导师简介->教授->周国栋苏州大学特聘教授"
+            ],
+            "type": "single_source",
+            "difficulty_level": "hard",
+            "lang": "zh"
+        }
+    },
+    {
+        "task_id": 83,
+        "confirmed_task": "On which top journal was the paper 'A comprehensive review on knowledge graphs for complex diseases' by Associate Professor Yang Yang from the School of Computer Science and Technology at Soochow University published in 2022, and what is its impact factor?",
+        "website": "https://scst.suda.edu.cn",
+        "answer": "The paper was published in the journal 'Briefings in Bioinformatics' in 2022, with an impact factor of 13.9.",
+        "info": {
+            "domain": "education",
+            "source_website": [
+                "https://scst.suda.edu.cn/10/ee/c30768a528622/page.htm"
+            ],
+            "golden_path": [
+                "root->导师简介->副教授->杨洋副教授"
+            ],
+            "type": "single_source",
+            "difficulty_level": "hard",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 84,
+        "confirmed_task": "苏州大学李明翰在2023年发表的文章中，哪个期刊以CCF-A类收录其研究关于长文档信息检索的工作？",
+        "website": "https://scst.suda.edu.cn",
+        "answer": "ACM Transactions on Information Systems",
+        "info": {
+            "domain": "education",
+            "source_website": [
+                "https://scst.suda.edu.cn/b2/78/c30768a569976/page.htm"
+            ],
+            "golden_path": [
+                "root->导师简介->副教授->李明翰副教授"
+            ],
+            "type": "single_source",
+            "difficulty_level": "hard",
+            "lang": "zh"
+        }
+    },
+    {
+        "task_id": 85,
+        "confirmed_task": "苏州大学计算机科学与技术学院龚晨博士在2022年发表的论文中，涉及的信息抽取研究是哪篇，以及在哪些顶级会议或期刊发表的？",
+        "website": "https://scst.suda.edu.cn",
+        "answer": "龚晨博士在2022年发表的涉及信息抽取研究的论文是 'Neural Coupled Sequence Labeling for Heterogeneous Annotation Conversion'，发表在 IEEE/ACM Transactions on Audio, Speech and Language Processing 上。",
+        "info": {
+            "domain": "education",
+            "source_website": [
+                "https://scst.suda.edu.cn/4c/9c/c30769a543900/page.htm"
+            ],
+            "golden_path": [
+                "root->导师简介->讲师->龚晨讲师"
+            ],
+            "type": "single_source",
+            "difficulty_level": "hard",
+            "lang": "zh"
+        }
+    },
+    {
+        "task_id": 86,
+        "confirmed_task": "In which year was the paper titled 'Scalable and Adaptive Joins for Trajectory Data in Distributed Stream System' published by Associate Professor Junhua Fang of Soochow University?",
+        "website": "https://scst.suda.edu.cn",
+        "answer": "2019",
+        "info": {
+            "domain": "education",
+            "source_website": [
+                "https://scst.suda.edu.cn/10/9a/c30768a528538/page.htm"
+            ],
+            "golden_path": [
+                "root->导师简介->副教授->房俊华副教授"
+            ],
+            "type": "single_source",
+            "difficulty_level": "hard",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 87,
+        "confirmed_task": "晁平复教授在2020年和2021年期间发表的CCF-A期刊论文有哪些，并在哪个国家从事博士后研究工作？",
+        "website": "https://scst.suda.edu.cn",
+        "answer": "发表了两篇CCF-A期刊论文，并在澳大利亚从事博士后研究工作。",
+        "info": {
+            "domain": "education",
+            "source_website": [
+                "https://scst.suda.edu.cn/10/47/c30768a528455/page.htm"
+            ],
+            "golden_path": [
+                "root->导师简介->副教授->晁平复副教授"
+            ],
+            "type": "single_source",
+            "difficulty_level": "hard",
+            "lang": "zh"
+        }
+    },
+    {
+        "task_id": 88,
+        "confirmed_task": "2019年苏州大学的权丽君博士在哪个国际会议上发表了一篇论文？",
+        "website": "https://scst.suda.edu.cn",
+        "answer": "Molecular Biology and Evolution",
+        "info": {
+            "domain": "education",
+            "source_website": [
+                "https://scst.suda.edu.cn/0e/5f/c30768a527967/page.htm"
+            ],
+            "golden_path": [
+                "root->导师简介->副教授->权丽君省青蓝工程优秀青年骨干教师"
+            ],
+            "type": "single_source",
+            "difficulty_level": "hard",
+            "lang": "zh"
+        }
+    },
+    {
+        "task_id": 89,
+        "confirmed_task": "苏州大学计算机科学与技术学院程宝雷教授在哪一年首次获得了苏州市自然科学优秀学术论文奖？",
+        "website": "https://scst.suda.edu.cn",
+        "answer": "2014",
+        "info": {
+            "domain": "education",
+            "source_website": [
+                "https://scst.suda.edu.cn/0d/95/c30767a527765/page.htm"
+            ],
+            "golden_path": [
+                "root->导师简介->教授->程宝雷教授"
+            ],
+            "type": "single_source",
+            "difficulty_level": "hard",
+            "lang": "zh"
+        }
+    },
+    {
+        "task_id": 90,
+        "confirmed_task": "曹自强在成为苏州大学副教授之前的博士学位是什么时候获得的？根据他的学术论文发布年份顺序，他在该领域从什么时候开始发表作品？",
+        "website": "https://scst.suda.edu.cn",
+        "answer": "博士学位在2018年获得。从2016年开始发表作品。",
+        "info": {
+            "domain": "education",
+            "source_website": [
+                "https://scst.suda.edu.cn/10/3f/c30768a528447/page.htm"
+            ],
+            "golden_path": [
+                "root->导师简介->副教授->曹自强副教授"
+            ],
+            "type": "single_source",
+            "difficulty_level": "hard",
+            "lang": "zh"
+        }
+    },
+    {
+        "task_id": 91,
+        "confirmed_task": "苏州大学计算机科学与技术学院钱忠在2018年发表了多少篇与事件事实性识别相关的论文？",
+        "website": "https://scst.suda.edu.cn",
+        "answer": "1篇",
+        "info": {
+            "domain": "education",
+            "source_website": [
+                "https://scst.suda.edu.cn/10/3d/c30768a528445/page.htm"
+            ],
+            "golden_path": [
+                "root->导师简介->副教授->钱忠副教授"
+            ],
+            "type": "single_source",
+            "difficulty_level": "hard",
+            "lang": "zh"
+        }
+    },
+    {
+        "task_id": 92,
+        "confirmed_task": "Which goal was related to the discussion by Neha, Joe Konstan, and Cliff Lampe about the relationship with the steering committee in the EC working meeting on November 15, 2023?",
+        "website": "https://sigchi.org",
+        "answer": "Financial goals.",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://sigchi.org/events/ec-working-november-15-2023/"
+            ],
+            "golden_path": [
+                "root->Meetings->Past Meetings->EC Working, November 15, 2023Nov 15, 2023 - Nov 16, 2023The November 2023 EC working meeting covered a variety of topics."
+            ],
+            "type": "single_source",
+            "difficulty_level": "hard",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 93,
+        "confirmed_task": "Who are the candidates for VP of Accessibility at the SIGCHI 2024 elections, and which membership requirement allows members to vote in these elections?",
+        "website": "https://sigchi.org",
+        "answer": "Dragan Ahmetovic and Fernando Loizides are candidates for VP of Accessibility; Only SIGCHI members can vote in the SIGCHI elections.",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://sigchi.org/events/meet-the-candidates-accessibility/",
+                "https://sigchi.org/people/membership/"
+            ],
+            "golden_path": [
+                "root->Calendar->Past Meetings->Meet the Candidates: AccessibilityApr 15, 2024 - Apr 15, 2024Meet the VP for Accessibility candidates: Dragan Ahmetovic and Fernando Loizides",
+                "root->Membership"
+            ],
+            "type": "multi_source",
+            "difficulty_level": "medium",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 94,
+        "confirmed_task": "What time will James Landay share his experiences in the 2024 ACM SIGCHI Awards series in Shanghai local time?",
+        "website": "https://sigchi.org",
+        "answer": "June 15, 2024, 4:30 AM to 5:30 AM Shanghai local time.",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://sigchi.org/events/sigchi-lifetime-research-award-james-landay/"
+            ],
+            "golden_path": [
+                "root->Meetings->Past Meetings->SIGCHI Lifetime Research Award: James LandayJun 15, 2024 - Jun 15, 2024James Landay presents \"A Funny Thing Happened on the Way to the Farm\"."
+            ],
+            "type": "single_source",
+            "difficulty_level": "hard",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 95,
+        "confirmed_task": "Who is the chair responsible for accessibility during the ETRA 2025 that will be held at Miraikan, Tokyo?",
+        "website": "https://sigchi.org",
+        "answer": "Dragan Ahmetovic",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://sigchi.org/events/etra-2025/",
+                "https://sigchi.org/people/committees/accessibility-committee/"
+            ],
+            "golden_path": [
+                "root->Upcoming Conferences->ETRA 2025Miraikan, Tokyo, Japan·May 26, 2025-May 29, 2025The 2025 ACM Symposium on Eye Tracking Research & Applications (ETRA) will be held in Tokyo, Japan from May 26 to May 29, 2025. The aim of ETRA is to bring together researchers and practitioners from across fields with the common goal of continuing to move eye tracking research forward. Join us in Tokyo for ETRA, attend co-located workshops, and participate in exciting discussions.",
+                "root->All Committees->Accessibility Committee"
+            ],
+            "type": "multi_source",
+            "difficulty_level": "medium",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 96,
+        "confirmed_task": "Who was introduced as the Adjunct Chair for Equity during the SIGCHI Open Session on October 26, 2022, and what is the email contact for the SIGCHI CARES Co-chairs?",
+        "website": "https://sigchi.org",
+        "answer": "Cale Passmore; sigchi-cares@acm.org",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://sigchi.org/events/open-session-october-26-2022/",
+                "https://sigchi.org/about/sigchi-cares/"
+            ],
+            "golden_path": [
+                "root->Calendar->Past Meetings->Open session: October 26, 2022Oct 26, 2022 - Oct 26, 2022The monthly October 2022 SIGCHI Executive Committee open meeting covered a variety of topics.",
+                "root->CARES"
+            ],
+            "type": "multi_source",
+            "difficulty_level": "medium",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 97,
+        "confirmed_task": "What are the three streaming options for presentation-based tracks in the 'Designing Hybrid Conference Experiences' guide, and how does Option #2 enhance remote presentation quality?",
+        "website": "https://sigchi.org",
+        "answer": "The three streaming options are: 1) using a single camera pointed at the stage, 2) using a single conference laptop, and 3) all presenters logging into the online meeting session. Option #2 enhances quality by allowing both videos and slides to be shared in good quality using the online meeting system, without needing an additional camera, but requires all presentations to be preloaded on the laptop.",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://sigchi.org/resources/guides-for-organizers/hybrid/"
+            ],
+            "golden_path": [
+                "root->Guides for Organizers->Designing Hybrid Conference Experiences"
+            ],
+            "type": "single_source",
+            "difficulty_level": "medium",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 98,
+        "confirmed_task": "Which SIGCHI policy documents were updated in 2014?",
+        "website": "https://sigchi.org",
+        "answer": "The policy regarding the Doctoral Consortium at the CHI conference was updated on June 1, 2014.",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://sigchi.org/about/policies/conference-policies/"
+            ],
+            "golden_path": [
+                "root->Policies->SIGCHI Conference Policies page"
+            ],
+            "type": "single_source",
+            "difficulty_level": "medium",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 99,
+        "confirmed_task": "What is the name of the ACM conference held in Brisbane in 2025 and when will it take place?",
+        "website": "https://sigchi.org",
+        "answer": "The ACM conference in Brisbane in 2025 is called ACM AutomotiveUI 2025, held from September 20 to September 24.",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://sigchi.org/events/automotiveui-2025/"
+            ],
+            "golden_path": [
+                "root->Upcoming Conferences->AutomotiveUI 2025Queensland University of Technology - Gardens Point Campus, Brisbane, QLD, Australia·Sep 20, 2025-Sep 24, 2025ACM AutomotiveUI is the premier forum for user interface research in the automotive domain. The conference annually brings together over 200 researchers and practitioners interested in both the technical and the human aspects of in-vehicle user interfaces and applications, to provide a forum for the exchange of technical information concerning research (and practice) and educational activities for motor vehicle user interface development. We have multiple meeting categories in which researchers, practitioners, and other interested parties can take part in our conference and community."
+            ],
+            "type": "single_source",
+            "difficulty_level": "medium",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 100,
+        "confirmed_task": "What are the key points related to future planning discussed regarding site selection at the SIGCHI open session on October 12, 2023?",
+        "website": "https://sigchi.org",
+        "answer": "Key future-oriented points discussed were sustainability issues (ecological, economic), understanding regional land use, establishing a timeline for future site selection, re-evaluating the conference bidding process, and creating a roadmap for net-zero emissions.",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://sigchi.org/events/open-session-site-selection-october-12-2023/"
+            ],
+            "golden_path": [
+                "root->Meetings->Past Meetings->Open Session: Site Selection, October 12, 2023Oct 12, 2023 - Oct 12, 2023The October 2023 SIGCHI EC open session focused on site selection."
+            ],
+            "type": "single_source",
+            "difficulty_level": "hard",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 101,
+        "confirmed_task": "Who from the CHI Steering Committee expressed interest in moving forward with one of the cities at the September 25, 2023 EC Working meeting?",
+        "website": "https://sigchi.org",
+        "answer": "Cliff Lampe",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://sigchi.org/events/ec-working-september-25-2023/"
+            ],
+            "golden_path": [
+                "root->Meetings->Past Meetings->EC Working, September 25, 2023Sep 25, 2023 - Sep 25, 2023The monthly SIGCHI EC working meeting for September 2023 was focused on CHI 2026."
+            ],
+            "type": "single_source",
+            "difficulty_level": "hard",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 102,
+        "confirmed_task": "How many SIGCHI Executive Committee open meetings were held on September 5, 2023, in Hawaii?",
+        "website": "https://sigchi.org",
+        "answer": "2",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://sigchi.org/events/open-session-chi-in-hawaii-september-5-2023/"
+            ],
+            "golden_path": [
+                "root->Meetings->Past Meetings->Open Sessions: CHI in Hawaii, September 5, 2023Sep 05, 2023 - Sep 05, 2023The September 2023 SIGCHI Executive Committee open sessions were focused on the CHI conference in Hawaii."
+            ],
+            "type": "single_source",
+            "difficulty_level": "hard",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 103,
+        "confirmed_task": "What topics were discussed by the SIGCHI Executive Committee in their meeting from 9:00 to 10:00 AM Asia/Shanghai time on February 10, 2023?",
+        "website": "https://sigchi.org",
+        "answer": "Equity",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://sigchi.org/events/open-session-equity-1-february-10-2023/"
+            ],
+            "golden_path": [
+                "root->Meetings->Past Meetings->Open Sessions: Equity, February 10/14, 2023Feb 10, 2023 - Feb 10, 2023The SIGCHI Executive Committee's open sessions for February 2023 were focused on equity."
+            ],
+            "type": "single_source",
+            "difficulty_level": "hard",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 104,
+        "confirmed_task": "What is the fiscal year prior to FY25, and by how much were the expenses reduced for SIGCHI's budget compared to this fiscal year?",
+        "website": "https://sigchi.org",
+        "answer": "The fiscal year prior to FY25 is FY24, and the expenses were reduced by USD 1 million.",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://sigchi.org/events/open-session-1-march-12-2024/"
+            ],
+            "golden_path": [
+                "root->Meetings->Past Meetings->Open Sessions: March 12, 2024Mar 12, 2024 - Mar 12, 2024The March 2024 SIGCHI open sessions recapped the Futures Summit and presented the FY25 budget."
+            ],
+            "type": "single_source",
+            "difficulty_level": "hard",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 105,
+        "confirmed_task": "Who are the candidates running for President and Executive Vice President in the SIGCHI 2024 elections, and when is their introduction meeting scheduled?",
+        "website": "https://sigchi.org",
+        "answer": "The candidates for the President and Executive Vice President are Neha Kumar and Luigi De Russis, with their introduction scheduled for April 29, 2024, from 7:00 PM to 8:00 PM UTC.",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://sigchi.org/events/meet-the-candidates-president-executive-vp1/"
+            ],
+            "golden_path": [
+                "root->Meetings->Past Meetings->Meet the Candidates: President/Executive VP #1Apr 30, 2024 - Apr 30, 2024Meet the President/Executive VP candidates: Neha Kumar/Luigi De Russis"
+            ],
+            "type": "single_source",
+            "difficulty_level": "hard",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 106,
+        "confirmed_task": "Who were the two specific committee members working on SIGCHI's data access/use policy, and who received the 2024 SIGCHI Lifetime Research Award?",
+        "website": "https://sigchi.org",
+        "answer": "Helena Mentis and Kash Todi were working on SIGCHI's data access/use policy, and Wendy Mackay received the 2024 SIGCHI Lifetime Research Award.",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://sigchi.org/events/open-session-november-16-2022/",
+                "https://sigchi.org/events/sigchi-lifetime-research-award-wendy-mackay/"
+            ],
+            "golden_path": [
+                "root->Calendar->Past Meetings->Open Session: November 16, 2022Nov 16, 2022 - Nov 16, 2022The November 2022 SIGCHI EC open session covered several topics.",
+                "root->Calendar->Past Meetings->SIGCHI Lifetime Research Award: Wendy MackayJul 10, 2024 - Jul 10, 2024Wendy Mackay presents \"WWW — Wendy’s Words of Wisdom\"."
+            ],
+            "type": "multi_source",
+            "difficulty_level": "hard",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 107,
+        "confirmed_task": "In which city and at which venue did the Joint Navigation Conference take place in 2025, and what were the scheduled dismantling hours for exhibitors at the ION GNSS+ 2024 event?",
+        "website": "https://www.ion.org",
+        "answer": "The Joint Navigation Conference in 2025 took place in the Greater Cincinnati Area at the Northern Kentucky Convention Center. The scheduled dismantling hours for exhibitors at the ION GNSS+ 2024 event were Thursday, 4:00 p.m. to 10:00 p.m.",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://www.ion.org/jnc/past-meetings.cfm",
+                "https://www.ion.org/gnss/exhibitor-resource-center.cfm"
+            ],
+            "golden_path": [
+                "root->Joint Navigation Conference->Past Meetings",
+                "root->ION GNSS+->Exhibitor Resource Center"
+            ],
+            "type": "multi_source",
+            "difficulty_level": "medium",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 108,
+        "confirmed_task": "Which scholars did Dr. Mathieu Joerger collaborate with for significant research when he received the 2014 Early Achievement Award and the 2022 Burka Award?",
+        "website": "https://www.ion.org",
+        "answer": "2014: No specific collaborators; 2022: Elisa Gallon and Dr. Boris Pervan.",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://www.ion.org/awards/2014-Early-Achievement.cfm",
+                "https://www.ion.org/awards/Burka-2022.cfm"
+            ],
+            "golden_path": [
+                "root->Awards and ION Fellows->Per Enge Early Achievement->Dr. Mathieu Joerger",
+                "root->Awards and ION Fellows->Burka->Elisa Gallon, Dr. Mathieu Joerger, and Dr. Boris Pervan"
+            ],
+            "type": "multi_source",
+            "difficulty_level": "hard",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 109,
+        "confirmed_task": "谁是Institute of Navigation的执行董事（Executive Director）？",
+        "website": "https://www.ion.org",
+        "answer": "Lisa Beaty",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://www.ion.org/about/contact.cfm"
+            ],
+            "golden_path": [
+                "root->Contact ION"
+            ],
+            "type": "single_source",
+            "difficulty_level": "easy",
+            "lang": ""
+        }
+    },
+    {
+        "task_id": 110,
+        "confirmed_task": "哪个与ION合作的组织致力于通过研究、教学和技术发展来推进地球和行星的形状、旋转和重力场及其时间变化的一致表示？",
+        "website": "https://www.ion.org",
+        "answer": "International Association of Geodesy (IAG)",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://www.ion.org/about/affiliate-partners.cfm"
+            ],
+            "golden_path": [
+                "root->Affiliate Partners"
+            ],
+            "type": "single_source",
+            "difficulty_level": "easy",
+            "lang": ""
+        }
+    },
+    {
+        "task_id": 111,
+        "confirmed_task": "哪些ION会议是每年一度举办的，并且以传播精确时间和频率技术为重点的？",
+        "website": "https://www.ion.org",
+        "answer": "PTTI",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://www.ion.org/meetings/index.cfm"
+            ],
+            "golden_path": [
+                "root->Meetings"
+            ],
+            "type": "single_source",
+            "difficulty_level": "easy",
+            "lang": ""
+        }
+    },
+    {
+        "task_id": 112,
+        "confirmed_task": "What is the date when Dr. John Raquet received the Johannes Kepler Award at the ION GNSS+ 2024 conference?",
+        "website": "https://www.ion.org",
+        "answer": "September 20, 2024",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://www.ion.org/news/kepleraward2024.cfm"
+            ],
+            "golden_path": [
+                "root->News->Read More"
+            ],
+            "type": "single_source",
+            "difficulty_level": "medium",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 113,
+        "confirmed_task": "Who received the Per Enge Early Achievement Award in 2023 for outstanding innovations in the development of low Earth orbiting satellites?",
+        "website": "https://www.ion.org",
+        "answer": "Dr. Tyler Gerald René Reid",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://www.ion.org/awards/Annual-Award-Winners.cfm"
+            ],
+            "golden_path": [
+                "root->Awards->2023 Award Recipients"
+            ],
+            "type": "single_source",
+            "difficulty_level": "medium",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 114,
+        "confirmed_task": "How many days are there between the dates of the Joint Navigation Conference in 2025 and 2027?",
+        "website": "https://www.ion.org",
+        "answer": "735 days",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://www.ion.org/jnc/future-meetings.cfm"
+            ],
+            "golden_path": [
+                "root->Joint Navigation Conference->Future Meetings"
+            ],
+            "type": "single_source",
+            "difficulty_level": "medium",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 115,
+        "confirmed_task": "What is the earliest time and date exhibitors can begin booth installation before the ITM/PTTI conference in January 2025?",
+        "website": "https://www.ion.org",
+        "answer": "January 27, 2025, from 1:00 p.m. to 6:00 p.m.",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://www.ion.org/ptti/exhibitor-resource-center.cfm"
+            ],
+            "golden_path": [
+                "root->PTTI->Exhibitor Resource Center"
+            ],
+            "type": "single_source",
+            "difficulty_level": "medium",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 116,
+        "confirmed_task": "What are the exhibit hall hours for the PTTI conference in Long Beach, California, from January 27-30, 2025?",
+        "website": "https://www.ion.org",
+        "answer": "The exhibit hall will be open on Tuesday from 9:30 a.m. to 4:00 p.m. and on Wednesday from 10:00 a.m. to 4:00 p.m.",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://www.ion.org/ptti/exhibits.cfm"
+            ],
+            "golden_path": [
+                "root->PTTI->Exhibits"
+            ],
+            "type": "single_source",
+            "difficulty_level": "medium",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 117,
+        "confirmed_task": "What are the timings for the Pacific PNT Luau Luncheon on April 17, 2024?",
+        "website": "https://www.ion.org",
+        "answer": "12:00 p.m. to 2:00 p.m.",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://www.ion.org/pnt/program.cfm"
+            ],
+            "golden_path": [
+                "root->Pacific PNT->Technical Program"
+            ],
+            "type": "single_source",
+            "difficulty_level": "medium",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 118,
+        "confirmed_task": "Who was the individual that successfully implemented the patented core technology of Xona Space Systems in 2022 and received the 2023 Per Enge Early Achievement Award?",
+        "website": "https://www.ion.org",
+        "answer": "Dr. Tyler Gerald René Reid",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://www.ion.org/awards/2023-Early-Achievement.cfm"
+            ],
+            "golden_path": [
+                "root->Awards and ION Fellows->Per Enge Early Achievement->View full award information"
+            ],
+            "type": "single_source",
+            "difficulty_level": "hard",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 119,
+        "confirmed_task": "Who is the scholar awarded the Johannes Kepler Award at the ION GNSS+ 2024 conference and what is their contribution to satellite navigation technology?",
+        "website": "https://www.ion.org",
+        "answer": "The awardee is Dr. John Raquet, recognized for his sustained and significant contributions to the development of satellite navigation technology.",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://www.ion.org/news/index.cfm；https://www.ion.org/awards/2024-Kepler.cfm"
+            ],
+            "golden_path": [
+                "root->News and Announcements",
+                "root->Awards and ION Fellows"
+            ],
+            "type": "multi_source",
+            "difficulty_level": "easy",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 120,
+        "confirmed_task": "What are the registration fee discounts offered for attendees staying at the official hotels of the Pacific PNT and Joint Navigation Conference (JNC) in 2024 and 2025, respectively?",
+        "website": "https://www.ion.org",
+        "answer": "$500 for attendees of Pacific PNT 2024 and $300 for attendees of JNC 2025.",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://www.ion.org/pnt/hotel.cfm",
+                "https://www.ion.org/jnc/registration.cfm"
+            ],
+            "golden_path": [
+                "root->Pacific PNT->Hotel",
+                "root->Joint Navigation Conference->Registration"
+            ],
+            "type": "multi_source",
+            "difficulty_level": "medium",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 121,
+        "confirmed_task": "Which two scientists who have conducted GNSS-related research at Stanford University received the ION Early Career Achievement Award in 2023 and 2004?",
+        "website": "https://www.ion.org",
+        "answer": "Dr. Tyler Gerald René Reid and Dr. Sherman Lo.",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://www.ion.org/awards/2023-Early-Achievement.cfm",
+                "https://www.ion.org/awards/2004-Early-Achievement.cfm"
+            ],
+            "golden_path": [
+                "root->Awards and ION Fellows->Per Enge Early Achievement->View full award information",
+                "root->Awards and ION Fellows->Per Enge Early Achievement->Dr. Sherman Lo"
+            ],
+            "type": "multi_source",
+            "difficulty_level": "hard",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 122,
+        "confirmed_task": "Who received the Superior Achievement Award in 2000 for navigating rescue supplies in an Antarctic emergency mission, and whose navigation techniques and operational strategies are similar to those of Captain Jonathan D. Hantsbarger in 2012 for securing special forces through aerial support?",
+        "website": "https://www.ion.org",
+        "answer": "Major Geoffrey A. Laing and Captain Jonathan D. Hantsbarger",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://www.ion.org/awards/2000-Superior-Achievement-Laing.cfm",
+                "https://www.ion.org/awards/2012-Superior-Achievement-Hantsbarger.cfm"
+            ],
+            "golden_path": [
+                "root->Awards and ION Fellows->Superior Achievement->Major Geoffrey A. Laing",
+                "root->Awards and ION Fellows->Superior Achievement->Captain Jonathan D. Hantsbarger"
+            ],
+            "type": "multi_source",
+            "difficulty_level": "hard",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 123,
+        "confirmed_task": "Who were the specific individuals recognized for pioneering technological advancements in GNSS integrity and high-accuracy navigation solutions through the Early Achievement Awards between 2014 and 2019?",
+        "website": "https://www.ion.org",
+        "answer": "Dr. Mathieu Joerger (2014) and Dr. Ramsey Faragher (2019)",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://www.ion.org/awards/2014-Early-Achievement.cfm",
+                "https://www.ion.org/awards/2019-Early-Achievement.cfm"
+            ],
+            "golden_path": [
+                "root->Awards and ION Fellows->Per Enge Early Achievement->Dr. Mathieu Joerger",
+                "root->Awards and ION Fellows->Per Enge Early Achievement->Dr. Ramsey Faragher"
+            ],
+            "type": "multi_source",
+            "difficulty_level": "hard",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 124,
+        "confirmed_task": "Who is more focused on promoting interdisciplinary collaboration between materials science and education in the 2024 MRS Board elections, according to the contributions and statements by Derya Baran and Izabela Szlufarska?",
+        "website": "https://www.mrs.org",
+        "answer": "Izabela Szlufarska",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://www.mrs.org/membership/governance/elections/derya-baran",
+                "https://www.mrs.org/membership/governance/elections/izabela-szlufarska"
+            ],
+            "golden_path": [
+                "root->Elections->Derya Baran",
+                "root->Elections->Izabela Szlufarska"
+            ],
+            "type": "multi_source",
+            "difficulty_level": "medium",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 125,
+        "confirmed_task": "How many hours in total would a person spend if they attended the Inclusive Connections Lounge activities from December 1 to 6, 2024, at the MRS Fall Meeting?",
+        "website": "https://www.mrs.org",
+        "answer": "66 hours",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://www.mrs.org/meetings-events/annual-meetings/2024-mrs-fall-meeting/meeting-events/broadening-participation/inclusive-connections-lounge"
+            ],
+            "golden_path": [
+                "root->Inclusive Connections Lounge"
+            ],
+            "type": "single_source",
+            "difficulty_level": "easy",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 126,
+        "confirmed_task": "Where and when will the 2025 MRS Fall Meeting take place?",
+        "website": "https://www.mrs.org",
+        "answer": "Boston, Massachusetts, November 30 to December 5, 2025.",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://www.mrs.org/meetings-events/annual-meetings"
+            ],
+            "golden_path": [
+                "root->Annual Meetings"
+            ],
+            "type": "single_source",
+            "difficulty_level": "easy",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 127,
+        "confirmed_task": "In what year did the MRS plan to hold its first spring meeting in Hawaii, and in what city was this meeting set to be held?",
+        "website": "https://www.mrs.org",
+        "answer": "The MRS plans to hold its first spring meeting in Hawaii in 2026, in Honolulu.",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://www.mrs.org/meetings-events/annual-meetings/2026-mrs-spring-meeting-exhibit"
+            ],
+            "golden_path": [
+                "root->2026 MRS Spring Meeting & Exhibit"
+            ],
+            "type": "single_source",
+            "difficulty_level": "easy",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 128,
+        "confirmed_task": "On which date and time will Claudia Anna-Maria Felser accept the Von Hippel Award during the 2024 MRS Fall Meeting in Boston?",
+        "website": "https://www.mrs.org",
+        "answer": "Wednesday, December 4 at 6:15 pm (ET)",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://www.mrs.org/publications-digital-content/news/article/2024/11/04/claudia-anna-maria-felser-to-receive-von-hippel-award--the-materials-research-society-s-highest-honor"
+            ],
+            "golden_path": [
+                "root->Learn More->Claudia Anna-Maria Felser to receive Von Hippel Award, the Materials Research Society’s highest honor"
+            ],
+            "type": "single_source",
+            "difficulty_level": "medium",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 129,
+        "confirmed_task": "What research fields were mentioned in the special memorial session for the late scientist Richard M. Osgood, Jr. at the Symposium EL07 of the 2024 MRS Fall Meeting?",
+        "website": "https://www.mrs.org",
+        "answer": "The special memorial session for Richard M. Osgood, Jr. at the 2024 MRS Fall Meeting's Symposium EL07 covers research fields including plasmonics, silicon photonics, and laser-induced photochemical reactions.",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://www.mrs.org/meetings-events/annual-meetings/2024-mrs-fall-meeting/symposium-sessions/call-for-papers/2024-fall-meeting/Symposium_EL07"
+            ],
+            "golden_path": [
+                "root->Learn More->EL07—Emerging Material Platforms and Fundamental Approaches for Plasmonics, Nanophotonics, and Metasurfaces"
+            ],
+            "type": "single_source",
+            "difficulty_level": "medium",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 130,
+        "confirmed_task": "When did Carolyn Duran, the 2022 MRS President, discuss the future celebration activities for the 50th anniversary of MRS?",
+        "website": "https://www.mrs.org",
+        "answer": "October 5, 2022",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://www.mrs.org/discover-mrs/about-mrs/our-society/annual-reports/2022-annual-report"
+            ],
+            "golden_path": [
+                "root->About MRS->ANNUAL REPORTS->Year In Review"
+            ],
+            "type": "single_source",
+            "difficulty_level": "hard",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 131,
+        "confirmed_task": "Who was selected as the MRS/Optica Congressional Science and Engineering Fellow for 2024-2025, and which committee in MRS is responsible for contributing to governmental science and technology policy?",
+        "website": "https://www.mrs.org",
+        "answer": "Shriya Pai was selected as the MRS/Optica Congressional Science and Engineering Fellow for 2024-2025. The Government Affairs Committee in MRS is responsible for contributing to governmental science and technology policy.",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://www.mrs.org/discover-mrs/advocacy-policy/mrs-optica-fellowship",
+                "https://www.mrs.org/advancing-careers/volunteer-central/committees"
+            ],
+            "golden_path": [
+                "root->Applications for 2025-26 MRS/Optica Congressional Science and Engineering Fellowship are open",
+                "root->Committees"
+            ],
+            "type": "multi_source",
+            "difficulty_level": "easy",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 132,
+        "confirmed_task": "What are the deadlines for the 2024 University Chapter Special Projects Program proposals and when are MRS committee rosters typically reviewed annually?",
+        "website": "https://www.mrs.org",
+        "answer": "The deadline for the 2024 University Chapter Special Projects Program proposals is December 15. MRS committee rosters are typically reviewed annually in late December or early January.",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://www.mrs.org/membership/volunteer-central/volunteer-profile",
+                "https://www.mrs.org/programs/mrs-foundation/funding-opportunities/special-projects-program---mrs-university-chapters"
+            ],
+            "golden_path": [
+                "root->Volunteer Central->Volunteer Profile",
+                "root->University Chapters->MRS University Chapters Special Project Grant Information"
+            ],
+            "type": "multi_source",
+            "difficulty_level": "medium",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 133,
+        "confirmed_task": "What time and where exactly will Claudia Anna-Maria Felser receive the Von Hippel Award during the 2024 MRS Fall Meeting?",
+        "website": "https://www.mrs.org",
+        "answer": "Claudia Anna-Maria Felser will receive the Von Hippel Award on December 4, 2024, at 6:15 PM ET at the Hynes Convention Center in Boston.",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://www.mrs.org/publications-digital-content/news/article/2024/11/04/claudia-anna-maria-felser-to-receive-von-hippel-award--the-materials-research-society-s-highest-honor",
+                "https://www.mrs.org/meetings-events/annual-meetings/2024-mrs-fall-meeting/meeting-faq"
+            ],
+            "golden_path": [
+                "root->Learn More->Claudia Anna-Maria Felser to receive Von Hippel Award, the Materials Research Society’s highest honor",
+                "root->Learn More->Meeting FAQ"
+            ],
+            "type": "multi_source",
+            "difficulty_level": "medium",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 134,
+        "confirmed_task": "Who is the chair of the Publications Committee ensuring the quality of editorial content for materials science, and who chairs the symposium on Advanced Characterization Techniques for Battery Materials at the 2024 MRS Fall Meeting?",
+        "website": "https://www.mrs.org",
+        "answer": "The chair of the Publications Committee is Linda S. Schadler, and Duhan Zhang chairs the symposium on Advanced Characterization Techniques for Battery Materials at the 2024 MRS Fall Meeting.",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://www.mrs.org/meetings-events/annual-meetings/2024-mrs-fall-meeting/symposium-sessions/call-for-papers/2024-fall-meeting/Symposium_CH04",
+                "https://www.mrs.org/membership/governance/operating-committees/publications-committee"
+            ],
+            "golden_path": [
+                "root->Learn More->CH04—Advanced Characterization Techniques and Methodologies for Battery Materials",
+                "root->Committees->MRS Publications"
+            ],
+            "type": "multi_source",
+            "difficulty_level": "medium",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 135,
+        "confirmed_task": "What was a significant advancement achieved by the Materials Research Society (MRS) under Todd M. Osman's leadership with Sabrina Sartori as president in 2023?",
+        "website": "https://www.mrs.org",
+        "answer": "MRS enhanced its global collaboration efforts and focused on achieving diversity, equity, and inclusion (DEI) goals in 2023.",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://www.mrs.org/discover-mrs/about-mrs/contact-us/executive-staff#Todd M. Osman",
+                "https://www.mrs.org/discover-mrs/about-mrs/our-society/annual-reports/2023-annual-report"
+            ],
+            "golden_path": [
+                "root->About MRS->available here->Todd Osman",
+                "root->About MRS->ANNUAL REPORTS->Year In Review"
+            ],
+            "type": "multi_source",
+            "difficulty_level": "hard",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 136,
+        "confirmed_task": "What programs and specific support are available for early career professionals to enhance their career development during the 2024 MRS Fall Meeting?",
+        "website": "https://www.mrs.org",
+        "answer": "Early career professionals can benefit from ECPSC career development activities and childcare grants during the 2024 MRS Fall Meeting.",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://www.mrs.org/membership/governance/operating-committees/career-advancement-committee/early-career-professional-subcommittee",
+                "https://www.mrs.org/meetings-events/fall-meetings-exhibits/2024-mrs-fall-meeting/registration/childcare-grants"
+            ],
+            "golden_path": [
+                "root->Committees->Career Advancement Committee->Learn more about the Early Career Professionals Subcommittee",
+                "root->Diversity, Equity and Inclusion->Learn more->childcare grants"
+            ],
+            "type": "multi_source",
+            "difficulty_level": "hard",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 137,
+        "confirmed_task": "Who is responsible for promoting global collaboration and the goals of diversity and inclusion in materials science at the MRS 50th anniversary future prospect?",
+        "website": "https://www.mrs.org",
+        "answer": "Todd M. Osman",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://www.mrs.org/discover-mrs/about-mrs/our-society/mrs-history/50th-anniversary",
+                "https://www.mrs.org/discover-mrs/about-mrs/contact-us/executive-staff#Todd M. Osman"
+            ],
+            "golden_path": [
+                "root->About MRS->OUR HISTORY->Learn More",
+                "root->About MRS->available here->Todd Osman"
+            ],
+            "type": "multi_source",
+            "difficulty_level": "hard",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 138,
+        "confirmed_task": "Who were the MRS Presidents in 2022 and 2023?",
+        "website": "https://www.mrs.org",
+        "answer": "The MRS Presidents were Carolyn Duran in 2022 and Sabrina Sartori in 2023.",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://www.mrs.org/discover-mrs/about-mrs/our-society/annual-reports/2023-annual-report",
+                "https://www.mrs.org/discover-mrs/about-mrs/our-society/annual-reports/2022-annual-report"
+            ],
+            "golden_path": [
+                "root->About MRS->ANNUAL REPORTS->Year In Review",
+                "root->About MRS->ANNUAL REPORTS->Year In Review"
+            ],
+            "type": "multi_source",
+            "difficulty_level": "hard",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 139,
+        "confirmed_task": "Who were the MRS Presidents in the years 2020 and 2021, and what were their notable achievements?",
+        "website": "https://www.mrs.org",
+        "answer": "Matt Copel was the MRS President in 2020, focusing on virtual meetings. Cherie Kagan was the MRS President in 2021, emphasizing governance structure changes.",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://www.mrs.org/discover-mrs/about-mrs/our-society/annual-reports/2020-annual-report",
+                "https://www.mrs.org/discover-mrs/about-mrs/our-society/annual-reports/2021-annual-report"
+            ],
+            "golden_path": [
+                "root->About MRS->ANNUAL REPORTS->Year In Review",
+                "root->About MRS->ANNUAL REPORTS->Year In Review"
+            ],
+            "type": "multi_source",
+            "difficulty_level": "hard",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 140,
+        "confirmed_task": "In 2024, how did Rovio express a commitment to its community through its actions in reviving classic games and supporting the Brazil Nut Corridor conservation?",
+        "website": "https://www.rovio.com",
+        "answer": "Rovio announced plans to bring back classic Angry Birds games due to fan demand and supported the Brazil Nut Corridor conservation through the Wild Green Future's Annual Charity Battle.",
+        "info": {
+            "domain": "game",
+            "source_website": [
+                "https://www.rovio.com/articles/a-letter-to-our-fans/",
+                "https://www.rovio.com/articles/angry-birds-contributes-to-wild-green-futures-annual-charity-battle/"
+            ],
+            "golden_path": [
+                "root->Angry Birds->A letter to our fans",
+                "root->Support->Angry Birds contributes to Wild Green Future’s Annual Charity Battle"
+            ],
+            "type": "multi_source",
+            "difficulty_level": "medium",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 141,
+        "confirmed_task": "What specific reasons did the Rovio report cite for the decline in revenue in Q1 2023 compared to the same period the previous year, and by what percentage did the revenue decline?",
+        "website": "https://www.rovio.com",
+        "answer": "Rovio's revenue in Q1 2023 decreased by 13.2% compared to the same period in 2022, largely due to the impact of the Angry Birds Journey launch in early 2022 affecting the comparison figures.",
+        "info": {
+            "domain": "game",
+            "source_website": [
+                "https://www.rovio.com/articles/rovios-half-year-2022-financial-report-published/",
+                "https://www.rovio.com/articles/rovios-q1-2023-interim-report-published/"
+            ],
+            "golden_path": [
+                "root->Support->Financial Update->Rovio’s Half-Year 2022 financial report published.",
+                "root->Support->Financial Update->Rovio’s Q1 2023 Interim report published"
+            ],
+            "type": "multi_source",
+            "difficulty_level": "hard",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 142,
+        "confirmed_task": "When does the unique Angry Birds AR experience created by Zappar and Burger King for fans end in the US and Canada?",
+        "website": "https://www.rovio.com",
+        "answer": "June 20, 2021",
+        "info": {
+            "domain": "game",
+            "source_website": [
+                "https://www.rovio.com/articles/angry-birds-fly-to-burger-king-with-new-toys-and-augmented-reality-experience/"
+            ],
+            "golden_path": [
+                "root->Support->Brand Partnerships->Angry Birds fly to Burger King with new toys and augmented reality experience!"
+            ],
+            "type": "single_source",
+            "difficulty_level": "hard",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 143,
+        "confirmed_task": "Which two Angry Birds games released by Rovio incorporate innovative and environmental themes, one being a mobile AR game from 2019 and the other related to an Earth Day event in 2024?",
+        "website": "https://www.rovio.com",
+        "answer": "Angry Birds AR: Isle of Pigs and Angry Birds Dream Blast.",
+        "info": {
+            "domain": "game",
+            "source_website": [
+                "https://www.rovio.com/articles/rovio-and-resolution-games-reveal-first-angry-birds-mobile-ar-game-angry-birds-ar-isle-of-pigs/",
+                "https://www.rovio.com/articles/birds-helping-birds-angry-birds-dream-blast-earth-day-campaign/"
+            ],
+            "golden_path": [
+                "root->Angry Birds->Read more",
+                "root->Angry Birds->Birds Helping Birds – Angry Birds Dream Blast Earth Day Campaign"
+            ],
+            "type": "multi_source",
+            "difficulty_level": "medium",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 144,
+        "confirmed_task": "Which position is identified as a key role in promoting inclusion strategy according to Rovio's guide for inclusive game design and 2023 Sustainability Report?",
+        "website": "https://www.rovio.com",
+        "answer": "Heini Kaihu, Rovio's Chief Sustainability Officer",
+        "info": {
+            "domain": "game",
+            "source_website": [
+                "https://www.rovio.com/articles/rovio-unveils-an-industry-wide-guide-for-inclusive-game-design/",
+                "https://www.rovio.com/articles/rovio-sustainability-report-2023-message-from-chief-sustainability-officer/"
+            ],
+            "golden_path": [
+                "root->Company Announcements->Rovio unveils an industry-wide guide for inclusive game design",
+                "root->Company Announcements->Rovio Sustainability Report 2023 – Message from Chief Sustainability Officer"
+            ],
+            "type": "multi_source",
+            "difficulty_level": "medium",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 145,
+        "confirmed_task": "How many consecutive years has Angry Birds 2 contributed proceeds from in-app purchases to SpecialEffect during the One Special Day event by 2024?",
+        "website": "https://www.rovio.com",
+        "answer": "Seven years",
+        "info": {
+            "domain": "game",
+            "source_website": [
+                "https://www.rovio.com/articles/angry-birds-2-supporting-one-special-day-2024/"
+            ],
+            "golden_path": [
+                "root->Support->Angry Birds 2 – Supporting One Special Day 2024"
+            ],
+            "type": "single_source",
+            "difficulty_level": "medium",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 146,
+        "confirmed_task": "In which year was the Angry Birds Minecraft adventure world DLC released, and how does that relate to the 15th anniversary of Angry Birds?",
+        "website": "https://www.rovio.com",
+        "answer": "2022",
+        "info": {
+            "domain": "game",
+            "source_website": [
+                "https://www.rovio.com/articles/the-angry-birds-come-to-minecraft-in-a-new-adventure-world-dlc/"
+            ],
+            "golden_path": [
+                "root->Support->Games News->The Angry Birds come to Minecraft in a new adventure world DLC!"
+            ],
+            "type": "single_source",
+            "difficulty_level": "hard",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 147,
+        "confirmed_task": "In which country did Rovio sponsor a Pride event for the first time in 2023 to celebrate diversity and inclusion?",
+        "website": "https://www.rovio.com",
+        "answer": "Finland",
+        "info": {
+            "domain": "game",
+            "source_website": [
+                "https://www.rovio.com/articles/reflecting-on-pride-2023/"
+            ],
+            "golden_path": [
+                "root->Support->DEI BlogReflecting on our progress in Diversity, Equity and Inclusion->Reflecting on Pride 2023"
+            ],
+            "type": "single_source",
+            "difficulty_level": "hard",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 148,
+        "confirmed_task": "Which former professional football star was involved in the Rovio and Topgolf collaboration to demonstrate the 'Angry Birds Dance', and in what year did this collaboration begin?",
+        "website": "https://www.rovio.com",
+        "answer": "Roddy White, 2020",
+        "info": {
+            "domain": "game",
+            "source_website": [
+                "https://www.rovio.com/articles/angry-birds-at-topgolf-oh-its-on/"
+            ],
+            "golden_path": [
+                "root->Support->Brand Partnerships->Angry Birds at Topgolf — oh it’s on!"
+            ],
+            "type": "single_source",
+            "difficulty_level": "hard",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 149,
+        "confirmed_task": "Who is the Head of Brand Operations at Rovio responsible for overseeing the Angry Birds brand's activities during its 15th anniversary?",
+        "website": "https://www.rovio.com",
+        "answer": "Eeva Aaltonen",
+        "info": {
+            "domain": "game",
+            "source_website": [
+                "https://www.rovio.com/articles/angry-birds-celebrates-15th-anniversary-with-special-in-game-events-and-more/",
+                "https://www.rovio.com/articles/eeva-aaltonen/"
+            ],
+            "golden_path": [
+                "root->Angry Birds Celebrates 15th Anniversary with Special In-Game Events and More",
+                "root->Meet the RoviansEeva AaltonenHead of Brand Operations"
+            ],
+            "type": "multi_source",
+            "difficulty_level": "easy",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 150,
+        "confirmed_task": "Who is responsible for overseeing the Angry Birds brand strategy during the 15th anniversary celebrations, and what major project is highlighted as part of these celebrations?",
+        "website": "https://www.rovio.com",
+        "answer": "Eeva Aaltonen is responsible for overseeing the Angry Birds brand strategy during the 15th anniversary celebrations, and 'Angry Birds Mystery Island: A Hatchlings Adventure' is highlighted as a major project.",
+        "info": {
+            "domain": "game",
+            "source_website": [
+                "https://www.rovio.com/articles/angry-birds-celebrates-15th-anniversary-with-special-in-game-events-and-more/",
+                "https://www.rovio.com/articles/eeva-aaltonen/"
+            ],
+            "golden_path": [
+                "root->Angry Birds Celebrates 15th Anniversary with Special In-Game Events and More",
+                "root->Meet the RoviansEeva AaltonenHead of Brand Operations"
+            ],
+            "type": "multi_source",
+            "difficulty_level": "easy",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 151,
+        "confirmed_task": "What is the theme of RovioCon Google 2024 and the name of the Angry Birds animated series released during the 15th anniversary?",
+        "website": "https://www.rovio.com",
+        "answer": "The theme of RovioCon Google 2024 is 'Slingshot to Stardom' and the animated series released during the Angry Birds 15th anniversary is 'Angry Birds Mystery Island: A Hatchlings Adventure.'",
+        "info": {
+            "domain": "game",
+            "source_website": [
+                "https://www.rovio.com/articles/roviocon-google-a-celebration-of-games-growth-and-the-future-of-mobile/",
+                "https://www.rovio.com/articles/angry-birds-celebrates-15th-anniversary-with-special-in-game-events-and-more/"
+            ],
+            "golden_path": [
+                "root->RovioCon Google: A Celebration of Games, Growth, and the Future of Mobile",
+                "root->Angry Birds Celebrates 15th Anniversary with Special In-Game Events and More"
+            ],
+            "type": "multi_source",
+            "difficulty_level": "easy",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 152,
+        "confirmed_task": "On which two days will Rovio participate in the One Special Day charity event and the crossover gaming event with SEGA in 2024?",
+        "website": "https://www.rovio.com",
+        "answer": "The One Special Day event is on October 4, 2024, and the crossover gaming event with SEGA is from March 14 to March 21, 2024.",
+        "info": {
+            "domain": "game",
+            "source_website": [
+                "https://www.rovio.com/articles/angry-birds-2-supporting-one-special-day-2024/",
+                "https://www.rovio.com/articles/sega-and-rovio-join-forces-in-mobile-gaming-crossover-event/"
+            ],
+            "golden_path": [
+                "root->Support->Angry Birds 2 – Supporting One Special Day 2024",
+                "root->Company Announcements->Sega® And Rovio Join Forces In Mobile Gaming Crossover Event"
+            ],
+            "type": "multi_source",
+            "difficulty_level": "medium",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 153,
+        "confirmed_task": "Which game contributed significantly to Rovio's revenue in both 2019 and 2022?",
+        "website": "https://www.rovio.com",
+        "answer": "Angry Birds Dream Blast",
+        "info": {
+            "domain": "game",
+            "source_website": [
+                "https://www.rovio.com/articles/q1-2019-interim-report-published/",
+                "https://www.rovio.com/articles/rovios-q3-2022-interim-report-published/"
+            ],
+            "golden_path": [
+                "root->Support->Financial Update->Q1 2019 Interim Report published",
+                "root->Support->Financial Update->Rovio’s Q3 2022 Interim report published"
+            ],
+            "type": "multi_source",
+            "difficulty_level": "hard",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 154,
+        "confirmed_task": "What strategic partner teamed up with Rovio to develop and publish mobile games based on the Moomin IP, and on which major platform did Angry Birds Reloaded launch in 2021?",
+        "website": "https://www.rovio.com",
+        "answer": "Moomin Characters and Gutsy Animations; Apple Arcade",
+        "info": {
+            "domain": "game",
+            "source_website": [
+                "https://www.rovio.com/articles/rovio-entertainment-moomin-characters-and-gutsy-animations-enter-into-a-long-term-partnership/",
+                "https://www.rovio.com/articles/angry-birds-reloaded-now-available-on-apple-arcade/"
+            ],
+            "golden_path": [
+                "root->Angry Birds->Company announcement->Rovio Entertainment, Moomin Characters and Gutsy Animations  enter into a long-term partnership",
+                "root->Angry Birds->Angry Birds Reloaded – now available on Apple Arcade!"
+            ],
+            "type": "multi_source",
+            "difficulty_level": "hard",
+            "lang": "en"
+        }
+    }
+]

@@ -1,0 +1,355 @@
+ SystemMessage 
+You are a precise browser automation agent that interacts with websites through structured commands. Your role is to:
+1. Analyze the provided webpage elements and structure
+2. Use the given information to accomplish the ultimate task
+3. Respond with valid JSON containing your next action sequence and state assessment
+
+
+INPUT STRUCTURE:
+1. Current URL: The webpage you're currently on
+2. Available Tabs: List of open browser tabs
+3. Interactive Elements: List in the format:
+   index[:]<element_type>element_text</element_type>
+   - index: Numeric identifier for interaction
+   - element_type: HTML element type (button, input, etc.)
+   - element_text: Visible text or element description
+
+Example:
+[33]<button>Submit Form</button>
+[] Non-interactive text
+
+
+Notes:
+- Only elements with numeric indexes inside [] are interactive
+- [] elements provide context but cannot be interacted with
+
+
+IMPORTANT RULES:
+
+1. RESPONSE FORMAT: You must ALWAYS respond with **valid JSON** in this exact format:
+{
+       
+        "current_state": {
+            "observation": "Observation of the current state",
+            "thought": "Thought of the current state"
+        },
+         
+        "action": [
+            {
+                "one_action_name": {
+                // action-specific parameter
+                }
+            },
+            // ... more actions in sequence
+        ]
+    }
+    
+2. ACTIONS: You can specify multiple actions in the list to be executed in sequence. But always specify only one action name per item.
+
+   Common action sequences:
+   - Form filling: [
+       {"input_text": {"index": 1, "text": "username"}},
+       {"input_text": {"index": 2, "text": "password"}},
+       {"click_element": {"index": 3}}
+     ]
+   - Navigation and extraction: [
+       {"open_tab": {}},
+       {"go_to_url": {"url": "https://example.com"}},
+       {"extract_content": ""}
+     ]
+   - Please generate valid double quotes and delimeters for your json output.
+
+3. ELEMENT INTERACTION:
+   - Only use indexes that exist in the provided element list
+   - Each element has a unique index number (e.g., "[33]<button>")
+   - Elements marked with "[]Non-interactive text" are non-interactive (for context only)
+
+4. TASK COMPLETION:
+   - Use the "done" action as the last action as soon as the ultimate task is complete.
+   - Dont use "done" before you are done with everything the user asked you.
+   - If you have to do something repeatedly for example the task says for "each", or "for all", or "x times", count always inside "memory" how many times you have done it and how many remain. Don't stop until you have completed like the task asked you. Only call done after the last step.
+   - Don't hallucinate actions.
+   - If the ultimate task requires specific information - make sure to include everything in the done function. This is what the user will see. Do not just say you are done, but include the requested information of the task.
+   
+5. Extraction:
+- If your task is to find information or do research - call extract_content on the specific pages to get and store the information.
+   - use maximum 1 actions per sequence
+
+Functions:
+Complete task with response to user: 
+{done: {'text': {'type': 'string'}}}
+Navigate to URL in the current tab: 
+{go_to_url: {'url': {'type': 'string'}}}
+Go back: 
+{go_back: {}}
+Click element: 
+{click_element: {'index': {'type': 'integer'}, 'xpath': {'anyOf': [{'type': 'string'}, {'type': 'null'}], 'default': None}}}
+Input text into a input interactive element: 
+{input_text: {'index': {'type': 'integer'}, 'text': {'type': 'string'}, 'xpath': {'anyOf': [{'type': 'string'}, {'type': 'null'}], 'default': None}}}
+Switch tab: 
+{switch_tab: {'page_id': {'type': 'integer'}}}
+Open url in new tab: 
+{open_tab: {'url': {'type': 'string'}}}
+Extract page content to retrieve specific information from the page, e.g. all company names, a specific description, all information about, links with companies in structured format or simply links: 
+{extract_content: {'goal': {'type': 'string'}}}
+Scroll down the page by pixel amount - if no amount is specified, scroll down one page: 
+{scroll_down: {'amount': {'anyOf': [{'type': 'integer'}, {'type': 'null'}], 'default': None}}}
+Scroll up the page by pixel amount - if no amount is specified, scroll up one page: 
+{scroll_up: {'amount': {'anyOf': [{'type': 'integer'}, {'type': 'null'}], 'default': None}}}
+Send strings of special keys like Backspace, Insert, PageDown, Delete, Enter, Shortcuts such as `Control+o`, `Control+Shift+T` are supported as well. This gets used in keyboard.press. Be aware of different operating systems and their shortcuts: 
+{send_keys: {'keys': {'type': 'string'}}}
+If you dont find something which you want to interact with, scroll to it: 
+{scroll_to_text: {'text': {'type': 'string'}}}
+Get all options from a native dropdown: 
+{get_dropdown_options: {'index': {'type': 'integer'}}}
+Select dropdown option for interactive element index by the text of the option you want to select: 
+{select_dropdown_option: {'index': {'type': 'integer'}, 'text': {'type': 'string'}}}
+Press Enter key. Useful for submitting search queries, completing forms, or triggering default actions on focused elements.: 
+{press_enter: {}}
+
+ HumanMessage 
+Your ultimate task is: """Compare the prices of the latest models of MacBook Air available on Apple's website.""". If you achieved your ultimate task, stop everything and use the done action in the next step to complete the task. If not, continue as usual.
+
+ HumanMessage 
+Example output:
+
+ AIMessage 
+
+
+ ToolMessage 
+Browser started
+
+ HumanMessage 
+[Your task history memory starts here]
+
+ HumanMessage 
+Action result: 🔗  Navigated to https://www.apple.com/
+
+ AIMessage 
+We are currently on Apple's homepage. There are visible interactive elements related to MacBooks, including a 'Learn more' link for the MacBook Air with M4 chip.
+
+ ToolMessage 
+
+
+ HumanMessage 
+Action result: 🖱️  Clicked button with index 15: Learn more
+
+ AIMessage 
+On the MacBook Air page, with a 'Buy' button available and pricing information presented.
+
+ ToolMessage 
+
+
+ HumanMessage 
+Action error: Error executing action click_element: Element with index 16 does not exist - retry or use alternative actions
+
+ AIMessage 
+We have reached the MacBook Air page where we can see the price details. A 'Buy' button is available.
+
+ ToolMessage 
+
+
+ HumanMessage 
+Action result: 🖱️  Clicked button with index 16: Buy
+
+ AIMessage 
+Currently, I am on the MacBook Air purchase page. There are options to select between a 13-inch and a 15-inch model, each with various configurations and prices displayed.
+
+ ToolMessage 
+
+
+ HumanMessage 
+Action result: 📄  Extracted from page
+: Based on the provided information from the Apple website for the MacBook Air, here is a summary of the detailed configurations and corresponding prices for both the 13-inch and 15-inch models:
+
+### 13-Inch MacBook Air
+#### Configuration 1:
+- **Processor:** Apple M4 Chip with 10-core CPU and 8-core GPU
+- **Memory:** 16GB Unified Memory
+- **Storage:** 256GB SSD
+- **Price:** $999.00
+- **Monthly Payment Option (12 months):** $83.25/month
+
+#### Configuration 2:
+- **Processor:** Apple M4 Chip with 10-core CPU and 10-core GPU
+- **Memory:** 16GB Unified Memory
+- **Storage:** 512GB SSD
+- **Price:** $1,199.00
+- **Monthly Payment Option (12 months):** $99.91/month
+
+#### Configuration 3:
+- **Processor:** Apple M4 Chip with 10-core CPU and 10-core GPU
+- **Memory:** 24GB Unified Memory
+- **Storage:** 512GB SSD
+- **Price:** $1,399.00
+- **Monthly Payment Option (12 months):** $116.58/month
+
+### 15-Inch MacBook Air
+#### Configuration 1:
+- **Processor:** Apple M4 Chip with 10-core CPU and 10-core GPU
+- **Memory:** 16GB Unified Memory
+- **Storage:** 256GB SSD
+- **Price:** $1,199.00
+- **Monthly Payment Option (12 months):** $99.91/month
+
+#### Configuration 2:
+- **Processor:** Apple M4 Chip with 10-core CPU and 10-core GPU
+- **Memory:** 16GB Unified Memory
+- **Storage:** 512GB SSD
+- **Price:** $1,399.00
+- **Monthly Payment Option (12 months):** $116.58/month
+
+#### Configuration 3:
+- **Processor:** Apple M4 Chip with 10-core CPU and 10-core GPU
+- **Memory:** 24GB Unified Memory
+- **Storage:** 512GB SSD
+- **Price:** $1,599.00
+- **Monthly Payment Option (12 months):** $133.25/month
+
+### Key Features Common Across All Configurations:
+- **Display:** Liquid Retina display with True Tone.
+- **Camera:** 12MP Center Stage camera.
+- **Ports:** MagSafe 3 charging port, two Thunderbolt 4 ports.
+- **Additional Features:** Support for up to two external displays, Magic Keyboard with Touch ID, Force Touch trackpad.
+- **Software:** Apple Intelligence available in beta, includes macOS Sequoia updates.
+
+The configurations listed above provide a range of options for different needs and budgets, from basic to high-performance setups.
+
+ HumanMessage 
+Action error: Could not parse response.
+
+Return a valid JSON object with the required fields.
+
+ HumanMessage 
+[Task history memory ends here]
+[Current state starts here]
+The description of the current page (if exists):
+
+
+You will see the following only once - if you need to remember it and you dont know it yet, write it down in the memory:
+Current url: https://www.apple.com/shop/buy-mac/macbook-air
+Available tabs:
+[TabInfo(page_id=0, url='https://www.apple.com/shop/buy-mac/macbook-air', title='Buy MacBook Air - Apple')]
+Interactive elements from current page:
+[Start of page]
+[0]<a aria-label="Apple">Apple</a>
+[1]<a aria-label="Store">Store</a>
+[2]<a aria-label="Mac">Mac</a>
+[3]<a aria-label="iPad">iPad</a>
+[4]<a aria-label="iPhone">iPhone</a>
+[5]<a aria-label="Watch">Watch</a>
+[6]<a aria-label="Vision">Vision</a>
+[7]<a aria-label="AirPods">AirPods</a>
+[8]<a aria-label="TV and Home">TV & Home</a>
+[9]<a aria-label="Entertainment">Entertainment</a>
+[10]<a aria-label="Accessories">Accessories</a>
+[11]<a aria-label="Support">Support</a>
+[12]<a role="button" aria-label="Search apple.com"></a>
+[13]<a role="button" aria-label="Shopping Bag"></a>
+[14]<a >MacBook Air</a>
+[15]<a >Overview</a>
+[16]<a >macOS</a>
+[17]<a >Compare</a>
+[]Buy MacBook Air with education savings, get AirPods or an eligible accessory of your choice.
+[]§
+[18]<a role="button">Learn more</a>
+[19]<div >Pay for your new Mac over 12 months at 0% APR with Apple Card.
+Footnote
+◊
+Just choose Apple Card Monthly Installments when you check out to apply.
+Choose your new MacBook Air.
+Have questions about buying a Mac?
+Select a size:</div>
+[20]<a role="button" aria-label="Learn more about Apple Card monthly installment plan">Learn more</a>
+[21]<a >Chat with a Mac Specialist
+(Opens in a new window)</a>
+[22]<button type="button" role="radio" tabindex="0">13-inch
+From $999</button>
+[23]<button type="button" role="radio" tabindex="-1">15-inch
+From $1199</button>
+[24]<div role="tabpanel">Select a finish M4 chip with 10-core CPU 8-core GPU Processor 256GB Storage 16GB memory
+Sky Blue
+10-Core CPU
+8-Core GPU
+16GB Unified Memory
+256GB SSD Storage
+footnote
+¹
+Select a finish M4 chip with 10-core CPU 10-core GPU Processor 512GB Storage 16GB memory
+Sky Blue
+10-Core CPU
+10-Core GPU
+16GB Unified Memory
+512GB SSD Storage
+footnote
+¹
+Select a finish M4 chip with 10-core CPU 10-core GPU Processor 512GB Storage 24gb memory
+Sky Blue
+10-Core CPU
+10-Core GPU
+24GB Unified Memory
+512GB SSD Storage
+footnote
+¹</div>
+[25]<img alt="13-inch MacBook Air, top open, Liquid Retina display, rounded corners, raised feet, Sky Blue color"></img>
+[26]<label >Sky Blue</label>
+[27]<img alt=""></img>
+[28]<label >Silver</label>
+[29]<img alt=""></img>
+[30]<label >Starlight</label>
+[31]<img alt=""></img>
+[32]<label >Midnight</label>
+[33]<img alt=""></img>
+[34]<img alt="Apple M4 Chip"></img>
+[35]<img alt=""></img>
+[36]<div ></div>
+[37]<button ></button>
+[38]<img alt="13-inch MacBook Air, top open, Liquid Retina display, rounded corners, raised feet, Sky Blue color"></img>
+[39]<label >Sky Blue</label>
+[40]<img alt=""></img>
+[41]<label >Silver</label>
+[42]<img alt=""></img>
+[43]<label >Starlight</label>
+[44]<img alt=""></img>
+[45]<label >Midnight</label>
+[46]<img alt=""></img>
+[47]<img alt="Apple M4 Chip"></img>
+[48]<img alt=""></img>
+[49]<div ></div>
+[50]<button ></button>
+[51]<img alt="13-inch MacBook Air, top open, Liquid Retina display, rounded corners, raised feet, Sky Blue color"></img>
+[52]<label >Sky Blue</label>
+[53]<img alt=""></img>
+[54]<label >Silver</label>
+[55]<img alt=""></img>
+[56]<label >Starlight</label>
+[57]<img alt=""></img>
+[58]<label >Midnight</label>
+[59]<img alt=""></img>
+[60]<img alt="Apple M4 Chip"></img>
+[61]<img alt=""></img>
+[62]<div ></div>
+[63]<button ></button>
+... 5720 pixels below - scroll or extract content to see more ...
+
+
+Retrieved relevant pages to the task:
+
+**Hints**: You should think first if you can use 'go_to_url' action to navigate quickly to the task-releated page retrieved above, and then use other interaction actions (click, input_text, etc.) to complete the task.
+
+**Please generate valid double quotes and delimeters for your json output.**
+
+ RESPONSE
+{
+  "action": [
+    {
+      "extract_content": {
+        "goal": "Extract the detailed configurations and corresponding prices for both the 13-inch and 15-inch MacBook Air models."
+      }
+    }
+  ],
+  "current_state": {
+    "observation": "We are on the MacBook Air purchase page. There are options to select between a 13-inch and a 15-inch model, each with various configurations and prices displayed.",
+    "thought": "Since we've reached the MacBook Air purchase page and observed the available configurations and prices, the next step is to compare these prices to ensure the task goal is met."
+  }
+}

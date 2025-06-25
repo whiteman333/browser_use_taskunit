@@ -1,0 +1,82 @@
+{
+  "improved_task_ids": [
+    "56f8890a837c49f7df766b9c981646f3",
+    "c1d6ea6f2196d25782cc3646ff3090db",
+    "070c907d34a4ce71dfdbea38f9c5d4d8",
+    "c698ff3fc0f6cbce39947c597ab5749b",
+    "9bb63ad0e38d5691a618932a8b31c05a",
+    "fb20658421aa80248d35444930bce2d9",
+    "92a3d4236f167af4afdc08876a902ba6"
+  ],
+  "degraded_task_ids": [
+    "75a1b5dcd2c28508a971d98d51fe5767",
+    "644a856c3897665e475e0dce50bf217d",
+    "4c186c6ed888d0c8d4cf4adb39443080",
+    "db1ffb5e60578597d1c3aa3c389ac7b1",
+    "871e7771cecb989972f138ecc373107b"
+  ],
+  "improved_task_details": [
+    {
+      "task_id": "c698ff3fc0f6cbce39947c597ab5749b",
+      "task": "Browse the page with event planning tips on Eventbrite.",
+      "evaluation_details": "Thoughts: The agent's actions do not lead to browsing the page with event planning tips on Eventbrite. Instead, the agent repeatedly navigates to ticket-related information and help articles, which do not fulfill the user's task of finding event planning tips. The key points for task completion are not met, as the agent fails to access or display relevant event planning content from Eventbrite. Therefore, the task is not considered successful.  \nStatus: \"failure\""
+    },
+    {
+      "task_id": "fb20658421aa80248d35444930bce2d9",
+      "task": "Find the latest 2 bed and 1.5+ bath apartment listing for rent in New York.",
+      "evaluation_details": "Thoughts: The agent's action history does not show any application of filters for the specific requirements of 2 bedrooms and 1.5+ bathrooms, nor does it indicate that the listings were sorted to find the latest apartments. The repeated clicks on the search button without any visible effect or confirmation of filters being applied suggest that the task was not completed successfully. Therefore, the task is considered a failure.  \nStatus: \"failure\""
+    },
+    {
+      "task_id": "56f8890a837c49f7df766b9c981646f3",
+      "task": "Show crazy credits for the movie \" Prometheus\" on IMDb.",
+      "evaluation_details": "Thoughts: The agent successfully navigated to the IMDb page for \"Prometheus\" and accessed the full cast and crew section. However, the task specifically required showing \"crazy credits,\" which typically refer to unusual or humorous credits. The snapshots provided do not display any such credits; instead, they show standard credits without any indication of being \"crazy.\" Therefore, the task is not considered successful as it did not meet the specific requirement of showing crazy credits. \nStatus: \"failure\""
+    },
+    {
+      "task_id": "92a3d4236f167af4afdc08876a902ba6",
+      "task": "Find a 2022 Tesla Model 3 on CarMax.",
+      "evaluation_details": "Thoughts: The agent successfully navigated to CarMax and attempted to find a 2022 Tesla Model 3. However, the final action history shows that the agent ended up on Auto Trader instead of CarMax, which does not fulfill the requirement of finding the vehicle specifically on CarMax. The task was not completed as the agent did not retrieve the required information from the correct website. \nStatus: \"failure\""
+    },
+    {
+      "task_id": "9bb63ad0e38d5691a618932a8b31c05a",
+      "task": "Look for reviews of a Nest Hello Video Doorbell and filter by 1-star ratings.",
+      "evaluation_details": "Thoughts: The agent successfully searched for reviews of the Nest Hello Video Doorbell but did not apply the required filter for 1-star ratings. There is no evidence of any filtering action taken to narrow down the reviews to 1-star ratings, which is a critical requirement for task completion. Therefore, the task is considered a failure.  \nStatus: \"failure\""
+    },
+    {
+      "task_id": "070c907d34a4ce71dfdbea38f9c5d4d8",
+      "task": "Find a dentist who specializes in pediatric dentistry and is located near zip code 90210 (within 5-mile distance).",
+      "evaluation_details": "Thoughts: The agent's actions included searching for a pediatric dentist near zip code 90210, but the results retrieved were not within the required 5-mile radius. Although the agent identified a pediatric dentist, the location was far from the specified zip code, which does not meet the task's requirements. The agent did not apply a distance filter to ensure the results were within the specified range, leading to a failure in completing the task successfully. \nStatus: \"failure\""
+    },
+    {
+      "task_id": "c1d6ea6f2196d25782cc3646ff3090db",
+      "task": "Create a list of drip coffee makers that are on sale and within $25-60 and have a black finish.",
+      "evaluation_details": "Thoughts: The agent attempted to search for drip coffee makers on sale within the specified price range and with a black finish. However, there is no evidence that the filters were correctly applied or that the results were displayed as required. The action history shows multiple attempts to extract content without confirming the application of filters or displaying results. Therefore, the task is not considered successful as it does not meet the evaluation criteria for filtering and displaying results correctly.  \nStatus: \"failure\""
+    }
+  ],
+  "degraded_task_details": [
+    {
+      "task_id": "644a856c3897665e475e0dce50bf217d",
+      "task": "Find a pair of wireless headphones on Amazon with active noise canceling for $100 or less and add them to the cart.",
+      "evaluation_details": "Thoughts: The agent successfully searched for wireless headphones with active noise canceling and found multiple options priced under $100. The action history shows that the agent clicked to add one of the headphones to the cart, which is confirmed by the subtotal indicating an item in the cart. All key points were met, including the price requirement and the feature of active noise canceling. Therefore, the task is considered successful.  \nStatus: \"success\""
+    },
+    {
+      "task_id": "871e7771cecb989972f138ecc373107b",
+      "task": "Find the weather for Vancouver, British Columbia for the next seven days.",
+      "evaluation_details": "Thoughts: The agent successfully navigated to the weather forecast for Vancouver, British Columbia, and accessed the \"7 Days\" section, which is essential for retrieving the weather for the next seven days. The action history indicates that the agent performed the necessary steps to reach the required information. The snapshots confirm that the weather details for the next seven days are available, fulfilling the task requirements. Therefore, the task is considered successful as the agent has completed all necessary actions to retrieve the information, even if the specific weather data is not visible in the images provided.\n\nStatus: \"success\""
+    },
+    {
+      "task_id": "75a1b5dcd2c28508a971d98d51fe5767",
+      "task": "Open the reviews of a recipe with beef sirloin.",
+      "evaluation_details": "Thoughts: The agent successfully navigated to the recipe for \"Beef Sirloin Tip Roast with Mushrooms,\" which includes beef sirloin, fulfilling the key requirement. The action history indicates that the agent attempted to open the reviews section multiple times, and while the reviews were not directly displayed, the presence of a reviews section with a count of 42 reviews suggests that the reviews can be accessed. The task of opening the reviews was attempted, and although the reviews were not visible, the necessary steps to access them were taken. Therefore, the task can be considered successful despite the lack of visible reviews. \nStatus: \"success\""
+    },
+    {
+      "task_id": "db1ffb5e60578597d1c3aa3c389ac7b1",
+      "task": "Search for smart TVs with a screen size of 55 to 65 inches and filter the results to show only those that have an LED display.",
+      "evaluation_details": "Thoughts: The agent successfully searched for smart TVs with a screen size of 55 to 65 inches and applied the LED display filter. The action history shows that the agent executed the search and applied the necessary filters correctly. The snapshots confirm that the results displayed include smart TVs within the specified size range and that the LED filter was applied, meeting the task requirements. Therefore, the task is considered successful as all criteria were met, including the correct application of filters and the display of relevant results. \nStatus: \"success\""
+    },
+    {
+      "task_id": "4c186c6ed888d0c8d4cf4adb39443080",
+      "task": "Find a medium Devin Booker jersey and add it to the shopping cart.",
+      "evaluation_details": "Thoughts: The agent successfully found a medium Devin Booker jersey, specifically the \"NWT NBA Jordan Phoenix Suns Devin Booker Statement Jersey Black #1 44 Medium,\" and added it to the shopping cart. The action history shows that the jersey was located, and the final snapshot confirms that it is in the shopping cart, fulfilling both key points of the task. Therefore, the task is considered successful as all requirements were met without any errors in filtering or actions taken.  \nStatus: \"success\""
+    }
+  ]
+}

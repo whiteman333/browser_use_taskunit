@@ -1,0 +1,317 @@
+[
+    {
+        "task_id": "Apple--7",
+        "confirmed_task": "When and where the Apple Vision Pro will be released.",
+        "website": "https://www.apple.com/"
+    },
+    {
+        "task_id": "ArXiv--26",
+        "confirmed_task": "Search for papers related to 'climate change modeling' on ArXiv and find out how many have been published in the Earth and Planetary Astrophysics (astro-ph.EP) category in the last week.",
+        "website": "https://arxiv.org/"
+    },
+    {
+        "task_id": "ArXiv--14",
+        "confirmed_task": "On ArXiv, how many articles have 'SimCSE' in the article and are originally announced in October 2023?",
+        "website": "https://arxiv.org/"
+    },
+    {
+        "task_id": "ArXiv--25",
+        "confirmed_task": "Browse the ArXiv store and let me know how many different types of merchandise are available.",
+        "website": "https://arxiv.org/"
+    },
+    {
+        "task_id": "ArXiv--1",
+        "confirmed_task": "Search for the latest research papers on quantum computing submitted to ArXiv within the last two days.",
+        "website": "https://arxiv.org/"
+    },
+    {
+        "task_id": "GitHub--17",
+        "confirmed_task": "Locate a C++ project on GitHub that has been recently updated in the last week and has at least 500 stars, then describe its main purpose.",
+        "website": "https://github.com/"
+    },
+    {
+        "task_id": "ArXiv--29",
+        "confirmed_task": "On ArXiv, search for papers with 'Neural Network Optimization' in the title published in 2023, and provide the number of such papers.",
+        "website": "https://arxiv.org/"
+    },
+    {
+        "task_id": "GitHub--25",
+        "confirmed_task": "Search for a 'virtual reality' related repository on GitHub updated in the last 10 days with at least 200 stars and summarize its main objective.",
+        "website": "https://github.com/"
+    },
+    {
+        "task_id": "GitHub--2",
+        "confirmed_task": "Look for the trending Python repositories on GitHub with most stars.",
+        "website": "https://github.com/"
+    },
+    {
+        "task_id": "ArXiv--36",
+        "confirmed_task": "Search 'CVPR 2023' and 'CVPR2023' through journal ref on ArXiv to see how many results there are respectively.",
+        "website": "https://arxiv.org/"
+    },
+    {
+        "task_id": "GitHub--1",
+        "confirmed_task": "Search for an open-source repository for machine learning in Python, specifically focused on decision trees, updated within the last 2 days.",
+        "website": "https://github.com/"
+    },
+    {
+        "task_id": "ArXiv--12",
+        "confirmed_task": "Find store in arXiv Help, tell me how many styles of arXiv Logo Shirt are available?",
+        "website": "https://arxiv.org/"
+    },
+    {
+        "task_id": "Apple--22",
+        "confirmed_task": "Find out the trade-in value for an iPhone 13 Pro Max in good condition on the Apple website.",
+        "website": "https://www.apple.com/"
+    },
+    {
+        "task_id": "Apple--5",
+        "confirmed_task": "Check the release date and price for the latest version of the iPhone.",
+        "website": "https://www.apple.com/"
+    },
+    {
+        "task_id": "GitHub--0",
+        "confirmed_task": "Search for an open-source project related to 'climate change data visualization' on GitHub and report the project with the most stars.",
+        "website": "https://github.com/"
+    },
+    {
+        "task_id": "ArXiv--6",
+        "confirmed_task": "How many figures and tables are in the paper \"On the Sentence Embeddings from Pre-trained Language Models\"?",
+        "website": "https://arxiv.org/"
+    },
+    {
+        "task_id": "Apple--14",
+        "confirmed_task": "Identify the upgrade options available for the cheapest base model of the MacBook Pro 14-inch with M3 chip, and calculate the total price difference from the base model to the maximum upgrade (no Pre-Installed Software) offered by Apple.",
+        "website": "https://www.apple.com/"
+    },
+    {
+        "task_id": "GitHub--20",
+        "confirmed_task": "Open GitHub Copilot's FAQs to find the official answer to when Copilot chat can be used on mobile.",
+        "website": "https://github.com/"
+    },
+    {
+        "task_id": "GitHub--32",
+        "confirmed_task": "Discover the latest C# repository on GitHub related to 'game development' and having over 150 stars, and describe its main features.",
+        "website": "https://github.com/"
+    },
+    {
+        "task_id": "Apple--26",
+        "confirmed_task": "Find the maximum video recording resolution supported by the latest iPad mini on the Apple website.",
+        "website": "https://www.apple.com/"
+    },
+    {
+        "task_id": "ArXiv--39",
+        "confirmed_task": "Search the title 'GPT-4 Technical Report' and access this paper through HTML format. Read the paper on this page and tell me what is 'one of the main goals of developing such models' mentioned in the Introduction.",
+        "website": "https://arxiv.org/"
+    },
+    {
+        "task_id": "GitHub--13",
+        "confirmed_task": "Identify the latest top-trending open-source project in the category of 'Machine Learning' on GitHub, and check the number of stars it has received.",
+        "website": "https://github.com/"
+    },
+    {
+        "task_id": "Apple--33",
+        "confirmed_task": "Look for the color options available for the newest iMac.",
+        "website": "https://www.apple.com/"
+    },
+    {
+        "task_id": "ArXiv--28",
+        "confirmed_task": "Search 'Poly encoder' by title on ArXiv and check whether the articles in the search results provide HTML access.",
+        "website": "https://arxiv.org/"
+    },
+    {
+        "task_id": "GitHub--28",
+        "confirmed_task": "Identify the most starred JavaScript repositories on GitHub that were created after 2023-12-29.",
+        "website": "https://github.com/"
+    },
+    {
+        "task_id": "GitHub--15",
+        "confirmed_task": "Locate a repository on GitHub related to 'quantum computing' that has been updated within the last week and has at least 50 stars. Provide a brief description of the project.",
+        "website": "https://github.com/"
+    },
+    {
+        "task_id": "GitHub--11",
+        "confirmed_task": "Find a newly created open-source project on GitHub related to 'climate change' that has been initiated in January 2023; check the main programming language used and the project's description.",
+        "website": "https://github.com/"
+    },
+    {
+        "task_id": "Apple--40",
+        "confirmed_task": "Find information on Apple website, and tell me the device weight of Apple Vision Pro and list 5 Built-in Apps it supports.",
+        "website": "https://www.apple.com/"
+    },
+    {
+        "task_id": "Apple--9",
+        "confirmed_task": "Check the Apple Store for the availability of the latest iPhone model and schedule an in-store pickup at the nearest Apple Store for January 10, 2024.",
+        "website": "https://www.apple.com/"
+    },
+    {
+        "task_id": "Apple--32",
+        "confirmed_task": "Investigate the trade-in value for an iPhone 11 Pro Max on Apple's website.",
+        "website": "https://www.apple.com/"
+    },
+    {
+        "task_id": "ArXiv--31",
+        "confirmed_task": "Search ArXiv for papers with 'Graph Neural Networks' in the abstract that were submitted between Jan 1, 2024, and Jan 3, 2024, and determine how many of these papers have more than five authors.",
+        "website": "https://arxiv.org/"
+    },
+    {
+        "task_id": "GitHub--4",
+        "confirmed_task": "Find a popular JavaScript repository created in the last 30 days on GitHub with a Readme file.",
+        "website": "https://github.com/"
+    },
+    {
+        "task_id": "ArXiv--5",
+        "confirmed_task": "Search papers about \"quantum computing\" which has been submitted to the Quantum Physics category on ArXiv. How many results in total. What if search in all archives?",
+        "website": "https://arxiv.org/"
+    },
+    {
+        "task_id": "Apple--19",
+        "confirmed_task": "On Apple's website, what is the slogan for the Mac and what is the slogan for the Macbook pro.",
+        "website": "https://www.apple.com/"
+    },
+    {
+        "task_id": "ArXiv--19",
+        "confirmed_task": "Which university maintains and manages ArXiv. Accessing the university's website from ArXiv, how many underegraduate students are currently at the university.",
+        "website": "https://arxiv.org/"
+    },
+    {
+        "task_id": "GitHub--29",
+        "confirmed_task": "Compare the maximum number of private repositories allowed in the Free and Pro plans in GitHub Pricing.",
+        "website": "https://github.com/"
+    },
+    {
+        "task_id": "ArXiv--40",
+        "confirmed_task": "How many articles are there on each of the three most recent announce days in the Solar and Stellar Astrophysics section of ArXiv. Choose one at random and answer its title and when the first version was uploaded?",
+        "website": "https://arxiv.org/"
+    },
+    {
+        "task_id": "Apple--4",
+        "confirmed_task": "How much does it cost to buy a Macbook pro, 16-inch, Apple M3 Max chip with 16-core CPU, 40-core GPU, 64GB unified memory, 1TB SSD.",
+        "website": "https://www.apple.com/"
+    },
+    {
+        "task_id": "Apple--15",
+        "confirmed_task": "On Apple's website, how many different types of keyboards are available when customizing your 14-inch MacBook Pro?",
+        "website": "https://www.apple.com/"
+    },
+    {
+        "task_id": "GitHub--3",
+        "confirmed_task": "Find out how much more package storage the Enterprise version has over Team in GitHub Pricing.",
+        "website": "https://github.com/"
+    },
+    {
+        "task_id": "GitHub--5",
+        "confirmed_task": "Find a Python repository on GitHub that has been updated in the past 2 days and has at least 500 stars.",
+        "website": "https://github.com/"
+    },
+    {
+        "task_id": "GitHub--12",
+        "confirmed_task": "Retrieve the latest release from the 'electron/electron' repository on GitHub and note down the release version number and date.",
+        "website": "https://github.com/"
+    },
+    {
+        "task_id": "GitHub--30",
+        "confirmed_task": "Search for an open-source project related to 'blockchain technology' on GitHub updated in the past 15 days and list the top five contributors.",
+        "website": "https://github.com/"
+    },
+    {
+        "task_id": "ArXiv--23",
+        "confirmed_task": "Determine how many articles with the keyword 'autonomous vehicles' were published in the 'Electrical Engineering and Systems Science' section of ArXiv yesterday.",
+        "website": "https://arxiv.org/"
+    },
+    {
+        "task_id": "Apple--16",
+        "confirmed_task": "Find on Apple website how many types of AirPods (3rd generation) are available and what is the price difference.",
+        "website": "https://www.apple.com/"
+    },
+    {
+        "task_id": "GitHub--36",
+        "confirmed_task": "Identify a new open-source project on GitHub related to 'AI agriculture' that created in 2022, and note its main programming language and description.",
+        "website": "https://github.com/"
+    },
+    {
+        "task_id": "ArXiv--24",
+        "confirmed_task": "Identify the most recent paper related to 'graph neural networks' on ArXiv and determine the affiliation of the first author.",
+        "website": "https://arxiv.org/"
+    },
+    {
+        "task_id": "GitHub--10",
+        "confirmed_task": "If I start using Copilot Individual, how much US dollars will it cost per year and what features does it have?",
+        "website": "https://github.com/"
+    },
+    {
+        "task_id": "ArXiv--41",
+        "confirmed_task": "Find the button to share arxiv non-profit store and follow the QR code to share the shop. Then add arXiv Forever short sleeve (XL) to your cart.",
+        "website": "https://arxiv.org/"
+    },
+    {
+        "task_id": "ArXiv--21",
+        "confirmed_task": "Search for papers on 'neural networks for image processing' in the Computer Science category on ArXiv and report how many were submitted in the last week.",
+        "website": "https://arxiv.org/"
+    },
+    {
+        "task_id": "Apple--2",
+        "confirmed_task": "Compare the prices and chips for the iPhone 14 Pro and iPhone 15 Pro models directly from Apple's website.",
+        "website": "https://www.apple.com/"
+    },
+    {
+        "task_id": "Apple--20",
+        "confirmed_task": "Check the price for an Apple iPhone 14 Plus with 256GB storage in Purple color.",
+        "website": "https://www.apple.com/"
+    },
+    {
+        "task_id": "Apple--36",
+        "confirmed_task": "Browse Apple Music on the entertainment section of the Apple's website, and see which singers' names are included in the pictures on this page.",
+        "website": "https://www.apple.com/"
+    },
+    {
+        "task_id": "ArXiv--9",
+        "confirmed_task": "Find the latest research paper about neural networks published on ArXiv which has been submitted within the last week.",
+        "website": "https://arxiv.org/"
+    },
+    {
+        "task_id": "GitHub--22",
+        "confirmed_task": "Find an open-source repository on GitHub focused on natural language processing in Ruby, updated within the last week.",
+        "website": "https://github.com/"
+    },
+    {
+        "task_id": "GitHub--7",
+        "confirmed_task": "Find the official GitHub repository for ALBERT and show me what files the repo changed in the most recent commit.",
+        "website": "https://github.com/"
+    },
+    {
+        "task_id": "GitHub--19",
+        "confirmed_task": "Look up the most recently updated Python repository on GitHub that is tagged with 'web scraping' and has over 100 stars.",
+        "website": "https://github.com/"
+    },
+    {
+        "task_id": "Apple--11",
+        "confirmed_task": "Get information about the latest iPad model released by Apple, including its release date, base storage capacity, and starting price available on Apple's official website.",
+        "website": "https://www.apple.com/"
+    },
+    {
+        "task_id": "ArXiv--18",
+        "confirmed_task": "Download the paper 'Dense Passage Retrieval for Open-Domain Question Answering'. How many formulas are in the article and which one is the loss function?",
+        "website": "https://arxiv.org/"
+    },
+    {
+        "task_id": "GitHub--35",
+        "confirmed_task": "Check the latest release version of React and the date it was published on GitHub.",
+        "website": "https://github.com/"
+    },
+    {
+        "task_id": "GitHub--27",
+        "confirmed_task": "Find a Ruby repository on GitHub that has been updated in the past 3 days and has at least 1000 stars.",
+        "website": "https://github.com/"
+    },
+    {
+        "task_id": "GitHub--14",
+        "confirmed_task": "Locate the repository for the open-source project \"vscode\" and identify the top three contributors.",
+        "website": "https://github.com/"
+    },
+    {
+        "task_id": "Apple--37",
+        "confirmed_task": "Compare the color options of iPhone 13 Pro, iPhone 14 Pro and iPhone 15 Pro.",
+        "website": "https://www.apple.com/"
+    }
+]

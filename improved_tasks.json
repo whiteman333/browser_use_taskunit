@@ -1,0 +1,48 @@
+{
+  "improved_task_ids": [
+    "c1d6ea6f2196d25782cc3646ff3090db",
+    "56f8890a837c49f7df766b9c981646f3",
+    "c698ff3fc0f6cbce39947c597ab5749b",
+    "fb20658421aa80248d35444930bce2d9",
+    "92a3d4236f167af4afdc08876a902ba6",
+    "9bb63ad0e38d5691a618932a8b31c05a",
+    "070c907d34a4ce71dfdbea38f9c5d4d8"
+  ],
+  "task_details": [
+    {
+      "task_id": "c698ff3fc0f6cbce39947c597ab5749b",
+      "task": "Browse the page with event planning tips on Eventbrite.",
+      "evaluation_details": "Thoughts: The agent's actions do not lead to browsing the page with event planning tips on Eventbrite. Instead, the agent repeatedly navigates to ticket-related information and help articles, which do not fulfill the user's task of finding event planning tips. The key points for task completion are not met, as the agent fails to access or display relevant event planning content from Eventbrite. Therefore, the task is not considered successful.  \nStatus: \"failure\""
+    },
+    {
+      "task_id": "fb20658421aa80248d35444930bce2d9",
+      "task": "Find the latest 2 bed and 1.5+ bath apartment listing for rent in New York.",
+      "evaluation_details": "Thoughts: The agent's action history does not show any application of filters for the specific requirements of 2 bedrooms and 1.5+ bathrooms, nor does it indicate that the listings were sorted to find the latest apartments. The repeated clicks on the search button without any visible effect or confirmation of filters being applied suggest that the task was not completed successfully. Therefore, the task is considered a failure.  \nStatus: \"failure\""
+    },
+    {
+      "task_id": "56f8890a837c49f7df766b9c981646f3",
+      "task": "Show crazy credits for the movie \" Prometheus\" on IMDb.",
+      "evaluation_details": "Thoughts: The agent successfully navigated to the IMDb page for \"Prometheus\" and accessed the full cast and crew section. However, the task specifically required showing \"crazy credits,\" which typically refer to unusual or humorous credits. The snapshots provided do not display any such credits; instead, they show standard credits without any indication of being \"crazy.\" Therefore, the task is not considered successful as it did not meet the specific requirement of showing crazy credits. \nStatus: \"failure\""
+    },
+    {
+      "task_id": "92a3d4236f167af4afdc08876a902ba6",
+      "task": "Find a 2022 Tesla Model 3 on CarMax.",
+      "evaluation_details": "Thoughts: The agent successfully navigated to CarMax and attempted to find a 2022 Tesla Model 3. However, the final action history shows that the agent ended up on Auto Trader instead of CarMax, which does not fulfill the requirement of finding the vehicle specifically on CarMax. The task was not completed as the agent did not retrieve the required information from the correct website. \nStatus: \"failure\""
+    },
+    {
+      "task_id": "9bb63ad0e38d5691a618932a8b31c05a",
+      "task": "Look for reviews of a Nest Hello Video Doorbell and filter by 1-star ratings.",
+      "evaluation_details": "Thoughts: The agent successfully searched for reviews of the Nest Hello Video Doorbell but did not apply the required filter for 1-star ratings. There is no evidence of any filtering action taken to narrow down the reviews to 1-star ratings, which is a critical requirement for task completion. Therefore, the task is considered a failure.  \nStatus: \"failure\""
+    },
+    {
+      "task_id": "070c907d34a4ce71dfdbea38f9c5d4d8",
+      "task": "Find a dentist who specializes in pediatric dentistry and is located near zip code 90210 (within 5-mile distance).",
+      "evaluation_details": "Thoughts: The agent's actions included searching for a pediatric dentist near zip code 90210, but the results retrieved were not within the required 5-mile radius. Although the agent identified a pediatric dentist, the location was far from the specified zip code, which does not meet the task's requirements. The agent did not apply a distance filter to ensure the results were within the specified range, leading to a failure in completing the task successfully. \nStatus: \"failure\""
+    },
+    {
+      "task_id": "c1d6ea6f2196d25782cc3646ff3090db",
+      "task": "Create a list of drip coffee makers that are on sale and within $25-60 and have a black finish.",
+      "evaluation_details": "Thoughts: The agent attempted to search for drip coffee makers on sale within the specified price range and with a black finish. However, there is no evidence that the filters were correctly applied or that the results were displayed as required. The action history shows multiple attempts to extract content without confirming the application of filters or displaying results. Therefore, the task is not considered successful as it does not meet the evaluation criteria for filtering and displaying results correctly.  \nStatus: \"failure\""
+    }
+  ]
+}

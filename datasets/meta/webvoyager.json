@@ -1,0 +1,22 @@
+[
+    {
+        "url": "https://www.allrecipes.com",
+        "tree_file": "/home/douzc/users/yuyao/url_process/webvoyager_urls/url_tree_www.allrecipes.com.json",
+        "embedding_file": "/home/douzc/users/yuyao/url_process/embeddings/webvoyager/url_tree_www.allrecipes.com.npz"
+    },
+    {
+        "url": "https://www.apple.com",
+        "tree_file": "/home/douzc/users/yuyao/url_process/webvoyager_urls/url_tree_www.apple.com.json",
+        "embedding_file": "/home/douzc/users/yuyao/url_process/embeddings/webvoyager/url_tree_www.apple.com.npz"
+    },
+    {
+        "url": "https://arxiv.org",
+        "tree_file": "/home/douzc/users/yuyao/url_process/webvoyager_urls/url_tree_arxiv.org.json",
+        "embedding_file": "/home/douzc/users/yuyao/url_process/embeddings/webvoyager/url_tree_arxiv.org.npz"
+    },
+    {
+        "url": "https://github.com",
+        "tree_file": "/home/douzc/users/yuyao/url_process/webvoyager_urls/url_tree_github.com.json",
+        "embedding_file": "/home/douzc/users/yuyao/url_process/embeddings/webvoyager/url_tree_github.com.npz"
+    }
+]

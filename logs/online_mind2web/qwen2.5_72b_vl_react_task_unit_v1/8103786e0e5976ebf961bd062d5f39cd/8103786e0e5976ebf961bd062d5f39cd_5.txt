@@ -1,0 +1,253 @@
+ SystemMessage 
+You are a precise browser automation agent that interacts with websites through structured commands. Your role is to:
+    1. Analyze the provided webpage elements and structure
+    2. Use the given information to accomplish the ultimate task
+    3. Respond with valid JSON containing your next action sequence and state assessment
+
+    
+INPUT STRUCTURE:
+1. Current URL: The webpage you're currently on
+2. Available Tabs: List of open browser tabs
+3. Interactive Elements: List in the format:
+   index[:]<element_type>element_text</element_type>
+   - index: Numeric identifier for interaction
+   - element_type: HTML element type (button, input, etc.)
+   - element_text: Visible text or element description
+
+Example:
+[33]<button>Submit Form</button>
+[] Non-interactive text
+
+
+Notes:
+- Only elements with numeric indexes inside [] are interactive
+- [] elements provide context but cannot be interacted with
+
+
+    Here are some useful examples of the task units you can refer to:
+    {"relevant_task_units":[]}
+    
+    IMPORTANT RULES:
+    
+1. RESPONSE FORMAT: You must ALWAYS respond with **valid JSON** in this exact format:
+{
+       
+        "current_state": {
+            "observation": "Observation of the current state",
+            "thought": "Thought of the current state"
+        },
+         
+        "action": [
+            {
+                "one_action_name": {
+                // action-specific parameter
+                }
+            },
+            // ... more actions in sequence
+        ]
+    }
+    
+2. ACTIONS: You can specify multiple actions in the list to be executed in sequence. But always specify only one action name per item.
+
+   Common action sequences:
+   - Form filling: [
+       {"input_text": {"index": 1, "text": "username"}},
+       {"input_text": {"index": 2, "text": "password"}},
+       {"click_element": {"index": 3}}
+     ]
+   - Navigation and extraction: [
+       {"open_tab": {}},
+       {"go_to_url": {"url": "https://example.com"}},
+       {"extract_content": ""}
+     ]
+   - Please generate valid double quotes and delimeters for your json output.
+
+3. ELEMENT INTERACTION:
+   - Only use indexes that exist in the provided element list
+   - Each element has a unique index number (e.g., "[33]<button>")
+   - Elements marked with "[]Non-interactive text" are non-interactive (for context only)
+
+4. TASK COMPLETION:
+   - Use the "done" action as the last action as soon as the ultimate task is complete.
+   - Dont use "done" before you are done with everything the user asked you.
+   - If you have to do something repeatedly for example the task says for "each", or "for all", or "x times", count always inside "memory" how many times you have done it and how many remain. Don't stop until you have completed like the task asked you. Only call done after the last step.
+   - Don't hallucinate actions.
+   - If the ultimate task requires specific information - make sure to include everything in the done function. This is what the user will see. Do not just say you are done, but include the requested information of the task.
+   - use maximum 1 actions per sequence
+
+    Functions:
+    Complete task with response to user: 
+{done: {'text': {'type': 'string'}}}
+Navigate to URL in the current tab: 
+{go_to_url: {'url': {'type': 'string'}}}
+Go back: 
+{go_back: {}}
+Click element: 
+{click_element: {'index': {'type': 'integer'}, 'xpath': {'anyOf': [{'type': 'string'}, {'type': 'null'}], 'default': None}}}
+Input text into a input interactive element: 
+{input_text: {'index': {'type': 'integer'}, 'text': {'type': 'string'}, 'xpath': {'anyOf': [{'type': 'string'}, {'type': 'null'}], 'default': None}}}
+Switch tab: 
+{switch_tab: {'page_id': {'type': 'integer'}}}
+Open url in new tab: 
+{open_tab: {'url': {'type': 'string'}}}
+Extract page content to retrieve specific information from the page, e.g. all company names, a specific description, all information about, links with companies in structured format or simply links: 
+{extract_content: {'goal': {'type': 'string'}}}
+Scroll down the page by pixel amount - if no amount is specified, scroll down one page: 
+{scroll_down: {'amount': {'anyOf': [{'type': 'integer'}, {'type': 'null'}], 'default': None}}}
+Scroll up the page by pixel amount - if no amount is specified, scroll up one page: 
+{scroll_up: {'amount': {'anyOf': [{'type': 'integer'}, {'type': 'null'}], 'default': None}}}
+Send strings of special keys like Backspace, Insert, PageDown, Delete, Enter, Shortcuts such as `Control+o`, `Control+Shift+T` are supported as well. This gets used in keyboard.press. Be aware of different operating systems and their shortcuts: 
+{send_keys: {'keys': {'type': 'string'}}}
+If you dont find something which you want to interact with, scroll to it: 
+{scroll_to_text: {'text': {'type': 'string'}}}
+Get all options from a native dropdown: 
+{get_dropdown_options: {'index': {'type': 'integer'}}}
+Select dropdown option for interactive element index by the text of the option you want to select: 
+{select_dropdown_option: {'index': {'type': 'integer'}, 'text': {'type': 'string'}}}
+Press Enter key. Useful for submitting search queries, completing forms, or triggering default actions on focused elements.: 
+{press_enter: {}}
+
+ HumanMessage 
+Your ultimate task is: """Find possible causes for the symptoms of chest pain which is sharp which is accompanied by anxiety.""". If you achieved your ultimate task, stop everything and use the done action in the next step to complete the task. If not, continue as usual.
+
+ HumanMessage 
+Example output:
+
+ AIMessage 
+
+
+ ToolMessage 
+Browser started
+
+ HumanMessage 
+[Your task history memory starts here]
+
+ HumanMessage 
+Action result: 🔗  Navigated to https://www.mayoclinic.org/
+
+ AIMessage 
+The homepage of Mayo Clinic's website is loaded. It contains navigation options such as Care at Mayo Clinic, Health Library, For Medical Professionals, Research & Education, Giving to Mayo Clinic, etc. There is also an option to request an appointment and sections for finding diseases & conditions by alphabet.
+
+ ToolMessage 
+
+
+ HumanMessage 
+Action result: 🖱️  Clicked button with index 3:
+
+ AIMessage 
+The current page is the homepage of the Mayo Clinic website. The 'Health Library' dropdown is expanded, showing various categories including 'Symptoms', which matches part of the ultimate task related to finding causes of chest pain.
+
+ ToolMessage 
+
+
+ AIMessage 
+The page shows a symptom checker where users can check on symptoms to find possible causes. There's an option to find symptoms by their first letter, along with a link for more information about the symptom checker.
+
+ ToolMessage 
+
+
+ HumanMessage 
+[Task history memory ends here]
+[Current state starts here]
+
+You will see the following only once - if you need to remember it and you dont know it yet, write it down in the memory:
+Current url: https://www.mayoclinic.org/about-this-site/about-symptom-checker
+Available tabs:
+[TabInfo(page_id=0, url='https://www.mayoclinic.org/about-this-site/about-symptom-checker', title='About this Symptom Checker - About This Site - Mayo Clinic')]
+Interactive elements from current page:
+[Start of page]
+[0]<a ></a>
+[1]<img alt="Mayo Clinic Home Page"></img>
+[2]<button aria-expanded="false" type="button">Care at 
+ Mayo Clinic</button>
+[3]<button aria-expanded="false" type="button">Health 
+ Library</button>
+[4]<button aria-expanded="false" type="button">For Medical 
+ Professionals</button>
+[5]<button aria-expanded="false" type="button">Research & Education 
+ at Mayo Clinic</button>
+[6]<button aria-expanded="false" type="button">Giving to 
+ Mayo Clinic</button>
+[7]<a >Request appointment</a>
+[8]<a >Log in</a>
+[9]<button aria-expanded="false" type="button">Search</button>
+[10]<a >About this Symptom Checker</a>
+[11]<a >Print</a>
+[]Products and services
+[12]<a ></a>
+[13]<img alt="The Mayo Clinic Diet: What is your weight-loss goal? 5-10 lbs, 11-25 lbs, or 25+ lbs"></img>
+[]About this Symptom Checker
+[14]<a >By Mayo Clinic Staff</a>
+[]Welcome to
+[15]<a >www.MayoClinic.org</a>
+[]'s online Symptom Checker. The purpose of this tool is to help you narrow your search along your information journey; this is not a diagnostic tool.
+[]This tool allows you to choose a variety of factors related to your symptom, in order to help you narrow the potential medical conditions related to your symptom. This tool does not incorporate all the personal, health and demographic factors related to you, individually, that would allow a definitive cause or causes to be suggested.
+[]The most reliable way to determine the cause of your symptom, and what to do, is to visit your health-care provider. Thank you for using the Symptom Checker.
+[]Sept. 15, 2015
+[]Advertisement
+[]Mayo Clinic does not endorse companies or products. Advertising revenue supports our not-for-profit mission.
+[]Advertising & Sponsorship
+[16]<a >Policy</a>
+[17]<a >Opportunities</a>
+[18]<a >Ad Choices</a>
+[].
+[]ART-20151509
+[19]<a >Home</a>
+[20]<a >About This Site</a>
+[21]<a >About this Symptom Checker</a>
+[22]<img alt=""></img>
+[]Fuel groundbreaking medical research!
+[23]<a >Give Today</a>
+[]Your donation powers the future of medicine and helps save lives.
+[24]<a ></a>
+[25]<a ></a>
+[26]<a ></a>
+[27]<a ></a>
+[28]<a ></a>
+[29]<a ></a>
+[30]<a ></a>
+[31]<a ></a>
+[32]<a ></a>
+[33]<a ></a>
+[34]<a >Medical
+Professionals</a>
+[35]<a ></a>
+[36]<a ></a>
+[37]<a ></a>
+[38]<a ></a>
+[39]<a ></a>
+[40]<a ></a>
+[41]<a ></a>
+[42]<a ></a>
+[43]<a ></a>
+[44]<a ></a>
+[45]<a ></a>
+[46]<a >Researchers</a>
+[47]<a ></a>
+[48]<a ></a>
+[49]<a ></a>
+[50]<a ></a>
+[51]<a ></a>
+[52]<a ></a>
+[53]<a ></a>
+[54]<a ></a>
+[55]<a ></a>
+[56]<a ></a>
+[57]<a ></a>
+... 1092 pixels below - scroll or extract content to see more ...
+
+
+**Please generate valid double quotes and delimeters for your json output.**
+
+ RESPONSE
+{
+  "action": [
+    {
+      "go_back": {}
+    }
+  ],
+  "current_state": {
+    "observation": "The current page provides information about the Symptom Checker from Mayo Clinic. It explains its purpose and limitations as a tool to help narrow down medical conditions related to symptoms but not diagnose them definitively. There are no direct options visible to begin checking symptoms or enter 'chest pain' and 'anxiety'.",
+    "thought": "To align with the ultimate task, I need to navigate away from this informational page to access the Symptom Checker tool itself."
+  }
+}

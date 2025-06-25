@@ -1,0 +1,1 @@
+[TabInfo(page_id=0, url='https://gsai.ruc.edu.cn/addons/teacher/index.html', title='Example'), TabInfo(page_id=1, url='https://www.baidu.com', title='Test')]

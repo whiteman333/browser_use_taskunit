@@ -1,0 +1,197 @@
+ SystemMessage 
+You are a precise browser automation agent that interacts with websites through structured commands. Your role is to:
+    1. Analyze the provided webpage elements and structure
+    2. Use the given information to accomplish the ultimate task
+    3. Respond with valid JSON containing your next action sequence and state assessment
+
+    
+INPUT STRUCTURE:
+1. Current URL: The webpage you're currently on
+2. Available Tabs: List of open browser tabs
+3. Interactive Elements: List in the format:
+   index[:]<element_type>element_text</element_type>
+   - index: Numeric identifier for interaction
+   - element_type: HTML element type (button, input, etc.)
+   - element_text: Visible text or element description
+
+Example:
+[33]<button>Submit Form</button>
+[] Non-interactive text
+
+
+Notes:
+- Only elements with numeric indexes inside [] are interactive
+- [] elements provide context but cannot be interacted with
+
+
+    Here are some useful examples of the task units you can refer to:
+    {"relevant_task_units":[]}
+    
+    IMPORTANT RULES:
+    
+1. RESPONSE FORMAT: You must ALWAYS respond with **valid JSON** in this exact format:
+{
+       
+        "current_state": {
+            "observation": "Observation of the current state",
+            "thought": "Thought of the current state"
+        },
+         
+        "action": [
+            {
+                "one_action_name": {
+                // action-specific parameter
+                }
+            },
+            // ... more actions in sequence
+        ]
+    }
+    
+2. ACTIONS: You can specify multiple actions in the list to be executed in sequence. But always specify only one action name per item.
+
+   Common action sequences:
+   - Form filling: [
+       {"input_text": {"index": 1, "text": "username"}},
+       {"input_text": {"index": 2, "text": "password"}},
+       {"click_element": {"index": 3}}
+     ]
+   - Navigation and extraction: [
+       {"open_tab": {}},
+       {"go_to_url": {"url": "https://example.com"}},
+       {"extract_content": ""}
+     ]
+   - Please generate valid double quotes and delimeters for your json output.
+
+3. ELEMENT INTERACTION:
+   - Only use indexes that exist in the provided element list
+   - Each element has a unique index number (e.g., "[33]<button>")
+   - Elements marked with "[]Non-interactive text" are non-interactive (for context only)
+
+4. TASK COMPLETION:
+   - Use the "done" action as the last action as soon as the ultimate task is complete.
+   - Dont use "done" before you are done with everything the user asked you.
+   - If you have to do something repeatedly for example the task says for "each", or "for all", or "x times", count always inside "memory" how many times you have done it and how many remain. Don't stop until you have completed like the task asked you. Only call done after the last step.
+   - Don't hallucinate actions.
+   - If the ultimate task requires specific information - make sure to include everything in the done function. This is what the user will see. Do not just say you are done, but include the requested information of the task.
+   - use maximum 1 actions per sequence
+
+    Functions:
+    Complete task with response to user: 
+{done: {'text': {'type': 'string'}}}
+Navigate to URL in the current tab: 
+{go_to_url: {'url': {'type': 'string'}}}
+Go back: 
+{go_back: {}}
+Click element: 
+{click_element: {'index': {'type': 'integer'}, 'xpath': {'anyOf': [{'type': 'string'}, {'type': 'null'}], 'default': None}}}
+Input text into a input interactive element: 
+{input_text: {'index': {'type': 'integer'}, 'text': {'type': 'string'}, 'xpath': {'anyOf': [{'type': 'string'}, {'type': 'null'}], 'default': None}}}
+Switch tab: 
+{switch_tab: {'page_id': {'type': 'integer'}}}
+Open url in new tab: 
+{open_tab: {'url': {'type': 'string'}}}
+Extract page content to retrieve specific information from the page, e.g. all company names, a specific description, all information about, links with companies in structured format or simply links: 
+{extract_content: {'goal': {'type': 'string'}}}
+Scroll down the page by pixel amount - if no amount is specified, scroll down one page: 
+{scroll_down: {'amount': {'anyOf': [{'type': 'integer'}, {'type': 'null'}], 'default': None}}}
+Scroll up the page by pixel amount - if no amount is specified, scroll up one page: 
+{scroll_up: {'amount': {'anyOf': [{'type': 'integer'}, {'type': 'null'}], 'default': None}}}
+Send strings of special keys like Backspace, Insert, PageDown, Delete, Enter, Shortcuts such as `Control+o`, `Control+Shift+T` are supported as well. This gets used in keyboard.press. Be aware of different operating systems and their shortcuts: 
+{send_keys: {'keys': {'type': 'string'}}}
+If you dont find something which you want to interact with, scroll to it: 
+{scroll_to_text: {'text': {'type': 'string'}}}
+Get all options from a native dropdown: 
+{get_dropdown_options: {'index': {'type': 'integer'}}}
+Select dropdown option for interactive element index by the text of the option you want to select: 
+{select_dropdown_option: {'index': {'type': 'integer'}, 'text': {'type': 'string'}}}
+Press Enter key. Useful for submitting search queries, completing forms, or triggering default actions on focused elements.: 
+{press_enter: {}}
+
+ HumanMessage 
+Your ultimate task is: """Find the closing stock price for Tesla on March 17, 2023.""". If you achieved your ultimate task, stop everything and use the done action in the next step to complete the task. If not, continue as usual.
+
+ HumanMessage 
+Example output:
+
+ AIMessage 
+
+
+ ToolMessage 
+Browser started
+
+ HumanMessage 
+[Your task history memory starts here]
+
+ HumanMessage 
+Action result: 🔗  Navigated to https://finance.yahoo.com/
+
+ AIMessage 
+Navigated to https://finance.yahoo.com/. Visible interactive elements include language selection options.
+
+ ToolMessage 
+
+
+ HumanMessage 
+Action result: 🖱️  Clicked button with index 1: English
+
+ AIMessage 
+The page is now set to English, but still primarily shows introductory information. No search bar or Tesla stock price is visible.
+
+ ToolMessage 
+
+
+ HumanMessage 
+Action result: 🔍  Scrolled down the page by one page
+
+ AIMessage 
+The page content is limited to a notice regarding service availability in mainland China and doesn't display any search functionality or financial data.
+
+ ToolMessage 
+
+
+ HumanMessage 
+Action result: 🔍  Scrolled down the page by one page
+
+ AIMessage 
+The page is displaying a notification about Yahoo's service availability being restricted in mainland China, with no visible search bar or stock price data related to Tesla. The available interactive elements include language options.
+
+ ToolMessage 
+
+
+ HumanMessage 
+Action result: 🔗  Navigated to https://finance.yahoo.com/quote/TSLA/history?p=TSLA
+
+ HumanMessage 
+[Task history memory ends here]
+[Current state starts here]
+
+You will see the following only once - if you need to remember it and you dont know it yet, write it down in the memory:
+Current url: https://finance.yahoo.com/quote/TSLA/history?p=TSLA
+Available tabs:
+[TabInfo(page_id=0, url='https://finance.yahoo.com/quote/TSLA/history?p=TSLA', title='Yahoo')]
+Interactive elements from current page:
+[Start of page]
+[0]<img alt="Yahoo Logo"></img>
+[1]<a >English</a>
+[]|
+[2]<a >繁體中文</a>
+[]|
+[3]<a >简体中文</a>
+[]As of November 1st, 2021 Yahoo’s suite of services will no longer be accessible from mainland China. Yahoo products and services remain unaffected in all other global locations. We thank you for your support and readership.
+... 8 pixels below - scroll or extract content to see more ...
+
+
+**Please generate valid double quotes and delimeters for your json output.**
+
+ RESPONSE
+{
+  "action": [
+    {
+      "scroll_down": {}
+    }
+  ],
+  "current_state": {
+    "observation": "The current page displays a notice regarding Yahoo's service availability restrictions in mainland China. There are no visible elements related to Tesla's stock price or historical data.",
+    "thought": "To find the closing stock price for Tesla on March 17, 2023, we need to navigate past this notice. Scrolling might reveal more interactive elements or options."
+  }
+}

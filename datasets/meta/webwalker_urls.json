@@ -1,0 +1,56 @@
+[
+    {
+        "url": "https://cs.swust.edu.cn",
+        "url_count": 826,
+        "tree_file": "/home/zyy/url_process/webwalker_urls_v2/url_tree_cs.swust.edu.cn.json",
+        "embedding_file": "/home/zyy/url_process/embeddings/v2/url_tree_cs.swust.edu.cn_v2.npz"
+    },
+    {
+        "url": "https://www.ion.org",
+        "url_count": 287,
+        "tree_file": "/home/zyy/url_process/webwalker_urls_v2/url_tree_www.ion.org.json",
+        "embedding_file": "/home/zyy/url_process/embeddings/v2/url_tree_www.ion.org_v2.npz"
+    },
+    {
+        "url": "http://www.icse-conferences.org",
+        "url_count": 463,
+        "tree_file": "/home/zyy/url_process/webwalker_urls_v2/url_tree_www.icse-conferences.org.json",
+        "embedding_file": "/home/zyy/url_process/embeddings/v2/url_tree_www.icse-conferences.org_v2.npz"
+    },
+    {
+        "url": "https://www.mrs.org",
+        "url_count": 168,
+        "tree_file": "/home/zyy/url_process/webwalker_urls_v2/url_tree_www.mrs.org.json",
+        "embedding_file": "/home/zyy/url_process/embeddings/v2/url_tree_www.mrs.org_v2.npz"
+    },
+    {
+        "url": "https://sigchi.org",
+        "url_count": 175,
+        "tree_file": "/home/zyy/url_process/webwalker_urls_v2/url_tree_sigchi.org.json",
+        "embedding_file": "/home/zyy/url_process/embeddings/v2/url_tree_sigchi.org_v2.npz"
+    },
+    {
+        "url": "http://www.cs.zju.edu.cn/csen",
+        "url_count": 1038,
+        "tree_file": "/home/zyy/url_process/webwalker_urls_v2/url_tree_www.cs.zju.edu.cn_csen.json",
+        "embedding_file": "/home/zyy/url_process/embeddings/v2/url_tree_www.cs.zju.edu.cn_csen_v2.npz"
+    },
+    {
+        "url": "https://ehaweb.org",
+        "url_count": 190,
+        "tree_file": "/home/zyy/url_process/webwalker_urls_v2/url_tree_ehaweb.org.json",
+        "embedding_file": "/home/zyy/url_process/embeddings/v2/url_tree_ehaweb.org_v2.npz"
+    },
+    {
+        "url": "https://scst.suda.edu.cn",
+        "url_count": 562,
+        "tree_file": "/home/zyy/url_process/webwalker_urls_v2/url_tree_scst.suda.edu.cn.json",
+        "embedding_file": "/home/zyy/url_process/embeddings/v2/url_tree_scst.suda.edu.cn_v2.npz"
+    },
+    {
+        "url": "https://www.rovio.com",
+        "url_count": 202,
+        "tree_file": "/home/zyy/url_process/webwalker_urls_v2/url_tree_www.rovio.com.json",
+        "embedding_file": "/home/zyy/url_process/embeddings/v2/url_tree_www.rovio.com_v2.npz"
+    }
+]

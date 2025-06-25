@@ -1,0 +1,2642 @@
+[
+    {
+        "task_id": 0,
+        "confirmed_task": "In which city and at which venue did the Joint Navigation Conference take place in 2025, and what were the scheduled dismantling hours for exhibitors at the ION GNSS+ 2024 event?",
+        "website": "https://www.ion.org",
+        "answer": "The Joint Navigation Conference in 2025 took place in the Greater Cincinnati Area at the Northern Kentucky Convention Center. The scheduled dismantling hours for exhibitors at the ION GNSS+ 2024 event were Thursday, 4:00 p.m. to 10:00 p.m.",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://www.ion.org/jnc/past-meetings.cfm",
+                "https://www.ion.org/gnss/exhibitor-resource-center.cfm"
+            ],
+            "golden_path": [
+                "root->Joint Navigation Conference->Past Meetings",
+                "root->ION GNSS+->Exhibitor Resource Center"
+            ],
+            "type": "multi_source",
+            "difficulty_level": "medium",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 1,
+        "confirmed_task": "Which scholars did Dr. Mathieu Joerger collaborate with for significant research when he received the 2014 Early Achievement Award and the 2022 Burka Award?",
+        "website": "https://www.ion.org",
+        "answer": "2014: No specific collaborators; 2022: Elisa Gallon and Dr. Boris Pervan.",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://www.ion.org/awards/2014-Early-Achievement.cfm",
+                "https://www.ion.org/awards/Burka-2022.cfm"
+            ],
+            "golden_path": [
+                "root->Awards and ION Fellows->Per Enge Early Achievement->Dr. Mathieu Joerger",
+                "root->Awards and ION Fellows->Burka->Elisa Gallon, Dr. Mathieu Joerger, and Dr. Boris Pervan"
+            ],
+            "type": "multi_source",
+            "difficulty_level": "hard",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 2,
+        "confirmed_task": "谁是Institute of Navigation的执行董事（Executive Director）？",
+        "website": "https://www.ion.org",
+        "answer": "Lisa Beaty",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://www.ion.org/about/contact.cfm"
+            ],
+            "golden_path": [
+                "root->Contact ION"
+            ],
+            "type": "single_source",
+            "difficulty_level": "easy",
+            "lang": ""
+        }
+    },
+    {
+        "task_id": 3,
+        "confirmed_task": "哪个与ION合作的组织致力于通过研究、教学和技术发展来推进地球和行星的形状、旋转和重力场及其时间变化的一致表示？",
+        "website": "https://www.ion.org",
+        "answer": "International Association of Geodesy (IAG)",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://www.ion.org/about/affiliate-partners.cfm"
+            ],
+            "golden_path": [
+                "root->Affiliate Partners"
+            ],
+            "type": "single_source",
+            "difficulty_level": "easy",
+            "lang": ""
+        }
+    },
+    {
+        "task_id": 4,
+        "confirmed_task": "哪些ION会议是每年一度举办的，并且以传播精确时间和频率技术为重点的？",
+        "website": "https://www.ion.org",
+        "answer": "PTTI",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://www.ion.org/meetings/index.cfm"
+            ],
+            "golden_path": [
+                "root->Meetings"
+            ],
+            "type": "single_source",
+            "difficulty_level": "easy",
+            "lang": ""
+        }
+    },
+    {
+        "task_id": 5,
+        "confirmed_task": "What is the date when Dr. John Raquet received the Johannes Kepler Award at the ION GNSS+ 2024 conference?",
+        "website": "https://www.ion.org",
+        "answer": "September 20, 2024",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://www.ion.org/news/kepleraward2024.cfm"
+            ],
+            "golden_path": [
+                "root->News->Read More"
+            ],
+            "type": "single_source",
+            "difficulty_level": "medium",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 6,
+        "confirmed_task": "Who received the Per Enge Early Achievement Award in 2023 for outstanding innovations in the development of low Earth orbiting satellites?",
+        "website": "https://www.ion.org",
+        "answer": "Dr. Tyler Gerald René Reid",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://www.ion.org/awards/Annual-Award-Winners.cfm"
+            ],
+            "golden_path": [
+                "root->Awards->2023 Award Recipients"
+            ],
+            "type": "single_source",
+            "difficulty_level": "medium",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 7,
+        "confirmed_task": "How many days are there between the dates of the Joint Navigation Conference in 2025 and 2027?",
+        "website": "https://www.ion.org",
+        "answer": "735 days",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://www.ion.org/jnc/future-meetings.cfm"
+            ],
+            "golden_path": [
+                "root->Joint Navigation Conference->Future Meetings"
+            ],
+            "type": "single_source",
+            "difficulty_level": "medium",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 8,
+        "confirmed_task": "What is the earliest time and date exhibitors can begin booth installation before the ITM/PTTI conference in January 2025?",
+        "website": "https://www.ion.org",
+        "answer": "January 27, 2025, from 1:00 p.m. to 6:00 p.m.",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://www.ion.org/ptti/exhibitor-resource-center.cfm"
+            ],
+            "golden_path": [
+                "root->PTTI->Exhibitor Resource Center"
+            ],
+            "type": "single_source",
+            "difficulty_level": "medium",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 9,
+        "confirmed_task": "What are the exhibit hall hours for the PTTI conference in Long Beach, California, from January 27-30, 2025?",
+        "website": "https://www.ion.org",
+        "answer": "The exhibit hall will be open on Tuesday from 9:30 a.m. to 4:00 p.m. and on Wednesday from 10:00 a.m. to 4:00 p.m.",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://www.ion.org/ptti/exhibits.cfm"
+            ],
+            "golden_path": [
+                "root->PTTI->Exhibits"
+            ],
+            "type": "single_source",
+            "difficulty_level": "medium",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 10,
+        "confirmed_task": "What are the timings for the Pacific PNT Luau Luncheon on April 17, 2024?",
+        "website": "https://www.ion.org",
+        "answer": "12:00 p.m. to 2:00 p.m.",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://www.ion.org/pnt/program.cfm"
+            ],
+            "golden_path": [
+                "root->Pacific PNT->Technical Program"
+            ],
+            "type": "single_source",
+            "difficulty_level": "medium",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 11,
+        "confirmed_task": "Who was the individual that successfully implemented the patented core technology of Xona Space Systems in 2022 and received the 2023 Per Enge Early Achievement Award?",
+        "website": "https://www.ion.org",
+        "answer": "Dr. Tyler Gerald René Reid",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://www.ion.org/awards/2023-Early-Achievement.cfm"
+            ],
+            "golden_path": [
+                "root->Awards and ION Fellows->Per Enge Early Achievement->View full award information"
+            ],
+            "type": "single_source",
+            "difficulty_level": "hard",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 12,
+        "confirmed_task": "Who is the scholar awarded the Johannes Kepler Award at the ION GNSS+ 2024 conference and what is their contribution to satellite navigation technology?",
+        "website": "https://www.ion.org",
+        "answer": "The awardee is Dr. John Raquet, recognized for his sustained and significant contributions to the development of satellite navigation technology.",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://www.ion.org/news/index.cfm；https://www.ion.org/awards/2024-Kepler.cfm"
+            ],
+            "golden_path": [
+                "root->News and Announcements",
+                "root->Awards and ION Fellows"
+            ],
+            "type": "multi_source",
+            "difficulty_level": "easy",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 13,
+        "confirmed_task": "What are the registration fee discounts offered for attendees staying at the official hotels of the Pacific PNT and Joint Navigation Conference (JNC) in 2024 and 2025, respectively?",
+        "website": "https://www.ion.org",
+        "answer": "$500 for attendees of Pacific PNT 2024 and $300 for attendees of JNC 2025.",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://www.ion.org/pnt/hotel.cfm",
+                "https://www.ion.org/jnc/registration.cfm"
+            ],
+            "golden_path": [
+                "root->Pacific PNT->Hotel",
+                "root->Joint Navigation Conference->Registration"
+            ],
+            "type": "multi_source",
+            "difficulty_level": "medium",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 14,
+        "confirmed_task": "Which two scientists who have conducted GNSS-related research at Stanford University received the ION Early Career Achievement Award in 2023 and 2004?",
+        "website": "https://www.ion.org",
+        "answer": "Dr. Tyler Gerald René Reid and Dr. Sherman Lo.",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://www.ion.org/awards/2023-Early-Achievement.cfm",
+                "https://www.ion.org/awards/2004-Early-Achievement.cfm"
+            ],
+            "golden_path": [
+                "root->Awards and ION Fellows->Per Enge Early Achievement->View full award information",
+                "root->Awards and ION Fellows->Per Enge Early Achievement->Dr. Sherman Lo"
+            ],
+            "type": "multi_source",
+            "difficulty_level": "hard",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 15,
+        "confirmed_task": "Who received the Superior Achievement Award in 2000 for navigating rescue supplies in an Antarctic emergency mission, and whose navigation techniques and operational strategies are similar to those of Captain Jonathan D. Hantsbarger in 2012 for securing special forces through aerial support?",
+        "website": "https://www.ion.org",
+        "answer": "Major Geoffrey A. Laing and Captain Jonathan D. Hantsbarger",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://www.ion.org/awards/2000-Superior-Achievement-Laing.cfm",
+                "https://www.ion.org/awards/2012-Superior-Achievement-Hantsbarger.cfm"
+            ],
+            "golden_path": [
+                "root->Awards and ION Fellows->Superior Achievement->Major Geoffrey A. Laing",
+                "root->Awards and ION Fellows->Superior Achievement->Captain Jonathan D. Hantsbarger"
+            ],
+            "type": "multi_source",
+            "difficulty_level": "hard",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 16,
+        "confirmed_task": "Who were the specific individuals recognized for pioneering technological advancements in GNSS integrity and high-accuracy navigation solutions through the Early Achievement Awards between 2014 and 2019?",
+        "website": "https://www.ion.org",
+        "answer": "Dr. Mathieu Joerger (2014) and Dr. Ramsey Faragher (2019)",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://www.ion.org/awards/2014-Early-Achievement.cfm",
+                "https://www.ion.org/awards/2019-Early-Achievement.cfm"
+            ],
+            "golden_path": [
+                "root->Awards and ION Fellows->Per Enge Early Achievement->Dr. Mathieu Joerger",
+                "root->Awards and ION Fellows->Per Enge Early Achievement->Dr. Ramsey Faragher"
+            ],
+            "type": "multi_source",
+            "difficulty_level": "hard",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 17,
+        "confirmed_task": "Who is more focused on promoting interdisciplinary collaboration between materials science and education in the 2024 MRS Board elections, according to the contributions and statements by Derya Baran and Izabela Szlufarska?",
+        "website": "https://www.mrs.org",
+        "answer": "Izabela Szlufarska",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://www.mrs.org/membership/governance/elections/derya-baran",
+                "https://www.mrs.org/membership/governance/elections/izabela-szlufarska"
+            ],
+            "golden_path": [
+                "root->Elections->Derya Baran",
+                "root->Elections->Izabela Szlufarska"
+            ],
+            "type": "multi_source",
+            "difficulty_level": "medium",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 18,
+        "confirmed_task": "How many hours in total would a person spend if they attended the Inclusive Connections Lounge activities from December 1 to 6, 2024, at the MRS Fall Meeting?",
+        "website": "https://www.mrs.org",
+        "answer": "66 hours",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://www.mrs.org/meetings-events/annual-meetings/2024-mrs-fall-meeting/meeting-events/broadening-participation/inclusive-connections-lounge"
+            ],
+            "golden_path": [
+                "root->Inclusive Connections Lounge"
+            ],
+            "type": "single_source",
+            "difficulty_level": "easy",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 19,
+        "confirmed_task": "Where and when will the 2025 MRS Fall Meeting take place?",
+        "website": "https://www.mrs.org",
+        "answer": "Boston, Massachusetts, November 30 to December 5, 2025.",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://www.mrs.org/meetings-events/annual-meetings"
+            ],
+            "golden_path": [
+                "root->Annual Meetings"
+            ],
+            "type": "single_source",
+            "difficulty_level": "easy",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 20,
+        "confirmed_task": "In what year did the MRS plan to hold its first spring meeting in Hawaii, and in what city was this meeting set to be held?",
+        "website": "https://www.mrs.org",
+        "answer": "The MRS plans to hold its first spring meeting in Hawaii in 2026, in Honolulu.",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://www.mrs.org/meetings-events/annual-meetings/2026-mrs-spring-meeting-exhibit"
+            ],
+            "golden_path": [
+                "root->2026 MRS Spring Meeting & Exhibit"
+            ],
+            "type": "single_source",
+            "difficulty_level": "easy",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 21,
+        "confirmed_task": "On which date and time will Claudia Anna-Maria Felser accept the Von Hippel Award during the 2024 MRS Fall Meeting in Boston?",
+        "website": "https://www.mrs.org",
+        "answer": "Wednesday, December 4 at 6:15 pm (ET)",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://www.mrs.org/publications-digital-content/news/article/2024/11/04/claudia-anna-maria-felser-to-receive-von-hippel-award--the-materials-research-society-s-highest-honor"
+            ],
+            "golden_path": [
+                "root->Learn More->Claudia Anna-Maria Felser to receive Von Hippel Award, the Materials Research Society’s highest honor"
+            ],
+            "type": "single_source",
+            "difficulty_level": "medium",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 22,
+        "confirmed_task": "What research fields were mentioned in the special memorial session for the late scientist Richard M. Osgood, Jr. at the Symposium EL07 of the 2024 MRS Fall Meeting?",
+        "website": "https://www.mrs.org",
+        "answer": "The special memorial session for Richard M. Osgood, Jr. at the 2024 MRS Fall Meeting's Symposium EL07 covers research fields including plasmonics, silicon photonics, and laser-induced photochemical reactions.",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://www.mrs.org/meetings-events/annual-meetings/2024-mrs-fall-meeting/symposium-sessions/call-for-papers/2024-fall-meeting/Symposium_EL07"
+            ],
+            "golden_path": [
+                "root->Learn More->EL07—Emerging Material Platforms and Fundamental Approaches for Plasmonics, Nanophotonics, and Metasurfaces"
+            ],
+            "type": "single_source",
+            "difficulty_level": "medium",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 23,
+        "confirmed_task": "When did Carolyn Duran, the 2022 MRS President, discuss the future celebration activities for the 50th anniversary of MRS?",
+        "website": "https://www.mrs.org",
+        "answer": "October 5, 2022",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://www.mrs.org/discover-mrs/about-mrs/our-society/annual-reports/2022-annual-report"
+            ],
+            "golden_path": [
+                "root->About MRS->ANNUAL REPORTS->Year In Review"
+            ],
+            "type": "single_source",
+            "difficulty_level": "hard",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 24,
+        "confirmed_task": "Who was selected as the MRS/Optica Congressional Science and Engineering Fellow for 2024-2025, and which committee in MRS is responsible for contributing to governmental science and technology policy?",
+        "website": "https://www.mrs.org",
+        "answer": "Shriya Pai was selected as the MRS/Optica Congressional Science and Engineering Fellow for 2024-2025. The Government Affairs Committee in MRS is responsible for contributing to governmental science and technology policy.",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://www.mrs.org/discover-mrs/advocacy-policy/mrs-optica-fellowship",
+                "https://www.mrs.org/advancing-careers/volunteer-central/committees"
+            ],
+            "golden_path": [
+                "root->Applications for 2025-26 MRS/Optica Congressional Science and Engineering Fellowship are open",
+                "root->Committees"
+            ],
+            "type": "multi_source",
+            "difficulty_level": "easy",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 25,
+        "confirmed_task": "What are the deadlines for the 2024 University Chapter Special Projects Program proposals and when are MRS committee rosters typically reviewed annually?",
+        "website": "https://www.mrs.org",
+        "answer": "The deadline for the 2024 University Chapter Special Projects Program proposals is December 15. MRS committee rosters are typically reviewed annually in late December or early January.",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://www.mrs.org/membership/volunteer-central/volunteer-profile",
+                "https://www.mrs.org/programs/mrs-foundation/funding-opportunities/special-projects-program---mrs-university-chapters"
+            ],
+            "golden_path": [
+                "root->Volunteer Central->Volunteer Profile",
+                "root->University Chapters->MRS University Chapters Special Project Grant Information"
+            ],
+            "type": "multi_source",
+            "difficulty_level": "medium",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 26,
+        "confirmed_task": "What time and where exactly will Claudia Anna-Maria Felser receive the Von Hippel Award during the 2024 MRS Fall Meeting?",
+        "website": "https://www.mrs.org",
+        "answer": "Claudia Anna-Maria Felser will receive the Von Hippel Award on December 4, 2024, at 6:15 PM ET at the Hynes Convention Center in Boston.",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://www.mrs.org/publications-digital-content/news/article/2024/11/04/claudia-anna-maria-felser-to-receive-von-hippel-award--the-materials-research-society-s-highest-honor",
+                "https://www.mrs.org/meetings-events/annual-meetings/2024-mrs-fall-meeting/meeting-faq"
+            ],
+            "golden_path": [
+                "root->Learn More->Claudia Anna-Maria Felser to receive Von Hippel Award, the Materials Research Society’s highest honor",
+                "root->Learn More->Meeting FAQ"
+            ],
+            "type": "multi_source",
+            "difficulty_level": "medium",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 27,
+        "confirmed_task": "Who is the chair of the Publications Committee ensuring the quality of editorial content for materials science, and who chairs the symposium on Advanced Characterization Techniques for Battery Materials at the 2024 MRS Fall Meeting?",
+        "website": "https://www.mrs.org",
+        "answer": "The chair of the Publications Committee is Linda S. Schadler, and Duhan Zhang chairs the symposium on Advanced Characterization Techniques for Battery Materials at the 2024 MRS Fall Meeting.",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://www.mrs.org/meetings-events/annual-meetings/2024-mrs-fall-meeting/symposium-sessions/call-for-papers/2024-fall-meeting/Symposium_CH04",
+                "https://www.mrs.org/membership/governance/operating-committees/publications-committee"
+            ],
+            "golden_path": [
+                "root->Learn More->CH04—Advanced Characterization Techniques and Methodologies for Battery Materials",
+                "root->Committees->MRS Publications"
+            ],
+            "type": "multi_source",
+            "difficulty_level": "medium",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 28,
+        "confirmed_task": "What was a significant advancement achieved by the Materials Research Society (MRS) under Todd M. Osman's leadership with Sabrina Sartori as president in 2023?",
+        "website": "https://www.mrs.org",
+        "answer": "MRS enhanced its global collaboration efforts and focused on achieving diversity, equity, and inclusion (DEI) goals in 2023.",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://www.mrs.org/discover-mrs/about-mrs/contact-us/executive-staff#Todd M. Osman",
+                "https://www.mrs.org/discover-mrs/about-mrs/our-society/annual-reports/2023-annual-report"
+            ],
+            "golden_path": [
+                "root->About MRS->available here->Todd Osman",
+                "root->About MRS->ANNUAL REPORTS->Year In Review"
+            ],
+            "type": "multi_source",
+            "difficulty_level": "hard",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 29,
+        "confirmed_task": "What programs and specific support are available for early career professionals to enhance their career development during the 2024 MRS Fall Meeting?",
+        "website": "https://www.mrs.org",
+        "answer": "Early career professionals can benefit from ECPSC career development activities and childcare grants during the 2024 MRS Fall Meeting.",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://www.mrs.org/membership/governance/operating-committees/career-advancement-committee/early-career-professional-subcommittee",
+                "https://www.mrs.org/meetings-events/fall-meetings-exhibits/2024-mrs-fall-meeting/registration/childcare-grants"
+            ],
+            "golden_path": [
+                "root->Committees->Career Advancement Committee->Learn more about the Early Career Professionals Subcommittee",
+                "root->Diversity, Equity and Inclusion->Learn more->childcare grants"
+            ],
+            "type": "multi_source",
+            "difficulty_level": "hard",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 30,
+        "confirmed_task": "Who is responsible for promoting global collaboration and the goals of diversity and inclusion in materials science at the MRS 50th anniversary future prospect?",
+        "website": "https://www.mrs.org",
+        "answer": "Todd M. Osman",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://www.mrs.org/discover-mrs/about-mrs/our-society/mrs-history/50th-anniversary",
+                "https://www.mrs.org/discover-mrs/about-mrs/contact-us/executive-staff#Todd M. Osman"
+            ],
+            "golden_path": [
+                "root->About MRS->OUR HISTORY->Learn More",
+                "root->About MRS->available here->Todd Osman"
+            ],
+            "type": "multi_source",
+            "difficulty_level": "hard",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 31,
+        "confirmed_task": "Who were the MRS Presidents in 2022 and 2023?",
+        "website": "https://www.mrs.org",
+        "answer": "The MRS Presidents were Carolyn Duran in 2022 and Sabrina Sartori in 2023.",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://www.mrs.org/discover-mrs/about-mrs/our-society/annual-reports/2023-annual-report",
+                "https://www.mrs.org/discover-mrs/about-mrs/our-society/annual-reports/2022-annual-report"
+            ],
+            "golden_path": [
+                "root->About MRS->ANNUAL REPORTS->Year In Review",
+                "root->About MRS->ANNUAL REPORTS->Year In Review"
+            ],
+            "type": "multi_source",
+            "difficulty_level": "hard",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 32,
+        "confirmed_task": "Who were the MRS Presidents in the years 2020 and 2021, and what were their notable achievements?",
+        "website": "https://www.mrs.org",
+        "answer": "Matt Copel was the MRS President in 2020, focusing on virtual meetings. Cherie Kagan was the MRS President in 2021, emphasizing governance structure changes.",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://www.mrs.org/discover-mrs/about-mrs/our-society/annual-reports/2020-annual-report",
+                "https://www.mrs.org/discover-mrs/about-mrs/our-society/annual-reports/2021-annual-report"
+            ],
+            "golden_path": [
+                "root->About MRS->ANNUAL REPORTS->Year In Review",
+                "root->About MRS->ANNUAL REPORTS->Year In Review"
+            ],
+            "type": "multi_source",
+            "difficulty_level": "hard",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 33,
+        "confirmed_task": "Which goal was related to the discussion by Neha, Joe Konstan, and Cliff Lampe about the relationship with the steering committee in the EC working meeting on November 15, 2023?",
+        "website": "https://sigchi.org",
+        "answer": "Financial goals.",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://sigchi.org/events/ec-working-november-15-2023/"
+            ],
+            "golden_path": [
+                "root->Meetings->Past Meetings->EC Working, November 15, 2023Nov 15, 2023 - Nov 16, 2023The November 2023 EC working meeting covered a variety of topics."
+            ],
+            "type": "single_source",
+            "difficulty_level": "hard",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 34,
+        "confirmed_task": "Who are the candidates for VP of Accessibility at the SIGCHI 2024 elections, and which membership requirement allows members to vote in these elections?",
+        "website": "https://sigchi.org",
+        "answer": "Dragan Ahmetovic and Fernando Loizides are candidates for VP of Accessibility; Only SIGCHI members can vote in the SIGCHI elections.",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://sigchi.org/events/meet-the-candidates-accessibility/",
+                "https://sigchi.org/people/membership/"
+            ],
+            "golden_path": [
+                "root->Calendar->Past Meetings->Meet the Candidates: AccessibilityApr 15, 2024 - Apr 15, 2024Meet the VP for Accessibility candidates: Dragan Ahmetovic and Fernando Loizides",
+                "root->Membership"
+            ],
+            "type": "multi_source",
+            "difficulty_level": "medium",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 35,
+        "confirmed_task": "What time will James Landay share his experiences in the 2024 ACM SIGCHI Awards series in Shanghai local time?",
+        "website": "https://sigchi.org",
+        "answer": "June 15, 2024, 4:30 AM to 5:30 AM Shanghai local time.",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://sigchi.org/events/sigchi-lifetime-research-award-james-landay/"
+            ],
+            "golden_path": [
+                "root->Meetings->Past Meetings->SIGCHI Lifetime Research Award: James LandayJun 15, 2024 - Jun 15, 2024James Landay presents \"A Funny Thing Happened on the Way to the Farm\"."
+            ],
+            "type": "single_source",
+            "difficulty_level": "hard",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 36,
+        "confirmed_task": "Who is the chair responsible for accessibility during the ETRA 2025 that will be held at Miraikan, Tokyo?",
+        "website": "https://sigchi.org",
+        "answer": "Dragan Ahmetovic",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://sigchi.org/events/etra-2025/",
+                "https://sigchi.org/people/committees/accessibility-committee/"
+            ],
+            "golden_path": [
+                "root->Upcoming Conferences->ETRA 2025Miraikan, Tokyo, Japan·May 26, 2025-May 29, 2025The 2025 ACM Symposium on Eye Tracking Research & Applications (ETRA) will be held in Tokyo, Japan from May 26 to May 29, 2025. The aim of ETRA is to bring together researchers and practitioners from across fields with the common goal of continuing to move eye tracking research forward. Join us in Tokyo for ETRA, attend co-located workshops, and participate in exciting discussions.",
+                "root->All Committees->Accessibility Committee"
+            ],
+            "type": "multi_source",
+            "difficulty_level": "medium",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 37,
+        "confirmed_task": "Who was introduced as the Adjunct Chair for Equity during the SIGCHI Open Session on October 26, 2022, and what is the email contact for the SIGCHI CARES Co-chairs?",
+        "website": "https://sigchi.org",
+        "answer": "Cale Passmore; sigchi-cares@acm.org",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://sigchi.org/events/open-session-october-26-2022/",
+                "https://sigchi.org/about/sigchi-cares/"
+            ],
+            "golden_path": [
+                "root->Calendar->Past Meetings->Open session: October 26, 2022Oct 26, 2022 - Oct 26, 2022The monthly October 2022 SIGCHI Executive Committee open meeting covered a variety of topics.",
+                "root->CARES"
+            ],
+            "type": "multi_source",
+            "difficulty_level": "medium",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 38,
+        "confirmed_task": "What are the three streaming options for presentation-based tracks in the 'Designing Hybrid Conference Experiences' guide, and how does Option #2 enhance remote presentation quality?",
+        "website": "https://sigchi.org",
+        "answer": "The three streaming options are: 1) using a single camera pointed at the stage, 2) using a single conference laptop, and 3) all presenters logging into the online meeting session. Option #2 enhances quality by allowing both videos and slides to be shared in good quality using the online meeting system, without needing an additional camera, but requires all presentations to be preloaded on the laptop.",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://sigchi.org/resources/guides-for-organizers/hybrid/"
+            ],
+            "golden_path": [
+                "root->Guides for Organizers->Designing Hybrid Conference Experiences"
+            ],
+            "type": "single_source",
+            "difficulty_level": "medium",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 39,
+        "confirmed_task": "Which SIGCHI policy documents were updated in 2014?",
+        "website": "https://sigchi.org",
+        "answer": "The policy regarding the Doctoral Consortium at the CHI conference was updated on June 1, 2014.",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://sigchi.org/about/policies/conference-policies/"
+            ],
+            "golden_path": [
+                "root->Policies->SIGCHI Conference Policies page"
+            ],
+            "type": "single_source",
+            "difficulty_level": "medium",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 40,
+        "confirmed_task": "What is the name of the ACM conference held in Brisbane in 2025 and when will it take place?",
+        "website": "https://sigchi.org",
+        "answer": "The ACM conference in Brisbane in 2025 is called ACM AutomotiveUI 2025, held from September 20 to September 24.",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://sigchi.org/events/automotiveui-2025/"
+            ],
+            "golden_path": [
+                "root->Upcoming Conferences->AutomotiveUI 2025Queensland University of Technology - Gardens Point Campus, Brisbane, QLD, Australia·Sep 20, 2025-Sep 24, 2025ACM AutomotiveUI is the premier forum for user interface research in the automotive domain. The conference annually brings together over 200 researchers and practitioners interested in both the technical and the human aspects of in-vehicle user interfaces and applications, to provide a forum for the exchange of technical information concerning research (and practice) and educational activities for motor vehicle user interface development. We have multiple meeting categories in which researchers, practitioners, and other interested parties can take part in our conference and community."
+            ],
+            "type": "single_source",
+            "difficulty_level": "medium",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 41,
+        "confirmed_task": "What are the key points related to future planning discussed regarding site selection at the SIGCHI open session on October 12, 2023?",
+        "website": "https://sigchi.org",
+        "answer": "Key future-oriented points discussed were sustainability issues (ecological, economic), understanding regional land use, establishing a timeline for future site selection, re-evaluating the conference bidding process, and creating a roadmap for net-zero emissions.",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://sigchi.org/events/open-session-site-selection-october-12-2023/"
+            ],
+            "golden_path": [
+                "root->Meetings->Past Meetings->Open Session: Site Selection, October 12, 2023Oct 12, 2023 - Oct 12, 2023The October 2023 SIGCHI EC open session focused on site selection."
+            ],
+            "type": "single_source",
+            "difficulty_level": "hard",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 42,
+        "confirmed_task": "Who from the CHI Steering Committee expressed interest in moving forward with one of the cities at the September 25, 2023 EC Working meeting?",
+        "website": "https://sigchi.org",
+        "answer": "Cliff Lampe",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://sigchi.org/events/ec-working-september-25-2023/"
+            ],
+            "golden_path": [
+                "root->Meetings->Past Meetings->EC Working, September 25, 2023Sep 25, 2023 - Sep 25, 2023The monthly SIGCHI EC working meeting for September 2023 was focused on CHI 2026."
+            ],
+            "type": "single_source",
+            "difficulty_level": "hard",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 43,
+        "confirmed_task": "How many SIGCHI Executive Committee open meetings were held on September 5, 2023, in Hawaii?",
+        "website": "https://sigchi.org",
+        "answer": "2",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://sigchi.org/events/open-session-chi-in-hawaii-september-5-2023/"
+            ],
+            "golden_path": [
+                "root->Meetings->Past Meetings->Open Sessions: CHI in Hawaii, September 5, 2023Sep 05, 2023 - Sep 05, 2023The September 2023 SIGCHI Executive Committee open sessions were focused on the CHI conference in Hawaii."
+            ],
+            "type": "single_source",
+            "difficulty_level": "hard",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 44,
+        "confirmed_task": "What topics were discussed by the SIGCHI Executive Committee in their meeting from 9:00 to 10:00 AM Asia/Shanghai time on February 10, 2023?",
+        "website": "https://sigchi.org",
+        "answer": "Equity",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://sigchi.org/events/open-session-equity-1-february-10-2023/"
+            ],
+            "golden_path": [
+                "root->Meetings->Past Meetings->Open Sessions: Equity, February 10/14, 2023Feb 10, 2023 - Feb 10, 2023The SIGCHI Executive Committee's open sessions for February 2023 were focused on equity."
+            ],
+            "type": "single_source",
+            "difficulty_level": "hard",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 45,
+        "confirmed_task": "What is the fiscal year prior to FY25, and by how much were the expenses reduced for SIGCHI's budget compared to this fiscal year?",
+        "website": "https://sigchi.org",
+        "answer": "The fiscal year prior to FY25 is FY24, and the expenses were reduced by USD 1 million.",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://sigchi.org/events/open-session-1-march-12-2024/"
+            ],
+            "golden_path": [
+                "root->Meetings->Past Meetings->Open Sessions: March 12, 2024Mar 12, 2024 - Mar 12, 2024The March 2024 SIGCHI open sessions recapped the Futures Summit and presented the FY25 budget."
+            ],
+            "type": "single_source",
+            "difficulty_level": "hard",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 46,
+        "confirmed_task": "Who are the candidates running for President and Executive Vice President in the SIGCHI 2024 elections, and when is their introduction meeting scheduled?",
+        "website": "https://sigchi.org",
+        "answer": "The candidates for the President and Executive Vice President are Neha Kumar and Luigi De Russis, with their introduction scheduled for April 29, 2024, from 7:00 PM to 8:00 PM UTC.",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://sigchi.org/events/meet-the-candidates-president-executive-vp1/"
+            ],
+            "golden_path": [
+                "root->Meetings->Past Meetings->Meet the Candidates: President/Executive VP #1Apr 30, 2024 - Apr 30, 2024Meet the President/Executive VP candidates: Neha Kumar/Luigi De Russis"
+            ],
+            "type": "single_source",
+            "difficulty_level": "hard",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 47,
+        "confirmed_task": "Who were the two specific committee members working on SIGCHI's data access/use policy, and who received the 2024 SIGCHI Lifetime Research Award?",
+        "website": "https://sigchi.org",
+        "answer": "Helena Mentis and Kash Todi were working on SIGCHI's data access/use policy, and Wendy Mackay received the 2024 SIGCHI Lifetime Research Award.",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://sigchi.org/events/open-session-november-16-2022/",
+                "https://sigchi.org/events/sigchi-lifetime-research-award-wendy-mackay/"
+            ],
+            "golden_path": [
+                "root->Calendar->Past Meetings->Open Session: November 16, 2022Nov 16, 2022 - Nov 16, 2022The November 2022 SIGCHI EC open session covered several topics.",
+                "root->Calendar->Past Meetings->SIGCHI Lifetime Research Award: Wendy MackayJul 10, 2024 - Jul 10, 2024Wendy Mackay presents \"WWW — Wendy’s Words of Wisdom\"."
+            ],
+            "type": "multi_source",
+            "difficulty_level": "hard",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 48,
+        "confirmed_task": "Which program funded the SUPPLY project involving EHA, when did the project start, and how long will it last?",
+        "website": "https://ehaweb.org",
+        "answer": "The SUPPLY project that EHA is involved in is funded by the EU4Health program. It started on September 1, 2022, and lasts for 18 months.",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://ehaweb.org/organization/newsroom/news-and-updates/eha-to-participate-in-an-eu-funded-project-supply/"
+            ],
+            "golden_path": [
+                "root->News & views->Read more"
+            ],
+            "type": "single_source",
+            "difficulty_level": "medium",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 49,
+        "confirmed_task": "In 2024, what specific group's hematology diagnostic care did EHA launch a major consultation to understand?",
+        "website": "https://ehaweb.org",
+        "answer": "Adolescents and Young Adults (AYA).",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://ehaweb.org/organization/newsroom/news-and-updates/tag/survey"
+            ],
+            "golden_path": [
+                "root->News & views->Press releases->survey"
+            ],
+            "type": "single_source",
+            "difficulty_level": "hard",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 50,
+        "confirmed_task": "Which doctor presented the randomized study results on kinase inhibitors for acute myeloid leukemia treatment at the EHA conference in June 2015?",
+        "website": "https://ehaweb.org",
+        "answer": "Dr Ehninger",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://ehaweb.org/organization/newsroom/news-and-updates/category/press-releases?start=45"
+            ],
+            "golden_path": [
+                "root->News & views->Press releases->4"
+            ],
+            "type": "single_source",
+            "difficulty_level": "hard",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 51,
+        "confirmed_task": "Who became the Managing Director of the European Hematology Association in January 2023, and when did they officially assume the position?",
+        "website": "https://ehaweb.org",
+        "answer": "Ignacio Quiles Lara became the new Managing Director of the European Hematology Association on January 9, 2023.",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://ehaweb.org/organization/newsroom/news-and-updates/appointment-of-new-eha-managing-director/"
+            ],
+            "golden_path": [
+                "root->News & views->Press releases->Read more"
+            ],
+            "type": "single_source",
+            "difficulty_level": "hard",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 52,
+        "confirmed_task": "When did the European Hematology Association (EHA) initiate the bridge funding program to support the rebuilding of hematology in Ukraine?",
+        "website": "https://ehaweb.org",
+        "answer": "April 2022",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://ehaweb.org/organization/newsroom/news-and-updates/rebuilding-the-future-for-hematology-in-ukraine-today/"
+            ],
+            "golden_path": [
+                "root->News & views->Press releases->Read more"
+            ],
+            "type": "single_source",
+            "difficulty_level": "hard",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 53,
+        "confirmed_task": "EHA为早期职业研究人员提供哪种专注于计算和定量生物学方面的培训项目？",
+        "website": "https://ehaweb.org",
+        "answer": "Computational Biology Training in Hematology",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://ehaweb.org/research/research-trainings/"
+            ],
+            "golden_path": [
+                "root->Research trainings"
+            ],
+            "type": "single_source",
+            "difficulty_level": "easy",
+            "lang": ""
+        }
+    },
+    {
+        "task_id": 54,
+        "confirmed_task": "If Gavriilaki is currently a member of the SWG Committee and can be reappointed once, until what year can she serve if she starts her new term in 2024?",
+        "website": "https://ehaweb.org",
+        "answer": "2030",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://ehaweb.org/organization/committees/swg-unit/"
+            ],
+            "golden_path": [
+                "root->SWG Committee"
+            ],
+            "type": "single_source",
+            "difficulty_level": "easy",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 55,
+        "confirmed_task": "When did EHA join ECO based on the anniversary date?",
+        "website": "https://ehaweb.org",
+        "answer": "EHA joined the European Cancer Organisation (ECO) on November 17-18, 2020.",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://ehaweb.org/organization/newsroom/news-and-updates/tag/eco"
+            ],
+            "golden_path": [
+                "root->News & views->ECO"
+            ],
+            "type": "single_source",
+            "difficulty_level": "medium",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 56,
+        "confirmed_task": "Which experts explained intermediate and advanced Hodgkin lymphoma cases during the December 15, 2020 guidelines workshop, and when did the interactive discussion start?",
+        "website": "https://ehaweb.org",
+        "answer": "Dr. T. Skrypets and Dr. D. Dujmovic explained the cases; the interactive discussion started at 16:00 CET.",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://ehaweb.org/guidelines/clinical-practice-guidelines/guidelines-workshops-3/hodgkin-lymphoma-2/"
+            ],
+            "golden_path": [
+                "root->Guidelines Workshops->Learn More"
+            ],
+            "type": "single_source",
+            "difficulty_level": "medium",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 57,
+        "confirmed_task": "Which Italian professor gave an overview presentation of the guidelines at the EHA-organized workshop on mild to moderate inherited bleeding disorders held on April 20, 2021, and what was their specific role?",
+        "website": "https://ehaweb.org",
+        "answer": "The Italian professor F. Rodeghiero conducted the guidelines overview presentation at the EHA workshop.",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://ehaweb.org/guidelines/clinical-practice-guidelines/guidelines-workshops-3/bleeding-disorders-2/"
+            ],
+            "golden_path": [
+                "root->Guidelines Workshops->Learn More"
+            ],
+            "type": "single_source",
+            "difficulty_level": "medium",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 58,
+        "confirmed_task": "Who won the first EHA-ISTH Joint Fellowship at the 16th EHA Congress and where was it awarded?",
+        "website": "https://ehaweb.org",
+        "answer": "Dr A van Hylckama Vlieg won the first EHA-ISTH Joint Fellowship at the 16th EHA Congress in London, UK.",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://ehaweb.org/organization/newsroom/news-and-updates/category/press-releases?start=90"
+            ],
+            "golden_path": [
+                "root->News & views->Press releases->7"
+            ],
+            "type": "single_source",
+            "difficulty_level": "hard",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 59,
+        "confirmed_task": "How many countries were represented at the EHA-PTHiT Mini Hematology Tutorial in November 2021?",
+        "website": "https://ehaweb.org",
+        "answer": "34",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://ehaweb.org/organization/newsroom/news-and-updates/eha-and-pthit-successfully-conclude-the-second-joint-virtual-mini-hematology-tutorial/"
+            ],
+            "golden_path": [
+                "root->News & views->Meeting reports->Read more"
+            ],
+            "type": "single_source",
+            "difficulty_level": "hard",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 60,
+        "confirmed_task": "During 2021, from when to when was the content of the EHA-SWG virtual meeting available?",
+        "website": "https://ehaweb.org",
+        "answer": "The EHA-SWG virtual meeting content was available from April 22, 2021, to May 29, 2021.",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://ehaweb.org/organization/newsroom/news-and-updates/archive/2021/5/31"
+            ],
+            "golden_path": [
+                "root->News & views->Meeting reports->May 31 2021"
+            ],
+            "type": "single_source",
+            "difficulty_level": "hard",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 61,
+        "confirmed_task": "Who are the recipients of the inaugural EHA Bilateral Collaborative Grants 2021, and what projects are they working on?",
+        "website": "https://ehaweb.org",
+        "answer": "Andrea Ditadi and Eirini Trompouki for 'Dissecting the role of transposable element-mediated inflammation in human hematopoietic stem cell development'; Ashok Kumar Jayavelu and Beat Bornhauser for 'Proteogenomic guidance for the treatment of high-risk acute lymphoblastic leukemia'.",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://ehaweb.org/organization/newsroom/news-and-updates/eha-congratulates-the-2021-bilateral-collaborative-grant-winners/"
+            ],
+            "golden_path": [
+                "root->News & views->Press releases->Read more"
+            ],
+            "type": "single_source",
+            "difficulty_level": "hard",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 62,
+        "confirmed_task": "When and where was the ICSE duplicate submission statement agreed upon?",
+        "website": "http://www.icse-conferences.org",
+        "answer": "November 2002, Charleston, South Carolina.",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "http://www.icse-conferences.org/duplicate.html"
+            ],
+            "golden_path": [
+                "root->ORGANIZING ICSE->ICSE Duplicate Submission   Statement"
+            ],
+            "type": "single_source",
+            "difficulty_level": "medium",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 63,
+        "confirmed_task": "Which tutorial at ICSE 2002 focused on the challenges of building web application systems, and what was the primary submission category emphasized by the ICSE for software engineering practitioners?",
+        "website": "http://www.icse-conferences.org",
+        "answer": "Tutorial 5 ('Meeting the Challenges of Web Application Development: The Web Engineering Approach') focused on building web application systems. The primary submission category emphasized by ICSE for software engineering practitioners was 'To provide opportunities for participation by software practitioners.'",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "http://www.icse-conferences.org/2002/cfp/index.html",
+                "http://www.icse-conferences.org/2002/info/tutorials.html"
+            ],
+            "golden_path": [
+                "root->Orlando, Florida, USA->Types of Submissions",
+                "root->Orlando, Florida, USA->Tutorials"
+            ],
+            "type": "multi_source",
+            "difficulty_level": "medium",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 64,
+        "confirmed_task": "Which scholars presented the IMPACT project on safety-critical systems and software inspections, reviews, and walkthroughs at the ICSE 2002 conference?",
+        "website": "http://www.icse-conferences.org",
+        "answer": "The IMPACT presentations at ICSE 2002 were headed by John Knight on safety-critical systems and Oliver Laitenberger on software inspections, reviews, and walkthroughs.",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "http://www.icse-conferences.org/2002/info/soa.html",
+                "http://www.icse-conferences.org/2002/info/impact.html"
+            ],
+            "golden_path": [
+                "root->Orlando, Florida, USA->State-of-the-Art Presentations",
+                "root->Orlando, Florida, USA->IMPACT Presentations"
+            ],
+            "type": "multi_source",
+            "difficulty_level": "medium",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 65,
+        "confirmed_task": "What visual modeling language for complex systems was introduced in the ICSE 2002 tutorial led by Joseph Gil and others on May 21, 2002?",
+        "website": "http://www.icse-conferences.org",
+        "answer": "Advanced Visual Modeling: Beyond UML",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "http://www.icse-conferences.org/2002/info/tutorials.html"
+            ],
+            "golden_path": [
+                "root->Orlando, Florida, USA->Tutorials"
+            ],
+            "type": "single_source",
+            "difficulty_level": "medium",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 66,
+        "confirmed_task": "Who were the program committee chairs for the ICSE 2002 conference, and when and where was this conference held?",
+        "website": "http://www.icse-conferences.org",
+        "answer": "The program committee chairs for the 2002 ICSE conference were Michal Young and Jeff Magee. The conference was held from May 19-25, 2002 in Orlando, Florida, USA.",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "http://www.icse-conferences.org/2002/info/ccommittee.html"
+            ],
+            "golden_path": [
+                "root->Orlando, Florida, USA->Conference Committee"
+            ],
+            "type": "single_source",
+            "difficulty_level": "medium",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 67,
+        "confirmed_task": "What are the submission deadlines for technical papers and the doctoral symposium at the ICSE 2002 conference?",
+        "website": "http://www.icse-conferences.org",
+        "answer": "The technical paper submission deadline was September 25, 2001, and the doctoral symposium submission deadline was January 6, 2002.",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "http://www.icse-conferences.org/2002/cfp/techpapers.html",
+                "http://www.icse-conferences.org/2002/cfp/docsymp.html"
+            ],
+            "golden_path": [
+                "root->ICSE 2002->Types of Submissions->Technical Papers",
+                "root->ICSE 2002->Types of Submissions->Doctoral Symposium Applications"
+            ],
+            "type": "multi_source",
+            "difficulty_level": "hard",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 68,
+        "confirmed_task": "On which day was the 5K Fun Run event held during the ICSE Conference 2002?",
+        "website": "http://www.icse-conferences.org",
+        "answer": "May 23rd",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "http://www.icse-conferences.org/2002/travel/fiveKrun.html"
+            ],
+            "golden_path": [
+                "root->Orlando, Florida, USA->ICSE 5K Run"
+            ],
+            "type": "single_source",
+            "difficulty_level": "medium",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 69,
+        "confirmed_task": "Who was the General Chair of the ICSE conference in 2002?",
+        "website": "http://www.icse-conferences.org",
+        "answer": "Will Tracz",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "http://www.icse-conferences.org/2002/"
+            ],
+            "golden_path": [
+                "root->Toronto, Ontario, Canada->ICSE 2002"
+            ],
+            "type": "single_source",
+            "difficulty_level": "medium",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 70,
+        "confirmed_task": "What was the other workshop held on the same day as the Workshop on Software Quality at ICSE 2002?",
+        "website": "http://www.icse-conferences.org",
+        "answer": "Workshop on Architecting Dependable Systems.",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "http://www.icse-conferences.org/2002/info/workshops.html"
+            ],
+            "golden_path": [
+                "root->Orlando, Florida, USA->Workshops"
+            ],
+            "type": "single_source",
+            "difficulty_level": "medium",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 71,
+        "confirmed_task": "Where and when was the ICSE 2003 Program Committee Meeting held?",
+        "website": "http://www.icse-conferences.org",
+        "answer": "The ICSE 2003 Program Committee Meeting was held in Room Crystal A-C from 17:30 to 18:30.",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "http://www.icse-conferences.org/2002/cal/meetings.html"
+            ],
+            "golden_path": [
+                "root->Orlando, Florida, USA->Conference Meetings"
+            ],
+            "type": "single_source",
+            "difficulty_level": "medium",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 72,
+        "confirmed_task": "What types of proposals had submission deadlines between September 10, 2001, and January 6, 2002?",
+        "website": "http://www.icse-conferences.org",
+        "answer": "Full Paper, Panel Proposals, State of the Art Proposals, Tutorial Proposals, Workshop Proposals, Poster and Demo Proposals.",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "http://www.icse-conferences.org/2002/cfp/deadlines.html"
+            ],
+            "golden_path": [
+                "root->ICSE 2002->Types of Submissions->submission deadlines"
+            ],
+            "type": "single_source",
+            "difficulty_level": "hard",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 73,
+        "confirmed_task": "What were the exact dates and the General Chair for the ICSE conference in 2004?",
+        "website": "http://www.icse-conferences.org",
+        "answer": "The ICSE 2004 conference was held from May 23 to 28, and the General Chair was Anthony Finkelstein.",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "http://www.icse-conferences.org/2004/index.html",
+                "http://www.icse-conferences.org/history.html"
+            ],
+            "golden_path": [
+                "root->ICSE 2004",
+                "root->HISTORY"
+            ],
+            "type": "multi_source",
+            "difficulty_level": "easy",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 74,
+        "confirmed_task": "Was David Notkin a member of the program committee for ICSE 2002 where he gave the keynote speech on 'ArchJava: Connecting Software Architecture to Implementation'?",
+        "website": "http://www.icse-conferences.org",
+        "answer": "Yes, David Notkin was a member of the ICSE 2002 program committee.",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "http://www.icse-conferences.org/2002/info/papers.html",
+                "http://www.icse-conferences.org/2002/info/pcommittee.html"
+            ],
+            "golden_path": [
+                "root->ICSE 2002->Technical Papers",
+                "root->ICSE 2002->Program Committee"
+            ],
+            "type": "multi_source",
+            "difficulty_level": "medium",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 75,
+        "confirmed_task": "Wickham Skinner Award winners in 2016 and 2022?",
+        "website": "https://www.poms.org",
+        "answer": "The 2016 Wickham Skinner Award winner was James Hill, and the 2022 winner was Gregory R. Heim.",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://www.poms.org/node/460",
+                "https://www.poms.org/node/977"
+            ],
+            "golden_path": [
+                "root->Wickham Skinner Awards->view",
+                "root->Wickham Skinner Awards->view"
+            ],
+            "type": "multi_source",
+            "difficulty_level": "medium",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 76,
+        "confirmed_task": "Who won the 2015 Wickham Skinner Teaching Innovation Award?",
+        "website": "https://www.poms.org",
+        "answer": "Mike Gorman",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://www.poms.org/node/459"
+            ],
+            "golden_path": [
+                "root->Wickham Skinner Awards->view"
+            ],
+            "type": "single_source",
+            "difficulty_level": "medium",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 77,
+        "confirmed_task": "Who were the recipients of the POMS Fellows Award in 2011 and 2022, respectively?",
+        "website": "https://www.poms.org",
+        "answer": "The 2011 recipient of the POMS Fellows Award was Chris Tang, and the 2022 recipient was Zuo-Jun \"Max\" Shen.",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://www.poms.org/node/974",
+                "https://www.poms.org/node/403"
+            ],
+            "golden_path": [
+                "root->POMS Fellows Award->view",
+                "root->POMS Fellows Award->view"
+            ],
+            "type": "multi_source",
+            "difficulty_level": "medium",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 78,
+        "confirmed_task": "Who were the recipients of the POMS Fellows Award in 2006 and the Wickham Skinner Award for Teaching Innovation in 2018?",
+        "website": "https://www.poms.org",
+        "answer": "The POMS Fellows Award in 2006 was awarded to Wallace J. Hopp, and the Wickham Skinner Award for Teaching Innovation in 2018 was awarded to Gangshu (George) Cai.",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://www.poms.org/node/414",
+                "https://www.poms.org/node/462"
+            ],
+            "golden_path": [
+                "root->POMS Fellows Award->view",
+                "root->Wickham Skinner Awards->view"
+            ],
+            "type": "multi_source",
+            "difficulty_level": "medium",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 79,
+        "confirmed_task": "Who won the Wickham Skinner Teaching Innovation Award in 2022 but is not recorded as the current year's award recipient?",
+        "website": "https://www.poms.org",
+        "answer": "Wiljeana Jackson Glover",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://www.poms.org/node/976"
+            ],
+            "golden_path": [
+                "root->Wickham Skinner Awards->view"
+            ],
+            "type": "single_source",
+            "difficulty_level": "medium",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 80,
+        "confirmed_task": "Who is the 2024 recipient of the Martin K. Starr Excellence Award, and what special responsibility does Professor Martin K. Starr currently hold in the POM Journal?",
+        "website": "https://www.poms.org",
+        "answer": "The 2024 Martin K. Starr Excellence Award winner is Brad Sorenson. Professor Martin K. Starr is responsible for special responsibilities at POM Journal.",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://www.poms.org/pomsocietyawards/martinkstarraward",
+                "https://www.poms.org/pomjournal"
+            ],
+            "golden_path": [
+                "root->Martin K Starr Award in Excellence",
+                "root->POM Journal"
+            ],
+            "type": "multi_source",
+            "difficulty_level": "easy",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 81,
+        "confirmed_task": "Who received the Nagesh Murthy Emerging Economies Doctoral Dissertation Award for Asia in 2024 and what role did Nagesh M. Murthy hold within POMS?",
+        "website": "https://www.poms.org",
+        "answer": "Nani Zhou received the Nagesh Murthy Emerging Economies Doctoral Dissertation Award for Asia in 2024. Nagesh M. Murthy is recognized by the Sushil K. Gupta Distinguished POMS Service Award, which he received in 2016.",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://www.poms.org/pomsocietyawards/economiesawardforasia",
+                "https://www.poms.org/pomsocietyawards/distinguishedpomsserviceaward"
+            ],
+            "golden_path": [
+                "root->The Nagesh Murthy Award for Asia",
+                "root->Sushil K Gupta Distinguished POMS Service Award"
+            ],
+            "type": "multi_source",
+            "difficulty_level": "easy",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 82,
+        "confirmed_task": "Who were the recipients of the Emerging Economies Doctoral Dissertation Awards for Asia and for Latin America and the Caribbean in 2024?",
+        "website": "https://www.poms.org",
+        "answer": "Nani Zhou and Agatha da Silva",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://www.poms.org/pomsocietyawards/economiesawardforasia",
+                "https://www.poms.org/pomsocietyawards/economiesawardforlatinamericaandcaribbean"
+            ],
+            "golden_path": [
+                "root->/pomsocietyawards/economiesawardforasia",
+                "root->/pomsocietyawards/economiesawardforlatinamericaandcaribbean"
+            ],
+            "type": "multi_source",
+            "difficulty_level": "easy",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 83,
+        "confirmed_task": "Who were the recipients of the POMS Fellows Award in 2005?",
+        "website": "https://www.poms.org",
+        "answer": "Hau Lee and Marshall Fisher",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://www.poms.org/node/417",
+                "https://www.poms.org/node/415"
+            ],
+            "golden_path": [
+                "root->POMS Fellows Award->view",
+                "root->POMS Fellows Award->view"
+            ],
+            "type": "multi_source",
+            "difficulty_level": "medium",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 84,
+        "confirmed_task": "Who were the two scholars who received the Sushil K Gupta Award in 2013 and 2017?",
+        "website": "https://www.poms.org",
+        "answer": "The scholars who received the Sushil K Gupta Award are Martin K Starr in 2013 and Cristopher (Chris) S. Tang in 2017.",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://www.poms.org/node/384",
+                "https://www.poms.org/node/391"
+            ],
+            "golden_path": [
+                "root->Sushil K Gupta Distinguished POMS Service Award->view",
+                "root->Sushil K Gupta Distinguished POMS Service Award->view"
+            ],
+            "type": "multi_source",
+            "difficulty_level": "medium",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 85,
+        "confirmed_task": "What are the two awards Cheryl Gaimon received from POMS in 2009 and 2014?",
+        "website": "https://www.poms.org",
+        "answer": "POMS Fellows Award (2009) and Sushil K Gupta Award (2014).",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://www.poms.org/node/386",
+                "https://www.poms.org/node/406"
+            ],
+            "golden_path": [
+                "root->Sushil K Gupta Distinguished POMS Service Award->view",
+                "root->POMS Fellows Award->view"
+            ],
+            "type": "multi_source",
+            "difficulty_level": "medium",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 86,
+        "confirmed_task": "Which POMS award recipient pages mention Professor Sushil Gupta, Ph.D. as the Executive Director of POMS?",
+        "website": "https://www.poms.org",
+        "answer": "The recipient pages for the Sushil K Gupta POMS Service Award and the Martin K Starr Award mention Professor Sushil Gupta as the Executive Director of POMS.",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://www.poms.org/taxonomy/term/35",
+                "https://www.poms.org/taxonomy/term/26"
+            ],
+            "golden_path": [
+                "root->Sushil K Gupta Distinguished POMS Service Award->view->Portrait - Recipients - Sushil K Gupta POMS Service Award",
+                "root->Martin K Starr Award in Excellence->view->Portrait - Recipients - Martin K Starr Award"
+            ],
+            "type": "multi_source",
+            "difficulty_level": "hard",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 87,
+        "confirmed_task": "By when should an international attendee applying for a B1 visa in May 2024 receive their visa to attend ACR Convergence 2024?",
+        "website": "https://rheumatology.org/annual-meeting",
+        "answer": "By early November 2024.",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://rheumatology.org/annual-meeting-travel"
+            ],
+            "golden_path": [
+                "root->Attendees->online"
+            ],
+            "type": "single_source",
+            "difficulty_level": "medium",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 88,
+        "confirmed_task": "What are the specific embargo lift timings for abstracts and patient perspectives at ACR Convergence 2024?",
+        "website": "https://rheumatology.org/annual-meeting",
+        "answer": "November 14, 2024, 10:00 AM ET for both abstracts and patient perspectives.",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://rheumatology.org/annual-meeting-abstract-embargo-policies",
+                "https://rheumatology.org/annual-meeting-patient-perspectives"
+            ],
+            "golden_path": [
+                "root->Abstracts->Abstract Embargo Policies",
+                "root->Program->Patient Perspectives"
+            ],
+            "type": "multi_source",
+            "difficulty_level": "medium",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 89,
+        "confirmed_task": "When can information beyond abstracts be disclosed during ACR Convergence 2024?",
+        "website": "https://rheumatology.org/annual-meeting",
+        "answer": "Information beyond the abstract can be disclosed on November 14, 2024, at 10:00 AM ET.",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://rheumatology.org/annual-meeting-abstract-presentation"
+            ],
+            "golden_path": [
+                "root->Abstracts->Abstract Presentation"
+            ],
+            "type": "single_source",
+            "difficulty_level": "medium",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 90,
+        "confirmed_task": "How can a company contact the relevant person to quickly obtain terms for participating in ACR Convergence 2024 advertising campaigns?",
+        "website": "https://rheumatology.org/annual-meeting",
+        "answer": "They should contact Hilary Bair, TriStar Senior Media Strategist, at 913-491-4200 or hbair@tristarpub.com.",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://rheumatology.org/annual-meeting-support-advertising"
+            ],
+            "golden_path": [
+                "root->Industry Engagement->Support & Advertising"
+            ],
+            "type": "single_source",
+            "difficulty_level": "medium",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 91,
+        "confirmed_task": "What is the deadline for claiming Continuing Medical Education (CME) credits for ACR Convergence 2024, and in which city will the meeting be held?",
+        "website": "https://rheumatology.org/annual-meeting",
+        "answer": "The CME credit claim deadline is November 13, 2025, and the conference will be held in Washington, D.C.",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://rheumatology.org/annual-meeting-cme-disclosures",
+                "https://rheumatology.org/annual-meeting-hotels"
+            ],
+            "golden_path": [
+                "root->CME & Disclosures",
+                "root->housing"
+            ],
+            "type": "multi_source",
+            "difficulty_level": "easy",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 92,
+        "confirmed_task": "What is the submission deadline for session proposals for ACR Convergence 2025, and during which dates will ACR Convergence 2024 be held?",
+        "website": "https://rheumatology.org/annual-meeting",
+        "answer": "Submission deadline for 2025 session proposals: December 10, 2024. ACR Convergence 2024 dates: November 14 -19, 2024.",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://rheumatology.org/annual-meeting-call-for-proposals",
+                "https://rheumatology.org/annual-meeting-registration"
+            ],
+            "golden_path": [
+                "root->Call for Session Suggestions Details",
+                "root->registration"
+            ],
+            "type": "multi_source",
+            "difficulty_level": "easy",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 93,
+        "confirmed_task": "During the ACR Convergence 2024, when is the Pediatric Rheumatology Residents Program scheduled, and does it coincide with the Global Rheumatology Summit?",
+        "website": "https://rheumatology.org/annual-meeting",
+        "answer": "The Pediatric Rheumatology Residents Program is scheduled for November 16, coinciding with the Global Rheumatology Summit on the same day.",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://rheumatology.org/annual-meeting-registration",
+                "https://rheumatology.org/annual-meeting-program"
+            ],
+            "golden_path": [
+                "root->Attendees->ACR Convergence",
+                "root->Program"
+            ],
+            "type": "multi_source",
+            "difficulty_level": "medium",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 94,
+        "confirmed_task": "When does the embargo on ACR Convergence 2024 abstracts lift for public release, and who manages the official hotel reservations for attendees?",
+        "website": "https://rheumatology.org/annual-meeting",
+        "answer": "The embargo lifts at 10:00 AM ET on November 14, 2024, and Convention Management Resources (CMR) manages official hotel reservations.",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://rheumatology.org/annual-meeting-abstract-embargo-policies",
+                "https://rheumatology.org/annual-meeting-hotels"
+            ],
+            "golden_path": [
+                "root->Abstracts->Abstract Embargo Policies",
+                "root->Attendees->housing"
+            ],
+            "type": "multi_source",
+            "difficulty_level": "medium",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 95,
+        "confirmed_task": "At what time and date is the media embargo lifted for the Patient Perspectives Program presentation at ACR Convergence 2024?",
+        "website": "https://rheumatology.org/annual-meeting",
+        "answer": "November 14th at 10:00 AM ET",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://rheumatology.org/annual-meeting-patient-perspectives",
+                "https://rheumatology.org/annual-meeting-abstract-presentation"
+            ],
+            "golden_path": [
+                "root->Program->Patient Perspectives",
+                "root->Abstracts->Abstract Presentation"
+            ],
+            "type": "multi_source",
+            "difficulty_level": "medium",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 96,
+        "confirmed_task": "What roles did H. V. Jagadish and Gerald Weber hold in the editorial team of the VLDB journal from 2010 to 2015?",
+        "website": "https://www.vldb.org",
+        "answer": "H. V. Jagadish was the Founding Editor-in-Chief and Gerald Weber was the Information Director for the VLDB journal from 2010 to 2015.",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://www.vldb.org/pvldb/vol4-volume-info",
+                "https://www.vldb.org/pvldb/vol8-volume-info"
+            ],
+            "golden_path": [
+                "root->Volume 4, 2010/2011",
+                "root->Volume 8, 2014/2015"
+            ],
+            "type": "multi_source",
+            "difficulty_level": "easy",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 97,
+        "confirmed_task": "Who among the editors of Volume 6 of the Proceedings of the VLDB Endowment became a new trustee of the VLDB Endowment from 2018 to 2024?",
+        "website": "https://www.vldb.org",
+        "answer": "Divesh Srivastava",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://www.vldb.org/pvldb/vol6-volume-info",
+                "https://www.vldb.org/newslist/new_trustees.html"
+            ],
+            "golden_path": [
+                "root->Volume 6, 2012/2013",
+                "root->Latest News->New Trustees starting from 2018."
+            ],
+            "type": "multi_source",
+            "difficulty_level": "medium",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 98,
+        "confirmed_task": "Who was the president of the VLDB Endowment at the start of the 2022 trustee term?",
+        "website": "https://www.vldb.org",
+        "answer": "Volker Markl",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://www.vldb.org/newslist/new_trustees_2022.html",
+                "https://www.vldb.org/newslist/new_executive.html"
+            ],
+            "golden_path": [
+                "root->Latest News->New Trustees starting from 2022.",
+                "root->Latest News->A new Executive for the VLDB Endowment"
+            ],
+            "type": "multi_source",
+            "difficulty_level": "medium",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 99,
+        "confirmed_task": "Which conference did Gunter Schlageter contribute to in 2000, and who maintains the bibliography database including his work?",
+        "website": "https://www.vldb.org",
+        "answer": "Gunter Schlageter contributed to the VLDB 2000 conference. The bibliography database that includes his work is maintained by Michael Ley.",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://www.vldb.org/dblp/db/indices/a-tree/s/Schlageter:Gunter.html",
+                "https://www.vldb.org/dblp/"
+            ],
+            "golden_path": [
+                "root->Board of Trustees->Gunter Schlageter",
+                "root->VLDB Archives->DBLP Mirror"
+            ],
+            "type": "multi_source",
+            "difficulty_level": "medium",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 100,
+        "confirmed_task": "When did the VLDB Foundation and SIGMOD start the DBCares initiative, and what role did H. V. Jagadish have during Volume 7 and in founding the DBCares initiative?",
+        "website": "https://www.vldb.org",
+        "answer": "October 2018; H. V. Jagadish was the Founding Editor-in-Chief of PVLDB.",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://www.vldb.org/pvldb/vol7-volume-info",
+                "https://www.vldb.org/vldb_cares.html"
+            ],
+            "golden_path": [
+                "root->Volume 7, 2013/2014",
+                "root->VLDBCares"
+            ],
+            "type": "multi_source",
+            "difficulty_level": "easy",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 101,
+        "confirmed_task": "Who served as the Information Director for both Volume 3 (2010) and Volume 5 (2011) of the PVLDB publication?",
+        "website": "https://www.vldb.org",
+        "answer": "Gerald Weber",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://www.vldb.org/pvldb/vol5-volume-info",
+                "https://www.vldb.org/pvldb/vol3-volume-info"
+            ],
+            "golden_path": [
+                "root->Volume 5, 2011/2012",
+                "root->Volume 3, 2010"
+            ],
+            "type": "multi_source",
+            "difficulty_level": "easy",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 102,
+        "confirmed_task": "Who became the President of the VLDB Endowment starting from 2018, and who replaced Volker Markl as a trustee in 2022?",
+        "website": "https://www.vldb.org",
+        "answer": "The President of the VLDB Endowment starting from 2018 was Volker Markl; Sihem Amer-Yahia replaced him as a trustee in 2022.",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://www.vldb.org/newslist/new_executive.html；https://www.vldb.org/newslist/new_trustees_2022.html"
+            ],
+            "golden_path": [
+                "root->Latest News->A new Executive for the VLDB Endowment",
+                "root->Latest News->New Trustees starting from 2022."
+            ],
+            "type": "multi_source",
+            "difficulty_level": "medium",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 103,
+        "confirmed_task": "Who transitioned from a trustee to the Vice President of the VLDB Endowment Executive Committee in 2018?",
+        "website": "https://www.vldb.org",
+        "answer": "Divesh Srivastava",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://www.vldb.org/newslist/new_trustees.html",
+                "https://www.vldb.org/newslist/new_executive.html"
+            ],
+            "golden_path": [
+                "root->Latest News->New Trustees starting from 2018.",
+                "root->Latest News->A new Executive for the VLDB Endowment"
+            ],
+            "type": "multi_source",
+            "difficulty_level": "medium",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 104,
+        "confirmed_task": "When did the terms of the VLDB Journal Editors-in-Chief for Asia and Europe begin?",
+        "website": "https://www.vldb.org",
+        "answer": "The term for the Asia editor started in 2015, and for the Europe editor, it started in 2014.",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://www.vldb.org/newslist/call_for_nominations_editor-in-chief_for_asia.html",
+                "https://www.vldb.org/newslist/call_for_nominations_editor-in-chief_for_europe.html"
+            ],
+            "golden_path": [
+                "root->Latest News->here->VLDB Journal Editor-in-Chief for Asia",
+                "root->Latest News->here->VLDB Journal Editor-in-Chief for Europe"
+            ],
+            "type": "multi_source",
+            "difficulty_level": "hard",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 105,
+        "confirmed_task": "When is the deadline to request an ancillary meeting at the 66th ASH Annual Meeting, and by what date must late-breaking abstract submissions be completed?",
+        "website": "https://www.hematology.org/meetings/annual-meeting",
+        "answer": "The deadline to request an ancillary meeting at the 66th ASH Annual Meeting is November 22, 2024, and late-breaking abstract submissions must be completed by October 28, 2024.",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://www.hematology.org/meetings/annual-meeting/ancillary-meetings",
+                "https://www.hematology.org/meetings/annual-meeting/abstracts/call-for-late-breaking-abstracts"
+            ],
+            "golden_path": [
+                "root->Ancillary Meeting Room Requests Open",
+                "root->Call for Late-Breaking Abstract Submissions"
+            ],
+            "type": "multi_source",
+            "difficulty_level": "easy",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 106,
+        "confirmed_task": "What type of session details were publicly released in November 2024 for the ASH 66th Annual Meeting?",
+        "website": "https://www.hematology.org/meetings/annual-meeting",
+        "answer": "Details about abstract sessions will be available.",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://www.hematology.org/meetings/annual-meeting/schedule-and-program/programs"
+            ],
+            "golden_path": [
+                "root->Schedule and Program->Browse by Session Type"
+            ],
+            "type": "single_source",
+            "difficulty_level": "medium",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 107,
+        "confirmed_task": "What is the latest date by which poster authors need to submit their presentation recordings and static images for the 66th ASH Annual Meeting?",
+        "website": "https://www.hematology.org/meetings/annual-meeting",
+        "answer": "Poster authors must submit their presentation recordings and static images by November 12, 2024.",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://www.hematology.org/meetings/annual-meeting/meeting-and-presenter-resources/presenter-resources"
+            ],
+            "golden_path": [
+                "root->Meeting and Presenter Resources->Presenter Resources"
+            ],
+            "type": "single_source",
+            "difficulty_level": "medium",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 108,
+        "confirmed_task": "Which editor from Cleveland Clinic will host a rapid session in the Blood Journals Studio on December 7, 2024?",
+        "website": "https://www.hematology.org/meetings/annual-meeting",
+        "answer": "Keith R. McCrae, MD",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://www.hematology.org/meetings/annual-meeting/schedule-and-program/programs/blood-journals-studio"
+            ],
+            "golden_path": [
+                "root->Schedule and Program->Programs->ViewBloodJournals Studio Activities"
+            ],
+            "type": "single_source",
+            "difficulty_level": "hard",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 109,
+        "confirmed_task": "When will the 'The Performance Paradox' talk take place on December 7, 2024, and who is the speaker?",
+        "website": "https://www.hematology.org/meetings/annual-meeting",
+        "answer": "The talk 'The Performance Paradox' will be held from 3:35 p.m. to 3:45 p.m. on December 7, 2024. The speaker is Kara Hardin.",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://www.hematology.org/meetings/annual-meeting/schedule-and-program/programs/ash-wellness-studio"
+            ],
+            "golden_path": [
+                "root->Schedule and Program->Programs->View ASH Wellness Studio Activities"
+            ],
+            "type": "single_source",
+            "difficulty_level": "hard",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 110,
+        "confirmed_task": "What is the deadline to submit a request for hosting an ancillary meeting at the 66th ASH Annual Meeting, and on which day is the first on-site registration open for participants?",
+        "website": "https://www.hematology.org/meetings/annual-meeting",
+        "answer": "The deadline to submit an ancillary meeting request is November 22, 2024, and the first on-site registration opens on December 5, 2024.",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://www.hematology.org/meetings/annual-meeting/ancillary-meetings",
+                "https://www.hematology.org/meetings/annual-meeting/schedule-and-program/schedule-at-a-glance"
+            ],
+            "golden_path": [
+                "root->Ancillary Meeting Room Requests Open",
+                "root->View the Schedule-at-a-Glance"
+            ],
+            "type": "multi_source",
+            "difficulty_level": "easy",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 111,
+        "confirmed_task": "Which African countries participated in the 7th China International Import Expo with the theme of the 60th anniversary of diplomatic relations with China?",
+        "website": "https://www.ciie.org",
+        "answer": "Tanzania, Tunisia, and Zambia",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://www.ciie.org/zbh/en/news/exhibition/focus/20241024/46202.html"
+            ],
+            "golden_path": [
+                "root->Home->Intl Focus->African nations to actively participate in 7th CIIE"
+            ],
+            "type": "single_source",
+            "difficulty_level": "hard",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 112,
+        "confirmed_task": "Which country is the guest of honor at the 2024 China International Import Expo?",
+        "website": "https://www.ciie.org",
+        "answer": "Uzbekistan",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://www.ciie.org/zbh/en/news/exhibition/focus/20241029/46297.html"
+            ],
+            "golden_path": [
+                "root->Home->Intl Focus->Guest country of honor - Uzbekistan"
+            ],
+            "type": "single_source",
+            "difficulty_level": "hard",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 113,
+        "confirmed_task": "During the 7th China International Import Expo (CIIE) in 2024, when will the National Exhibition and Convention Center (Shanghai) be closed for security measures, and who is permitted to access the venue during this period?",
+        "website": "https://www.ciie.org",
+        "answer": "The National Exhibition and Convention Center (Shanghai) will be closed for security from October 25 to November 12, 2024. During this time, only individuals and vehicles with valid pre-registered badges can enter or exit the premises.",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://www.ciie.org/zbh/en/news/notice/20240923/45866.html"
+            ],
+            "golden_path": [
+                "root->Home->Notice->Badge Registration Guidelines for the 7th CIIE"
+            ],
+            "type": "single_source",
+            "difficulty_level": "hard",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 114,
+        "confirmed_task": "What is the pavilion area of France, one of the guest countries, at the 7th China International Import Expo?",
+        "website": "https://www.ciie.org",
+        "answer": "20,000 square meters",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://www.ciie.org/digital/release/news/detail?id=46654"
+            ],
+            "golden_path": [
+                "root->Home->Country Exhibition->CIIE insights: China-France diplomacy and industrial evolution"
+            ],
+            "type": "single_source",
+            "difficulty_level": "hard",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 115,
+        "confirmed_task": "第七届中国国际进口博览会的开幕式上，李强总理提出了哪些关于开放合作的建议？并详细介绍同期开幕的虹桥国际经济论坛的主题是什么？",
+        "website": "https://www.ciie.org",
+        "answer": "李强总理提出坚持重信守诺、互利共赢、命运与共的三点建议。同期开幕的虹桥国际经济论坛主题为“坚持高水平开放 共促普惠包容的经济全球化”。",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://www.ciie.org/zbh/bqxwbd/20241105/46489.html",
+                "https://www.ciie.org/zbh/cn/IEF/7th/introduction/"
+            ],
+            "golden_path": [
+                "root->李强出席第七届中国国际进口博览会开幕式并发表主旨演讲",
+                "root->整体介绍"
+            ],
+            "type": "multi_source",
+            "difficulty_level": "easy",
+            "lang": "zh"
+        }
+    },
+    {
+        "task_id": 116,
+        "confirmed_task": "What was the specific schedule for the social event held on the evening after the ACL 2023 best paper awards ceremony?",
+        "website": "https://2023.aclweb.org",
+        "answer": "The social event was scheduled from 7:00 PM to 10:30 PM on July 11th.",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://2023.aclweb.org/program/best_papers/",
+                "https://2023.aclweb.org/program/social/"
+            ],
+            "golden_path": [
+                "root->Program->Best Papers",
+                "root->Program->Social Programs"
+            ],
+            "type": "multi_source",
+            "difficulty_level": "medium",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 117,
+        "confirmed_task": "What additional content was included during the author response period at ACL 2023 to complement the new policy?",
+        "website": "https://2023.aclweb.org",
+        "answer": "After the start of ACL 2023 author response, two additional sections were included for completeness and in response to community feedback.",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://2023.aclweb.org/blog/review-acl23/"
+            ],
+            "golden_path": [
+                "root->Blog->ACL’23 Peer Review Policies"
+            ],
+            "type": "single_source",
+            "difficulty_level": "medium",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 118,
+        "confirmed_task": "In ACL 2023, who are the Tutorial Chairs and Main Conference Chairs?",
+        "website": "https://2023.aclweb.org",
+        "answer": "Tutorial Chairs: Yun-Nung (Vivian) Chen, Margot Mieskes, Siva Reddy; Main Conference Chairs: Jordan Lee Boyd-Graber, Naoaki Okazaki, Anna Rogers",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://2023.aclweb.org/calls/tutorials/",
+                "https://2023.aclweb.org/calls/main_conference/"
+            ],
+            "golden_path": [
+                "root->Call for Tutorial Proposals",
+                "root->Call for Main Conference Papers"
+            ],
+            "type": "multi_source",
+            "difficulty_level": "easy",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 119,
+        "confirmed_task": "What is the deadline for applying for the subsidies offered for travel and accommodation for financially constrained individuals intending to attend workshops at ACL 2023, and when are these workshops scheduled?",
+        "website": "https://2023.aclweb.org",
+        "answer": "The deadline to apply for subsidies is May 31, 2023. The workshops are scheduled for July 13-14, 2023.",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://2023.aclweb.org/calls/subsidies/",
+                "https://2023.aclweb.org/program/workshops/"
+            ],
+            "golden_path": [
+                "root->Call for Diversity and Inclusion Subsidies",
+                "root->List of Workshops"
+            ],
+            "type": "multi_source",
+            "difficulty_level": "easy",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 120,
+        "confirmed_task": "At ACL 2023, which dates are the workshops scheduled for and what is the deadline for applying for travel and accommodation subsidies?",
+        "website": "https://2023.aclweb.org",
+        "answer": "Workshops at ACL 2023 are scheduled for July 13-14, 2023. The deadline to apply for travel and accommodation subsidies is May 31, 2023.",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://2023.aclweb.org/calls/workshops/",
+                "https://2023.aclweb.org/calls/subsidies/"
+            ],
+            "golden_path": [
+                "root->Call for Workshop Proposals",
+                "root->Call for Diversity and Inclusion Subsidies"
+            ],
+            "type": "multi_source",
+            "difficulty_level": "easy",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 121,
+        "confirmed_task": "During The Web Conference 2024, which keynote speaker is addressing the challenges posed by AI deepfakes, and on what thematic special day of the conference does the discussion on Large Language Models (LLMs) take place?",
+        "website": "https://www2024.thewebconf.org",
+        "answer": "Jeannie Marie Paterson addresses AI deepfakes on May 17, 2024. Large Language Model Day is on May 14, 2024.",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://www2024.thewebconf.org/program/keynotes",
+                "https://www2024.thewebconf.org/program/special-days/"
+            ],
+            "golden_path": [
+                "root->Keynotes",
+                "root->Presentation->special days"
+            ],
+            "type": "multi_source",
+            "difficulty_level": "medium",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 122,
+        "confirmed_task": "Which specific theme day does the tutorial schedule overlap with at The Web Conference 2024?",
+        "website": "https://www2024.thewebconf.org",
+        "answer": "Online Trust & Safety Day",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://www2024.thewebconf.org/calls/tutorials",
+                "https://www2024.thewebconf.org/program/special-days"
+            ],
+            "golden_path": [
+                "root->Tutorials",
+                "root->Special Days"
+            ],
+            "type": "multi_source",
+            "difficulty_level": "easy",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 123,
+        "confirmed_task": "Web Conference 2024的标志中的'三棵树'象征着新加坡的哪三种官方语言？",
+        "website": "https://www2024.thewebconf.org",
+        "answer": "Chinese, Malay, Tamil",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://www2024.thewebconf.org/about/logo"
+            ],
+            "golden_path": [
+                "root->Logo"
+            ],
+            "type": "single_source",
+            "difficulty_level": "easy",
+            "lang": ""
+        }
+    },
+    {
+        "task_id": 124,
+        "confirmed_task": "Which accommodation option ensures maximum convenience for attendees of the Web Conference 2024 and is closest to the venue for a Diamond level sponsor?",
+        "website": "https://www2024.thewebconf.org",
+        "answer": "Hotel Michael",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://www2024.thewebconf.org/sponsors/become-a-sponsor",
+                "https://www2024.thewebconf.org/attending/accommodation"
+            ],
+            "golden_path": [
+                "root->Become a Sponsor",
+                "root->Accommodation"
+            ],
+            "type": "multi_source",
+            "difficulty_level": "easy",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 125,
+        "confirmed_task": "Where is the Web Conference 2024 Welcome Reception held and what is the nearest transportation method from the Resorts World Convention Centre?",
+        "website": "https://www2024.thewebconf.org",
+        "answer": "The Welcome Reception of Web Conference 2024 will be held at Tipsy Unicorn. The nearest transport from Resorts World Convention Centre is to take the free Sentosa Express monorail to Beach Station, then walk.",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://www2024.thewebconf.org/attending/venue/",
+                "https://www2024.thewebconf.org/program/social-events/"
+            ],
+            "golden_path": [
+                "root->Checking In->social events",
+                "root->Checking In->social events"
+            ],
+            "type": "multi_source",
+            "difficulty_level": "medium",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 126,
+        "confirmed_task": "What is the target for international tourist arrivals in Peru for 2024?",
+        "website": "https://www.apec.org",
+        "answer": "4.4 million",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://www.apec.org/press/news-releases/2024/ministers-safeguard-tourism-sector-s-role-as-driver-of-economic-growth"
+            ],
+            "golden_path": [
+                "root->APEC Tourism Ministers Issue Joint StatementUrubamba, Cusco, Peru, 09 June 2024->Ministers Safeguard Tourism Sector’s Role as Driver of Economic GrowthUrubamba, Cusco, Peru|09 June 2024Issued by the 12th APEC Tourism Ministerial Meeting"
+            ],
+            "type": "single_source",
+            "difficulty_level": "medium",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 127,
+        "confirmed_task": "What proactive steps did the APEC 12th Tourism Ministerial Meeting conclude to address the challenges in tourism due to sea level rise?",
+        "website": "https://www.apec.org",
+        "answer": "Implementation of regenerative tourism principles and building resilient tourism ecosystems.",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://www.apec.org/publications/2023/12/assessing-the-impact-of-rising-sea-levels-on-travel-and-tourism-in-apec-economies",
+                "https://www.apec.org/meeting-papers/sectoral-ministerial-meetings/general/12th-apec-tourism-ministerial-meeting"
+            ],
+            "golden_path": [
+                "root->Driving Tourism Forward: Balancing Sustainability and Economic GrowthUrubamba, Cusco, Peru, 14 June 2024->Assessing the Impact of Rising Sea Levels on Travel and Tourism in APEC Economies",
+                "root->APEC Tourism Ministers Issue Joint StatementUrubamba, Cusco, Peru, 09 June 2024->View the 12th APEC Tourism Ministers’ Statement"
+            ],
+            "type": "multi_source",
+            "difficulty_level": "medium",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 128,
+        "confirmed_task": "Who chaired the APEC Tourism Ministers Meeting on June 9, 2024?",
+        "website": "https://www.apec.org",
+        "answer": "Elizabeth Galdo",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://www.apec.org/press/news-releases/2024/apec-tourism-ministers-issue-joint-statement"
+            ],
+            "golden_path": [
+                "root->APEC Tourism Ministers Issue Joint StatementUrubamba, Cusco, Peru, 09 June 2024"
+            ],
+            "type": "single_source",
+            "difficulty_level": "easy",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 129,
+        "confirmed_task": "Which country's photographer won the first prize in the 2021 APEC Photo Contest for highlighting digitalization as a tool for economic recovery?",
+        "website": "https://www.apec.org",
+        "answer": "The Philippines.",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://www.apec.org/press/news-releases/2021/winning-photo-of-apec-photo-contest-2021-highlight-digitalization-as-a-tool-for-recovery"
+            ],
+            "golden_path": [
+                "root->APEC Photo Contest->Photo Contest 2021"
+            ],
+            "type": "single_source",
+            "difficulty_level": "medium",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 130,
+        "confirmed_task": "Who was the chair of the 12th APEC Tourism Ministerial Meeting held in Urubamba on June 9, 2024?",
+        "website": "https://www.apec.org",
+        "answer": "H.E. Mrs. Elizabeth Galdo Marín",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://www.apec.org/meeting-papers/sectoral-ministerial-meetings/tourism/12th-apec-tourism-ministerial-meeting"
+            ],
+            "golden_path": [
+                "root->APEC Tourism Ministers Issue Joint StatementUrubamba, Cusco, Peru, 09 June 2024->Chair's Statement->12th APEC Tourism Ministerial Meeting"
+            ],
+            "type": "single_source",
+            "difficulty_level": "hard",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 131,
+        "confirmed_task": "What is the final deadline for submitting hotel reservation payments and position papers for the NMUN NYC 2025 conference?",
+        "website": "https://www.nmun.org",
+        "answer": "The final deadline for submitting hotel reservation payments is 15 February 2025, and for position papers, it is 1 March 2025.",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://www.nmun.org/conferences/new-york/register-and-plan-your-trip/plan-your-trip/hotel-information.html#main",
+                "https://www.nmun.org/conferences/new-york/prepare-for-committee/position-papers.html#main"
+            ],
+            "golden_path": [
+                "root->Hotel Information->Close",
+                "root->Position Papers->Close"
+            ],
+            "type": "multi_source",
+            "difficulty_level": "medium",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 132,
+        "confirmed_task": "Which committee addresses the transition from relief to development at the NMUN Washington D.C. conference, and what is the payment deadline?",
+        "website": "https://www.nmun.org",
+        "answer": "The committee is the Economic and Social Council (ECOSOC), and the payment deadline is October 1.",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://www.nmun.org/conferences/washington-dc/register-and-plan-your-trip/academic-tools/committees-and-topics.html#main",
+                "https://www.nmun.org/conferences/washington-dc/register-and-plan-your-trip/plan-your-trip/cost-information.html#main"
+            ],
+            "golden_path": [
+                "root->Committees & Topics->Close",
+                "root->Cost Information->Close"
+            ],
+            "type": "multi_source",
+            "difficulty_level": "medium",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 133,
+        "confirmed_task": "When do delegations need to start registering for the NMUN conference held in New York from April 6-10 or April 13-17, 2025, and what are the key steps related to applying for a visa?",
+        "website": "https://www.nmun.org",
+        "answer": "Registration for the NMUN conference starts on 1 September 2024. To apply for a visa, a delegation should register and pay the fee before requesting a visa invitation letter, which can be requested after 1 August 2024.",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://www.nmun.org/conferences/new-york/register-and-plan-your-trip/register-and-key-dates.html#main",
+                "https://www.nmun.org/conferences/washington-dc/register-and-plan-your-trip/plan-your-trip/visa-information.html#main"
+            ],
+            "golden_path": [
+                "root->Register & Key Dates Overview->Close",
+                "root->Visa Information->Close"
+            ],
+            "type": "multi_source",
+            "difficulty_level": "medium",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 134,
+        "confirmed_task": "When should a delegation schedule a meeting with their represented country's Permanent Mission to the UN for the 2025 NMUN conference, and what alternatives exist if a meeting on that day is not possible?",
+        "website": "https://www.nmun.org",
+        "answer": "The delegation should schedule a meeting with the UN mission of their country on Monday before 1 p.m. If that's not possible, they can arrange a virtual meeting before the conference.",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://www.nmun.org/conferences/new-york/register-and-plan-your-trip/plan-your-trip/mission-briefings.html#menu"
+            ],
+            "golden_path": [
+                "root->Mission Briefings->Menu"
+            ],
+            "type": "single_source",
+            "difficulty_level": "medium",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 135,
+        "confirmed_task": "Who is the chair of the ACL 2024 Student Research Workshop, and what is the deadline to apply for a travel subsidy to attend this workshop?",
+        "website": "https://2024.aclweb.org",
+        "answer": "The chair of the ACL 2024 Student Research Workshop is Xiyan Fu. The deadline to apply for a travel subsidy is July 3rd, 2024.",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://2024.aclweb.org/calls/student_research_workshop/",
+                "https://2024.aclweb.org/calls/subsidies/"
+            ],
+            "golden_path": [
+                "root->Calls->Student Research Workshop",
+                "root->Calls->Diversity and Inclusion Subsidies"
+            ],
+            "type": "multi_source",
+            "difficulty_level": "medium",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 136,
+        "confirmed_task": "For ACL 2024, what is the deadline for students requiring financial assistance to apply for discounted virtual registration, and by what date will they be notified about the selection for D&I subsidies?",
+        "website": "https://2024.aclweb.org",
+        "answer": "The deadline for students to apply for discounted virtual registration is July 26, 2024. They will be notified about selection for D&I subsidies by July 9, 2024.",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://2024.aclweb.org/calls/subsidies",
+                "https://2024.aclweb.org/registration#discounted-virtual-registration"
+            ],
+            "golden_path": [
+                "root->Call for Diversity and Inclusion Subsidies",
+                "root->Discounted Virtual Registration"
+            ],
+            "type": "multi_source",
+            "difficulty_level": "easy",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 137,
+        "confirmed_task": "Which local sponsor for ACL 2024 can provide visa support documents for obtaining a Thai visa?",
+        "website": "https://2024.aclweb.org",
+        "answer": "TCEB",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://2024.aclweb.org/sponsors",
+                "https://2024.aclweb.org/participants/visa/"
+            ],
+            "golden_path": [
+                "root->Sponsors",
+                "root->Visa"
+            ],
+            "type": "multi_source",
+            "difficulty_level": "easy",
+            "lang": "en"
+        }
+    },
+    {
+        "task_id": 138,
+        "confirmed_task": "What is the topic and schedule of Professor Subbarao Kambhampati's lecture at the ACL 2024 conference?",
+        "website": "https://2024.aclweb.org",
+        "answer": "The theme is 'Can LLMs Reason and Plan?' and the scheduled time is August 13th, from 9:00 AM to 10:00 AM.",
+        "info": {
+            "domain": "conference",
+            "source_website": [
+                "https://2024.aclweb.org/program/keynotes/",
+                "https://2024.aclweb.org/program/"
+            ],
+            "golden_path": [
+                "root->Program->Keynotes",
+                "root->Program"
+            ],
+            "type": "multi_source",
+            "difficulty_level": "medium",
+            "lang": "en"
+        }
+    }
+]

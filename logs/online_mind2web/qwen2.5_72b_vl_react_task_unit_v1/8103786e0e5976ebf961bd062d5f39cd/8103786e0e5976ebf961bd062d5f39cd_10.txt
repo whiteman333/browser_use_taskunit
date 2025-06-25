@@ -1,0 +1,252 @@
+ SystemMessage 
+You are a precise browser automation agent that interacts with websites through structured commands. Your role is to:
+    1. Analyze the provided webpage elements and structure
+    2. Use the given information to accomplish the ultimate task
+    3. Respond with valid JSON containing your next action sequence and state assessment
+
+    
+INPUT STRUCTURE:
+1. Current URL: The webpage you're currently on
+2. Available Tabs: List of open browser tabs
+3. Interactive Elements: List in the format:
+   index[:]<element_type>element_text</element_type>
+   - index: Numeric identifier for interaction
+   - element_type: HTML element type (button, input, etc.)
+   - element_text: Visible text or element description
+
+Example:
+[33]<button>Submit Form</button>
+[] Non-interactive text
+
+
+Notes:
+- Only elements with numeric indexes inside [] are interactive
+- [] elements provide context but cannot be interacted with
+
+
+    Here are some useful examples of the task units you can refer to:
+    {"relevant_task_units":[]}
+    
+    IMPORTANT RULES:
+    
+1. RESPONSE FORMAT: You must ALWAYS respond with **valid JSON** in this exact format:
+{
+       
+        "current_state": {
+            "observation": "Observation of the current state",
+            "thought": "Thought of the current state"
+        },
+         
+        "action": [
+            {
+                "one_action_name": {
+                // action-specific parameter
+                }
+            },
+            // ... more actions in sequence
+        ]
+    }
+    
+2. ACTIONS: You can specify multiple actions in the list to be executed in sequence. But always specify only one action name per item.
+
+   Common action sequences:
+   - Form filling: [
+       {"input_text": {"index": 1, "text": "username"}},
+       {"input_text": {"index": 2, "text": "password"}},
+       {"click_element": {"index": 3}}
+     ]
+   - Navigation and extraction: [
+       {"open_tab": {}},
+       {"go_to_url": {"url": "https://example.com"}},
+       {"extract_content": ""}
+     ]
+   - Please generate valid double quotes and delimeters for your json output.
+
+3. ELEMENT INTERACTION:
+   - Only use indexes that exist in the provided element list
+   - Each element has a unique index number (e.g., "[33]<button>")
+   - Elements marked with "[]Non-interactive text" are non-interactive (for context only)
+
+4. TASK COMPLETION:
+   - Use the "done" action as the last action as soon as the ultimate task is complete.
+   - Dont use "done" before you are done with everything the user asked you.
+   - If you have to do something repeatedly for example the task says for "each", or "for all", or "x times", count always inside "memory" how many times you have done it and how many remain. Don't stop until you have completed like the task asked you. Only call done after the last step.
+   - Don't hallucinate actions.
+   - If the ultimate task requires specific information - make sure to include everything in the done function. This is what the user will see. Do not just say you are done, but include the requested information of the task.
+   - use maximum 1 actions per sequence
+
+    Functions:
+    Complete task with response to user: 
+{done: {'text': {'type': 'string'}}}
+Navigate to URL in the current tab: 
+{go_to_url: {'url': {'type': 'string'}}}
+Go back: 
+{go_back: {}}
+Click element: 
+{click_element: {'index': {'type': 'integer'}, 'xpath': {'anyOf': [{'type': 'string'}, {'type': 'null'}], 'default': None}}}
+Input text into a input interactive element: 
+{input_text: {'index': {'type': 'integer'}, 'text': {'type': 'string'}, 'xpath': {'anyOf': [{'type': 'string'}, {'type': 'null'}], 'default': None}}}
+Switch tab: 
+{switch_tab: {'page_id': {'type': 'integer'}}}
+Open url in new tab: 
+{open_tab: {'url': {'type': 'string'}}}
+Extract page content to retrieve specific information from the page, e.g. all company names, a specific description, all information about, links with companies in structured format or simply links: 
+{extract_content: {'goal': {'type': 'string'}}}
+Scroll down the page by pixel amount - if no amount is specified, scroll down one page: 
+{scroll_down: {'amount': {'anyOf': [{'type': 'integer'}, {'type': 'null'}], 'default': None}}}
+Scroll up the page by pixel amount - if no amount is specified, scroll up one page: 
+{scroll_up: {'amount': {'anyOf': [{'type': 'integer'}, {'type': 'null'}], 'default': None}}}
+Send strings of special keys like Backspace, Insert, PageDown, Delete, Enter, Shortcuts such as `Control+o`, `Control+Shift+T` are supported as well. This gets used in keyboard.press. Be aware of different operating systems and their shortcuts: 
+{send_keys: {'keys': {'type': 'string'}}}
+If you dont find something which you want to interact with, scroll to it: 
+{scroll_to_text: {'text': {'type': 'string'}}}
+Get all options from a native dropdown: 
+{get_dropdown_options: {'index': {'type': 'integer'}}}
+Select dropdown option for interactive element index by the text of the option you want to select: 
+{select_dropdown_option: {'index': {'type': 'integer'}, 'text': {'type': 'string'}}}
+Press Enter key. Useful for submitting search queries, completing forms, or triggering default actions on focused elements.: 
+{press_enter: {}}
+
+ HumanMessage 
+Your ultimate task is: """Find possible causes for the symptoms of chest pain which is sharp which is accompanied by anxiety.""". If you achieved your ultimate task, stop everything and use the done action in the next step to complete the task. If not, continue as usual.
+
+ HumanMessage 
+Example output:
+
+ AIMessage 
+
+
+ ToolMessage 
+Browser started
+
+ HumanMessage 
+[Your task history memory starts here]
+
+ HumanMessage 
+Action result: 🔗  Navigated to https://www.mayoclinic.org/
+
+ AIMessage 
+The homepage of Mayo Clinic's website is loaded. It contains navigation options such as Care at Mayo Clinic, Health Library, For Medical Professionals, Research & Education, Giving to Mayo Clinic, etc. There is also an option to request an appointment and sections for finding diseases & conditions by alphabet.
+
+ ToolMessage 
+
+
+ HumanMessage 
+Action result: 🖱️  Clicked button with index 3:
+
+ AIMessage 
+The current page is the homepage of the Mayo Clinic website. The 'Health Library' dropdown is expanded, showing various categories including 'Symptoms', which matches part of the ultimate task related to finding causes of chest pain.
+
+ ToolMessage 
+
+
+ AIMessage 
+The page shows a symptom checker where users can check on symptoms to find possible causes. There's an option to find symptoms by their first letter, along with a link for more information about the symptom checker.
+
+ ToolMessage 
+
+
+ AIMessage 
+The current page provides information about the Symptom Checker from Mayo Clinic. It explains its purpose and limitations as a tool to help narrow down medical conditions related to symptoms but not diagnose them definitively. There are no direct options visible to begin checking symptoms or enter 'chest pain' and 'anxiety'.
+
+ ToolMessage 
+
+
+ HumanMessage 
+Action result: 🔙  Navigated back
+
+ AIMessage 
+The page discusses the Symptom Checker's purpose and limitations. No interactive elements directly lead to searching symptoms such as 'chest pain' and 'anxiety.' The 'Health Library' section might contain more relevant options.
+
+ ToolMessage 
+
+
+ HumanMessage 
+Action result: 🖱️  Clicked button with index 3:
+
+ AIMessage 
+On the Mayo Clinic Symptom page, there is an option to find symptoms by their first letter and a Symptom Checker for entering symptoms to find possible causes.
+
+ ToolMessage 
+
+
+ HumanMessage 
+Action result: 🖱️  Clicked button with index 34: First Aid
+Information to help you during a medical emergency.
+
+ AIMessage 
+The current page lists various first aid topics under the First Aid section. Link labeled 'Chest pain: First aid' is available.
+
+ ToolMessage 
+
+
+ HumanMessage 
+Action result: 🖱️  Clicked button with index 20: Chest pain: First aid
+
+ AIMessage 
+The webpage provides initial information on chest pain, mentioning serious conditions like heart attacks and other causes such as infections and bruised chest muscles. It advises seeking emergency help for sudden or severe chest pain.
+
+ ToolMessage 
+
+
+ HumanMessage 
+Action result: 🔍  Scrolled down the page by 2000 pixels
+
+ HumanMessage 
+[Task history memory ends here]
+[Current state starts here]
+
+You will see the following only once - if you need to remember it and you dont know it yet, write it down in the memory:
+Current url: https://www.mayoclinic.org/first-aid/first-aid-chest-pain/basics/art-20056705
+Available tabs:
+[TabInfo(page_id=0, url='https://www.mayoclinic.org/first-aid/first-aid-chest-pain/basics/art-20056705', title='Chest pain: First aid - Mayo Clinic')]
+Interactive elements from current page:
+... 2000 pixels above - scroll or extract content to see more ...
+[]Start CPR if the person doesn't have a pulse or isn't breathing.
+[]If you're untrained in CPR, do hands-only CPR. That means push hard and fast on the person's chest about 100 to 120 times a minute. If you're trained in CPR and confident in your ability, start with 30 chest compressions before giving two rescue breaths.
+[]Use an automated external defibrillator (AED)
+[]if one is immediately available and the person is unconscious. The device sends shocks to the heart to reset the heart rhythm. AEDs come with step-by-step voice instructions for their use. They only give a shock when appropriate.
+[]Angina
+[]Angina is chest pain or discomfort caused by reduced blood flow to the heart. The chest pain may feel like:
+[]Squeezing.
+[]Pressure.
+[]Something heavy on the chest.
+[]Tightness or other discomfort.
+[]Stable angina symptoms usually last five minutes or less. The symptoms usually go away with rest or medicine. If the angina pain doesn't go away with rest or medicine, get emergency medical help.
+[]Pneumonia with pleurisy
+[]Pneumonia is an infection of the air sacs in the lungs. Pleurisy is swelling and irritation of the tissues that surround the lung. Symptoms include:
+[]Chest pain, especially when taking a breath or coughing.
+[]Chills.
+[]Fever.
+[]Cough that may produce bloody or foul-smelling sputum.
+[]Unlike a true heart attack, pleurisy pain usually goes away temporarily by holding your breath or by pressing on the painful area of your chest.
+[]Pericarditis
+[]Pericarditis is swelling and irritation of the thin, saclike tissue surrounding your heart. The main symptom is sharp chest pain that gets worse when you cough, lie down or take a deep breath.
+[]Chest wall pain
+[]Chest wall pain is a type of muscle pain. Bruised chest muscles may happen from a lot of coughing, straining or a minor injury. One type of chest wall pain is costochondritis. Symptoms include pain and tenderness in and around the area that connects the ribs to the breastbone.
+[]Mayo Clinic Privacy Policy
+[]Mayo Clinic and our partners use technologies such as cookies to collect     information from your browser to deliver relevant advertising on our site,     in emails and across the Internet, personalize content and perform site     analytics. Please visit our
+[0]<a >Privacy Policy</a>
+[]for more information about our use of data and your rights.
+[1]<button type="button">Manage Preferences</button>
+[2]<button type="button">I Agree</button>
+[3]<button alt="Feedback" tabindex="0">Feedback</button>
+... 2961 pixels below - scroll or extract content to see more ...
+
+
+**Please generate valid double quotes and delimeters for your json output.**
+
+ RESPONSE
+{
+  "action": [
+    {
+      "scroll_down": {
+        "amount": 2000
+      }
+    }
+  ],
+  "current_state": {
+    "observation": "The page provides detailed descriptions of several potential causes of chest pain, including angina, pneumonia with pleurisy, and pericarditis. However, no mention is found regarding chest pain accompanied specifically by anxiety.",
+    "thought": "To find information on chest pain accompanied by anxiety, I should either scroll further down the page or use a search functionality if available."
+  }
+}

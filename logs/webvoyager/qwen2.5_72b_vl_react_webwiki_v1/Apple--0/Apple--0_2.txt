@@ -1,0 +1,256 @@
+ SystemMessage 
+You are a precise browser automation agent that interacts with websites through structured commands. Your role is to:
+1. Analyze the provided webpage elements and structure
+2. Use the given information to accomplish the ultimate task
+3. Respond with valid JSON containing your next action sequence and state assessment
+
+
+INPUT STRUCTURE:
+1. Current URL: The webpage you're currently on
+2. Available Tabs: List of open browser tabs
+3. Interactive Elements: List in the format:
+   index[:]<element_type>element_text</element_type>
+   - index: Numeric identifier for interaction
+   - element_type: HTML element type (button, input, etc.)
+   - element_text: Visible text or element description
+
+Example:
+[33]<button>Submit Form</button>
+[] Non-interactive text
+
+
+Notes:
+- Only elements with numeric indexes inside [] are interactive
+- [] elements provide context but cannot be interacted with
+
+
+IMPORTANT RULES:
+
+1. RESPONSE FORMAT: You must ALWAYS respond with **valid JSON** in this exact format:
+{
+       
+        "current_state": {
+            "observation": "Observation of the current state",
+            "thought": "Thought of the current state"
+        },
+         
+        "action": [
+            {
+                "one_action_name": {
+                // action-specific parameter
+                }
+            },
+            // ... more actions in sequence
+        ]
+    }
+    
+2. ACTIONS: You can specify multiple actions in the list to be executed in sequence. But always specify only one action name per item.
+
+   Common action sequences:
+   - Form filling: [
+       {"input_text": {"index": 1, "text": "username"}},
+       {"input_text": {"index": 2, "text": "password"}},
+       {"click_element": {"index": 3}}
+     ]
+   - Navigation and extraction: [
+       {"open_tab": {}},
+       {"go_to_url": {"url": "https://example.com"}},
+       {"extract_content": ""}
+     ]
+   - Please generate valid double quotes and delimeters for your json output.
+
+3. ELEMENT INTERACTION:
+   - Only use indexes that exist in the provided element list
+   - Each element has a unique index number (e.g., "[33]<button>")
+   - Elements marked with "[]Non-interactive text" are non-interactive (for context only)
+
+4. TASK COMPLETION:
+   - Use the "done" action as the last action as soon as the ultimate task is complete.
+   - Dont use "done" before you are done with everything the user asked you.
+   - If you have to do something repeatedly for example the task says for "each", or "for all", or "x times", count always inside "memory" how many times you have done it and how many remain. Don't stop until you have completed like the task asked you. Only call done after the last step.
+   - Don't hallucinate actions.
+   - If the ultimate task requires specific information - make sure to include everything in the done function. This is what the user will see. Do not just say you are done, but include the requested information of the task.
+   - use maximum 1 actions per sequence
+
+Functions:
+Complete task with response to user: 
+{done: {'text': {'type': 'string'}}}
+Navigate to URL in the current tab: 
+{go_to_url: {'url': {'type': 'string'}}}
+Go back: 
+{go_back: {}}
+Click element: 
+{click_element: {'index': {'type': 'integer'}, 'xpath': {'anyOf': [{'type': 'string'}, {'type': 'null'}], 'default': None}}}
+Input text into a input interactive element: 
+{input_text: {'index': {'type': 'integer'}, 'text': {'type': 'string'}, 'xpath': {'anyOf': [{'type': 'string'}, {'type': 'null'}], 'default': None}}}
+Switch tab: 
+{switch_tab: {'page_id': {'type': 'integer'}}}
+Open url in new tab: 
+{open_tab: {'url': {'type': 'string'}}}
+Extract page content to retrieve specific information from the page, e.g. all company names, a specific description, all information about, links with companies in structured format or simply links: 
+{extract_content: {'goal': {'type': 'string'}}}
+Scroll down the page by pixel amount - if no amount is specified, scroll down one page: 
+{scroll_down: {'amount': {'anyOf': [{'type': 'integer'}, {'type': 'null'}], 'default': None}}}
+Scroll up the page by pixel amount - if no amount is specified, scroll up one page: 
+{scroll_up: {'amount': {'anyOf': [{'type': 'integer'}, {'type': 'null'}], 'default': None}}}
+Send strings of special keys like Backspace, Insert, PageDown, Delete, Enter, Shortcuts such as `Control+o`, `Control+Shift+T` are supported as well. This gets used in keyboard.press. Be aware of different operating systems and their shortcuts: 
+{send_keys: {'keys': {'type': 'string'}}}
+If you dont find something which you want to interact with, scroll to it: 
+{scroll_to_text: {'text': {'type': 'string'}}}
+Get all options from a native dropdown: 
+{get_dropdown_options: {'index': {'type': 'integer'}}}
+Select dropdown option for interactive element index by the text of the option you want to select: 
+{select_dropdown_option: {'index': {'type': 'integer'}, 'text': {'type': 'string'}}}
+Press Enter key. Useful for submitting search queries, completing forms, or triggering default actions on focused elements.: 
+{press_enter: {}}
+
+ HumanMessage 
+Your ultimate task is: """Compare the prices of the latest models of MacBook Air available on Apple's website.""". If you achieved your ultimate task, stop everything and use the done action in the next step to complete the task. If not, continue as usual.
+
+ HumanMessage 
+Example output:
+
+ AIMessage 
+
+
+ ToolMessage 
+Browser started
+
+ HumanMessage 
+[Your task history memory starts here]
+
+ HumanMessage 
+Action result: 🔗  Navigated to https://www.apple.com/
+
+ HumanMessage 
+[Task history memory ends here]
+[Current state starts here]
+
+The description of the current page (if exists):
+The sitemap of current or nearest parent page: https://www.apple.com
+
+## Current Page-Level Summary
+
+The webpage is the homepage of Apple, showcasing its latest products, services, and promotions. It highlights educational discounts, new product launches, trade-in offers, and Apple services like Apple TV+. The page is visually engaging with a clean design and interactive elements, encouraging users to explore products, learn more, or make purchases. Additional content and navigation options are available by scrolling down.
+
+### Key User Flows
+
+* Exploring and learning about Apple products (e.g., MacBook Air, iPad, iPhone)
+* Accessing promotional offers and trade-in options
+* Navigating to Apple services like Apple TV+ and Apple Card
+
+## Current Page Block-Level Content
+
+### Header Navigation
+Content: A navigation bar with links to various Apple sections such as Mac, iPad, iPhone, Watch, TV, Music, Support, and more. It also includes a search icon and a shopping bag icon for quick access to search and cart functionalities.
+Position: At the very top, visible in the initial viewport.
+Interaction Guide: You can 'Click' on any navigation link to visit the respective section. 'Click' the search icon to open a search bar. 'Click' the shopping bag icon to view your cart or account options.
+
+### Promotional Banner
+Content: A large banner promoting educational discounts for college students, offering AirPods or other eligible products with the purchase of a Mac or iPad.
+Position: Just below the header, visible in the initial viewport.
+Interaction Guide: You can 'Click' the 'Shop' button to explore the educational discount offer. Expected: Navigates to the promotional details or product selection page.
+
+### College Students Offer Section
+Content: A section specifically targeting college students, showcasing Mac and iPad products with a call-to-action button to learn more about the offer.
+Position: Below the promotional banner, visible in the initial viewport.
+Interaction Guide: You can 'Click' the 'Learn More' button to view detailed information about the offer. Expected: Navigates to a page with more details on the promotion.
+
+### MacBook Air Highlight
+Content: A feature section highlighting the new MacBook Air with M4 chip, showcasing its design and performance.
+Position: Below the college students section, visible in the initial viewport.
+Interaction Guide: You can 'Click' the 'Learn More' button to explore product details or 'Buy' to proceed to the purchase page.
+
+### Product Highlights (iPad Air, MacBook Pro, iPad Pro, iPhone)
+Content: Individual sections showcasing the iPad Air, MacBook Pro, iPad Pro, and iPhone, each with a brief description and call-to-action buttons.
+Position: In the middle of the page, requires scrolling.
+Interaction Guide: You can 'Click' the 'Learn More' button for detailed product information or 'Buy' to proceed to the purchase page for each product.
+
+### Trade-In and Apple Card Offers
+Content: Two sections promoting trade-in options for extra credit and the Apple Card for daily cash rewards.
+Position: Below the product highlights, requires scrolling.
+Interaction Guide: You can 'Click' the 'Learn More' or 'Get Started' buttons to explore trade-in details or Apple Card benefits.
+
+### Apple TV+ Section
+Content: A promotional section for Apple TV+, featuring a highlighted show and additional content options.
+Position: Towards the bottom of the page, requires scrolling.
+Interaction Guide: You can 'Click' on the featured show or other content to learn more or start watching. Expected: Navigates to the Apple TV+ page or content details.
+
+### Footer
+Content: A comprehensive footer with links to various Apple resources, including support, legal information, and product categories.
+Position: At the very bottom, requires scrolling.
+Interaction Guide: You can 'Click' on any link to navigate to the respective section or resource. Expected: Opens the selected page or document.
+
+
+Retrieved relevant pages to the task:
+## Retrieved Pages that may be related to the task
+
+### Page: https://www.apple.com/macbook-air/compare
+Title: Compare
+Summary: This webpage allows users to compare different MacBook Air models side by side. It provides detailed specifications, features, and performance metrics for each model, helping users make an informed purchasing decision. The page includes a comparison table, quick highlights, and links to explore more details or purchase. Users can scroll to view the full comparison and additional information.
+
+### Page: https://www.apple.com/macbook-pro/compare
+Title: Compare
+Summary: This webpage allows users to compare different MacBook Pro models by displaying their specifications side by side. It provides detailed information about features such as display size, processor, memory, storage, battery life, and other technical specifications. The page is designed to help users make an informed decision when choosing a MacBook Pro model. Additional navigation options and resources are available to assist users in exploring more details or purchasing a device.
+
+### Page: https://www.apple.com/mac/compare
+Title: Compare
+Summary: This webpage allows users to compare different Mac models based on their specifications and features. It provides a detailed side-by-side comparison of various Mac models, including their performance, display, memory, storage, and other key attributes. The page is designed to help users make an informed decision when choosing a Mac. Additional navigation options and resources are available to assist users in exploring more details or purchasing a Mac.
+
+### Page: https://www.apple.com/us-edu/shop/goto/buy_mac/macbook_air
+Title: Buy
+Summary: This webpage is part of Apple's online store, specifically designed for purchasing MacBook Air models. It provides detailed options for selecting and customizing MacBook Air configurations, including size, specifications, and pricing. The page also includes additional information about the product, such as what's included in the box, a comparison of Mac models, and AppleCare+ options. Users can explore and select their desired MacBook Air model, compare features, and proceed to purchase. Scrolling reveals more details about the product and related services.
+
+### Page: https://www.apple.com/macbook-air
+Title: 
+Summary: This webpage is dedicated to showcasing the MacBook Air, highlighting its features, specifications, and benefits. It provides detailed information about the product, including its design, performance, display, and other key attributes. The page also includes purchasing options, pricing details, and links to explore related products or services. Users can scroll to explore more content, such as technical specifications, comparisons, and additional resources.
+
+**Hints**: You should think first if you can use 'go_to_url' action to navigate quickly to the task-releated page retrieved above, and then use other interaction actions (click, input_text, etc.) to complete the task.
+**Stop Using 'scroll_down' if you have met [End of page] !!**
+
+You will see the following only once - if you need to remember it and you dont know it yet, write it down in the memory:
+Current url: https://www.apple.com/
+Available tabs:
+[TabInfo(page_id=0, url='https://www.apple.com/', title='Apple')]
+Interactive elements from current page:
+[Start of page]
+[]Apple
+[0]<a aria-label="Apple">Apple</a>
+[1]<a aria-label="Store">Store</a>
+[2]<a aria-label="Mac">Mac</a>
+[3]<a aria-label="iPad">iPad</a>
+[4]<a aria-label="iPhone">iPhone</a>
+[5]<a aria-label="Watch">Watch</a>
+[6]<a aria-label="Vision">Vision</a>
+[7]<a aria-label="AirPods">AirPods</a>
+[8]<a aria-label="TV and Home">TV & Home</a>
+[9]<a aria-label="Entertainment">Entertainment</a>
+[10]<a aria-label="Accessories">Accessories</a>
+[11]<a aria-label="Support">Support</a>
+[12]<a role="button" aria-label="Search apple.com"></a>
+[13]<a role="button" aria-label="Shopping Bag"></a>
+[]MacBook Air
+[]Sky blue color.
+[]Sky high performance with M4.
+[15]<a aria-label="Learn more, Macbook Air with M4 chip">Learn more</a>
+[16]<a aria-label="Buy, Macbook Air with M4 chip">Buy</a>
+[]Built for Apple Intelligence.
+... 4876 pixels below - scroll or extract content to see more ...
+
+
+**Please generate valid double quotes and delimeters for your json output.**
+
+ RESPONSE
+{
+  "action": [
+    {
+      "click_element": {
+        "index": 16
+      }
+    }
+  ],
+  "current_state": {
+    "observation": "On the Apple homepage, I've identified the MacBook Air section with options to 'Learn more' and 'Buy'. To compare prices of the latest MacBook Air models, I should navigate to a page where these models are listed.",
+    "thought": "I should click on the 'Buy' button for the MacBook Air to proceed to the page where I can compare the prices of the latest models."
+  }
+}

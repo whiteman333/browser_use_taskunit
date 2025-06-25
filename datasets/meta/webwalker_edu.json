@@ -1,0 +1,62 @@
+[
+    {
+        "url": "https://cs.swust.edu.cn",
+        "tree_file": "/home/douzc/users/yuyao/url_process/webwalker_urls_v2/url_tree_cs.swust.edu.cn.json",
+        "embedding_file": "/home/douzc/users/yuyao/url_process/embeddings/education/url_tree_cs.swust.edu.cn.npz"
+    },
+    {
+        "url": "http://www.cs.zju.edu.cn/csen",
+        "tree_file": "/home/douzc/users/yuyao/url_process/webwalker_urls_v2/url_tree_www.cs.zju.edu.cn_csen.json",
+        "embedding_file": "/home/douzc/users/yuyao/url_process/embeddings/v2/url_tree_www.cs.zju.edu.cn_csen_v2.npz"
+    },
+    {
+        "url": "https://scst.suda.edu.cn",
+        "tree_file": "/home/douzc/users/yuyao/url_process/webwalker_urls_v2/url_tree_scst.suda.edu.cn.json",
+        "embedding_file": "/home/douzc/users/yuyao/url_process/embeddings/v2/url_tree_scst.suda.edu.cn_v2.npz"
+    },
+    {
+        "url": "http://cstc.hrbeu.edu.cn",
+        "tree_file": "/home/douzc/users/yuyao/url_process/webwalker_urls_education/url_tree_cstc.hrbeu.edu.cn.json",
+        "embedding_file": "/home/douzc/users/yuyao/url_process/embeddings/education/url_tree_cstc.hrbeu.edu.cn.npz"
+    },
+    {
+        "url": "http://www2.scut.edu.cn/cs",
+        "tree_file": "/home/douzc/users/yuyao/url_process/webwalker_urls_education/url_tree_www2.scut.edu.cn_cs.json",
+        "embedding_file": "/home/douzc/users/yuyao/url_process/embeddings/education/url_tree_www2.scut.edu.cn_cs.npz"
+    },
+    {
+        "url": "http://cs.nuaa.edu.cn",
+        "tree_file": "/home/douzc/users/yuyao/url_process/webwalker_urls_education/url_tree_cs.nuaa.edu.cn.json",
+        "embedding_file": "/home/douzc/users/yuyao/url_process/embeddings/education/url_tree_cs.nuaa.edu.cn.npz"
+    },
+    {
+        "url": "https://bigdata.cczu.edu.cn",
+        "tree_file": "/home/douzc/users/yuyao/url_process/webwalker_urls_education/url_tree_bigdata.cczu.edu.cn.json",
+        "embedding_file": "/home/douzc/users/yuyao/url_process/embeddings/education/url_tree_bigdata.cczu.edu.cn.npz"
+    },
+    {
+        "url": "https://it.xju.edu.cn",
+        "tree_file": "/home/douzc/users/yuyao/url_process/webwalker_urls_education/url_tree_it.xju.edu.cn.json",
+        "embedding_file": "/home/douzc/users/yuyao/url_process/embeddings/education/url_tree_it.xju.edu.cn.npz"
+    },
+    {
+        "url": "https://jsjxy.usc.edu.cn",
+        "tree_file": "/home/douzc/users/yuyao/url_process/webwalker_urls_education/url_tree_jsjxy.usc.edu.cn.json",
+        "embedding_file": "/home/douzc/users/yuyao/url_process/embeddings/education/url_tree_jsjxy.usc.edu.cn.npz"
+    },
+    {
+        "url": "http://cs.scnu.edu.cn",
+        "tree_file": "/home/douzc/users/yuyao/url_process/webwalker_urls_education/url_tree_cs.scnu.edu.cn.json",
+        "embedding_file": "/home/douzc/users/yuyao/url_process/embeddings/education/url_tree_cs.scnu.edu.cn.npz"
+    },
+    {
+        "url": "https://computer.hut.edu.cn",
+        "tree_file": "/home/douzc/users/yuyao/url_process/webwalker_urls_education/url_tree_computer.hut.edu.cn.json",
+        "embedding_file": "/home/douzc/users/yuyao/url_process/embeddings/education/url_tree_computer.hut.edu.cn.npz"
+    },
+    {
+        "url": "https://cse.csu.edu.cn",
+        "tree_file": "/home/douzc/users/yuyao/url_process/webwalker_urls_education/url_tree_cse.csu.edu.cn.json",
+        "embedding_file": "/home/douzc/users/yuyao/url_process/embeddings/education/url_tree_cse.csu.edu.cn.npz"
+    }
+]

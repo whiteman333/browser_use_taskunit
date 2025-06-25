@@ -1,0 +1,77 @@
+[
+    {
+        "url": "https://www.ion.org",
+        "tree_file": "/home/douzc/users/yuyao/url_process/webwalker_urls_v2/url_tree_www.ion.org.json",
+        "embedding_file": "/home/douzc/users/yuyao/url_process/embeddings/v2/url_tree_www.ion.org_v2.npz"
+    },
+    {
+        "url": "http://www.icse-conferences.org",
+        "tree_file": "/home/douzc/users/yuyao/url_process/webwalker_urls_v2/url_tree_www.icse-conferences.org.json",
+        "embedding_file": "/home/douzc/users/yuyao/url_process/embeddings/v2/url_tree_www.icse-conferences.org_v2.npz"
+    },
+    {
+        "url": "https://www.mrs.org",
+        "tree_file": "/home/douzc/users/yuyao/url_process/webwalker_urls_v2/url_tree_www.mrs.org.json",
+        "embedding_file": "/home/douzc/users/yuyao/url_process/embeddings/v2/url_tree_www.mrs.org_v2.npz"
+    },
+    {
+        "url": "https://sigchi.org",
+        "tree_file": "/home/douzc/users/yuyao/url_process/webwalker_urls_v2/url_tree_sigchi.org.json",
+        "embedding_file": "/home/douzc/users/yuyao/url_process/embeddings/v2/url_tree_sigchi.org_v2.npz"
+    },
+    {
+        "url": "https://ehaweb.org",
+        "tree_file": "/home/douzc/users/yuyao/url_process/webwalker_urls_v2/url_tree_ehaweb.org.json",
+        "embedding_file": "/home/douzc/users/yuyao/url_process/embeddings/v2/url_tree_ehaweb.org_v2.npz"
+    },
+    {
+        "url": "https://www.poms.org",
+        "tree_file": "/home/douzc/users/yuyao/url_process/webwalker_urls_conference/url_tree_www.poms.org.json",
+        "embedding_file": "/home/douzc/users/yuyao/url_process/embeddings/conference/url_tree_www.poms.org.npz"
+    },
+    {
+        "url": "https://rheumatology.org/annual-meeting",
+        "tree_file": "/home/douzc/users/yuyao/url_process/webwalker_urls_conference/url_tree_rheumatology.org_annual-meeting.json",
+        "embedding_file": "/home/douzc/users/yuyao/url_process/embeddings/conference/url_tree_rheumatology.org_annual-meeting.npz"
+    },
+    {
+        "url": "https://www.vldb.org",
+        "tree_file": "/home/douzc/users/yuyao/url_process/webwalker_urls_conference/url_tree_www.vldb.org.json",
+        "embedding_file": "/home/douzc/users/yuyao/url_process/embeddings/conference/url_tree_www.vldb.org.npz"
+    },
+    {
+        "url": "https://www.hematology.org/meetings/annual-meeting",
+        "tree_file": "/home/douzc/users/yuyao/url_process/webwalker_urls_conference/url_tree_www.hematology.org_meetings_annual-meeting.json",
+        "embedding_file": "/home/douzc/users/yuyao/url_process/embeddings/conference/url_tree_www.hematology.org_meetings_annual-meeting.npz"
+    },
+    {
+        "url": "https://www.ciie.org",
+        "tree_file": "/home/douzc/users/yuyao/url_process/webwalker_urls_conference/url_tree_www.ciie.org.json",
+        "embedding_file": "/home/douzc/users/yuyao/url_process/embeddings/conference/url_tree_www.ciie.org.npz"
+    },
+    {
+        "url": "https://2023.aclweb.org",        
+        "tree_file": "/home/douzc/users/yuyao/url_process/webwalker_urls_conference/url_tree_2023.aclweb.org.json",
+        "embedding_file": "/home/douzc/users/yuyao/url_process/embeddings/conference/url_tree_2023.aclweb.org.npz"
+    },
+    {
+        "url": "https://www2024.thewebconf.org",
+        "tree_file": "/home/douzc/users/yuyao/url_process/webwalker_urls_conference/url_tree_www2024.thewebconf.org.json",
+        "embedding_file": "/home/douzc/users/yuyao/url_process/embeddings/conference/url_tree_www2024.thewebconf.org.npz"
+    },
+    {
+        "url": "https://www.apec.org",
+        "tree_file": "/home/douzc/users/yuyao/url_process/webwalker_urls_conference/url_tree_www.apec.org.json",
+        "embedding_file": "/home/douzc/users/yuyao/url_process/embeddings/conference/url_tree_www.apec.org.npz"
+    },
+    {
+        "url": "https://www.nmun.org",
+        "tree_file": "/home/douzc/users/yuyao/url_process/webwalker_urls_conference/url_tree_www.nmun.org.json",
+        "embedding_file": "/home/douzc/users/yuyao/url_process/embeddings/conference/url_tree_www.nmun.org.npz"
+    },
+    {
+        "url": "https://2024.aclweb.org",
+        "tree_file": "/home/douzc/users/yuyao/url_process/webwalker_urls_conference/url_tree_2024.aclweb.org.json",
+        "embedding_file": "/home/douzc/users/yuyao/url_process/embeddings/conference/url_tree_2024.aclweb.org.npz"
+    }
+]

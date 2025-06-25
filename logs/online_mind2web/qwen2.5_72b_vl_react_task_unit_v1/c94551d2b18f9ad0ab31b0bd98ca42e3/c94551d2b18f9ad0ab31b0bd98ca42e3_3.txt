@@ -1,0 +1,219 @@
+ SystemMessage 
+You are a precise browser automation agent that interacts with websites through structured commands. Your role is to:
+    1. Analyze the provided webpage elements and structure
+    2. Use the given information to accomplish the ultimate task
+    3. Respond with valid JSON containing your next action sequence and state assessment
+
+    
+INPUT STRUCTURE:
+1. Current URL: The webpage you're currently on
+2. Available Tabs: List of open browser tabs
+3. Interactive Elements: List in the format:
+   index[:]<element_type>element_text</element_type>
+   - index: Numeric identifier for interaction
+   - element_type: HTML element type (button, input, etc.)
+   - element_text: Visible text or element description
+
+Example:
+[33]<button>Submit Form</button>
+[] Non-interactive text
+
+
+Notes:
+- Only elements with numeric indexes inside [] are interactive
+- [] elements provide context but cannot be interacted with
+
+
+    Here are some useful examples of the task units you can refer to:
+    {"relevant_task_units":[{"id":"CLUSTER17_TU8","name":"Find location-based information","sub_actions":["TYPE: Location","SUBMIT search","VIEW: Results"],"reason":"This task unit is necessary to find cats available for adoption within 10 miles of zip code 94587."},{"id":"CLUSTER17_TU4","name":"Filter content by attributes","sub_actions":["SELECT: Attribute","APPLY filters"],"reason":"This task unit is needed to filter cats by age (young or adult)."},{"id":"CLUSTER17_TU1","name":"Browse movies by criteria","sub_actions":["SELECT: Category","SELECT: Sub-category","APPLY filters","SORT by criteria"],"reason":"This task unit is relevant for sorting the results by 'Oldest Addition'."}]}
+    
+    IMPORTANT RULES:
+    
+1. RESPONSE FORMAT: You must ALWAYS respond with **valid JSON** in this exact format:
+{
+       
+        "current_state": {
+            "observation": "Observation of the current state",
+            "thought": "Thought of the current state"
+        },
+         
+        "action": [
+            {
+                "one_action_name": {
+                // action-specific parameter
+                }
+            },
+            // ... more actions in sequence
+        ]
+    }
+    
+2. ACTIONS: You can specify multiple actions in the list to be executed in sequence. But always specify only one action name per item.
+
+   Common action sequences:
+   - Form filling: [
+       {"input_text": {"index": 1, "text": "username"}},
+       {"input_text": {"index": 2, "text": "password"}},
+       {"click_element": {"index": 3}}
+     ]
+   - Navigation and extraction: [
+       {"open_tab": {}},
+       {"go_to_url": {"url": "https://example.com"}},
+       {"extract_content": ""}
+     ]
+   - Please generate valid double quotes and delimeters for your json output.
+
+3. ELEMENT INTERACTION:
+   - Only use indexes that exist in the provided element list
+   - Each element has a unique index number (e.g., "[33]<button>")
+   - Elements marked with "[]Non-interactive text" are non-interactive (for context only)
+
+4. TASK COMPLETION:
+   - Use the "done" action as the last action as soon as the ultimate task is complete.
+   - Dont use "done" before you are done with everything the user asked you.
+   - If you have to do something repeatedly for example the task says for "each", or "for all", or "x times", count always inside "memory" how many times you have done it and how many remain. Don't stop until you have completed like the task asked you. Only call done after the last step.
+   - Don't hallucinate actions.
+   - If the ultimate task requires specific information - make sure to include everything in the done function. This is what the user will see. Do not just say you are done, but include the requested information of the task.
+   - use maximum 1 actions per sequence
+
+    Functions:
+    Complete task with response to user: 
+{done: {'text': {'type': 'string'}}}
+Navigate to URL in the current tab: 
+{go_to_url: {'url': {'type': 'string'}}}
+Go back: 
+{go_back: {}}
+Click element: 
+{click_element: {'index': {'type': 'integer'}, 'xpath': {'anyOf': [{'type': 'string'}, {'type': 'null'}], 'default': None}}}
+Input text into a input interactive element: 
+{input_text: {'index': {'type': 'integer'}, 'text': {'type': 'string'}, 'xpath': {'anyOf': [{'type': 'string'}, {'type': 'null'}], 'default': None}}}
+Switch tab: 
+{switch_tab: {'page_id': {'type': 'integer'}}}
+Open url in new tab: 
+{open_tab: {'url': {'type': 'string'}}}
+Extract page content to retrieve specific information from the page, e.g. all company names, a specific description, all information about, links with companies in structured format or simply links: 
+{extract_content: {'goal': {'type': 'string'}}}
+Scroll down the page by pixel amount - if no amount is specified, scroll down one page: 
+{scroll_down: {'amount': {'anyOf': [{'type': 'integer'}, {'type': 'null'}], 'default': None}}}
+Scroll up the page by pixel amount - if no amount is specified, scroll up one page: 
+{scroll_up: {'amount': {'anyOf': [{'type': 'integer'}, {'type': 'null'}], 'default': None}}}
+Send strings of special keys like Backspace, Insert, PageDown, Delete, Enter, Shortcuts such as `Control+o`, `Control+Shift+T` are supported as well. This gets used in keyboard.press. Be aware of different operating systems and their shortcuts: 
+{send_keys: {'keys': {'type': 'string'}}}
+If you dont find something which you want to interact with, scroll to it: 
+{scroll_to_text: {'text': {'type': 'string'}}}
+Get all options from a native dropdown: 
+{get_dropdown_options: {'index': {'type': 'integer'}}}
+Select dropdown option for interactive element index by the text of the option you want to select: 
+{select_dropdown_option: {'index': {'type': 'integer'}, 'text': {'type': 'string'}}}
+Press Enter key. Useful for submitting search queries, completing forms, or triggering default actions on focused elements.: 
+{press_enter: {}}
+
+ HumanMessage 
+Your ultimate task is: """Find cats available for adoption within 10 miles of zip code 94587, Young or adult-age cats, sorted by Oldest Addition.""". If you achieved your ultimate task, stop everything and use the done action in the next step to complete the task. If not, continue as usual.
+
+ HumanMessage 
+Example output:
+
+ AIMessage 
+
+
+ ToolMessage 
+Browser started
+
+ HumanMessage 
+[Your task history memory starts here]
+
+ HumanMessage 
+Action result: 🔗  Navigated to https://www.petfinder.com/
+
+ AIMessage 
+The modal with a promotion for the myPurina app is blocking the content. Need to close the modal.
+
+ ToolMessage 
+
+
+ HumanMessage 
+Action result: 🖱️  Clicked button with index 0:
+
+ HumanMessage 
+[Task history memory ends here]
+[Current state starts here]
+
+You will see the following only once - if you need to remember it and you dont know it yet, write it down in the memory:
+Current url: https://www.petfinder.com/
+Available tabs:
+[TabInfo(page_id=0, url='https://www.petfinder.com/', title='Urgent Need for Pet Adoption - Find Dogs & Cats & More | Petfinder')]
+Interactive elements from current page:
+[Start of page]
+[0]<a aria-label="Skip to content">Skip to content</a>
+[1]<a >Become a member of the myPurina community today for free!
+Get Started!</a>
+[3]<button type="button" aria-expanded="true">All About Pets</button>
+[4]<a >Adopt or Get Involved</a>
+[]Open Submenu
+[5]<a >Dogs & Puppies</a>
+[]Open Submenu
+[6]<a >Cats & Kittens</a>
+[]Open Submenu
+[7]<a >Other Types of Pets</a>
+[]Open Submenu
+[8]<a >Favorites</a>
+[9]<button aria-label="sign in" type="button" aria-expanded="false">Sign In</button>
+[]Search Terrier, Kitten, etc.
+[]This is a search field. A list of 6 options are available. Type to refine options. Use up and down arrow keys or mobile
+    controls to navigate the list.
+[10]<input name="simpleSearchAnimalType" placeholder="Search Terrier, Kitten, etc." type="text" tabindex="0" role="combobox" aria-expanded="false" value=""></input>
+[]Enter City, State, or ZIP location
+[]This is a search field. A list of options may be retrieved based on your typed query. If options are retrieved, use up and down arrow keys or mobile controls to navigate the list.
+[11]<input name="simpleSearchLocation" placeholder="Enter City, State, or ZIP" type="text" role="combobox" aria-expanded="false" value=""></input>
+[12]<button >Begin search</button>
+[]Find your new best friend
+[]Browse pets from our network of over 14,500 shelters and rescues.
+[13]<button >Dogs</button>
+[14]<button >Cats</button>
+[15]<button >Other Animals</button>
+[16]<a aria-label="Browse Shelters & Rescues">Shelters & Rescues</a>
+[17]<iframe name="google_ads_iframe_46267414/Petfinder/Homepage_0" title="3rd party ad content" aria-label="Advertisement" tabindex="0"></iframe>
+[18]<a ></a>
+[19]<img alt="Ad: Donate to the Petfinder Foundation"></img>
+[20]<div tabindex="0" role="button"></div>
+[21]<a >Pets Available for Adoption Nearby</a>
+[22]<a aria-label="Pancho, ADOPTABLE, Baby Male Labrador Retriever & Shih Tzu, in Mangilao, GU."></a>
+[23]<img alt="Pancho, ADOPTABLE, Baby Male Labrador Retriever & Shih Tzu, in Mangilao, GU."></img>
+[24]<button aria-label="Favorite Pancho"></button>
+[25]<a aria-label="Carrotina, ADOPTABLE, Adult Female Domestic Short Hair, in Mangilao, GU."></a>
+[26]<img alt="Carrotina, ADOPTABLE, Adult Female Domestic Short Hair, in Mangilao, GU."></img>
+[27]<button aria-label="Favorite Carrotina"></button>
+[28]<a aria-label="Chocolate, ADOPTABLE, Baby Male Affenpinscher, in Mangilao, GU."></a>
+[29]<img alt="Chocolate, ADOPTABLE, Baby Male Affenpinscher, in Mangilao, GU."></img>
+[30]<button aria-label="Favorite Chocolate"></button>
+[31]<a aria-label="8 more pets available on Petfinder: Meet them">8 more pets available on Petfinder: Meet them</a>
+[]8 more pets available on Petfinder
+[32]<a ></a>
+[33]<a ></a>
+[34]<a ></a>
+[35]<a ></a>
+[36]<img alt="Ad: Donate to the Petfinder Foundation"></img>
+[37]<div tabindex="0" role="button"></div>
+[38]<a ></a>
+[39]<img alt=" Pets need our help. Adopt to save a life."></img>
+[40]<div tabindex="0" role="button"></div>
+... 2858 pixels below - scroll or extract content to see more ...
+
+
+**Please generate valid double quotes and delimeters for your json output.**
+
+ RESPONSE
+{
+  "action": [
+    {
+      "click_element": {
+        "index": 6,
+        "xpath": null
+      }
+    }
+  ],
+  "current_state": {
+    "observation": "On the main page of Petfinder, we can see the options to start searching for adoptable pets. The relevant animal category 'Cats & Kittens' is visible and accessible.",
+    "thought": "We should click on 'Cats & Kittens' to start narrowing down the search to cats."
+  }
+}
