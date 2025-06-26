@@ -1,0 +1,178 @@
+{
+  "meta_actions": [
+    {
+      "id": "ma1",
+      "name": "Select Park",
+      "website": "sixflags",
+      "domain": "Travel",
+      "subdomain": "Other",
+      "sub_actions": [
+        "[button] Browse the Parks Below -> CLICK",
+        "[span] TYPE: Park Name -> CLICK",
+        "[button] Go! -> CLICK"
+      ]
+    },
+    {
+      "id": "ma2",
+      "name": "Navigate to Tickets and Passes",
+      "website": "sixflags",
+      "domain": "Travel",
+      "subdomain": "Other",
+      "sub_actions": [
+        "[link] Tickets, Passes, VIP Tours -> CLICK",
+        "[link] Tickets & Passes -> CLICK"
+      ]
+    },
+    {
+      "id": "ma3",
+      "name": "Purchase Item",
+      "website": "sixflags",
+      "domain": "Travel",
+      "subdomain": "Other",
+      "sub_actions": [
+        "[button] Buy Now -> CLICK",
+        "[button] Add to Cart -> CLICK",
+        "[button] No Thanks -> CLICK",
+        "[button] No Thanks, Continue -> CLICK"
+      ]
+    },
+    {
+      "id": "ma4",
+      "name": "View Park Information",
+      "website": "sixflags",
+      "domain": "Travel",
+      "subdomain": "Other",
+      "sub_actions": [
+        "[link] Park Hours & Calendar -> CLICK",
+        "[link] Plan Your Visit -> CLICK",
+        "[link] Park Policies -> CLICK",
+        "[link] Security -> CLICK"
+      ]
+    },
+    {
+      "id": "ma5",
+      "name": "View Park Map",
+      "website": "sixflags",
+      "domain": "Travel",
+      "subdomain": "Other",
+      "sub_actions": [
+        "[link] Planea Tu Visita -> CLICK",
+        "[link] Mapa del Parque -> CLICK"
+      ]
+    },
+    {
+      "id": "ma6",
+      "name": "View Events",
+      "website": "sixflags",
+      "domain": "Travel",
+      "subdomain": "Other",
+      "sub_actions": [
+        "[link] Events -> CLICK",
+        "[link] See all events -> CLICK"
+      ]
+    },
+    {
+      "id": "ma7",
+      "name": "View Shops and Gifts",
+      "website": "sixflags",
+      "domain": "Travel",
+      "subdomain": "Other",
+      "sub_actions": [
+        "[link] Rides & Experiences -> CLICK",
+        "[link] Shops & Gifts -> CLICK",
+        "[select] All Shops -> SELECT: Gifts"
+      ]
+    },
+    {
+      "id": "ma8",
+      "name": "View Financial Information",
+      "website": "sixflags",
+      "domain": "Travel",
+      "subdomain": "Other",
+      "sub_actions": [
+        "[link] Investors -> CLICK",
+        "[link] Financial Info -> CLICK",
+        "[heading] Balance Sheet -> CLICK",
+        "[link] Cash Flow -> CLICK"
+      ]
+    },
+    {
+      "id": "ma9",
+      "name": "Request Group Information",
+      "website": "sixflags",
+      "domain": "Travel",
+      "subdomain": "Other",
+      "sub_actions": [
+        "[link] Groups -> CLICK",
+        "[button] Request Information -> CLICK"
+      ]
+    },
+    {
+      "id": "ma10",
+      "name": "Sign Up for Emails",
+      "website": "sixflags",
+      "domain": "Travel",
+      "subdomain": "Other",
+      "sub_actions": [
+        "[textbox] First Name -> TYPE: Name",
+        "[textbox] Last Name -> TYPE: Name",
+        "[textbox] Email -> TYPE: Email",
+        "[combobox] Park of Preference -> SELECT: Park",
+        "[button] Sign Up -> CLICK"
+      ]
+    },
+    {
+      "id": "ma11",
+      "name": "Purchase Birthday Party Package",
+      "website": "sixflags",
+      "domain": "Travel",
+      "subdomain": "Other",
+      "sub_actions": [
+        "[link] Birthdays -> CLICK",
+        "[button] Buy Now -> CLICK",
+        "[input] Group Name -> TYPE: Name",
+        "[input] Leader's Name -> TYPE: Name",
+        "[input] Birthday -> TYPE: Date",
+        "[input] City -> TYPE: Location",
+        "[input] Phone -> TYPE: Phone Number",
+        "[input] Email -> TYPE: Email",
+        "[input] Last Name -> TYPE: Name",
+        "[input] Address -> TYPE: Address",
+        "[input] State -> TYPE: Location",
+        "[button] Complete -> CLICK"
+      ]
+    },
+    {
+      "id": "ma12",
+      "name": "Confirm VIP Tour",
+      "website": "sixflags",
+      "domain": "Travel",
+      "subdomain": "Other",
+      "sub_actions": [
+        "[link] VIP Tours -> CLICK",
+        "[span] Confirm Your Tour -> CLICK"
+      ]
+    },
+    {
+      "id": "ma13",
+      "name": "Purchase Group Tickets with Add-ons",
+      "website": "sixflags",
+      "domain": "Travel",
+      "subdomain": "Other",
+      "sub_actions": [
+        "[link] Group Tickets -> CLICK",
+        "[button] Buy Tickets -> CLICK",
+        "[button] TYPE: Date -> CLICK",
+        "[button] Buy Now -> CLICK",
+        "[generic] Increase -> CLICK",
+        "[input] Group Name -> TYPE: Name",
+        "[input] First Name -> TYPE: Name",
+        "[input] Last Name -> TYPE: Name",
+        "[input] Email -> TYPE: Email",
+        "[combobox] Organization Type -> SELECT: Type",
+        "[input] Organizer's Last Name -> TYPE: Name",
+        "[button] Continue -> CLICK"
+      ]
+    }
+  ]
+}

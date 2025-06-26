@@ -1,0 +1,123 @@
+{
+  "meta_actions": [
+    {
+      "id": "MA1",
+      "name": "Navigate to Category",
+      "website": "uniqlo",
+      "domain": "Shopping",
+      "subdomain": "Fashion",
+      "sub_actions": [
+        "[link] Gender -> CLICK",
+        "[tab] Category -> CLICK",
+        "[link] Subcategory -> CLICK"
+      ]
+    },
+    {
+      "id": "MA2",
+      "name": "Filter Products",
+      "website": "uniqlo",
+      "domain": "Shopping",
+      "subdomain": "Fashion",
+      "sub_actions": [
+        "[heading] Filter Type -> CLICK",
+        "[label] Filter Option -> CLICK",
+        "[gridcell] Filter Type -> CLICK",
+        "[label] Filter Option -> CLICK"
+      ]
+    },
+    {
+      "id": "MA3",
+      "name": "Select Product",
+      "website": "uniqlo",
+      "domain": "Shopping",
+      "subdomain": "Fashion",
+      "sub_actions": [
+        "[img] Product Name -> CLICK",
+        "[heading] Product Name -> CLICK",
+        "[svg] Product -> CLICK"
+      ]
+    },
+    {
+      "id": "MA4",
+      "name": "Add to Cart",
+      "website": "uniqlo",
+      "domain": "Shopping",
+      "subdomain": "Fashion",
+      "sub_actions": [
+        "[button] ADD TO CART -> CLICK",
+        "[input] Quantity -> SELECT: Number",
+        "[button] CONTINUE SHOPPING -> CLICK"
+      ]
+    },
+    {
+      "id": "MA5",
+      "name": "View Cart",
+      "website": "uniqlo",
+      "domain": "Shopping",
+      "subdomain": "Fashion",
+      "sub_actions": [
+        "[button] VIEW CART -> CLICK",
+        "[button] CHECKOUT -> CLICK"
+      ]
+    },
+    {
+      "id": "MA6",
+      "name": "Search Product",
+      "website": "uniqlo",
+      "domain": "Shopping",
+      "subdomain": "Fashion",
+      "sub_actions": [
+        "[searchbox] Search by keyword -> TYPE: Keyword",
+        "[svg] Search -> CLICK"
+      ]
+    },
+    {
+      "id": "MA7",
+      "name": "Store Locator",
+      "website": "uniqlo",
+      "domain": "Shopping",
+      "subdomain": "Fashion",
+      "sub_actions": [
+        "[link] Store Locator -> CLICK",
+        "[searchbox] Location -> TYPE: Location",
+        "[input] State -> SELECT: State",
+        "[button] Find Store -> CLICK"
+      ]
+    },
+    {
+      "id": "MA8",
+      "name": "Sort Products",
+      "website": "uniqlo",
+      "domain": "Shopping",
+      "subdomain": "Fashion",
+      "sub_actions": [
+        "[generic] Sort by -> CLICK",
+        "[option] Sort Option -> CLICK"
+      ]
+    },
+    {
+      "id": "MA9",
+      "name": "Add to Wishlist",
+      "website": "uniqlo",
+      "domain": "Shopping",
+      "subdomain": "Fashion",
+      "sub_actions": [
+        "[button] LOG IN -> CLICK",
+        "[svg] Wishlist -> CLICK"
+      ]
+    },
+    {
+      "id": "MA10",
+      "name": "Select Size and Color",
+      "website": "uniqlo",
+      "domain": "Shopping",
+      "subdomain": "Fashion",
+      "sub_actions": [
+        "[heading] Size -> CLICK",
+        "[label] Size Option -> CLICK",
+        "[heading] Color -> CLICK",
+        "[label] Color Option -> CLICK"
+      ]
+    }
+  ]
+}

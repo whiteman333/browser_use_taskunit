@@ -1,0 +1,126 @@
+{
+  "task_units": [
+    {
+      "id": "CLUSTER24_TU1",
+      "name": "Retrieve booking information",
+      "sub_actions": [
+        "CLICK: My Trips",
+        "TYPE: Booking reference",
+        "TYPE: Last name",
+        "CLICK: Retrieve booking"
+      ]
+    },
+    {
+      "id": "CLUSTER24_TU2",
+      "name": "Search for vacation packages",
+      "sub_actions": [
+        "CLICK: Search for packages",
+        "CLICK: Destination",
+        "SELECT: Departure date",
+        "SELECT: Return date",
+        "CLICK: Search packages",
+        "CLICK: Amenities",
+        "SELECT: Amenities options",
+        "CLICK: Property style",
+        "SELECT: Property style options",
+        "CLICK: Sort by price",
+        "CLICK: View deal"
+      ]
+    },
+    {
+      "id": "CLUSTER24_TU3",
+      "name": "Find activities in a location",
+      "sub_actions": [
+        "CLICK: Things to do",
+        "TYPE: Location",
+        "SELECT: Date",
+        "CLICK: Search",
+        "SELECT: Free cancellation",
+        "SELECT: Family friendly"
+      ]
+    },
+    {
+      "id": "CLUSTER24_TU4",
+      "name": "Navigate to information page",
+      "sub_actions": [
+        "HOVER: Plan",
+        "CLICK: What to Pack & Bring"
+      ]
+    },
+    {
+      "id": "CLUSTER24_TU5",
+      "name": "Plan a trip",
+      "sub_actions": [
+        "CLICK: Trip Planner",
+        "TYPE: From location",
+        "TYPE: To location",
+        "SELECT: Date",
+        "SELECT: Time",
+        "CLICK: Get trip suggestions",
+        "CLICK: Show fare calculator"
+      ]
+    },
+    {
+      "id": "CLUSTER24_TU6",
+      "name": "Book a car rental",
+      "sub_actions": [
+        "CLICK: Trip Ideas",
+        "SELECT: Pick-up location",
+        "SELECT: Pick-up date",
+        "SELECT: Return date",
+        "SELECT: Pick-up time",
+        "SELECT: Return time",
+        "SELECT: Residency",
+        "SELECT: Vehicle type",
+        "CLICK: Select My Car"
+      ]
+    },
+    {
+      "id": "CLUSTER24_TU7",
+      "name": "Find travel agents",
+      "sub_actions": [
+        "CLICK: Search",
+        "TYPE: Search term",
+        "CLICK: Find",
+        "TYPE: City",
+        "SELECT: State",
+        "CLICK: Search"
+      ]
+    },
+    {
+      "id": "CLUSTER24_TU8",
+      "name": "View baggage allowance",
+      "sub_actions": [
+        "CLICK: Experience",
+        "CLICK: Baggage allowance",
+        "CLICK: Class type"
+      ]
+    },
+    {
+      "id": "CLUSTER24_TU9",
+      "name": "Book a vacation package",
+      "sub_actions": [
+        "CLICK: Vacation packages",
+        "TYPE: From location",
+        "TYPE: To location",
+        "SELECT: Number of passengers",
+        "SELECT: Departure date",
+        "SELECT: Return date",
+        "SELECT: Fare preference",
+        "CLICK: Search"
+      ]
+    },
+    {
+      "id": "CLUSTER24_TU10",
+      "name": "Find specific tour activities",
+      "sub_actions": [
+        "TYPE: Destination",
+        "SELECT: Date range",
+        "CLICK: Apply",
+        "CLICK: Activity type",
+        "SELECT: Duration",
+        "SELECT: Rating"
+      ]
+    }
+  ]
+}

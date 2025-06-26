@@ -1,0 +1,124 @@
+{
+  "task_units": [
+    {
+      "id": "CLUSTER12_TU1",
+      "name": "Select a park location",
+      "sub_actions": [
+        "CLICK: Browse the Parks Below",
+        "CLICK: Select park location",
+        "CLICK: Go!"
+      ]
+    },
+    {
+      "id": "CLUSTER12_TU2",
+      "name": "Navigate to specific park information section",
+      "sub_actions": [
+        "CLICK: Navigate to section (e.g., Tickets, Passes, VIP Tours)",
+        "CLICK: Select subsection (e.g., Tickets & Passes)"
+      ]
+    },
+    {
+      "id": "CLUSTER12_TU3",
+      "name": "Purchase park tickets or passes",
+      "sub_actions": [
+        "CLICK: Buy Now",
+        "CLICK: Add to Cart",
+        "CLICK: No Thanks (optional)",
+        "CLICK: No Thanks, Continue (optional)"
+      ]
+    },
+    {
+      "id": "CLUSTER12_TU4",
+      "name": "Find park hours or calendar",
+      "sub_actions": [
+        "CLICK: Park Hours & Calendar"
+      ]
+    },
+    {
+      "id": "CLUSTER12_TU5",
+      "name": "View park map",
+      "sub_actions": [
+        "CLICK: Plan Your Visit",
+        "CLICK: Park Map"
+      ]
+    },
+    {
+      "id": "CLUSTER12_TU6",
+      "name": "Explore park events",
+      "sub_actions": [
+        "CLICK: Events",
+        "CLICK: See all events"
+      ]
+    },
+    {
+      "id": "CLUSTER12_TU7",
+      "name": "Access financial information",
+      "sub_actions": [
+        "CLICK: Investors",
+        "CLICK: Financial Info",
+        "CLICK: Balance Sheet",
+        "CLICK: Cash Flow"
+      ]
+    },
+    {
+      "id": "CLUSTER12_TU8",
+      "name": "Search for park by state or topic",
+      "sub_actions": [
+        "CLICK: Find a Park by State",
+        "CLICK: Select state",
+        "CLICK: Search by Activity or Topic",
+        "CLICK: Select topic or activity",
+        "CLICK: Search"
+      ]
+    },
+    {
+      "id": "CLUSTER12_TU9",
+      "name": "Find specific park information",
+      "sub_actions": [
+        "TYPE: Park Name",
+        "CLICK: Select park from options",
+        "CLICK: Access specific information section (e.g., ALERTS, CALENDAR)"
+      ]
+    },
+    {
+      "id": "CLUSTER12_TU10",
+      "name": "Purchase dining passes or add-ons",
+      "sub_actions": [
+        "CLICK: Tickets & Passes",
+        "CLICK: One Day Add-Ons",
+        "CLICK: Buy Now",
+        "CLICK: Meal Deals",
+        "CLICK: All Season Dining",
+        "CLICK: Add to Cart"
+      ]
+    },
+    {
+      "id": "CLUSTER12_TU11",
+      "name": "Confirm VIP tour",
+      "sub_actions": [
+        "CLICK: Tickets, Passes, Tours",
+        "CLICK: VIP Tours",
+        "CLICK: Confirm Your Tour"
+      ]
+    },
+    {
+      "id": "CLUSTER12_TU12",
+      "name": "Purchase group tickets with add-ons",
+      "sub_actions": [
+        "CLICK: Group Tickets",
+        "CLICK: Buy Tickets",
+        "SELECT: Date",
+        "CLICK: Buy Now",
+        "CLICK: Increase quantity (multiple)",
+        "CLICK: Next",
+        "TYPE: Group Name",
+        "TYPE: First Name",
+        "TYPE: Last Name",
+        "TYPE: Email",
+        "SELECT: Organization Type",
+        "TYPE: Organization Name",
+        "CLICK: Continue"
+      ]
+    }
+  ]
+}

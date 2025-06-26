@@ -1,0 +1,96 @@
+{
+  "meta_actions": [
+    {
+      "id": "MA1",
+      "name": "Calculate Loan Payment",
+      "website": "cargurus",
+      "domain": "Shopping",
+      "subdomain": "Auto",
+      "sub_actions": [
+        "[menuitem] Finance -> HOVER",
+        "[menuitem] Loan Calculator -> CLICK",
+        "[input] -> TYPE: Number",
+        "[input] -> TYPE: Number",
+        "[input] -> TYPE: Number",
+        "[label] Number mo -> CLICK"
+      ]
+    },
+    {
+      "id": "MA2",
+      "name": "Search for Vehicle",
+      "website": "cargurus",
+      "domain": "Shopping",
+      "subdomain": "Auto",
+      "sub_actions": [
+        "[combobox] Select Make -> SELECT: Make",
+        "[combobox] Select Model -> SELECT: Model",
+        "[textbox] Zip -> TYPE: Location",
+        "[button] Search -> CLICK",
+        "[combobox] Select Sort Order -> SELECT: SortOrder"
+      ]
+    },
+    {
+      "id": "MA3",
+      "name": "Research Vehicle Information",
+      "website": "cargurus",
+      "domain": "Shopping",
+      "subdomain": "Auto",
+      "sub_actions": [
+        "[menuitem] Research -> CLICK",
+        "[combobox] Select Make -> SELECT: Make",
+        "[combobox] Select Model -> SELECT: Model",
+        "[combobox] Select Year -> SELECT: Year",
+        "[button] Search -> CLICK",
+        "[tab] User reviews -> CLICK"
+      ]
+    },
+    {
+      "id": "MA4",
+      "name": "Sell My Car",
+      "website": "cargurus",
+      "domain": "Shopping",
+      "subdomain": "Auto",
+      "sub_actions": [
+        "[LabelText] Sell My Car -> CLICK",
+        "[textbox] Enter license plate -> TYPE: LicensePlate",
+        "[combobox] state -> SELECT: State",
+        "[button] Get your offer -> CLICK"
+      ]
+    },
+    {
+      "id": "MA5",
+      "name": "Apply for Job",
+      "website": "cargurus",
+      "domain": "Shopping",
+      "subdomain": "Auto",
+      "sub_actions": [
+        "[link] Our Team -> CLICK",
+        "[menuitem] olink -> CLICK",
+        "[link] See Open Roles -> CLICK",
+        "[textbox] Select Department -> CLICK",
+        "[option] Department -> CLICK",
+        "[textbox] Locations -> CLICK",
+        "[option] Location -> CLICK",
+        "[link] Job Title -> CLICK",
+        "[link] Apply Now -> CLICK"
+      ]
+    },
+    {
+      "id": "MA6",
+      "name": "Get Prequalified for Financing",
+      "website": "cargurus",
+      "domain": "Shopping",
+      "subdomain": "Auto",
+      "sub_actions": [
+        "[menuitem] Finance -> HOVER",
+        "[menuitem] Prequalify for Financing -> CLICK",
+        "[input] -> TYPE: Number",
+        "[input] -> TYPE: Number",
+        "[span] CreditScore -> CLICK",
+        "[span] Number mo -> CLICK",
+        "[span] Get pre-qualified -> CLICK",
+        "[button] Get started -> CLICK"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "meta_actions": [
+    {
+      "id": "ma1",
+      "name": "Navigate to Campground Category",
+      "website": "koa",
+      "domain": "Travel",
+      "subdomain": "Hotel",
+      "sub_actions": [
+        "[link] CAMPING AT KOA -> CLICK",
+        "[link] KOA HOLIDAY CAMPGROUNDS -> CLICK"
+      ]
+    },
+    {
+      "id": "ma2",
+      "name": "Select Location",
+      "website": "koa",
+      "domain": "Travel",
+      "subdomain": "Hotel",
+      "sub_actions": [
+        "[button] TYPE: Location -> CLICK",
+        "[link] TYPE: Location -> CLICK"
+      ]
+    },
+    {
+      "id": "ma3",
+      "name": "Apply Filters",
+      "website": "koa",
+      "domain": "Travel",
+      "subdomain": "Hotel",
+      "sub_actions": [
+        "[link] Filters -> CLICK",
+        "[checkbox] TYPE: FilterOption -> CLICK"
+      ]
+    },
+    {
+      "id": "ma4",
+      "name": "Search for Campgrounds",
+      "website": "koa",
+      "domain": "Travel",
+      "subdomain": "Hotel",
+      "sub_actions": [
+        "[textbox] WHERE DO YOU WANT TO GO? -> TYPE: Location",
+        "[button] FIND A KOA -> CLICK"
+      ]
+    },
+    {
+      "id": "ma5",
+      "name": "Select Dates",
+      "website": "koa",
+      "domain": "Travel",
+      "subdomain": "Hotel",
+      "sub_actions": [
+        "[textbox] CHECK IN -> CLICK",
+        "[link] TYPE: Date -> CLICK",
+        "[textbox] CHECK OUT -> CLICK",
+        "[link] TYPE: Date -> CLICK"
+      ]
+    },
+    {
+      "id": "ma6",
+      "name": "View Deals",
+      "website": "koa",
+      "domain": "Travel",
+      "subdomain": "Hotel",
+      "sub_actions": [
+        "[link] DEALS -> CLICK",
+        "[link] TYPE: DealCategory -> CLICK"
+      ]
+    },
+    {
+      "id": "ma7",
+      "name": "View Photo Gallery",
+      "website": "koa",
+      "domain": "Travel",
+      "subdomain": "Hotel",
+      "sub_actions": [
+        "[link] PHOTOS -> CLICK"
+      ]
+    },
+    {
+      "id": "ma8",
+      "name": "Get Directions",
+      "website": "koa",
+      "domain": "Travel",
+      "subdomain": "Hotel",
+      "sub_actions": [
+        "[link] Get Directions -> CLICK"
+      ]
+    },
+    {
+      "id": "ma9",
+      "name": "Manage Rewards Account",
+      "website": "koa",
+      "domain": "Travel",
+      "subdomain": "Hotel",
+      "sub_actions": [
+        "[link] REWARDS PROGRAM -> CLICK",
+        "[link] PURCHASE OR RENEW NOW -> CLICK",
+        "[radio] TYPE: AccountAction -> CLICK",
+        "[textbox] KOA Rewards Number -> TYPE: Number",
+        "[textbox] Postal Code -> TYPE: Location",
+        "[button] Continue -> CLICK"
+      ]
+    },
+    {
+      "id": "ma10",
+      "name": "Plan Trip",
+      "website": "koa",
+      "domain": "Travel",
+      "subdomain": "Hotel",
+      "sub_actions": [
+        "[link] FIND A CAMPGROUND -> CLICK",
+        "[link] TRIP PLANNER -> CLICK",
+        "[textbox] Enter your Origin -> TYPE: Location",
+        "[textbox] Enter your Destination -> TYPE: Location",
+        "[button] Get Directions -> CLICK",
+        "[li] TYPE: Location -> CLICK",
+        "[li] TYPE: Location -> CLICK",
+        "[button] Continue -> CLICK"
+      ]
+    },
+    {
+      "id": "ma11",
+      "name": "Browse Accommodation Types",
+      "website": "koa",
+      "domain": "Travel",
+      "subdomain": "Hotel",
+      "sub_actions": [
+        "[link] WAYS TO STAY -> CLICK",
+        "[link] TYPE: AccommodationType -> CLICK",
+        "[link] TYPE: Location -> CLICK"
+      ]
+    }
+  ]
+}

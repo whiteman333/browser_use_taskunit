@@ -1,0 +1,100 @@
+{
+  "meta_actions": [
+    {
+      "id": "MA1",
+      "name": "Search and Select Content",
+      "website": "soundcloud",
+      "domain": "Entertainment",
+      "subdomain": "Music",
+      "sub_actions": [
+        "[searchbox] Search -> TYPE: Content",
+        "[button] Search -> CLICK",
+        "[link] Content Category -> CLICK"
+      ]
+    },
+    {
+      "id": "MA2",
+      "name": "Follow or Repost Content",
+      "website": "soundcloud",
+      "domain": "Entertainment",
+      "subdomain": "Music",
+      "sub_actions": [
+        "[button] Follow -> CLICK",
+        "[button] Repost -> CLICK"
+      ]
+    },
+    {
+      "id": "MA3",
+      "name": "Compare Plans",
+      "website": "soundcloud",
+      "domain": "Entertainment",
+      "subdomain": "Music",
+      "sub_actions": [
+        "[link] Try Next Pro -> CLICK",
+        "[button] Compare plans -> CLICK"
+      ]
+    },
+    {
+      "id": "MA4",
+      "name": "Add Content to Playlist or Next Up",
+      "website": "soundcloud",
+      "domain": "Entertainment",
+      "subdomain": "Music",
+      "sub_actions": [
+        "[button] More -> CLICK",
+        "[button] Add to playlist -> CLICK",
+        "[a] Create a playlist -> CLICK",
+        "[textbox] Playlist title * -> TYPE: Playlist Name",
+        "[button] Save -> CLICK",
+        "[button] Close -> CLICK",
+        "[span] Add to Next up -> CLICK"
+      ]
+    },
+    {
+      "id": "MA5",
+      "name": "Filter Content",
+      "website": "soundcloud",
+      "domain": "Entertainment",
+      "subdomain": "Music",
+      "sub_actions": [
+        "[link] Tracks -> CLICK",
+        "[link] Any length -> CLICK",
+        "[link] Specific Length -> CLICK",
+        "[link] # Tag -> CLICK"
+      ]
+    },
+    {
+      "id": "MA6",
+      "name": "Play Content",
+      "website": "soundcloud",
+      "domain": "Entertainment",
+      "subdomain": "Music",
+      "sub_actions": [
+        "[div] Play -> CLICK"
+      ]
+    },
+    {
+      "id": "MA7",
+      "name": "Like Content",
+      "website": "soundcloud",
+      "domain": "Entertainment",
+      "subdomain": "Music",
+      "sub_actions": [
+        "[button] Like -> CLICK"
+      ]
+    },
+    {
+      "id": "MA8",
+      "name": "Clear History",
+      "website": "soundcloud",
+      "domain": "Entertainment",
+      "subdomain": "Music",
+      "sub_actions": [
+        "[link] Library -> CLICK",
+        "[link] History -> CLICK",
+        "[button] Clear all history -> CLICK",
+        "[button] Clear my history -> CLICK"
+      ]
+    }
+  ]
+}

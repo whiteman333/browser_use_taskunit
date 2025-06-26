@@ -1,0 +1,48 @@
+{
+  "task_units": [
+    {
+      "id": "CLUSTER1_TU1",
+      "name": "Locate a store in a specified location",
+      "sub_actions": [
+        "CLICK on store locator or find store link",
+        "TYPE or SELECT location details (e.g., city, state, zip code)",
+        "CLICK to submit search",
+        "CLICK on desired store from results"
+      ]
+    },
+    {
+      "id": "CLUSTER1_TU2",
+      "name": "Set a store as preferred or my store",
+      "sub_actions": [
+        "CLICK on set as my store or similar option",
+        "CONFIRM selection if required"
+      ]
+    },
+    {
+      "id": "CLUSTER1_TU3",
+      "name": "Filter stores by specific criteria",
+      "sub_actions": [
+        "CLICK on filter or refine search options",
+        "SELECT or TYPE filter criteria (e.g., services, store type)",
+        "CLICK to apply filters",
+        "CLICK to confirm or view filtered results"
+      ]
+    },
+    {
+      "id": "CLUSTER1_TU4",
+      "name": "Check store details or additional information",
+      "sub_actions": [
+        "CLICK on store name or details link",
+        "VIEW or CLICK on additional information tabs (e.g., hours, services)"
+      ]
+    },
+    {
+      "id": "CLUSTER1_TU5",
+      "name": "Navigate to store locator section",
+      "sub_actions": [
+        "CLICK on main menu or navigation link",
+        "CLICK on store locator or find a store option"
+      ]
+    }
+  ]
+}

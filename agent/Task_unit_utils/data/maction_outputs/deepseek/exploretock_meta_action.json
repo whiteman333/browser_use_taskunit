@@ -1,0 +1,81 @@
+{
+  "meta_actions": [
+    {
+      "id": "ma1",
+      "name": "Select Location",
+      "website": "exploretock",
+      "domain": "Travel",
+      "subdomain": "Restaurant",
+      "sub_actions": [
+        "[searchbox] Find a location -> TYPE: Location",
+        "[span] Location -> CLICK"
+      ]
+    },
+    {
+      "id": "ma2",
+      "name": "Select Reservation Type",
+      "website": "exploretock",
+      "domain": "Travel",
+      "subdomain": "Restaurant",
+      "sub_actions": [
+        "[combobox] Reservation type -> SELECT: Type"
+      ]
+    },
+    {
+      "id": "ma3",
+      "name": "Select Date and Time",
+      "website": "exploretock",
+      "domain": "Travel",
+      "subdomain": "Restaurant",
+      "sub_actions": [
+        "[button] Date -> CLICK",
+        "[combobox] Time -> SELECT: Time"
+      ]
+    },
+    {
+      "id": "ma4",
+      "name": "Select Party Size",
+      "website": "exploretock",
+      "domain": "Travel",
+      "subdomain": "Restaurant",
+      "sub_actions": [
+        "[combobox] Size -> SELECT: Number of guests"
+      ]
+    },
+    {
+      "id": "ma5",
+      "name": "Filter by Cuisine",
+      "website": "exploretock",
+      "domain": "Travel",
+      "subdomain": "Restaurant",
+      "sub_actions": [
+        "[button] Edit cuisine type filter -> CLICK",
+        "[checkbox] Cuisine -> CLICK",
+        "[button] Submit -> CLICK"
+      ]
+    },
+    {
+      "id": "ma6",
+      "name": "Apply Additional Filters",
+      "website": "exploretock",
+      "domain": "Travel",
+      "subdomain": "Restaurant",
+      "sub_actions": [
+        "[button] Open additional search filters -> CLICK",
+        "[checkbox] Filter option -> CLICK",
+        "[button] Update search -> CLICK"
+      ]
+    },
+    {
+      "id": "ma7",
+      "name": "Search and View Options",
+      "website": "exploretock",
+      "domain": "Travel",
+      "subdomain": "Restaurant",
+      "sub_actions": [
+        "[button] Search -> CLICK",
+        "[button] View option -> CLICK"
+      ]
+    }
+  ]
+}

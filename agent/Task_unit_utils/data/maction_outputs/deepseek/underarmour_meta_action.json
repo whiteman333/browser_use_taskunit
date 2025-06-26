@@ -1,0 +1,70 @@
+{
+  "meta_actions": [
+    {
+      "id": "MA1",
+      "name": "Newsletter Subscription",
+      "website": "underarmour",
+      "domain": "Shopping",
+      "subdomain": "Fashion",
+      "sub_actions": [
+        "[textbox] Email Address -> TYPE: Email",
+        "[button] Sign Up -> CLICK"
+      ]
+    },
+    {
+      "id": "MA2",
+      "name": "Product Search and Filter",
+      "website": "underarmour",
+      "domain": "Shopping",
+      "subdomain": "Fashion",
+      "sub_actions": [
+        "[menuitem] Category -> CLICK",
+        "[div] Filter Option -> CLICK",
+        "[link] Subcategory -> CLICK",
+        "[div] Size -> CLICK",
+        "[link] Size Option -> CLICK",
+        "[div] Color -> CLICK",
+        "[link] Color Option -> CLICK",
+        "[div] Support Level -> CLICK",
+        "[link] Support Option -> CLICK",
+        "[span] Sorting Option -> CLICK",
+        "[li] Sorting Criteria -> CLICK"
+      ]
+    },
+    {
+      "id": "MA3",
+      "name": "Product Selection and Wishlist Addition",
+      "website": "underarmour",
+      "domain": "Shopping",
+      "subdomain": "Fashion",
+      "sub_actions": [
+        "[img] Product -> CLICK",
+        "[button] Add to Wish List -> CLICK"
+      ]
+    },
+    {
+      "id": "MA4",
+      "name": "Product Selection and Cart Addition",
+      "website": "underarmour",
+      "domain": "Shopping",
+      "subdomain": "Fashion",
+      "sub_actions": [
+        "[img] Product -> CLICK",
+        "[button] Size Option -> CLICK",
+        "[button] Add to Bag -> CLICK"
+      ]
+    },
+    {
+      "id": "MA5",
+      "name": "Size Guide Access",
+      "website": "underarmour",
+      "domain": "Shopping",
+      "subdomain": "Fashion",
+      "sub_actions": [
+        "[link] Size Guide -> CLICK",
+        "[link] Gender -> CLICK",
+        "[link] Clothing Type -> CLICK"
+      ]
+    }
+  ]
+}

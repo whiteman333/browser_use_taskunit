@@ -1,0 +1,135 @@
+{
+  "meta_actions": [
+    {
+      "id": "ma1",
+      "name": "Navigate to Route Information",
+      "website": "amtrak",
+      "domain": "Travel",
+      "subdomain": "Ground",
+      "sub_actions": [
+        "[button] DESTINATIONS -> CLICK",
+        "[link] SEE ALL ROUTES -> CLICK",
+        "[link] AMTRAK NATIONAL ROUTE MAP (PDF, 3MB) -> CLICK"
+      ]
+    },
+    {
+      "id": "ma2",
+      "name": "Search for Trains",
+      "website": "amtrak",
+      "domain": "Travel",
+      "subdomain": "Ground",
+      "sub_actions": [
+        "[textbox] From -> TYPE: Location",
+        "[option] Location -> CLICK",
+        "[textbox] To -> TYPE: Location",
+        "[option] Location -> CLICK",
+        "[textbox] Depart Date -> CLICK",
+        "[gridcell] Date -> CLICK",
+        "[button] FIND TRAINS -> CLICK"
+      ]
+    },
+    {
+      "id": "ma3",
+      "name": "Filter Search Results",
+      "website": "amtrak",
+      "domain": "Travel",
+      "subdomain": "Ground",
+      "sub_actions": [
+        "[span] Sort/Filter -> CLICK",
+        "[checkbox] Filter Option -> CLICK",
+        "[button] Close -> CLICK"
+      ]
+    },
+    {
+      "id": "ma4",
+      "name": "View Deals",
+      "website": "amtrak",
+      "domain": "Travel",
+      "subdomain": "Ground",
+      "sub_actions": [
+        "[button] DEALS -> CLICK",
+        "[link] DEALS & PROMOTIONS -> CLICK",
+        "[label] All Regions -> CLICK",
+        "[generic] Region -> CLICK"
+      ]
+    },
+    {
+      "id": "ma5",
+      "name": "Manage Trip",
+      "website": "amtrak",
+      "domain": "Travel",
+      "subdomain": "Ground",
+      "sub_actions": [
+        "[button] MY TRIP -> CLICK",
+        "[textbox] Reservation/Ticket Number -> TYPE: Number",
+        "[textbox] Last Name -> TYPE: Name",
+        "[button] Find Trip -> CLICK"
+      ]
+    },
+    {
+      "id": "ma6",
+      "name": "Explore Vacation Packages",
+      "website": "amtrak",
+      "domain": "Travel",
+      "subdomain": "Ground",
+      "sub_actions": [
+        "[button] DEALS -> CLICK",
+        "[link] VACATIONS & RAIL TOURS -> CLICK",
+        "[img] Package -> CLICK",
+        "[button] Details -> CLICK"
+      ]
+    },
+    {
+      "id": "ma7",
+      "name": "Request Quote for Vacation",
+      "website": "amtrak",
+      "domain": "Travel",
+      "subdomain": "Ground",
+      "sub_actions": [
+        "[button] DEALS -> CLICK",
+        "[link] VACATIONS & RAIL TOURS -> CLICK",
+        "[button] Instant Quote -> CLICK",
+        "[textbox] Departure City -> TYPE: Location",
+        "[checkbox] Room Type -> CLICK",
+        "[button] Continue -> CLICK",
+        "[textbox] Travel Date -> CLICK",
+        "[link] Date -> CLICK",
+        "[button] Continue -> CLICK",
+        "[textbox] Passenger Information -> TYPE: Text",
+        "[button] Submit Quote Request -> HOVER"
+      ]
+    },
+    {
+      "id": "ma8",
+      "name": "Purchase Multi-Ride Pass",
+      "website": "amtrak",
+      "domain": "Travel",
+      "subdomain": "Ground",
+      "sub_actions": [
+        "[tab] Rail Passes -> CLICK",
+        "[link] EXPLORE MULTI-RIDE PASSES -> CLICK",
+        "[textbox] From -> TYPE: Location",
+        "[option] Location -> CLICK",
+        "[textbox] To -> TYPE: Location",
+        "[option] Location -> CLICK",
+        "[textbox] Trip Start Date -> CLICK",
+        "[gridcell] Date -> CLICK",
+        "[button] Done -> CLICK",
+        "[button] Continue -> CLICK",
+        "[button] Ticket Price -> CLICK"
+      ]
+    },
+    {
+      "id": "ma9",
+      "name": "View Terms and Conditions",
+      "website": "amtrak",
+      "domain": "Travel",
+      "subdomain": "Ground",
+      "sub_actions": [
+        "[button] DEALS -> CLICK",
+        "[link] MULTI-RIDES & RAIL PASSES -> CLICK",
+        "[label] Terms -> CLICK"
+      ]
+    }
+  ]
+}

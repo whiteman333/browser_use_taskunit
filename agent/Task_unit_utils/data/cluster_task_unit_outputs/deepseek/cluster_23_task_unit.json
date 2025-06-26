@@ -1,0 +1,125 @@
+{
+  "task_units": [
+    {
+      "id": "CLUSTER23_TU1",
+      "name": "Filter cruises by duration",
+      "sub_actions": [
+        "CLICK: Filter or Plan button",
+        "SELECT: Duration range",
+        "CLICK: Apply or Filter Results button"
+      ]
+    },
+    {
+      "id": "CLUSTER23_TU2",
+      "name": "Search cruises by destination and departure port",
+      "sub_actions": [
+        "CLICK: Destination selection button",
+        "SELECT: Destination",
+        "CLICK: Departure port selection button",
+        "SELECT: Departure port",
+        "CLICK: Search or Apply button"
+      ]
+    },
+    {
+      "id": "CLUSTER23_TU3",
+      "name": "Adjust number of guests for a cruise",
+      "sub_actions": [
+        "CLICK: Number of guests button",
+        "SELECT: Increase or decrease number of guests",
+        "CLICK: Confirm or Apply button"
+      ]
+    },
+    {
+      "id": "CLUSTER23_TU4",
+      "name": "Search cruises by date range",
+      "sub_actions": [
+        "CLICK: Date selection button",
+        "SELECT: Date or month",
+        "CLICK: Apply or Search button"
+      ]
+    },
+    {
+      "id": "CLUSTER23_TU5",
+      "name": "Filter cruises by ship",
+      "sub_actions": [
+        "CLICK: Ship filter button",
+        "SELECT: Specific ship",
+        "CLICK: Apply or Search button"
+      ]
+    },
+    {
+      "id": "CLUSTER23_TU6",
+      "name": "View and filter member-only offers",
+      "sub_actions": [
+        "CLICK: Manage or Offers button",
+        "CLICK: Member-only offers link",
+        "CLICK: View deals button"
+      ]
+    },
+    {
+      "id": "CLUSTER23_TU7",
+      "name": "Start booking a selected cruise",
+      "sub_actions": [
+        "CLICK: Book or Start booking button",
+        "SELECT: Cruise option",
+        "CLICK: Proceed to booking"
+      ]
+    },
+    {
+      "id": "CLUSTER23_TU8",
+      "name": "Purchase a beverage package as a gift",
+      "sub_actions": [
+        "CLICK: Beverage packages link",
+        "SELECT: Beverage package",
+        "CLICK: Add to cart or gift option",
+        "TYPE: Recipient details",
+        "CLICK: Save and continue"
+      ]
+    },
+    {
+      "id": "CLUSTER23_TU9",
+      "name": "Search for dining options on a specific ship",
+      "sub_actions": [
+        "CLICK: Dining or Explore button",
+        "SELECT: Ship filter",
+        "SELECT: Meal time filter"
+      ]
+    },
+    {
+      "id": "CLUSTER23_TU10",
+      "name": "Find cruise deals with specific inclusions",
+      "sub_actions": [
+        "CLICK: Cruises or Deals link",
+        "SELECT: Destination",
+        "SELECT: Date range",
+        "CLICK: Filter button",
+        "SELECT: Inclusions (e.g., airfare, all-inclusive)",
+        "CLICK: Apply or Done button"
+      ]
+    },
+    {
+      "id": "CLUSTER23_TU11",
+      "name": "Sort cruise deals by price",
+      "sub_actions": [
+        "CLICK: Deals or Cruises link",
+        "CLICK: Filter or Sort button",
+        "SELECT: Price order (low to high or high to low)",
+        "CLICK: Apply or Done button"
+      ]
+    },
+    {
+      "id": "CLUSTER23_TU12",
+      "name": "Book a flight and cruise package",
+      "sub_actions": [
+        "CLICK: Flights + Cruise option",
+        "TYPE: Departure city",
+        "SELECT: Departure date",
+        "SELECT: Number of nights",
+        "SELECT: Cruise departure port",
+        "CLICK: Search or View details button",
+        "CLICK: Select package",
+        "CLICK: Proceed to checkout"
+      ]
+    }
+  ]
+}

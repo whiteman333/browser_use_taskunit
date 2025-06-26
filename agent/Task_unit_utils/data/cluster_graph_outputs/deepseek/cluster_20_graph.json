@@ -1,0 +1,47 @@
+{
+  "task_unit_dag": [
+    {
+      "parent_task_unit_id": "CLUSTER20_TU8",
+      "child_task_unit_ids": [
+        "CLUSTER20_TU1",
+        "CLUSTER20_TU2",
+        "CLUSTER20_TU3",
+        "CLUSTER20_TU4",
+        "CLUSTER20_TU5",
+        "CLUSTER20_TU6",
+        "CLUSTER20_TU9"
+      ],
+      "relationship_reasoning": "Booking a flight encompasses searching for flights, filtering results, selecting dates, specifying passenger details, choosing flight class, viewing and comparing options, and applying promo codes. These are all necessary steps to complete the broader goal of booking a flight."
+    },
+    {
+      "parent_task_unit_id": "CLUSTER20_TU1",
+      "child_task_unit_ids": [
+        "CLUSTER20_TU3",
+        "CLUSTER20_TU4",
+        "CLUSTER20_TU5"
+      ],
+      "relationship_reasoning": "Searching for flights between two locations requires selecting flight dates, specifying passenger details, and choosing flight class as these are integral parts of defining the search criteria."
+    },
+    {
+      "parent_task_unit_id": "CLUSTER20_TU6",
+      "child_task_unit_ids": [
+        "CLUSTER20_TU2"
+      ],
+      "relationship_reasoning": "Viewing and comparing flight options may involve filtering flight search results to narrow down the options based on specific criteria."
+    },
+    {
+      "parent_task_unit_id": "CLUSTER20_TU10",
+      "child_task_unit_ids": [],
+      "relationship_reasoning": "Managing booking or check-in is a standalone task that does not inherently require completion of other task units as sub-steps."
+    },
+    {
+      "parent_task_unit_id": "CLUSTER20_TU7",
+      "child_task_unit_ids": [],
+      "relationship_reasoning": "Checking flight status is a standalone task that does not inherently require completion of other task units as sub-steps."
+    }
+  ],
+  "validation": {
+    "is_acyclic": true,
+    "acyclic_reasoning": "The dependencies between task units are structured hierarchically, with broader tasks encompassing narrower sub-tasks without any circular dependencies, ensuring the graph is acyclic."
+  }
+}

@@ -1,0 +1,154 @@
+{
+  "meta_actions": [
+    {
+      "id": "ma1",
+      "name": "Navigate to Service Information",
+      "website": "new.mta.info",
+      "domain": "Travel",
+      "subdomain": "Ground",
+      "sub_actions": [
+        "[svg] -> CLICK",
+        "[link] Planned Service Changes -> CLICK",
+        "[searchbox] Search Routes -> TYPE: Route",
+        "[listitem] Route -> CLICK",
+        "[button] Date -> CLICK",
+        "[button] Next Month -> CLICK",
+        "[link] Date -> CLICK"
+      ]
+    },
+    {
+      "id": "ma2",
+      "name": "Find Purchase Information",
+      "website": "new.mta.info",
+      "domain": "Travel",
+      "subdomain": "Ground",
+      "sub_actions": [
+        "[link] Fares & Tolls -> CLICK",
+        "[div] Where to buy a MetroCard -> CLICK",
+        "[div] At a station booth -> CLICK"
+      ]
+    },
+    {
+      "id": "ma3",
+      "name": "Plan Trip Between Locations",
+      "website": "new.mta.info",
+      "domain": "Travel",
+      "subdomain": "Ground",
+      "sub_actions": [
+        "[searchbox] From -> TYPE: Location",
+        "[listitem] Location -> CLICK",
+        "[searchbox] To -> TYPE: Location",
+        "[listitem] Location -> CLICK",
+        "[button] Open Travel Preferences modal. -> CLICK",
+        "[label] Transport Mode -> CLICK",
+        "[button] Done button - Press enter key to submit travel pre... -> CLICK",
+        "[link] Plan my Trip - Press enter key to submit the form ... -> CLICK"
+      ]
+    },
+    {
+      "id": "ma4",
+      "name": "Download Information",
+      "website": "new.mta.info",
+      "domain": "Travel",
+      "subdomain": "Ground",
+      "sub_actions": [
+        "[span] Menu -> CLICK",
+        "[link] Accessibility -> CLICK",
+        "[div] List of Accessible Stations -> CLICK",
+        "[link] Download a PDF short list of accessible stations. -> CLICK"
+      ]
+    },
+    {
+      "id": "ma5",
+      "name": "Search for Events",
+      "website": "new.mta.info",
+      "domain": "Travel",
+      "subdomain": "Ground",
+      "sub_actions": [
+        "[span] Special events -> CLICK",
+        "[DisclosureTriangle] All locations -> CLICK",
+        "[li] Location -> CLICK",
+        "[DisclosureTriangle] All Categories -> CLICK",
+        "[li] Category -> CLICK",
+        "[DisclosureTriangle] All Dates -> CLICK",
+        "[li] Date Range -> CLICK",
+        "[link] Apply -> CLICK"
+      ]
+    },
+    {
+      "id": "ma6",
+      "name": "Check Toll Rates",
+      "website": "new.mta.info",
+      "domain": "Travel",
+      "subdomain": "Ground",
+      "sub_actions": [
+        "[span] Menu -> CLICK",
+        "[span] Agencies -> CLICK",
+        "[link] Bridges & Tunnels -> CLICK",
+        "[div] Tolls by vehicle -> CLICK",
+        "[span] Vehicle Type -> CLICK"
+      ]
+    },
+    {
+      "id": "ma7",
+      "name": "Search for Jobs",
+      "website": "new.mta.info",
+      "domain": "Travel",
+      "subdomain": "Ground",
+      "sub_actions": [
+        "[link] Careers -> CLICK",
+        "[link] See all open MTA positions. -> CLICK",
+        "[textbox] Enter a Location -> TYPE: Location",
+        "[button] Search -> CLICK",
+        "[link] Job Category -> CLICK"
+      ]
+    },
+    {
+      "id": "ma8",
+      "name": "View Fare Details",
+      "website": "new.mta.info",
+      "domain": "Travel",
+      "subdomain": "Ground",
+      "sub_actions": [
+        "[link] Fares & Tolls -> CLICK",
+        "[link] See railroad fare details. -> CLICK",
+        "[link] Plan a trip to see fares. -> CLICK",
+        "[searchbox] From -> TYPE: Location",
+        "[span] Location -> CLICK",
+        "[searchbox] To -> CLICK",
+        "[div] Recent Stations -> CLICK",
+        "[searchbox] To -> TYPE: Location",
+        "[span] Location -> CLICK",
+        "[select] Time -> SELECT: Time",
+        "[link] Find Schedules -> CLICK",
+        "[tab] Fares -> CLICK"
+      ]
+    },
+    {
+      "id": "ma9",
+      "name": "Find Nearest Station",
+      "website": "new.mta.info",
+      "domain": "Travel",
+      "subdomain": "Ground",
+      "sub_actions": [
+        "[span] Nearby Stations & Stops -> CLICK",
+        "[searchbox] Address, station, landmark -> CLICK",
+        "[searchbox] Address, station, landmark -> TYPE: Location",
+        "[listitem] Location -> CLICK"
+      ]
+    },
+    {
+      "id": "ma10",
+      "name": "View Special Timetable",
+      "website": "new.mta.info",
+      "domain": "Travel",
+      "subdomain": "Ground",
+      "sub_actions": [
+        "[link] Schedules -> CLICK",
+        "[heading] Long Island Rail Road & Metro-North Railroad -> CLICK",
+        "[div] Long Island Rail Road schedules -> CLICK",
+        "[link] Branch -> CLICK"
+      ]
+    }
+  ]
+}

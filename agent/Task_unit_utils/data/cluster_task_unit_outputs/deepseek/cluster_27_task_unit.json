@@ -1,0 +1,86 @@
+{
+  "task_units": [
+    {
+      "id": "CLUSTER27_TU1",
+      "name": "Search for parking by location",
+      "sub_actions": [
+        "TYPE: Location",
+        "CLICK: Select location from suggestions"
+      ]
+    },
+    {
+      "id": "CLUSTER27_TU2",
+      "name": "Filter parking options",
+      "sub_actions": [
+        "CLICK: Filter button",
+        "SELECT: Filter criteria (e.g., EV Charging, Wheelchair Accessible)",
+        "CLICK: Apply filters"
+      ]
+    },
+    {
+      "id": "CLUSTER27_TU3",
+      "name": "Sort parking options",
+      "sub_actions": [
+        "SELECT: Sort criteria (e.g., Price, Distance)"
+      ]
+    },
+    {
+      "id": "CLUSTER27_TU4",
+      "name": "Select parking duration",
+      "sub_actions": [
+        "CLICK: Duration type (e.g., Hourly, Monthly)",
+        "SELECT: Start date",
+        "SELECT: End date",
+        "SELECT: Start time",
+        "SELECT: End time"
+      ]
+    },
+    {
+      "id": "CLUSTER27_TU5",
+      "name": "View parking details",
+      "sub_actions": [
+        "CLICK: View Details button"
+      ]
+    },
+    {
+      "id": "CLUSTER27_TU6",
+      "name": "Book parking",
+      "sub_actions": [
+        "CLICK: Book Now button",
+        "TYPE: Personal information",
+        "CLICK: Submit booking"
+      ]
+    },
+    {
+      "id": "CLUSTER27_TU7",
+      "name": "Search for parking near specific venues",
+      "sub_actions": [
+        "TYPE: Venue name",
+        "CLICK: Select venue from suggestions"
+      ]
+    },
+    {
+      "id": "CLUSTER27_TU8",
+      "name": "Navigate to parking information",
+      "sub_actions": [
+        "CLICK: Menu or navigation link",
+        "CLICK: Parking or related option"
+      ]
+    },
+    {
+      "id": "CLUSTER27_TU9",
+      "name": "Specify parking requirements",
+      "sub_actions": [
+        "CLICK: Filters or options",
+        "SELECT: Specific requirements (e.g., Motorcycle Parking, Pre-Purchased Available)"
+      ]
+    },
+    {
+      "id": "CLUSTER27_TU10",
+      "name": "Adjust search parameters",
+      "sub_actions": [
+        "CLICK: Update Search button"
+      ]
+    }
+  ]
+}

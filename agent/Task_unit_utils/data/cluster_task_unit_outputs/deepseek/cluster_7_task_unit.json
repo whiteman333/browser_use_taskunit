@@ -1,0 +1,93 @@
+{
+  "task_units": [
+    {
+      "id": "CLUSTER7_TU1",
+      "name": "Search for a product by specific criteria",
+      "sub_actions": [
+        "TYPE: Search query",
+        "CLICK: Search button",
+        "SELECT: Filter options",
+        "CLICK: Apply filters"
+      ]
+    },
+    {
+      "id": "CLUSTER7_TU2",
+      "name": "Filter products by price range",
+      "sub_actions": [
+        "CLICK: Price filter",
+        "TYPE: Minimum price",
+        "TYPE: Maximum price",
+        "CLICK: Apply price range"
+      ]
+    },
+    {
+      "id": "CLUSTER7_TU3",
+      "name": "Sort products by price",
+      "sub_actions": [
+        "CLICK: Sort options",
+        "SELECT: Price low to high"
+      ]
+    },
+    {
+      "id": "CLUSTER7_TU4",
+      "name": "Add product to cart",
+      "sub_actions": [
+        "CLICK: Add to cart button",
+        "CLICK: View cart"
+      ]
+    },
+    {
+      "id": "CLUSTER7_TU5",
+      "name": "Check product availability at a specific location",
+      "sub_actions": [
+        "TYPE: Location details",
+        "CLICK: Search location",
+        "CLICK: Check availability"
+      ]
+    },
+    {
+      "id": "CLUSTER7_TU6",
+      "name": "Navigate to a product category",
+      "sub_actions": [
+        "CLICK: Category menu",
+        "CLICK: Subcategory"
+      ]
+    },
+    {
+      "id": "CLUSTER7_TU7",
+      "name": "Compare products",
+      "sub_actions": [
+        "CLICK: Compare option",
+        "SELECT: Products to compare",
+        "CLICK: View comparison"
+      ]
+    },
+    {
+      "id": "CLUSTER7_TU8",
+      "name": "Checkout process",
+      "sub_actions": [
+        "CLICK: Proceed to checkout",
+        "SELECT: Delivery options",
+        "CLICK: Place order"
+      ]
+    },
+    {
+      "id": "CLUSTER7_TU9",
+      "name": "Set a price alert",
+      "sub_actions": [
+        "CLICK: Price alert option",
+        "TYPE: Desired price",
+        "CLICK: Submit alert"
+      ]
+    },
+    {
+      "id": "CLUSTER7_TU10",
+      "name": "Find products with specific features",
+      "sub_actions": [
+        "CLICK: Feature filter",
+        "SELECT: Desired features",
+        "CLICK: Apply filters"
+      ]
+    }
+  ]
+}

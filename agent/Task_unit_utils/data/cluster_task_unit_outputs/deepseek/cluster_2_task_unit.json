@@ -1,0 +1,150 @@
+{
+  "task_units": [
+    {
+      "id": "CLUSTER2_TU1",
+      "name": "Purchase digital gift card",
+      "sub_actions": [
+        "CLICK on gift card option",
+        "TYPE: Recipient Name",
+        "TYPE: Recipient Email",
+        "TYPE: Sender Name",
+        "CLICK on add to cart"
+      ]
+    },
+    {
+      "id": "CLUSTER2_TU2",
+      "name": "Explore gift shops at a location",
+      "sub_actions": [
+        "CLICK on browse location option",
+        "SELECT: Location",
+        "CLICK on explore option",
+        "SELECT: Shops category",
+        "SELECT: Gifts subcategory"
+      ]
+    },
+    {
+      "id": "CLUSTER2_TU3",
+      "name": "Purchase multiple digital gift cards with a message",
+      "sub_actions": [
+        "CLICK on gift cards option",
+        "SELECT: Gift card type",
+        "SELECT: Currency",
+        "TYPE: Message",
+        "TYPE: Sender Name",
+        "TYPE: Recipient Names",
+        "TYPE: Recipient Emails",
+        "CLICK on checkout"
+      ]
+    },
+    {
+      "id": "CLUSTER2_TU4",
+      "name": "Open gift list for a category",
+      "sub_actions": [
+        "CLICK on more ways to shop",
+        "CLICK on send gifts",
+        "SELECT: Category"
+      ]
+    },
+    {
+      "id": "CLUSTER2_TU5",
+      "name": "Search for a specific gift card",
+      "sub_actions": [
+        "TYPE: Search query",
+        "CLICK on search",
+        "CLICK on desired gift card"
+      ]
+    },
+    {
+      "id": "CLUSTER2_TU6",
+      "name": "Purchase a branded gift card with a message",
+      "sub_actions": [
+        "CLICK on gift cards option",
+        "SELECT: Brand",
+        "TYPE: Amount",
+        "SELECT: Gift option",
+        "TYPE: Recipient Name",
+        "TYPE: Sender Name",
+        "TYPE: Message",
+        "CLICK on add to cart",
+        "CLICK on checkout"
+      ]
+    },
+    {
+      "id": "CLUSTER2_TU7",
+      "name": "Check gift card balance",
+      "sub_actions": [
+        "CLICK on gift cards page",
+        "CLICK on check balance",
+        "TYPE: Gift Card Number",
+        "TYPE: Gift Card Pin",
+        "CLICK on search"
+      ]
+    },
+    {
+      "id": "CLUSTER2_TU8",
+      "name": "Add multiple gift cards to cart",
+      "sub_actions": [
+        "CLICK on gift cards option",
+        "SELECT: Gift card type",
+        "CLICK on add to cart",
+        "REPEAT for additional gift cards",
+        "CLICK on view cart & checkout"
+      ]
+    },
+    {
+      "id": "CLUSTER2_TU9",
+      "name": "Add a digital gift card to cart with recipient email",
+      "sub_actions": [
+        "TYPE: Search query",
+        "CLICK on desired gift card",
+        "SELECT: Amount",
+        "TYPE: Recipient Email",
+        "CLICK on add to cart"
+      ]
+    },
+    {
+      "id": "CLUSTER2_TU10",
+      "name": "Find a gift registry",
+      "sub_actions": [
+        "CLICK on gift registry option",
+        "CLICK on find a registry",
+        "TYPE: First Name",
+        "TYPE: Last Name",
+        "CLICK on search",
+        "CLICK on view",
+        "CLICK on password request option",
+        "TYPE: Your Name",
+        "TYPE: Your Email",
+        "CLICK on request password"
+      ]
+    },
+    {
+      "id": "CLUSTER2_TU11",
+      "name": "Send a physical gift card with a message",
+      "sub_actions": [
+        "CLICK on gifting option",
+        "CLICK on gift cards",
+        "SELECT: Physical card option",
+        "TYPE: Amount",
+        "SELECT: Card design",
+        "TYPE: Recipient Name",
+        "TYPE: Sender Name",
+        "TYPE: Message",
+        "CLICK on add to cart",
+        "CLICK on checkout"
+      ]
+    },
+    {
+      "id": "CLUSTER2_TU12",
+      "name": "Add a branded gift card to cart with recipient details",
+      "sub_actions": [
+        "CLICK on shop option",
+        "SELECT: Category",
+        "CLICK on desired gift card",
+        "TYPE: Recipient Name",
+        "TYPE: Recipient Email",
+        "CLICK on add to cart"
+      ]
+    }
+  ]
+}

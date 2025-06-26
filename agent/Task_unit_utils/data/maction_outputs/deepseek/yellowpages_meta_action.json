@@ -1,0 +1,216 @@
+{
+  "meta_actions": [
+    {
+      "id": "MA1",
+      "name": "Search by Phone Number",
+      "website": "yellowpages",
+      "domain": "Travel",
+      "subdomain": "Restaurant",
+      "sub_actions": [
+        "[link] Find People -> CLICK",
+        "[link] BY PHONE NUMBER -> CLICK",
+        "[input] -> TYPE: Phone Number",
+        "[button] Search by Phone -> CLICK"
+      ]
+    },
+    {
+      "id": "MA2",
+      "name": "Ask a Question",
+      "website": "yellowpages",
+      "domain": "Travel",
+      "subdomain": "Restaurant",
+      "sub_actions": [
+        "[link] QUESTIONS & ANSWERS -> CLICK",
+        "[link] Insurance -> CLICK",
+        "[textbox] Ask a Question -> TYPE: Question",
+        "[button] Add a Question -> HOVER"
+      ]
+    },
+    {
+      "id": "MA3",
+      "name": "Filter Restaurants by Criteria",
+      "website": "yellowpages",
+      "domain": "Travel",
+      "subdomain": "Restaurant",
+      "sub_actions": [
+        "[link] CITY PAGES -> CLICK",
+        "[link] Location -> CLICK",
+        "[img] -> CLICK",
+        "[span] Order Online -> CLICK",
+        "[link] All -> CLICK",
+        "[label] Cuisine Type -> CLICK",
+        "[button] Apply Filters -> CLICK"
+      ]
+    },
+    {
+      "id": "MA4",
+      "name": "Search for a Person",
+      "website": "yellowpages",
+      "domain": "Travel",
+      "subdomain": "Restaurant",
+      "sub_actions": [
+        "[link] Find People -> CLICK",
+        "[input] -> TYPE: First Name",
+        "[input] -> TYPE: Last Name",
+        "[input] -> TYPE: Location",
+        "[button] Search for Someone -> CLICK"
+      ]
+    },
+    {
+      "id": "MA5",
+      "name": "Find Deals in Location",
+      "website": "yellowpages",
+      "domain": "Travel",
+      "subdomain": "Restaurant",
+      "sub_actions": [
+        "[a] City Pages -> CLICK",
+        "[link] Location -> CLICK",
+        "[link] Coupons & Deals -> CLICK"
+      ]
+    },
+    {
+      "id": "MA6",
+      "name": "Search for Professional Services",
+      "website": "yellowpages",
+      "domain": "Travel",
+      "subdomain": "Restaurant",
+      "sub_actions": [
+        "[link] Service Type -> CLICK",
+        "[input] -> TYPE: Location",
+        "[link] Specific Location -> CLICK",
+        "[button] Find -> CLICK",
+        "[link] All -> CLICK",
+        "[label] Service Subtype -> CLICK",
+        "[button] Apply Filters -> CLICK",
+        "[link] Specific Service Provider -> CLICK"
+      ]
+    },
+    {
+      "id": "MA7",
+      "name": "View Map of Services",
+      "website": "yellowpages",
+      "domain": "Travel",
+      "subdomain": "Restaurant",
+      "sub_actions": [
+        "[link] CITY PAGES -> CLICK",
+        "[link] Location -> CLICK",
+        "[img] -> CLICK",
+        "[link] Map View -> CLICK"
+      ]
+    },
+    {
+      "id": "MA8",
+      "name": "Filter and Sort Services",
+      "website": "yellowpages",
+      "domain": "Travel",
+      "subdomain": "Restaurant",
+      "sub_actions": [
+        "[input] -> TYPE: Location",
+        "[input] -> TYPE: Service Type",
+        "[link] Service Type -> CLICK",
+        "[div] Sort: -> CLICK",
+        "[a] Sort Criteria -> CLICK",
+        "[div] Result -> CLICK"
+      ]
+    },
+    {
+      "id": "MA9",
+      "name": "Browse Services with Filters",
+      "website": "yellowpages",
+      "domain": "Travel",
+      "subdomain": "Restaurant",
+      "sub_actions": [
+        "[link] Service Category -> CLICK",
+        "[link] Filter Option -> CLICK",
+        "[link] Default -> CLICK",
+        "[a] Sort Option -> CLICK"
+      ]
+    },
+    {
+      "id": "MA10",
+      "name": "Search for Rated Services with Coupons",
+      "website": "yellowpages",
+      "domain": "Travel",
+      "subdomain": "Restaurant",
+      "sub_actions": [
+        "[input] -> TYPE: Service Type",
+        "[link] Service Type -> CLICK",
+        "[input] -> TYPE: Location",
+        "[link] Location -> CLICK",
+        "[button] Find -> CLICK",
+        "[span] Coupons -> CLICK",
+        "[span] Rating -> CLICK"
+      ]
+    },
+    {
+      "id": "MA11",
+      "name": "Find Specific Rated Services",
+      "website": "yellowpages",
+      "domain": "Travel",
+      "subdomain": "Restaurant",
+      "sub_actions": [
+        "[link] Service Category -> CLICK",
+        "[input] -> TYPE: Location",
+        "[link] Specific Location -> CLICK",
+        "[button] Find -> CLICK",
+        "[link] All -> CLICK",
+        "[label] Service Subcategory -> CLICK",
+        "[label] Service Feature -> CLICK",
+        "[heading] Features -> CLICK",
+        "[label] Rating -> CLICK",
+        "[button] Apply Filters -> CLICK"
+      ]
+    },
+    {
+      "id": "MA12",
+      "name": "Add Services to Favorites",
+      "website": "yellowpages",
+      "domain": "Travel",
+      "subdomain": "Restaurant",
+      "sub_actions": [
+        "[input] -> TYPE: Service Type",
+        "[input] -> TYPE: Location",
+        "[link] Specific Location -> CLICK",
+        "[button] Find -> CLICK",
+        "[link] Service Provider -> CLICK",
+        "[use] -> CLICK"
+      ]
+    },
+    {
+      "id": "MA13",
+      "name": "Navigate to Q&A Section",
+      "website": "yellowpages",
+      "domain": "Travel",
+      "subdomain": "Restaurant",
+      "sub_actions": [
+        "[link] QUESTIONS & ANSWERS -> CLICK",
+        "[link] Topic -> CLICK"
+      ]
+    },
+    {
+      "id": "MA14",
+      "name": "Search for Coupons in Location",
+      "website": "yellowpages",
+      "domain": "Travel",
+      "subdomain": "Restaurant",
+      "sub_actions": [
+        "[link] Coupons -> CLICK",
+        "[input] -> TYPE: Location",
+        "[link] Specific Location -> CLICK",
+        "[button] Find -> CLICK"
+      ]
+    },
+    {
+      "id": "MA15",
+      "name": "Browse Trending in Location",
+      "website": "yellowpages",
+      "domain": "Travel",
+      "subdomain": "Restaurant",
+      "sub_actions": [
+        "[link] CITY PAGES -> CLICK",
+        "[link] Location -> CLICK",
+        "[link] Search for more -> CLICK"
+      ]
+    }
+  ]
+}

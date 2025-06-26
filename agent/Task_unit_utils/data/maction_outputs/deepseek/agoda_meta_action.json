@@ -1,0 +1,105 @@
+{
+  "meta_actions": [
+    {
+      "id": "ma1",
+      "name": "Search Accommodation",
+      "website": "agoda",
+      "domain": "Travel",
+      "subdomain": "General",
+      "sub_actions": [
+        "[combobox] Enter a destination or property -> TYPE: Location",
+        "[option] Top destination -> CLICK",
+        "[div] Date -> CLICK",
+        "[span] Date -> CLICK",
+        "[img] Add -> CLICK",
+        "[span] SEARCH -> CLICK",
+        "[tab] Sort option -> CLICK"
+      ]
+    },
+    {
+      "id": "ma2",
+      "name": "Search Flight",
+      "website": "agoda",
+      "domain": "Travel",
+      "subdomain": "General",
+      "sub_actions": [
+        "[tab] Flights -> CLICK",
+        "[combobox] Flying from -> TYPE: Location",
+        "[option] Destination -> CLICK",
+        "[combobox] Flying to -> TYPE: Location",
+        "[option] Destination -> CLICK",
+        "[span] Date -> CLICK",
+        "[button] SEARCH FLIGHTS -> CLICK",
+        "[span] Sort option -> CLICK"
+      ]
+    },
+    {
+      "id": "ma3",
+      "name": "Filter Search Results",
+      "website": "agoda",
+      "domain": "Travel",
+      "subdomain": "General",
+      "sub_actions": [
+        "[checkbox] Filter option -> CLICK",
+        "[textbox] Price filter -> TYPE: Number",
+        "[tab] Sort option -> CLICK"
+      ]
+    },
+    {
+      "id": "ma4",
+      "name": "View Deals",
+      "website": "agoda",
+      "domain": "Travel",
+      "subdomain": "General",
+      "sub_actions": [
+        "[link] Deals section -> CLICK",
+        "[checkbox] Deal type -> CLICK"
+      ]
+    },
+    {
+      "id": "ma5",
+      "name": "Search Car Rental",
+      "website": "agoda",
+      "domain": "Travel",
+      "subdomain": "General",
+      "sub_actions": [
+        "[button] Menu -> CLICK",
+        "[link] Car rentals -> CLICK",
+        "[textbox] Pick up location -> TYPE: Location",
+        "[a] Location option -> CLICK",
+        "[button] Search -> CLICK",
+        "[button] Car type -> CLICK",
+        "[link] SELECT CAR -> CLICK"
+      ]
+    },
+    {
+      "id": "ma6",
+      "name": "Search Activities",
+      "website": "agoda",
+      "domain": "Travel",
+      "subdomain": "General",
+      "sub_actions": [
+        "[path] Activities section -> CLICK",
+        "[combobox] Search by city or activity -> TYPE: Location",
+        "[generic] Country -> CLICK",
+        "[button] SEARCH -> CLICK",
+        "[span] Sort and filter -> CLICK",
+        "[checkbox] Rating filter -> CLICK",
+        "[radio] Sort option -> CLICK",
+        "[button] Filter -> CLICK"
+      ]
+    },
+    {
+      "id": "ma7",
+      "name": "View Cancellation Policy",
+      "website": "agoda",
+      "domain": "Travel",
+      "subdomain": "General",
+      "sub_actions": [
+        "[link] FAQs -> CLICK",
+        "[link] Cancellation -> CLICK",
+        "[button] Policy question -> CLICK"
+      ]
+    }
+  ]
+}

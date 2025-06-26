@@ -1,0 +1,116 @@
+{
+  "meta_actions": [
+    {
+      "id": "ma1",
+      "name": "Search Flights by Route",
+      "website": "flightaware",
+      "domain": "Travel",
+      "subdomain": "Other",
+      "sub_actions": [
+        "[textbox] Origin -> TYPE: Location",
+        "[div] Origin Selection -> CLICK",
+        "[textbox] Destination -> TYPE: Location",
+        "[div] Destination Selection -> CLICK",
+        "[img] Submit Search -> CLICK"
+      ]
+    },
+    {
+      "id": "ma2",
+      "name": "Filter Flight Status",
+      "website": "flightaware",
+      "domain": "Travel",
+      "subdomain": "Other",
+      "sub_actions": [
+        "[group] Status -> CLICK",
+        "[checkbox] Status Option -> CLICK"
+      ]
+    },
+    {
+      "id": "ma3",
+      "name": "Compare and Sign Up for Subscriptions",
+      "website": "flightaware",
+      "domain": "Travel",
+      "subdomain": "Other",
+      "sub_actions": [
+        "[span] Products -> CLICK",
+        "[span] Premium Subscriptions -> CLICK",
+        "[button] Compare Subscriptions -> CLICK",
+        "[a] Upgrade -> CLICK"
+      ]
+    },
+    {
+      "id": "ma4",
+      "name": "Search Airport Information",
+      "website": "flightaware",
+      "domain": "Travel",
+      "subdomain": "Other",
+      "sub_actions": [
+        "[input] Search Field -> CLICK",
+        "[input] Search Field -> TYPE: Airport Code",
+        "[option] Airport Selection -> CLICK",
+        "[link] MAP & DIAGRAM -> CLICK"
+      ]
+    },
+    {
+      "id": "ma5",
+      "name": "Navigate to Career Opportunities",
+      "website": "flightaware",
+      "domain": "Travel",
+      "subdomain": "Other",
+      "sub_actions": [
+        "[link] Company -> CLICK",
+        "[link] Career Opportunities -> CLICK",
+        "[select] Team Selection -> SELECT: Team"
+      ]
+    },
+    {
+      "id": "ma6",
+      "name": "Browse Community Content",
+      "website": "flightaware",
+      "domain": "Travel",
+      "subdomain": "Other",
+      "sub_actions": [
+        "[span] Community -> CLICK",
+        "[link] Content Category -> CLICK",
+        "[combobox] Content Filter -> SELECT: Filter Option"
+      ]
+    },
+    {
+      "id": "ma7",
+      "name": "Search Flight by Number",
+      "website": "flightaware",
+      "domain": "Travel",
+      "subdomain": "Other",
+      "sub_actions": [
+        "[input] Flight Number -> TYPE: Number",
+        "[img] Submit Search -> CLICK"
+      ]
+    },
+    {
+      "id": "ma8",
+      "name": "View Statistics",
+      "website": "flightaware",
+      "domain": "Travel",
+      "subdomain": "Other",
+      "sub_actions": [
+        "[link] Statistics Category -> CLICK",
+        "[div] Statistics Option -> CLICK"
+      ]
+    },
+    {
+      "id": "ma9",
+      "name": "Check Airport Weather",
+      "website": "flightaware",
+      "domain": "Travel",
+      "subdomain": "Other",
+      "sub_actions": [
+        "[combobox] Search Method -> SELECT: Method",
+        "[textbox] Airport City -> TYPE: Location",
+        "[strong] Location Selection -> CLICK",
+        "[img] Submit Search -> CLICK",
+        "[link] View Airport Stats -> CLICK",
+        "[link] WEATHER -> CLICK"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "meta_actions": [
+    {
+      "id": "ma1",
+      "name": "Navigate to League or Team Section",
+      "website": "espn",
+      "domain": "Entertainment",
+      "subdomain": "Sports",
+      "sub_actions": [
+        "[button] Soccer -> HOVER",
+        "[link] Leagues & Cups -> CLICK",
+        "[link] Stats -> CLICK",
+        "[link] ESPN Soccer Home Page -> HOVER",
+        "[link] Champions League -> CLICK",
+        "[link] Manchester City -> CLICK",
+        "[li] Soccer -> HOVER",
+        "[link] Barcelona -> CLICK",
+        "[link] NBA -> HOVER",
+        "[link] Dallas Mavericks -> CLICK",
+        "[link] NBA -> CLICK",
+        "[link] NFL -> CLICK",
+        "[link] MMA -> HOVER",
+        "[link] Schedule/Results -> CLICK",
+        "[link] ESPN NHL Home Page -> HOVER",
+        "[link] Teams -> CLICK"
+      ]
+    },
+    {
+      "id": "ma2",
+      "name": "Search for Specific Information",
+      "website": "espn",
+      "domain": "Entertainment",
+      "subdomain": "Sports",
+      "sub_actions": [
+        "[button] Open Search -> CLICK",
+        "[textbox] Search -> TYPE: Player or Team Name",
+        "[textbox] Search -> ENTER",
+        "[span] Search Result -> CLICK"
+      ]
+    },
+    {
+      "id": "ma3",
+      "name": "Select or Filter by Season, League, or Competition",
+      "website": "espn",
+      "domain": "Entertainment",
+      "subdomain": "Sports",
+      "sub_actions": [
+        "[select] Season or Year -> SELECT: Specific Season or Year",
+        "[select] League or Competition -> SELECT: Specific League or Competition",
+        "[select] All Competitions -> SELECT: Specific Competition"
+      ]
+    },
+    {
+      "id": "ma4",
+      "name": "Access Player or Team Statistics or Bio",
+      "website": "espn",
+      "domain": "Entertainment",
+      "subdomain": "Sports",
+      "sub_actions": [
+        "[link] Stats -> CLICK",
+        "[link] Bio -> CLICK",
+        "[link] Full Profile -> CLICK",
+        "[link] Roster -> CLICK",
+        "[link] Full Team Statistics -> CLICK"
+      ]
+    },
+    {
+      "id": "ma5",
+      "name": "Navigate to Scores or Fixtures",
+      "website": "espn",
+      "domain": "Entertainment",
+      "subdomain": "Sports",
+      "sub_actions": [
+        "[link] Scores -> CLICK",
+        "[link] Fixtures -> CLICK",
+        "[button] Calendar -> CLICK",
+        "[use] Date Selection -> CLICK",
+        "[listitem] Specific Date -> CLICK",
+        "[span] Day of Week -> CLICK"
+      ]
+    },
+    {
+      "id": "ma6",
+      "name": "Follow or Subscribe to Content",
+      "website": "espn",
+      "domain": "Entertainment",
+      "subdomain": "Sports",
+      "sub_actions": [
+        "[button] FOLLOW -> CLICK",
+        "[span] Podcast or Show -> CLICK",
+        "[button] Play Video -> CLICK"
+      ]
+    }
+  ]
+}

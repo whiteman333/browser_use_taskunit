@@ -1,0 +1,210 @@
+{
+  "meta_actions": [
+    {
+      "id": "ma1",
+      "name": "Search Flights",
+      "website": "aa",
+      "domain": "Travel",
+      "subdomain": "Airlines",
+      "sub_actions": [
+        "[textbox] From -> TYPE: Location",
+        "[a] Location -> CLICK",
+        "[textbox] To -> TYPE: Location",
+        "[a] Location -> CLICK",
+        "[button] View Calendar -> CLICK",
+        "[link] Date -> CLICK",
+        "[button] Search -> CLICK"
+      ]
+    },
+    {
+      "id": "ma2",
+      "name": "Search Jobs",
+      "website": "aa",
+      "domain": "Travel",
+      "subdomain": "Airlines",
+      "sub_actions": [
+        "[link] Careers -> CLICK",
+        "[link] View All Jobs -> CLICK",
+        "[textbox] Search by Keyword -> TYPE: Job Type",
+        "[textbox] Search by Location -> TYPE: Location",
+        "[button] Search Jobs -> CLICK"
+      ]
+    },
+    {
+      "id": "ma3",
+      "name": "Book Vacation Package",
+      "website": "aa",
+      "domain": "Travel",
+      "subdomain": "Airlines",
+      "sub_actions": [
+        "[span] Vacation packages -> CLICK",
+        "[textbox] From -> TYPE: Location",
+        "[a] Location -> CLICK",
+        "[textbox] To -> TYPE: Location",
+        "[a] Location -> CLICK",
+        "[combobox] Number of passengers -> SELECT: Number",
+        "[button] View Calendar -> CLICK",
+        "[link] Date -> CLICK",
+        "[combobox] Fare preference -> SELECT: Fare Type",
+        "[button] Search -> CLICK"
+      ]
+    },
+    {
+      "id": "ma4",
+      "name": "Check Refund Status",
+      "website": "aa",
+      "domain": "Travel",
+      "subdomain": "Airlines",
+      "sub_actions": [
+        "[link] Receipts and refunds -> CLICK",
+        "[link] Check the status of a refund -> CLICK",
+        "[textbox] Ticket number -> TYPE: Ticket Number",
+        "[textbox] First name -> TYPE: Name",
+        "[textbox] Last name -> TYPE: Name",
+        "[button] Search -> CLICK"
+      ]
+    },
+    {
+      "id": "ma5",
+      "name": "Request Ticket Receipt",
+      "website": "aa",
+      "domain": "Travel",
+      "subdomain": "Airlines",
+      "sub_actions": [
+        "[link] Receipts and refunds -> CLICK",
+        "[link] Receipts for tickets and fees -> CLICK",
+        "[textbox] Ticket number -> TYPE: Ticket Number",
+        "[textbox] Last name -> TYPE: Name",
+        "[button] Find your receipt -> CLICK"
+      ]
+    },
+    {
+      "id": "ma6",
+      "name": "Check Flight Status",
+      "website": "aa",
+      "domain": "Travel",
+      "subdomain": "Airlines",
+      "sub_actions": [
+        "[link] Flight status -> CLICK",
+        "[textbox] From -> TYPE: Location",
+        "[a] Location -> CLICK",
+        "[textbox] To -> TYPE: Location",
+        "[a] Location -> CLICK",
+        "[combobox] Date -> SELECT: Date",
+        "[button] Search -> CLICK"
+      ]
+    },
+    {
+      "id": "ma7",
+      "name": "Search Hotels",
+      "website": "aa",
+      "domain": "Travel",
+      "subdomain": "Airlines",
+      "sub_actions": [
+        "[link] Hotel -> CLICK",
+        "[searchbox] Type your destination -> TYPE: Location",
+        "[option] Location -> CLICK",
+        "[checkbox] Date -> CLICK",
+        "[button] Search -> CLICK",
+        "[menuitem] Price (lowest first) -> CLICK"
+      ]
+    },
+    {
+      "id": "ma8",
+      "name": "Create Flight Status Notification",
+      "website": "aa",
+      "domain": "Travel",
+      "subdomain": "Airlines",
+      "sub_actions": [
+        "[link] Flight status -> CLICK",
+        "[link] Create flight status notification -> CLICK",
+        "[textbox] From -> TYPE: Location",
+        "[a] Location -> CLICK",
+        "[textbox] To -> TYPE: Location",
+        "[a] Location -> CLICK",
+        "[button] View Calendar -> CLICK",
+        "[link] Date -> CLICK",
+        "[button] Search -> CLICK",
+        "[button] Get alerts for this flight -> CLICK",
+        "[textbox] Email -> TYPE: Email",
+        "[textbox] Confirm email -> TYPE: Email",
+        "[button] Save -> CLICK"
+      ]
+    },
+    {
+      "id": "ma9",
+      "name": "Search Flight by Number",
+      "website": "aa",
+      "domain": "Travel",
+      "subdomain": "Airlines",
+      "sub_actions": [
+        "[link] Flight status -> CLICK",
+        "[span] Flight number -> CLICK",
+        "[spinbutton] Flight number -> TYPE: Flight Number",
+        "[combobox] Date -> SELECT: Date",
+        "[button] Search -> CLICK"
+      ]
+    },
+    {
+      "id": "ma10",
+      "name": "Plan Multi-City Travel",
+      "website": "aa",
+      "domain": "Travel",
+      "subdomain": "Airlines",
+      "sub_actions": [
+        "[button] PLAN TRAVEL -> CLICK",
+        "[link] Flights -> CLICK",
+        "[link] Search flights multiple cities -> CLICK",
+        "[textbox] From -> TYPE: Location",
+        "[a] Location -> CLICK",
+        "[textbox] To -> TYPE: Location",
+        "[a] Location -> CLICK",
+        "[textbox] Depart -> TYPE: Date",
+        "[button] Add another flight -> CLICK",
+        "[combobox] Sort by -> SELECT: Sort Option",
+        "[button] Search -> CLICK"
+      ]
+    },
+    {
+      "id": "ma11",
+      "name": "Search Jobs by Location",
+      "website": "aa",
+      "domain": "Travel",
+      "subdomain": "Airlines",
+      "sub_actions": [
+        "[link] We're hiring! Join our team -> CLICK",
+        "[link] Search open jobs -> CLICK",
+        "[input] -> TYPE: Location",
+        "[button] Filter -> CLICK"
+      ]
+    },
+    {
+      "id": "ma12",
+      "name": "Manage Trips",
+      "website": "aa",
+      "domain": "Travel",
+      "subdomain": "Airlines",
+      "sub_actions": [
+        "[link] Manage trips / Check-in -> CLICK",
+        "[textbox] Passenger last name -> TYPE: Name",
+        "[textbox] Confirmation / Record locator -> TYPE: Record Locator",
+        "[button] Find your trip -> HOVER"
+      ]
+    },
+    {
+      "id": "ma13",
+      "name": "View Travel Credits",
+      "website": "aa",
+      "domain": "Travel",
+      "subdomain": "Airlines",
+      "sub_actions": [
+        "[searchbox] Search AA.com® -> TYPE: Keyword",
+        "[searchbox] Search AA.com® -> ENTER",
+        "[heading] Find your trip -> CLICK",
+        "[textbox] Last name -> TYPE: Name",
+        "[textbox] Trip Credit / Ticket number -> TYPE: Ticket Number",
+        "[adc-button] Find travel credit -> CLICK"
+      ]
+    }
+  ]
+}

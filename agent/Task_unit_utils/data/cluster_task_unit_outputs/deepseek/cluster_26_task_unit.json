@@ -1,0 +1,497 @@
+{
+  "task_units": [
+    {
+      "id": "CLUSTER26_TU1",
+      "name": "Search for a specific used car model with color preference",
+      "sub_actions": [
+        "CLICK on model link",
+        "CLICK on inventory view",
+        "SELECT used condition",
+        "SELECT color preference"
+      ]
+    },
+    {
+      "id": "CLUSTER26_TU2",
+      "name": "Calculate car loan payment",
+      "sub_actions": [
+        "NAVIGATE to finance section",
+        "CLICK on loan calculator",
+        "TYPE vehicle price",
+        "TYPE down payment",
+        "TYPE interest rate",
+        "SELECT loan term"
+      ]
+    },
+    {
+      "id": "CLUSTER26_TU3",
+      "name": "Find lowest price for a certified pre-owned car with specific features",
+      "sub_actions": [
+        "SELECT certified pre-owned option",
+        "SELECT make",
+        "SELECT model",
+        "TYPE location",
+        "SELECT year range",
+        "SELECT color",
+        "SELECT sort order by price"
+      ]
+    },
+    {
+      "id": "CLUSTER26_TU4",
+      "name": "Search for cheapest car with specific features and confirm availability",
+      "sub_actions": [
+        "SELECT location",
+        "SELECT certification type",
+        "SELECT drive type",
+        "SELECT color",
+        "SELECT paperwork option",
+        "SELECT vehicle history",
+        "SELECT sort order by price",
+        "CLICK to confirm availability",
+        "TYPE personal details"
+      ]
+    },
+    {
+      "id": "CLUSTER26_TU5",
+      "name": "Browse and compare used cars by make and year",
+      "sub_actions": [
+        "SELECT make",
+        "SELECT year",
+        "SELECT sort order by price",
+        "CLICK to compare listings"
+      ]
+    },
+    {
+      "id": "CLUSTER26_TU6",
+      "name": "Search for used cars by model and compare mileage",
+      "sub_actions": [
+        "NAVIGATE to shop section",
+        "SELECT vehicle type",
+        "SELECT make",
+        "SELECT model",
+        "CLICK to compare",
+        "HOVER to view mileage"
+      ]
+    },
+    {
+      "id": "CLUSTER26_TU7",
+      "name": "Search for a car with specific features and compare results",
+      "sub_actions": [
+        "NAVIGATE to shop section",
+        "SELECT vehicle type",
+        "SELECT sort order by price",
+        "SELECT fuel type",
+        "SELECT year range",
+        "SELECT color",
+        "SELECT transmission type",
+        "SELECT shipping option",
+        "CLICK to compare",
+        "CLICK to compare photos"
+      ]
+    },
+    {
+      "id": "CLUSTER26_TU8",
+      "name": "Find car value with specific details",
+      "sub_actions": [
+        "NAVIGATE to car values section",
+        "SELECT year",
+        "SELECT make",
+        "SELECT model",
+        "TYPE mileage",
+        "SELECT trim",
+        "SELECT color",
+        "TYPE license plate",
+        "SELECT state"
+      ]
+    },
+    {
+      "id": "CLUSTER26_TU9",
+      "name": "Find cheapest car within a specific distance",
+      "sub_actions": [
+        "NAVIGATE to cars for sale section",
+        "TYPE location",
+        "SELECT distance",
+        "SELECT year",
+        "SELECT make",
+        "SELECT model",
+        "SELECT sort order by price"
+      ]
+    },
+    {
+      "id": "CLUSTER26_TU10",
+      "name": "Find documents required to sell a car",
+      "sub_actions": [
+        "NAVIGATE to sell/trade section",
+        "SELECT state",
+        "ANSWER ownership questions",
+        "CLICK to view required documents"
+      ]
+    },
+    {
+      "id": "CLUSTER26_TU11",
+      "name": "Search for a used car by make and model with lowest price",
+      "sub_actions": [
+        "SELECT make",
+        "SELECT model",
+        "TYPE location",
+        "SELECT sort order by price"
+      ]
+    },
+    {
+      "id": "CLUSTER26_TU12",
+      "name": "Show all used cars by make within a location",
+      "sub_actions": [
+        "SELECT make",
+        "TYPE location"
+      ]
+    },
+    {
+      "id": "CLUSTER26_TU13",
+      "name": "Find newest car with specific features within a distance",
+      "sub_actions": [
+        "NAVIGATE to new cars section",
+        "SELECT vehicle type",
+        "TYPE location",
+        "SELECT year range",
+        "SELECT distance",
+        "SELECT color",
+        "SELECT interior color",
+        "SELECT features",
+        "SELECT sort order by newest"
+      ]
+    },
+    {
+      "id": "CLUSTER26_TU14",
+      "name": "Find cars by series within nearest store location",
+      "sub_actions": [
+        "SET store location",
+        "SELECT make",
+        "SELECT series"
+      ]
+    },
+    {
+      "id": "CLUSTER26_TU15",
+      "name": "Find fuel economy for a specific car",
+      "sub_actions": [
+        "NAVIGATE to price section",
+        "SELECT year",
+        "SELECT make",
+        "SELECT model"
+      ]
+    },
+    {
+      "id": "CLUSTER26_TU16",
+      "name": "Calculate monthly payment with specific financial details",
+      "sub_actions": [
+        "NAVIGATE to finance section",
+        "CLICK on payment calculator",
+        "TYPE vehicle price",
+        "TYPE down payment",
+        "SELECT state",
+        "SELECT credit score",
+        "SELECT term length"
+      ]
+    },
+    {
+      "id": "CLUSTER26_TU17",
+      "name": "View price trends for used cars and compare with index",
+      "sub_actions": [
+        "NAVIGATE to research section",
+        "CLICK on price trends",
+        "SELECT date range",
+        "SELECT makes to compare"
+      ]
+    },
+    {
+      "id": "CLUSTER26_TU18",
+      "name": "Browse convertibles for sale under a specific price",
+      "sub_actions": [
+        "NAVIGATE to car sales section",
+        "SELECT price range",
+        "SELECT body type"
+      ]
+    },
+    {
+      "id": "CLUSTER26_TU19",
+      "name": "Browse listings for a used car by make, model, and year",
+      "sub_actions": [
+        "NAVIGATE to price section",
+        "SELECT year",
+        "SELECT make",
+        "SELECT model",
+        "CLICK to view listings"
+      ]
+    },
+    {
+      "id": "CLUSTER26_TU20",
+      "name": "Find safety rating for a specific car",
+      "sub_actions": [
+        "NAVIGATE to price section",
+        "SELECT year",
+        "SELECT make",
+        "SELECT model",
+        "CLICK on safety section"
+      ]
+    },
+    {
+      "id": "CLUSTER26_TU21",
+      "name": "Show cars with specific drive type and budget",
+      "sub_actions": [
+        "NAVIGATE to cars for sale section",
+        "SELECT drive type",
+        "TYPE max price"
+      ]
+    },
+    {
+      "id": "CLUSTER26_TU22",
+      "name": "Get price quote for a new car",
+      "sub_actions": [
+        "NAVIGATE to dealer price quote section",
+        "SELECT make",
+        "SELECT model",
+        "TYPE location",
+        "CLICK to find dealers"
+      ]
+    },
+    {
+      "id": "CLUSTER26_TU23",
+      "name": "Find car with specific features and price range",
+      "sub_actions": [
+        "SET store location",
+        "SELECT sort order by mileage",
+        "SELECT shipping cost",
+        "SELECT make",
+        "SELECT price range"
+      ]
+    },
+    {
+      "id": "CLUSTER26_TU24",
+      "name": "Browse listings for a used car by make and model near a location and sort by price",
+      "sub_actions": [
+        "SELECT make",
+        "SELECT model",
+        "TYPE location",
+        "SELECT sort order by price"
+      ]
+    },
+    {
+      "id": "CLUSTER26_TU25",
+      "name": "Calculate monthly payment for a car with specific financial details",
+      "sub_actions": [
+        "NAVIGATE to finance section",
+        "CLICK on loan calculator",
+        "TYPE vehicle price",
+        "TYPE down payment",
+        "TYPE interest rate",
+        "SELECT loan term"
+      ]
+    },
+    {
+      "id": "CLUSTER26_TU26",
+      "name": "Find car for sale within a distance from location",
+      "sub_actions": [
+        "NAVIGATE to car sales section",
+        "TYPE location",
+        "SELECT distance",
+        "SELECT make"
+      ]
+    },
+    {
+      "id": "CLUSTER26_TU27",
+      "name": "Find cheapest car with specific features within a distance",
+      "sub_actions": [
+        "SET store location",
+        "SELECT distance",
+        "SELECT make",
+        "SELECT model",
+        "SELECT year",
+        "SELECT features",
+        "SELECT color",
+        "SELECT sort order by price"
+      ]
+    },
+    {
+      "id": "CLUSTER26_TU28",
+      "name": "Get offer to sell car with license plate",
+      "sub_actions": [
+        "NAVIGATE to sell my car section",
+        "TYPE license plate",
+        "SELECT state"
+      ]
+    },
+    {
+      "id": "CLUSTER26_TU29",
+      "name": "Search for certified pre-owned car with specific features within a distance",
+      "sub_actions": [
+        "NAVIGATE to certified cars section",
+        "SELECT make",
+        "SELECT model",
+        "TYPE location",
+        "SELECT distance",
+        "SELECT drive type",
+        "SELECT ownership",
+        "SELECT sort order by mileage"
+      ]
+    },
+    {
+      "id": "CLUSTER26_TU30",
+      "name": "Calculate vehicle price with specific financial details",
+      "sub_actions": [
+        "NAVIGATE to finance section",
+        "CLICK on payment calculator",
+        "TYPE monthly payment",
+        "TYPE down payment",
+        "SELECT state",
+        "SELECT credit score"
+      ]
+    },
+    {
+      "id": "CLUSTER26_TU31",
+      "name": "Calculate monthly payment and shop with budget",
+      "sub_actions": [
+        "NAVIGATE to finance section",
+        "CLICK on payment calculator",
+        "TYPE vehicle price",
+        "TYPE down payment",
+        "SELECT state",
+        "SELECT credit score",
+        "SELECT term length",
+        "CLICK to shop with budget",
+        "CLICK to add to favorites"
+      ]
+    },
+    {
+      "id": "CLUSTER26_TU32",
+      "name": "Get prequalified for financing",
+      "sub_actions": [
+        "NAVIGATE to finance section",
+        "CLICK on prequalify for financing",
+        "TYPE vehicle price",
+        "TYPE down payment",
+        "SELECT credit score",
+        "SELECT loan term",
+        "TYPE personal details"
+      ]
+    },
+    {
+      "id": "CLUSTER26_TU33",
+      "name": "Sell car with specific details and get offer",
+      "sub_actions": [
+        "NAVIGATE to sell my car section",
+        "TYPE license plate",
+        "SELECT state",
+        "TYPE location",
+        "TYPE mileage",
+        "SELECT interior type",
+        "SELECT condition",
+        "SELECT tire condition",
+        "ANSWER ownership questions",
+        "SELECT number of keys"
+      ]
+    },
+    {
+      "id": "CLUSTER26_TU34",
+      "name": "Find cheapest car model with color preference for registration",
+      "sub_actions": [
+        "CLICK on model link",
+        "CLICK on inventory view",
+        "SELECT sort order by price",
+        "TYPE registration location"
+      ]
+    },
+    {
+      "id": "CLUSTER26_TU35",
+      "name": "Search for used cars excluding specific color and save search",
+      "sub_actions": [
+        "TYPE search query",
+        "SELECT advanced search",
+        "EXCLUDE color",
+        "SAVE search with custom name",
+        "SET notification preference"
+      ]
+    },
+    {
+      "id": "CLUSTER26_TU36",
+      "name": "Schedule a test drive for a specific car model",
+      "sub_actions": [
+        "NAVIGATE to demo drive section",
+        "SELECT model"
+      ]
+    },
+    {
+      "id": "CLUSTER26_TU37",
+      "name": "View inventory of new car model with specific features within a distance",
+      "sub_actions": [
+        "CLICK on model link",
+        "CLICK on inventory view",
+        "SELECT wheel size",
+        "TYPE registration location",
+        "SELECT distance"
+      ]
+    },
+    {
+      "id": "CLUSTER26_TU38",
+      "name": "View best seller accessories for a specific car model",
+      "sub_actions": [
+        "NAVIGATE to shop section",
+        "CLICK on best sellers"
+      ]
+    },
+    {
+      "id": "CLUSTER26_TU39",
+      "name": "View inventory of car model within a distance from location",
+      "sub_actions": [
+        "CLICK on model link",
+        "CLICK on inventory view",
+        "TYPE registration location",
+        "SELECT distance"
+      ]
+    },
+    {
+      "id": "CLUSTER26_TU40",
+      "name": "Schedule a demo drive with personal details",
+      "sub_actions": [
+        "NAVIGATE to demo drive section",
+        "SELECT model",
+        "TYPE personal details",
+        "TYPE contact information",
+        "TYPE location"
+      ]
+    },
+    {
+      "id": "CLUSTER26_TU41",
+      "name": "Get offer for a car with specific VIN and condition",
+      "sub_actions": [
+        "NAVIGATE to sell my car section",
+        "TYPE VIN",
+        "TYPE location",
+        "TYPE mileage",
+        "SELECT color",
+        "SELECT condition",
+        "SELECT tire condition",
+        "ANSWER ownership questions",
+        "SELECT number of keys"
+      ]
+    },
+    {
+      "id": "CLUSTER26_TU42",
+      "name": "Check price of car model for a specific location",
+      "sub_actions": [
+        "CLICK on model link",
+        "CLICK on order now",
+        "SELECT trim",
+        "TYPE location"
+      ]
+    },
+    {
+      "id": "CLUSTER26_TU43",
+      "name": "Find car with lowest price and save listing",
+      "sub_actions": [
+        "NAVIGATE to cars for sale section",
+        "TYPE search query",
+        "SELECT make",
+        "SELECT sort order by price",
+        "CLICK to save listing"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "meta_actions": [
+    {
+      "id": "ma1",
+      "name": "Navigate to League or Team Section",
+      "website": "foxsports",
+      "domain": "Entertainment",
+      "subdomain": "Sports",
+      "sub_actions": [
+        "[link] League or Team Name -> CLICK",
+        "[button] Open More Dropdown -> CLICK",
+        "[div] League or Team Name -> CLICK"
+      ]
+    },
+    {
+      "id": "ma2",
+      "name": "Search for Specific Content",
+      "website": "foxsports",
+      "domain": "Entertainment",
+      "subdomain": "Sports",
+      "sub_actions": [
+        "[button] Search -> CLICK",
+        "[searchbox] Search Field -> CLICK",
+        "[searchbox] Search Field -> TYPE: Search Term",
+        "[div] Search Result -> CLICK"
+      ]
+    },
+    {
+      "id": "ma3",
+      "name": "Access Specific Information Category",
+      "website": "foxsports",
+      "domain": "Entertainment",
+      "subdomain": "Sports",
+      "sub_actions": [
+        "[heading] Information Category -> CLICK",
+        "[button] Specific Option -> CLICK",
+        "[link] Information Category -> CLICK"
+      ]
+    },
+    {
+      "id": "ma4",
+      "name": "View Scores or Odds",
+      "website": "foxsports",
+      "domain": "Entertainment",
+      "subdomain": "Sports",
+      "sub_actions": [
+        "[span] Scores or Odds -> CLICK",
+        "[heading] Sport or League -> CLICK",
+        "[button] Time Frame -> CLICK",
+        "[link] Specific Match or Game -> CLICK"
+      ]
+    },
+    {
+      "id": "ma5",
+      "name": "Navigate Through Sports Categories",
+      "website": "foxsports",
+      "domain": "Entertainment",
+      "subdomain": "Sports",
+      "sub_actions": [
+        "[button] MORE -> CLICK",
+        "[div] Sport Category -> CLICK",
+        "[div] Subcategory -> CLICK"
+      ]
+    }
+  ]
+}

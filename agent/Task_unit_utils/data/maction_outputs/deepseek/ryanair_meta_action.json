@@ -1,0 +1,168 @@
+{
+  "meta_actions": [
+    {
+      "id": "MA1",
+      "name": "Navigate to Destination Selection",
+      "website": "ryanair",
+      "domain": "Travel",
+      "subdomain": "Airlines",
+      "sub_actions": [
+        "[button] Plan -> CLICK",
+        "[link] Try Somewhere New -> CLICK",
+        "[link] Destinations -> CLICK"
+      ]
+    },
+    {
+      "id": "MA2",
+      "name": "Select Destinations",
+      "website": "ryanair",
+      "domain": "Travel",
+      "subdomain": "Airlines",
+      "sub_actions": [
+        "[label] TYPE: Country -> CLICK",
+        "[div] Popular -> CLICK",
+        "[div] A - Z -> CLICK",
+        "[div] Find destination -> CLICK"
+      ]
+    },
+    {
+      "id": "MA3",
+      "name": "Initiate Gift Card Purchase",
+      "website": "ryanair",
+      "domain": "Travel",
+      "subdomain": "Airlines",
+      "sub_actions": [
+        "[img] GIFT CARDS -> CLICK",
+        "[img] Happy Birthday -> CLICK"
+      ]
+    },
+    {
+      "id": "MA4",
+      "name": "Configure Gift Card Details",
+      "website": "ryanair",
+      "domain": "Travel",
+      "subdomain": "Airlines",
+      "sub_actions": [
+        "[button] TYPE: Currency -> CLICK",
+        "[div] TYPE: Currency -> CLICK",
+        "[textarea] TYPE: Message -> TYPE: Custom Message",
+        "[input] TYPE: Sender Name -> TYPE: Name",
+        "[input] TYPE: Recipient Name -> TYPE: Name",
+        "[input] TYPE: Recipient Email -> TYPE: Email"
+      ]
+    },
+    {
+      "id": "MA5",
+      "name": "Complete Gift Card Purchase",
+      "website": "ryanair",
+      "domain": "Travel",
+      "subdomain": "Airlines",
+      "sub_actions": [
+        "[button] Go to checkout -> CLICK"
+      ]
+    },
+    {
+      "id": "MA6",
+      "name": "Search for Events",
+      "website": "ryanair",
+      "domain": "Travel",
+      "subdomain": "Airlines",
+      "sub_actions": [
+        "[div] Events & Activities -> CLICK",
+        "[input] TYPE: Location -> CLICK",
+        "[button] TYPE: Location -> CLICK",
+        "[button] Go! -> CLICK"
+      ]
+    },
+    {
+      "id": "MA7",
+      "name": "Filter and Select Event",
+      "website": "ryanair",
+      "domain": "Travel",
+      "subdomain": "Airlines",
+      "sub_actions": [
+        "[div] Sort by -> CLICK",
+        "[div] TYPE: Sort Option -> CLICK",
+        "[link] Get tickets -> CLICK"
+      ]
+    },
+    {
+      "id": "MA8",
+      "name": "Book Event Tickets",
+      "website": "ryanair",
+      "domain": "Travel",
+      "subdomain": "Airlines",
+      "sub_actions": [
+        "[p] Number of Travellers -> CLICK",
+        "[button] Check availability -> CLICK",
+        "[li] TYPE: Guide Language -> CLICK",
+        "[button] Select and Checkout -> CLICK"
+      ]
+    },
+    {
+      "id": "MA9",
+      "name": "Search for Car Hire",
+      "website": "ryanair",
+      "domain": "Travel",
+      "subdomain": "Airlines",
+      "sub_actions": [
+        "[div] Car Hire -> CLICK",
+        "[textbox] I need a car in -> TYPE: Location",
+        "[button] TYPE: Location -> CLICK"
+      ]
+    },
+    {
+      "id": "MA10",
+      "name": "Configure Car Hire Details",
+      "website": "ryanair",
+      "domain": "Travel",
+      "subdomain": "Airlines",
+      "sub_actions": [
+        "[div] TYPE: Date -> CLICK",
+        "[generic] TYPE: Date -> CLICK",
+        "[button] Let's go -> CLICK"
+      ]
+    },
+    {
+      "id": "MA11",
+      "name": "Search for Flights",
+      "website": "ryanair",
+      "domain": "Travel",
+      "subdomain": "Airlines",
+      "sub_actions": [
+        "[textbox] From -> TYPE: Location",
+        "[span] TYPE: Location -> CLICK",
+        "[textbox] To -> TYPE: Location",
+        "[span] TYPE: Location -> CLICK",
+        "[div] TYPE: Date -> CLICK",
+        "[generic] TYPE: Date -> CLICK",
+        "[button] Search -> CLICK"
+      ]
+    },
+    {
+      "id": "MA12",
+      "name": "Select Flight Options",
+      "website": "ryanair",
+      "domain": "Travel",
+      "subdomain": "Airlines",
+      "sub_actions": [
+        "[button] Select -> CLICK",
+        "[heading] TYPE: Fare Option -> CLICK"
+      ]
+    },
+    {
+      "id": "MA13",
+      "name": "Complete Flight Booking",
+      "website": "ryanair",
+      "domain": "Travel",
+      "subdomain": "Airlines",
+      "sub_actions": [
+        "[button] Continue -> CLICK",
+        "[button] Log in later -> CLICK",
+        "[textbox] First name -> TYPE: Name",
+        "[textbox] Last name -> TYPE: Name",
+        "[button] Continue -> CLICK"
+      ]
+    }
+  ]
+}

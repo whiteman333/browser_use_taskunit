@@ -1,0 +1,75 @@
+{
+  "task_unit_dag": [
+    {
+      "parent_task_unit_id": "CLUSTER10_TU5",
+      "child_task_unit_ids": [
+        "CLUSTER10_TU1",
+        "CLUSTER10_TU2"
+      ],
+      "relationship_reasoning": "Purchasing a product bundle involves searching for a specific product and browsing products by category to find the desired bundle."
+    },
+    {
+      "parent_task_unit_id": "CLUSTER10_TU9",
+      "child_task_unit_ids": [
+        "CLUSTER10_TU1",
+        "CLUSTER10_TU2"
+      ],
+      "relationship_reasoning": "Searching and filtering for a specific product requires both searching for the product and browsing through categories to apply filters."
+    },
+    {
+      "parent_task_unit_id": "CLUSTER10_TU18",
+      "child_task_unit_ids": [
+        "CLUSTER10_TU2",
+        "CLUSTER10_TU6"
+      ],
+      "relationship_reasoning": "Finding and printing product details involves browsing products by category and narrowing down by price to find the specific product details."
+    },
+    {
+      "parent_task_unit_id": "CLUSTER10_TU20",
+      "child_task_unit_ids": [
+        "CLUSTER10_TU1"
+      ],
+      "relationship_reasoning": "Browsing products within a price range starts with searching for a product name to then apply price filters."
+    },
+    {
+      "parent_task_unit_id": "CLUSTER10_TU21",
+      "child_task_unit_ids": [
+        "CLUSTER10_TU2"
+      ],
+      "relationship_reasoning": "Filtering products by feature requires browsing through categories to reach the section where features can be filtered."
+    },
+    {
+      "parent_task_unit_id": "CLUSTER10_TU22",
+      "child_task_unit_ids": [
+        "CLUSTER10_TU2"
+      ],
+      "relationship_reasoning": "Finding a used product involves browsing through categories to locate the specific console section where condition filters can be applied."
+    },
+    {
+      "parent_task_unit_id": "CLUSTER10_TU27",
+      "child_task_unit_ids": [
+        "CLUSTER10_TU1"
+      ],
+      "relationship_reasoning": "Finding the cheapest product starts with searching for a product category to then sort by price."
+    },
+    {
+      "parent_task_unit_id": "CLUSTER10_TU29",
+      "child_task_unit_ids": [
+        "CLUSTER10_TU2"
+      ],
+      "relationship_reasoning": "Browsing pre-order products requires navigating through categories to find the specific console section where pre-order filters can be applied."
+    },
+    {
+      "parent_task_unit_id": "CLUSTER10_TU33",
+      "child_task_unit_ids": [
+        "CLUSTER10_TU1",
+        "CLUSTER10_TU20"
+      ],
+      "relationship_reasoning": "Purchasing the cheapest product with a shipping filter involves searching for the product and applying both price and shipping location filters."
+    }
+  ],
+  "validation": {
+    "is_acyclic": true,
+    "acyclic_reasoning": "All relationships strictly follow a hierarchical structure of task objectives, with no cycles or contradictions in the dependencies."
+  }
+}

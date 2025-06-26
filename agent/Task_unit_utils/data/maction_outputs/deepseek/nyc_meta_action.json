@@ -1,0 +1,162 @@
+{
+  "meta_actions": [
+    {
+      "id": "ma1",
+      "name": "Navigate to Subcategory",
+      "website": "nyc",
+      "domain": "Entertainment",
+      "subdomain": "Event",
+      "sub_actions": [
+        "[link] shopping. -> CLICK",
+        "[li] Neighborhood -> CLICK",
+        "[link] Chelsea -> CLICK",
+        "[link] Bookstore (3) -> CLICK"
+      ]
+    },
+    {
+      "id": "ma2",
+      "name": "Filter by Cuisine and Price",
+      "website": "nyc",
+      "domain": "Entertainment",
+      "subdomain": "Event",
+      "sub_actions": [
+        "[link] restaurants. -> CLICK",
+        "[li] Cuisine -> CLICK",
+        "[link] African -> CLICK",
+        "[link] East Village (2) -> CLICK",
+        "[link] $16 To $30 (2) -> CLICK"
+      ]
+    },
+    {
+      "id": "ma3",
+      "name": "Search Accommodation with Filters",
+      "website": "nyc",
+      "domain": "Entertainment",
+      "subdomain": "Event",
+      "sub_actions": [
+        "[link] hotels. -> CLICK",
+        "[textbox] Check In -> CLICK",
+        "[link] 24 -> CLICK",
+        "[textbox] Sun Mar 26 -> CLICK",
+        "[link] 27 -> CLICK",
+        "[combobox] -> SELECT: 1 Room",
+        "[combobox] -> SELECT: 2 Adults",
+        "[combobox] -> SELECT: 1 Child",
+        "[select] Age -> SELECT: 0",
+        "[link] Search Hotels -> CLICK",
+        "[radio] $100 to $200 -> CLICK",
+        "[radio] New York (and vicinity) -> CLICK",
+        "[radio] Central Park -> CLICK"
+      ]
+    },
+    {
+      "id": "ma4",
+      "name": "Search Tickets with Price Range",
+      "website": "nyc",
+      "domain": "Entertainment",
+      "subdomain": "Event",
+      "sub_actions": [
+        "[link] sports. -> CLICK",
+        "[textbox] Search by Name -> TYPE: Team Name",
+        "[p] Team Name -> CLICK",
+        "[link] View Tickets -> CLICK",
+        "[span] (0) -> CLICK",
+        "[textbox] Max Price -> TYPE: Number",
+        "[textbox] Min Price -> TYPE: Number",
+        "[button] Done -> CLICK"
+      ]
+    },
+    {
+      "id": "ma5",
+      "name": "Book Tour with Date and Participants",
+      "website": "nyc",
+      "domain": "Entertainment",
+      "subdomain": "Event",
+      "sub_actions": [
+        "[link] tours. -> CLICK",
+        "[li] Boat Tours -> CLICK",
+        "[div] Show Info -> CLICK",
+        "[link] View Tickets Now -> CLICK",
+        "[button] Check Availability -> CLICK",
+        "[div] 27 -> CLICK",
+        "[button] increase number -> CLICK",
+        "[button] Apply -> CLICK",
+        "[button] 10:30 AM -> CLICK",
+        "[button] Book Now -> CLICK"
+      ]
+    },
+    {
+      "id": "ma6",
+      "name": "View Events Sorted by Date",
+      "website": "nyc",
+      "domain": "Entertainment",
+      "subdomain": "Event",
+      "sub_actions": [
+        "[link] broadway. -> CLICK",
+        "[li] Shows By Date -> CLICK"
+      ]
+    },
+    {
+      "id": "ma7",
+      "name": "Check Reservation Availability",
+      "website": "nyc",
+      "domain": "Entertainment",
+      "subdomain": "Event",
+      "sub_actions": [
+        "[link] restaurants. -> CLICK",
+        "[li] Cuisine -> CLICK",
+        "[link] Indian/Pakistani -> CLICK",
+        "[link] East Village (9) -> CLICK",
+        "[link] $16 To $30 (4) -> CLICK",
+        "[link] Reservations -> CLICK"
+      ]
+    },
+    {
+      "id": "ma8",
+      "name": "Search for Lowest Price Tickets",
+      "website": "nyc",
+      "domain": "Entertainment",
+      "subdomain": "Event",
+      "sub_actions": [
+        "[link] concerts. -> CLICK",
+        "[textbox] Search by Name -> TYPE: Event Name",
+        "[p] Event Name -> CLICK",
+        "[link] View Tickets -> CLICK",
+        "[span] Filters -> CLICK",
+        "[listbox] Sort by Price - Low to High -> CLICK",
+        "[button] Done -> CLICK"
+      ]
+    },
+    {
+      "id": "ma9",
+      "name": "Review Restaurant Menu",
+      "website": "nyc",
+      "domain": "Entertainment",
+      "subdomain": "Event",
+      "sub_actions": [
+        "[link] restaurants. -> CLICK",
+        "[i] -> CLICK",
+        "[textbox] Search by restaurant name, cuisine, or anything be... -> TYPE: Restaurant Name",
+        "[button] Search -> CLICK",
+        "[heading] Restaurant Name — Location -> CLICK",
+        "[link] Reservation -> CLICK",
+        "[button] Menu -> CLICK",
+        "[tab] Dinner Menu -> CLICK",
+        "[button] View full menu -> CLICK"
+      ]
+    },
+    {
+      "id": "ma10",
+      "name": "Search Attractions by Neighborhood",
+      "website": "nyc",
+      "domain": "Entertainment",
+      "subdomain": "Event",
+      "sub_actions": [
+        "[link] attractions. -> CLICK",
+        "[li] Neighborhood -> CLICK",
+        "[link] Midtown -> CLICK",
+        "[link] Art Galleries (5) -> CLICK"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,185 @@
+{
+  "meta_actions": [
+    {
+      "id": "ma1",
+      "name": "Retrieve Booking",
+      "website": "qatarairways",
+      "domain": "Travel",
+      "subdomain": "Airlines",
+      "sub_actions": [
+        "[tab] My Trips -> CLICK",
+        "[textbox] booking reference -> TYPE: BookingReference",
+        "[textbox] last name -> TYPE: LastName",
+        "[button] Retrieve booking -> CLICK"
+      ]
+    },
+    {
+      "id": "ma2",
+      "name": "Explore Destination and Book Flight",
+      "website": "qatarairways",
+      "domain": "Travel",
+      "subdomain": "Airlines",
+      "sub_actions": [
+        "[button] Explore -> CLICK",
+        "[link] Continent -> CLICK",
+        "[div] City -> CLICK",
+        "[link] Discover -> CLICK",
+        "[textbox] From -> TYPE: Location",
+        "[strong] Location -> CLICK",
+        "[textbox] Depart date -> CLICK",
+        "[gridcell] Date -> CLICK",
+        "[button] Continue -> CLICK",
+        "[textbox] Passengers / Class -> CLICK",
+        "[button] Adjust passengers -> CLICK",
+        "[button] Confirm -> CLICK",
+        "[button] Show flights -> CLICK",
+        "[heading] Price -> CLICK",
+        "[button] Select fare -> CLICK"
+      ]
+    },
+    {
+      "id": "ma3",
+      "name": "Search Membership Tier Benefits",
+      "website": "qatarairways",
+      "domain": "Travel",
+      "subdomain": "Airlines",
+      "sub_actions": [
+        "[rect] -> CLICK",
+        "[textbox] Search term -> TYPE: SearchTerm",
+        "[button] Search -> CLICK",
+        "[link] Membership Tiers -> CLICK"
+      ]
+    },
+    {
+      "id": "ma4",
+      "name": "Book Flight",
+      "website": "qatarairways",
+      "domain": "Travel",
+      "subdomain": "Airlines",
+      "sub_actions": [
+        "[textbox] From -> TYPE: Location",
+        "[strong] Location -> CLICK",
+        "[textbox] To -> TYPE: Location",
+        "[strong] Location -> CLICK",
+        "[textbox] Depart date -> CLICK",
+        "[gridcell] Date -> CLICK",
+        "[textbox] Passengers / Class -> CLICK",
+        "[button] Adjust passengers -> CLICK",
+        "[span] Class -> CLICK",
+        "[button] Confirm -> CLICK",
+        "[button] Show flights -> CLICK",
+        "[heading] Price -> CLICK",
+        "[button] Select fare -> CLICK"
+      ]
+    },
+    {
+      "id": "ma5",
+      "name": "Search One-Way Flights",
+      "website": "qatarairways",
+      "domain": "Travel",
+      "subdomain": "Airlines",
+      "sub_actions": [
+        "[textbox] From -> TYPE: Location",
+        "[menuitem] Location -> CLICK",
+        "[textbox] To -> TYPE: Location",
+        "[menuitem] Location -> CLICK",
+        "[option] One way -> CLICK",
+        "[gridcell] Date -> CLICK",
+        "[button] Continue -> CLICK",
+        "[button] Show flights -> CLICK"
+      ]
+    },
+    {
+      "id": "ma6",
+      "name": "Find Baggage Allowance",
+      "website": "qatarairways",
+      "domain": "Travel",
+      "subdomain": "Airlines",
+      "sub_actions": [
+        "[button] Experience -> CLICK",
+        "[link] Baggage allowance -> CLICK",
+        "[link] Class -> CLICK"
+      ]
+    },
+    {
+      "id": "ma7",
+      "name": "Search Job",
+      "website": "qatarairways",
+      "domain": "Travel",
+      "subdomain": "Airlines",
+      "sub_actions": [
+        "[link] Careers -> CLICK",
+        "[span] Number -> CLICK",
+        "[textbox] Location -> TYPE: Location",
+        "[link] Location -> CLICK",
+        "[button] Search -> CLICK",
+        "[span] Job -> CLICK",
+        "[checkbox] Save Job -> CLICK"
+      ]
+    },
+    {
+      "id": "ma8",
+      "name": "Check Flight Status",
+      "website": "qatarairways",
+      "domain": "Travel",
+      "subdomain": "Airlines",
+      "sub_actions": [
+        "[tab] Flight status -> CLICK",
+        "[textbox] From / Flight number -> TYPE: Location",
+        "[strong] Location -> CLICK",
+        "[textbox] To -> TYPE: Location",
+        "[strong] Location -> CLICK",
+        "[button] Search flights -> CLICK"
+      ]
+    },
+    {
+      "id": "ma9",
+      "name": "Find Hotel",
+      "website": "qatarairways",
+      "domain": "Travel",
+      "subdomain": "Airlines",
+      "sub_actions": [
+        "[button] Book -> CLICK",
+        "[link] Hotels -> CLICK",
+        "[searchbox] Destination -> TYPE: Location",
+        "[option] Location -> CLICK",
+        "[checkbox] Check-in date -> CLICK",
+        "[gridcell] Check-out date -> CLICK",
+        "[button] Search -> CLICK",
+        "[button] Sort by -> CLICK",
+        "[span] Sort option -> CLICK"
+      ]
+    },
+    {
+      "id": "ma10",
+      "name": "Reserve Hotel",
+      "website": "qatarairways",
+      "domain": "Travel",
+      "subdomain": "Airlines",
+      "sub_actions": [
+        "[button] Book -> CLICK",
+        "[link] Hotels -> CLICK",
+        "[searchbox] Destination -> TYPE: Location",
+        "[option] Location -> CLICK",
+        "[span] Date -> CLICK",
+        "[svg] -> CLICK",
+        "[svg] -> CLICK",
+        "[checkbox] Date -> CLICK",
+        "[div] Duration -> CLICK",
+        "[button] Search -> CLICK",
+        "[button] Guests -> CLICK",
+        "[svg] -> CLICK",
+        "[svg] -> CLICK",
+        "[svg] -> CLICK",
+        "[button] Done -> CLICK",
+        "[svg] -> CLICK",
+        "[span] -> CLICK",
+        "[svg] -> CLICK",
+        "[span] -> CLICK",
+        "[span] -> CLICK",
+        "[link] See availability -> CLICK",
+        "[button] Reserve -> CLICK"
+      ]
+    }
+  ]
+}

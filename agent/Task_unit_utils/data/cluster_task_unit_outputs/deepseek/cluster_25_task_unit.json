@@ -1,0 +1,83 @@
+{
+  "task_units": [
+    {
+      "id": "CLUSTER25_TU1",
+      "name": "Select rental car type",
+      "sub_actions": [
+        "CLICK on car type category",
+        "SELECT specific car type"
+      ]
+    },
+    {
+      "id": "CLUSTER25_TU2",
+      "name": "Specify pickup and drop-off locations",
+      "sub_actions": [
+        "TYPE: Location for pickup",
+        "SELECT: Location from suggestions",
+        "TYPE: Location for drop-off",
+        "SELECT: Location from suggestions"
+      ]
+    },
+    {
+      "id": "CLUSTER25_TU3",
+      "name": "Set rental dates and times",
+      "sub_actions": [
+        "SELECT: Pickup date",
+        "SELECT: Drop-off date",
+        "SELECT: Pickup time",
+        "SELECT: Drop-off time"
+      ]
+    },
+    {
+      "id": "CLUSTER25_TU4",
+      "name": "Filter search results",
+      "sub_actions": [
+        "CLICK on filter option",
+        "SELECT: Filter criteria"
+      ]
+    },
+    {
+      "id": "CLUSTER25_TU5",
+      "name": "Choose rental options and extras",
+      "sub_actions": [
+        "SELECT: Additional options",
+        "CLICK to add extras"
+      ]
+    },
+    {
+      "id": "CLUSTER25_TU6",
+      "name": "Review and book rental",
+      "sub_actions": [
+        "CLICK to view deal",
+        "CLICK to proceed to booking"
+      ]
+    },
+    {
+      "id": "CLUSTER25_TU7",
+      "name": "Enter personal and payment information",
+      "sub_actions": [
+        "TYPE: Personal information",
+        "TYPE: Payment details",
+        "CLICK to confirm booking"
+      ]
+    },
+    {
+      "id": "CLUSTER25_TU8",
+      "name": "Search for service or repair options",
+      "sub_actions": [
+        "CLICK on service category",
+        "TYPE: Location for service",
+        "SELECT: Service option"
+      ]
+    },
+    {
+      "id": "CLUSTER25_TU9",
+      "name": "Request appointment or estimate",
+      "sub_actions": [
+        "SELECT: Date for appointment",
+        "TYPE: Contact information",
+        "CLICK to request service"
+      ]
+    }
+  ]
+}

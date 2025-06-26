@@ -1,0 +1,159 @@
+{
+  "meta_actions": [
+    {
+      "id": "MA1",
+      "name": "Search for Products",
+      "website": "kohls",
+      "domain": "Shopping",
+      "subdomain": "Department",
+      "sub_actions": [
+        "[textbox] Search by keyword or web id -> TYPE: Product",
+        "[textbox] Search by keyword or web id -> ENTER"
+      ]
+    },
+    {
+      "id": "MA2",
+      "name": "Filter Products by Price",
+      "website": "kohls",
+      "domain": "Shopping",
+      "subdomain": "Department",
+      "sub_actions": [
+        "[div] Price -> CLICK",
+        "[link] Price Range -> CLICK"
+      ]
+    },
+    {
+      "id": "MA3",
+      "name": "Filter Products by Size",
+      "website": "kohls",
+      "domain": "Shopping",
+      "subdomain": "Department",
+      "sub_actions": [
+        "[div] Size -> CLICK",
+        "[link] Size Option -> CLICK"
+      ]
+    },
+    {
+      "id": "MA4",
+      "name": "Sort Products",
+      "website": "kohls",
+      "domain": "Shopping",
+      "subdomain": "Department",
+      "sub_actions": [
+        "[link] Sort by: Featured -> CLICK",
+        "[link] Sort Option -> CLICK"
+      ]
+    },
+    {
+      "id": "MA5",
+      "name": "Select Product",
+      "website": "kohls",
+      "domain": "Shopping",
+      "subdomain": "Department",
+      "sub_actions": [
+        "[img] Product Image -> CLICK",
+        "[link] Product Name -> CLICK"
+      ]
+    },
+    {
+      "id": "MA6",
+      "name": "Add Product to Cart",
+      "website": "kohls",
+      "domain": "Shopping",
+      "subdomain": "Department",
+      "sub_actions": [
+        "[button] Add to Cart -> CLICK"
+      ]
+    },
+    {
+      "id": "MA7",
+      "name": "Apply Coupon Code",
+      "website": "kohls",
+      "domain": "Shopping",
+      "subdomain": "Department",
+      "sub_actions": [
+        "[textbox] Add Kohl's Cash or Coupons -> TYPE: Coupon Code",
+        "[button] Add Kohl's Cash or Coupon button -> CLICK"
+      ]
+    },
+    {
+      "id": "MA8",
+      "name": "Navigate to Category",
+      "website": "kohls",
+      "domain": "Shopping",
+      "subdomain": "Department",
+      "sub_actions": [
+        "[span] Shop by Category -> CLICK",
+        "[link] Category -> CLICK"
+      ]
+    },
+    {
+      "id": "MA9",
+      "name": "Filter Products by Color",
+      "website": "kohls",
+      "domain": "Shopping",
+      "subdomain": "Department",
+      "sub_actions": [
+        "[div] Color -> CLICK",
+        "[link] Color Option -> CLICK"
+      ]
+    },
+    {
+      "id": "MA10",
+      "name": "Filter Products by Gender",
+      "website": "kohls",
+      "domain": "Shopping",
+      "subdomain": "Department",
+      "sub_actions": [
+        "[span] Gender -> CLICK",
+        "[link] Gender Option -> CLICK"
+      ]
+    },
+    {
+      "id": "MA11",
+      "name": "Filter Products by Occasion",
+      "website": "kohls",
+      "domain": "Shopping",
+      "subdomain": "Department",
+      "sub_actions": [
+        "[div] Occasion -> CLICK",
+        "[link] Occasion Option -> CLICK"
+      ]
+    },
+    {
+      "id": "MA12",
+      "name": "Filter Products by Pet Type",
+      "website": "kohls",
+      "domain": "Shopping",
+      "subdomain": "Department",
+      "sub_actions": [
+        "[span] Pet Type -> CLICK",
+        "[link] Pet Type Option -> CLICK"
+      ]
+    },
+    {
+      "id": "MA13",
+      "name": "Filter Products by Category",
+      "website": "kohls",
+      "domain": "Shopping",
+      "subdomain": "Department",
+      "sub_actions": [
+        "[span] Category -> CLICK",
+        "[link] Category Option -> CLICK"
+      ]
+    },
+    {
+      "id": "MA14",
+      "name": "Locate Store",
+      "website": "kohls",
+      "domain": "Shopping",
+      "subdomain": "Department",
+      "sub_actions": [
+        "[link] Store Locator -> CLICK",
+        "[textbox] Please enter City, State, or Zip Code -> TYPE: Location",
+        "[div] Location Option -> CLICK",
+        "[link] Click to submit search form -> CLICK"
+      ]
+    }
+  ]
+}

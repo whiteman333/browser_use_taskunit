@@ -1,0 +1,119 @@
+{
+  "meta_actions": [
+    {
+      "id": "MA1",
+      "name": "Navigate to Category",
+      "website": "bookdepository",
+      "domain": "Shopping",
+      "subdomain": "Speciality",
+      "sub_actions": [
+        "[link] Shop by category∨ -> CLICK",
+        "[link] Shop by category∨ -> CLICK",
+        "[link] Ages 6-8 -> CLICK",
+        "[link] Education -> CLICK",
+        "[span] English Language -> CLICK",
+        "[link] English Language: Reading & Writing Skills -> CLICK"
+      ]
+    },
+    {
+      "id": "MA2",
+      "name": "Refine Search Results",
+      "website": "bookdepository",
+      "domain": "Shopping",
+      "subdomain": "Speciality",
+      "sub_actions": [
+        "[select] All -> SELECT: In Stock (41,088)",
+        "[select] All -> SELECT: Hardback (13,067)",
+        "[select] All -> SELECT: Under US$20",
+        "[button] Refine results -> CLICK"
+      ]
+    },
+    {
+      "id": "MA3",
+      "name": "Advanced Search",
+      "website": "bookdepository",
+      "domain": "Shopping",
+      "subdomain": "Speciality",
+      "sub_actions": [
+        "[link] Advanced Search -> CLICK",
+        "[input]  -> CLICK",
+        "[input]  -> TYPE: ISBN",
+        "[select] All -> SELECT: Language",
+        "[button] Search -> CLICK"
+      ]
+    },
+    {
+      "id": "MA4",
+      "name": "Check Order Status",
+      "website": "bookdepository",
+      "domain": "Shopping",
+      "subdomain": "Speciality",
+      "sub_actions": [
+        "[link] 🚚Order Status -> CLICK",
+        "[textbox] Order number * -> TYPE: Order Number",
+        "[textbox] E-mail used on order * -> TYPE: Email",
+        "[button] View -> HOVER"
+      ]
+    },
+    {
+      "id": "MA5",
+      "name": "Search by Keyword",
+      "website": "bookdepository",
+      "domain": "Shopping",
+      "subdomain": "Speciality",
+      "sub_actions": [
+        "[textbox] Search for books by keyword / title / author / ISB... -> TYPE: Keyword",
+        "[link] Keyword result -> CLICK"
+      ]
+    },
+    {
+      "id": "MA6",
+      "name": "Add to Wishlist",
+      "website": "bookdepository",
+      "domain": "Shopping",
+      "subdomain": "Speciality",
+      "sub_actions": [
+        "[link] Add to wishlist -> CLICK",
+        "[textbox] Wishlist name -> TYPE: Wishlist Name",
+        "[button] Add -> CLICK"
+      ]
+    },
+    {
+      "id": "MA7",
+      "name": "Add to Basket",
+      "website": "bookdepository",
+      "domain": "Shopping",
+      "subdomain": "Speciality",
+      "sub_actions": [
+        "[button] Add to basket -> CLICK"
+      ]
+    },
+    {
+      "id": "MA8",
+      "name": "Sort Results",
+      "website": "bookdepository",
+      "domain": "Shopping",
+      "subdomain": "Speciality",
+      "sub_actions": [
+        "[select] Most popular -> SELECT: Sort Option"
+      ]
+    },
+    {
+      "id": "MA9",
+      "name": "Cancel Order",
+      "website": "bookdepository",
+      "domain": "Shopping",
+      "subdomain": "Speciality",
+      "sub_actions": [
+        "[link] Cancel my order -> CLICK",
+        "[input]  -> TYPE: Name",
+        "[textbox] Email address used to place your order * -> TYPE: Email",
+        "[textbox] Order number * -> TYPE: Order Number",
+        "[textbox] Date you received your order (DD/MM/YY) * -> TYPE: Date",
+        "[textbox] Please cancel my order for the following products ... -> TYPE: Product",
+        "[textbox] Reason for cancellation (optional) * -> TYPE: Reason",
+        "[button] Cancel order -> HOVER"
+      ]
+    }
+  ]
+}

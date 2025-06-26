@@ -1,0 +1,114 @@
+{
+  "task_units": [
+    {
+      "id": "CLUSTER16_TU1",
+      "name": "Access and modify watchlist",
+      "sub_actions": [
+        "CLICK: Watchlist",
+        "CLICK: Edit"
+      ]
+    },
+    {
+      "id": "CLUSTER16_TU2",
+      "name": "Search and add item to watchlist",
+      "sub_actions": [
+        "TYPE: Search term",
+        "CLICK: Search result",
+        "CLICK: Add to watchlist"
+      ]
+    },
+    {
+      "id": "CLUSTER16_TU3",
+      "name": "Browse category and add item to watchlist",
+      "sub_actions": [
+        "CLICK: Category",
+        "CLICK: Subcategory",
+        "CLICK: Item",
+        "CLICK: Add to watchlist"
+      ]
+    },
+    {
+      "id": "CLUSTER16_TU4",
+      "name": "Filter and add items to watchlist",
+      "sub_actions": [
+        "CLICK: Filter option",
+        "SELECT: Filter criteria",
+        "CLICK: View results",
+        "CLICK: Add to watchlist"
+      ]
+    },
+    {
+      "id": "CLUSTER16_TU5",
+      "name": "Add multiple items to watchlist",
+      "sub_actions": [
+        "TYPE: Search term",
+        "CLICK: Search result",
+        "CLICK: Add to watchlist",
+        "Repeat for additional items"
+      ]
+    },
+    {
+      "id": "CLUSTER16_TU6",
+      "name": "Navigate and add top-rated items to wishlist",
+      "sub_actions": [
+        "CLICK: Categories",
+        "CLICK: Specific category",
+        "CLICK: Top rated",
+        "CLICK: Add to wishlist"
+      ]
+    },
+    {
+      "id": "CLUSTER16_TU7",
+      "name": "Browse and add filtered items to wishlist",
+      "sub_actions": [
+        "CLICK: Gender category",
+        "CLICK: Item type",
+        "SELECT: Price range",
+        "CLICK: Add to wishlist"
+      ]
+    },
+    {
+      "id": "CLUSTER16_TU8",
+      "name": "Browse collection and add cheapest item to wishlist",
+      "sub_actions": [
+        "CLICK: Collection",
+        "SELECT: Subcategory",
+        "SELECT: Item type",
+        "SORT: Price low to high",
+        "CLICK: Add to wishlist"
+      ]
+    },
+    {
+      "id": "CLUSTER16_TU9",
+      "name": "Filter and add places to named wishlist",
+      "sub_actions": [
+        "CLICK: Filter",
+        "TYPE: Maximum price",
+        "CLICK: Show results",
+        "TYPE: Wishlist name",
+        "CLICK: Create",
+        "CLICK: Add to wishlist"
+      ]
+    },
+    {
+      "id": "CLUSTER16_TU10",
+      "name": "Browse and add trending items to wishlist",
+      "sub_actions": [
+        "CLICK: Gender category",
+        "CLICK: Item type",
+        "SELECT: Color",
+        "CLICK: Add to wishlist"
+      ]
+    },
+    {
+      "id": "CLUSTER16_TU11",
+      "name": "Browse new releases and add to wishlist",
+      "sub_actions": [
+        "CLICK: New releases",
+        "CLICK: Item",
+        "CLICK: Add to wishlist",
+        "Repeat for additional items"
+      ]
+    }
+  ]
+}

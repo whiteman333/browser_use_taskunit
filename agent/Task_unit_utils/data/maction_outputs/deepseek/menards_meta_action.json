@@ -1,0 +1,144 @@
+{
+  "meta_actions": [
+    {
+      "id": "ma1",
+      "name": "Navigate to Department",
+      "website": "menards",
+      "domain": "Shopping",
+      "subdomain": "Speciality",
+      "sub_actions": [
+        "[button] Departments -> CLICK",
+        "[button] Paint -> CLICK",
+        "[link] Painting Tools -> CLICK"
+      ]
+    },
+    {
+      "id": "ma2",
+      "name": "Set Location Preference",
+      "website": "menards",
+      "domain": "Shopping",
+      "subdomain": "Speciality",
+      "sub_actions": [
+        "[button] COLUMBUS, OH -> CLICK",
+        "[textbox] Zip Code -> TYPE: Location",
+        "[button] Search By Zip Code -> CLICK",
+        "[button] MAKE MY STORE -> CLICK"
+      ]
+    },
+    {
+      "id": "ma3",
+      "name": "Filter Products",
+      "website": "menards",
+      "domain": "Shopping",
+      "subdomain": "Speciality",
+      "sub_actions": [
+        "[checkbox] Pickup at Store Eligible (86) -> CLICK",
+        "[checkbox] Multi-Purpose Tool (11) -> CLICK",
+        "[checkbox] Red Devil (2) -> CLICK",
+        "[checkbox] Ship to Home Eligible (97) -> CLICK",
+        "[checkbox] Stainless Steel (75) -> CLICK",
+        "[checkbox] Equal Bowl (69) -> CLICK",
+        "[checkbox] 19 inch (7) -> CLICK"
+      ]
+    },
+    {
+      "id": "ma4",
+      "name": "Search for Product",
+      "website": "menards",
+      "domain": "Shopping",
+      "subdomain": "Speciality",
+      "sub_actions": [
+        "[textbox] Search by SKU, Model # or Keyword -> TYPE: Product",
+        "[button] Maytag in Electric Dryers -> CLICK"
+      ]
+    },
+    {
+      "id": "ma5",
+      "name": "Sort Products",
+      "website": "menards",
+      "domain": "Shopping",
+      "subdomain": "Speciality",
+      "sub_actions": [
+        "[button] Sort By: Best Match -> CLICK",
+        "[button] Price Low to High -> CLICK"
+      ]
+    },
+    {
+      "id": "ma6",
+      "name": "Add to Cart or Wishlist",
+      "website": "menards",
+      "domain": "Shopping",
+      "subdomain": "Speciality",
+      "sub_actions": [
+        "[label] Add -> CLICK",
+        "[combobox] Select a list -> SELECT: Wish List",
+        "[button] ADD TO CART -> CLICK"
+      ]
+    },
+    {
+      "id": "ma7",
+      "name": "View Cart or Wishlist",
+      "website": "menards",
+      "domain": "Shopping",
+      "subdomain": "Speciality",
+      "sub_actions": [
+        "[link] VIEW YOUR LIST -> CLICK",
+        "[button] VIEW CART -> CLICK"
+      ]
+    },
+    {
+      "id": "ma8",
+      "name": "Checkout Process",
+      "website": "menards",
+      "domain": "Shopping",
+      "subdomain": "Speciality",
+      "sub_actions": [
+        "[button] CHECKOUT NOW -> CLICK"
+      ]
+    },
+    {
+      "id": "ma9",
+      "name": "Track Order or Rebate",
+      "website": "menards",
+      "domain": "Shopping",
+      "subdomain": "Speciality",
+      "sub_actions": [
+        "[link] Order Tracker -> CLICK",
+        "[textbox] Order number EXAMPLES: ECEA12345, 01234567 -> TYPE: Order Number",
+        "[textbox] Email or Phone Number (associated with Order) -> TYPE: Contact Information",
+        "[button] SEARCH -> CLICK",
+        "[link] Rebate Center -> CLICK",
+        "[link] Track your rebates -> CLICK",
+        "[textbox] * Required Fields First Initial * Required Fields... -> TYPE: First Name",
+        "[textbox] * Required Fields Last Name * Required Fields Las... -> TYPE: Last Name",
+        "[textbox] * Required Fields House Number -> TYPE: House Number",
+        "[textbox] * Required Fields ZIP Code * Required Fields Zip -> TYPE: ZIP Code",
+        "[button] Search -> CLICK"
+      ]
+    },
+    {
+      "id": "ma10",
+      "name": "Compare Products",
+      "website": "menards",
+      "domain": "Shopping",
+      "subdomain": "Speciality",
+      "sub_actions": [
+        "[generic] Click to add item -> CLICK",
+        "[button] COMPARE -> CLICK"
+      ]
+    },
+    {
+      "id": "ma11",
+      "name": "Gift Card Customization",
+      "website": "menards",
+      "domain": "Shopping",
+      "subdomain": "Speciality",
+      "sub_actions": [
+        "[textbox] * Amount: -> TYPE: Amount",
+        "[textbox] To: -> TYPE: Recipient",
+        "[textbox] From: -> TYPE: Sender",
+        "[textbox] Message: 200 characters remaining -> TYPE: Message"
+      ]
+    }
+  ]
+}

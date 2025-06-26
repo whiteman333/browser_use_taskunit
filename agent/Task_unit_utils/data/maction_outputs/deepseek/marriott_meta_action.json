@@ -1,0 +1,190 @@
+{
+  "meta_actions": [
+    {
+      "id": "MA1",
+      "name": "Search for Hotel Accommodations",
+      "website": "marriott",
+      "domain": "Travel",
+      "subdomain": "Hotel",
+      "sub_actions": [
+        "[textbox] Destination -> TYPE: Location",
+        "[button] Date Selection -> CLICK",
+        "[span] Start Date -> CLICK",
+        "[span] End Date -> CLICK",
+        "[button] Done -> CLICK",
+        "[button] Find Hotels -> CLICK"
+      ]
+    },
+    {
+      "id": "MA2",
+      "name": "Modify Search Criteria",
+      "website": "marriott",
+      "domain": "Travel",
+      "subdomain": "Hotel",
+      "sub_actions": [
+        "[button] Add Rooms -> CLICK",
+        "[button] Add Adults -> CLICK",
+        "[button] Add Children -> CLICK",
+        "[button] Add Age -> CLICK",
+        "[checkbox] Show rates with taxes and all fees -> CLICK",
+        "[checkbox] Show available hotels only -> CLICK",
+        "[link] Free breakfast -> CLICK",
+        "[link] Pool -> CLICK",
+        "[generic] Price -> CLICK",
+        "[label] Price Range -> CLICK",
+        "[button] APPLY -> CLICK"
+      ]
+    },
+    {
+      "id": "MA3",
+      "name": "Sort and Filter Results",
+      "website": "marriott",
+      "domain": "Travel",
+      "subdomain": "Hotel",
+      "sub_actions": [
+        "[combobox] Sort by: -> CLICK",
+        "[option] Sort Option -> CLICK",
+        "[link] VIEW RATES -> CLICK",
+        "[button] Member Rate Prepay Non-refundable -> CLICK",
+        "[label] Accept terms -> CLICK",
+        "[button] CONTINUE -> CLICK"
+      ]
+    },
+    {
+      "id": "MA4",
+      "name": "Book Meetings and Events",
+      "website": "marriott",
+      "domain": "Travel",
+      "subdomain": "Hotel",
+      "sub_actions": [
+        "[button] Meetings & Events -> CLICK",
+        "[link] Group Travel -> CLICK",
+        "[textbox] Destination -> TYPE: Location",
+        "[menuitem] Location Selection -> CLICK",
+        "[textbox] Start Date -> CLICK",
+        "[gridcell] Select Start Date -> CLICK",
+        "[gridcell] Select End Date -> CLICK",
+        "[div] Purpose of your event -> CLICK",
+        "[li] Event Type -> CLICK",
+        "[textbox] Guest rooms -> TYPE: Number",
+        "[textbox] Event space -> TYPE: Number",
+        "[button] Find -> CLICK"
+      ]
+    },
+    {
+      "id": "MA5",
+      "name": "Search for Careers and Internships",
+      "website": "marriott",
+      "domain": "Travel",
+      "subdomain": "Hotel",
+      "sub_actions": [
+        "[button] Our Company -> CLICK",
+        "[link] Careers -> CLICK",
+        "[link] Students & Grads -> CLICK",
+        "[link] INTERNSHIP PROGRAMS -> CLICK",
+        "[button] Locations -> CLICK",
+        "[button] Location Selection -> CLICK",
+        "[button] Posting Dates -> CLICK",
+        "[button] Date Range -> CLICK",
+        "[span] Program Selection -> CLICK",
+        "[button] APPLY NOW -> CLICK"
+      ]
+    },
+    {
+      "id": "MA6",
+      "name": "Purchase Gift Cards",
+      "website": "marriott",
+      "domain": "Travel",
+      "subdomain": "Hotel",
+      "sub_actions": [
+        "[button] For Guests -> CLICK",
+        "[link] Gift Cards -> CLICK",
+        "[link] Browse Gift Cards -> CLICK",
+        "[button] Our Brands -> CLICK",
+        "[img] Brand Selection -> CLICK",
+        "[textbox] *Amount -> TYPE: Number",
+        "[span] Gift Box Selection -> CLICK",
+        "[textbox] To -> TYPE: Name",
+        "[textbox] From -> TYPE: Name",
+        "[textbox] Message Line 1 -> TYPE: Message",
+        "[button] Add to Cart -> CLICK",
+        "[button] Proceed to Checkout -> CLICK"
+      ]
+    },
+    {
+      "id": "MA7",
+      "name": "Shop for Products",
+      "website": "marriott",
+      "domain": "Travel",
+      "subdomain": "Hotel",
+      "sub_actions": [
+        "[button] Special Offers -> CLICK",
+        "[link] Shop Marriott -> CLICK",
+        "[menuitem] Category Selection -> CLICK",
+        "[span] Product Selection -> CLICK",
+        "[combobox] Select a Size -> SELECT: Size",
+        "[spinbutton] Quantity -> TYPE: Number",
+        "[button] ADD TO BAG -> CLICK",
+        "[link] CHECKOUT -> CLICK"
+      ]
+    },
+    {
+      "id": "MA8",
+      "name": "Search for Activities",
+      "website": "marriott",
+      "domain": "Travel",
+      "subdomain": "Hotel",
+      "sub_actions": [
+        "[button] For Guests -> CLICK",
+        "[link] Activities -> CLICK",
+        "[textbox] Location-Search -> TYPE: Location",
+        "[link] Location Selection -> CLICK",
+        "[button] Select Activities -> CLICK",
+        "[span] Activity Type -> CLICK",
+        "[spinbutton] Max Price -> TYPE: Number",
+        "[span] Date Selection -> CLICK",
+        "[Abbr] Select Date -> CLICK"
+      ]
+    },
+    {
+      "id": "MA9",
+      "name": "Redeem Points",
+      "website": "marriott",
+      "domain": "Travel",
+      "subdomain": "Hotel",
+      "sub_actions": [
+        "[link] Redeem Points -> CLICK",
+        "[link] Learn More -> CLICK"
+      ]
+    },
+    {
+      "id": "MA10",
+      "name": "Apply Filters for Business Meetings",
+      "website": "marriott",
+      "domain": "Travel",
+      "subdomain": "Hotel",
+      "sub_actions": [
+        "[link] Business Meetings -> CLICK",
+        "[textbox] Destination -> TYPE: Location",
+        "[menuitem] Location Selection -> CLICK",
+        "[textbox] Start Date -> CLICK",
+        "[gridcell] Select Date -> CLICK",
+        "[div] Select Day -> CLICK",
+        "[label] Purpose of your event -> CLICK",
+        "[li] Event Type -> CLICK",
+        "[textbox] Guest rooms -> TYPE: Number",
+        "[textbox] Event space -> TYPE: Number",
+        "[button] Find -> CLICK",
+        "[link] All Filters -> CLICK",
+        "[heading] Amenities -> CLICK",
+        "[label] Amenity Selection -> CLICK",
+        "[button] APPLY -> CLICK",
+        "[generic] Distance -> CLICK",
+        "[label] Distance Range -> CLICK",
+        "[button] APPLY -> CLICK",
+        "[link] ADD TO RFP -> CLICK",
+        "[link] CREATE RFP -> CLICK"
+      ]
+    }
+  ]
+}

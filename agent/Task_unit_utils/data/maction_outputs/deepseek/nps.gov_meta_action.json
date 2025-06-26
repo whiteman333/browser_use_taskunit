@@ -1,0 +1,183 @@
+{
+  "meta_actions": [
+    {
+      "id": "ma1",
+      "name": "Navigate to Pass Information",
+      "website": "nps.gov",
+      "domain": "Travel",
+      "subdomain": "Other",
+      "sub_actions": [
+        "[button] Open Menu -> CLICK",
+        "[link] Passes -> CLICK",
+        "[link] Annual Pass -> CLICK",
+        "[button] Overview of the Annual Pass -> CLICK",
+        "[button] Annual Pass Internet Order Questions -> CLICK",
+        "[button] Annual Pass Use -> CLICK",
+        "[button] Annual Pass - Further Information -> CLICK"
+      ]
+    },
+    {
+      "id": "ma2",
+      "name": "Search Park by State and Activity",
+      "website": "nps.gov",
+      "domain": "Travel",
+      "subdomain": "Other",
+      "sub_actions": [
+        "[link] FIND A PARK -> CLICK",
+        "[link] Search by Activity or Topic -> CLICK",
+        "[combobox] By State -> SELECT: Location",
+        "[button] Activity -> CLICK",
+        "[input] -> CLICK",
+        "[button] Search -> CLICK"
+      ]
+    },
+    {
+      "id": "ma3",
+      "name": "Find Event by Date",
+      "website": "nps.gov",
+      "domain": "Travel",
+      "subdomain": "Other",
+      "sub_actions": [
+        "[button] Open Menu -> CLICK",
+        "[button] All -> CLICK",
+        "[input] -> CLICK",
+        "[columnheader] -> CLICK"
+      ]
+    },
+    {
+      "id": "ma4",
+      "name": "Locate Park and Check Conditions",
+      "website": "nps.gov",
+      "domain": "Travel",
+      "subdomain": "Other",
+      "sub_actions": [
+        "[button] Find a Park by State -> CLICK",
+        "[link] Location -> CLICK",
+        "[link] Current Conditions » -> CLICK"
+      ]
+    },
+    {
+      "id": "ma5",
+      "name": "Search Park by State and View Information",
+      "website": "nps.gov",
+      "domain": "Travel",
+      "subdomain": "Other",
+      "sub_actions": [
+        "[button] Find a Park by State -> CLICK",
+        "[link] Location -> CLICK",
+        "[link] Basic Information » -> CLICK"
+      ]
+    },
+    {
+      "id": "ma6",
+      "name": "Search Park by Topic",
+      "website": "nps.gov",
+      "domain": "Travel",
+      "subdomain": "Other",
+      "sub_actions": [
+        "[link] FIND A PARK -> CLICK",
+        "[link] Search by Activity or Topic -> CLICK",
+        "[button] Topic -> CLICK",
+        "[input] -> CLICK",
+        "[button] Search -> CLICK"
+      ]
+    },
+    {
+      "id": "ma7",
+      "name": "Find Volunteer Opportunities",
+      "website": "nps.gov",
+      "domain": "Travel",
+      "subdomain": "Other",
+      "sub_actions": [
+        "[button] Open Menu -> CLICK",
+        "[link] Volunteer -> CLICK",
+        "[link] Become a VIP and Volunteer with Us Today!› -> CLICK",
+        "[link] volunteer event -> CLICK"
+      ]
+    },
+    {
+      "id": "ma8",
+      "name": "Search Park by Name and Check Alerts",
+      "website": "nps.gov",
+      "domain": "Travel",
+      "subdomain": "Other",
+      "sub_actions": [
+        "[link] FIND A PARK -> CLICK",
+        "[combobox] Park Name -> TYPE: Park",
+        "[option] Park -> CLICK",
+        "[link] ALERTS -> CLICK"
+      ]
+    },
+    {
+      "id": "ma9",
+      "name": "Browse Park Photo Gallery",
+      "website": "nps.gov",
+      "domain": "Travel",
+      "subdomain": "Other",
+      "sub_actions": [
+        "[button] Open Menu -> CLICK",
+        "[link] Photos & Multimedia -> CLICK",
+        "[link] NPGallery -> CLICK",
+        "[span] Search all Parks -> CLICK",
+        "[li] Park -> CLICK",
+        "[button] -> CLICK"
+      ]
+    },
+    {
+      "id": "ma10",
+      "name": "Find Children's Program Events by State",
+      "website": "nps.gov",
+      "domain": "Travel",
+      "subdomain": "Other",
+      "sub_actions": [
+        "[button] Open Menu -> CLICK",
+        "[link] Events -> CLICK",
+        "[button] All -> CLICK",
+        "[input] -> CLICK",
+        "[button] All -> CLICK",
+        "[label] Children’s Program -> CLICK",
+        "[button] Search -> CLICK"
+      ]
+    },
+    {
+      "id": "ma11",
+      "name": "Search Park by State and Feature",
+      "website": "nps.gov",
+      "domain": "Travel",
+      "subdomain": "Other",
+      "sub_actions": [
+        "[button] Find a Park by State -> CLICK",
+        "[link] Location -> CLICK",
+        "[link] Feature » -> CLICK",
+        "[link] Park -> CLICK"
+      ]
+    },
+    {
+      "id": "ma12",
+      "name": "Open Park Calendar",
+      "website": "nps.gov",
+      "domain": "Travel",
+      "subdomain": "Other",
+      "sub_actions": [
+        "[link] FIND A PARK -> CLICK",
+        "[combobox] Park Name -> TYPE: Park",
+        "[option] Park -> CLICK",
+        "[link] CALENDAR -> CLICK"
+      ]
+    },
+    {
+      "id": "ma13",
+      "name": "Search Park by Activity for Kids",
+      "website": "nps.gov",
+      "domain": "Travel",
+      "subdomain": "Other",
+      "sub_actions": [
+        "[link] FIND A PARK -> CLICK",
+        "[link] Search by Activity or Topic -> CLICK",
+        "[button] Activity -> CLICK",
+        "[input] -> CLICK",
+        "[button] Search -> CLICK"
+      ]
+    }
+  ]
+}

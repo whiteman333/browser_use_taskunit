@@ -1,0 +1,247 @@
+{
+  "task_unit_dag": [
+    {
+      "parent_task_unit_id": "CLUSTER15_TU1",
+      "child_task_unit_ids": [
+        "CLUSTER15_TU8",
+        "CLUSTER15_TU14",
+        "CLUSTER15_TU15"
+      ],
+      "relationship_reasoning": "Searching and viewing game reviews encompasses checking game ratings and user reviews, viewing complexity ratings, and viewing game ratings, as these are all sub-actions that contribute to the broader goal of evaluating a game."
+    },
+    {
+      "parent_task_unit_id": "CLUSTER15_TU2",
+      "child_task_unit_ids": [
+        "CLUSTER15_TU19",
+        "CLUSTER15_TU44"
+      ],
+      "relationship_reasoning": "Viewing a photo gallery for a specific restaurant or location includes browsing photo galleries of national parks and showing photo galleries for specific locations, as these are specific instances of the broader task of viewing photo galleries."
+    },
+    {
+      "parent_task_unit_id": "CLUSTER15_TU3",
+      "child_task_unit_ids": [
+        "CLUSTER15_TU52",
+        "CLUSTER15_TU54"
+      ],
+      "relationship_reasoning": "Signing up for a newsletter includes signing up for email offers and signing up for emails with specific preferences, as these are specific forms of newsletter subscriptions."
+    },
+    {
+      "parent_task_unit_id": "CLUSTER15_TU4",
+      "child_task_unit_ids": [
+        "CLUSTER15_TU21"
+      ],
+      "relationship_reasoning": "Downloading fantasy apps includes downloading PDFs for accessible stations, as both involve downloading content related to specific interests or needs."
+    },
+    {
+      "parent_task_unit_id": "CLUSTER15_TU5",
+      "child_task_unit_ids": [],
+      "relationship_reasoning": "Opening a design tool for a home office is a standalone task without direct sub-tasks in the provided list."
+    },
+    {
+      "parent_task_unit_id": "CLUSTER15_TU6",
+      "child_task_unit_ids": [
+        "CLUSTER15_TU20"
+      ],
+      "relationship_reasoning": "Viewing a brochure for a specific protection plan includes viewing policy certificates for specific locations, as both involve accessing detailed information about services or protections."
+    },
+    {
+      "parent_task_unit_id": "CLUSTER15_TU7",
+      "child_task_unit_ids": [
+        "CLUSTER15_TU30"
+      ],
+      "relationship_reasoning": "Opening a user's game reviews includes viewing and marking a game review as helpful, as marking a review as helpful is an action that can be performed within the context of viewing game reviews."
+    },
+    {
+      "parent_task_unit_id": "CLUSTER15_TU9",
+      "child_task_unit_ids": [
+        "CLUSTER15_TU50"
+      ],
+      "relationship_reasoning": "Finding FAQs related to a specific topic includes opening a page to answer a question in a specific section, as both involve navigating to information or resources related to specific queries."
+    },
+    {
+      "parent_task_unit_id": "CLUSTER15_TU10",
+      "child_task_unit_ids": [
+        "CLUSTER15_TU26"
+      ],
+      "relationship_reasoning": "Comparing and signing up for premium subscriptions includes comparing subscription plans, as both involve evaluating different subscription options."
+    },
+    {
+      "parent_task_unit_id": "CLUSTER15_TU11",
+      "child_task_unit_ids": [
+        "CLUSTER15_TU41"
+      ],
+      "relationship_reasoning": "Finding airport information and checking weather is a task that can be performed for different airports, hence it includes itself as a child due to the semantic similarity and the possibility of being performed in different contexts."
+    },
+    {
+      "parent_task_unit_id": "CLUSTER15_TU12",
+      "child_task_unit_ids": [],
+      "relationship_reasoning": "Comparing membership tier benefits is a standalone task without direct sub-tasks in the provided list."
+    },
+    {
+      "parent_task_unit_id": "CLUSTER15_TU13",
+      "child_task_unit_ids": [
+        "CLUSTER15_TU28"
+      ],
+      "relationship_reasoning": "Comparing products with specific ratings includes reading specific star reviews of a product, as reading reviews is a part of the product comparison process."
+    },
+    {
+      "parent_task_unit_id": "CLUSTER15_TU16",
+      "child_task_unit_ids": [
+        "CLUSTER15_TU23"
+      ],
+      "relationship_reasoning": "Finding a person by phone number includes searching for a person by name and location, as both are methods of locating individuals."
+    },
+    {
+      "parent_task_unit_id": "CLUSTER15_TU17",
+      "child_task_unit_ids": [],
+      "relationship_reasoning": "Asking a question in a specific category is a standalone task without direct sub-tasks in the provided list."
+    },
+    {
+      "parent_task_unit_id": "CLUSTER15_TU18",
+      "child_task_unit_ids": [
+        "CLUSTER15_TU35"
+      ],
+      "relationship_reasoning": "Locating a park and finding current conditions includes finding park policies regarding security, as both involve accessing information about parks."
+    },
+    {
+      "parent_task_unit_id": "CLUSTER15_TU22",
+      "child_task_unit_ids": [
+        "CLUSTER15_TU48"
+      ],
+      "relationship_reasoning": "Searching for news and sharing on social media includes finding the latest news article and sending an email about it, as both involve disseminating news information."
+    },
+    {
+      "parent_task_unit_id": "CLUSTER15_TU24",
+      "child_task_unit_ids": [],
+      "relationship_reasoning": "Opening a user's item inventory is a standalone task without direct sub-tasks in the provided list."
+    },
+    {
+      "parent_task_unit_id": "CLUSTER15_TU25",
+      "child_task_unit_ids": [],
+      "relationship_reasoning": "Finding and sharing an article about a new restaurant is a standalone task without direct sub-tasks in the provided list."
+    },
+    {
+      "parent_task_unit_id": "CLUSTER15_TU27",
+      "child_task_unit_ids": [
+        "CLUSTER15_TU29"
+      ],
+      "relationship_reasoning": "Browsing discussion forums for owned games includes opening community discussions for a specific game, as both involve engaging with game-related discussions."
+    },
+    {
+      "parent_task_unit_id": "CLUSTER15_TU31",
+      "child_task_unit_ids": [],
+      "relationship_reasoning": "Changing language and currency settings is a standalone task without direct sub-tasks in the provided list."
+    },
+    {
+      "parent_task_unit_id": "CLUSTER15_TU32",
+      "child_task_unit_ids": [],
+      "relationship_reasoning": "Viewing information about Wi-Fi subscriptions is a standalone task without direct sub-tasks in the provided list."
+    },
+    {
+      "parent_task_unit_id": "CLUSTER15_TU33",
+      "child_task_unit_ids": [],
+      "relationship_reasoning": "Finding information about the Fastbreak program is a standalone task without direct sub-tasks in the provided list."
+    },
+    {
+      "parent_task_unit_id": "CLUSTER15_TU34",
+      "child_task_unit_ids": [
+        "CLUSTER15_TU62"
+      ],
+      "relationship_reasoning": "Researching and checking reviews for a specific car model includes checking reviews and marking a specific rating as helpful, as both involve evaluating car reviews."
+    },
+    {
+      "parent_task_unit_id": "CLUSTER15_TU36",
+      "child_task_unit_ids": [],
+      "relationship_reasoning": "Finding details on converting points to miles is a standalone task without direct sub-tasks in the provided list."
+    },
+    {
+      "parent_task_unit_id": "CLUSTER15_TU37",
+      "child_task_unit_ids": [
+        "CLUSTER15_TU46",
+        "CLUSTER15_TU49"
+      ],
+      "relationship_reasoning": "Checking a player bio includes finding bio information about a specific player and finding a player bio, as both involve accessing biographical information about players."
+    },
+    {
+      "parent_task_unit_id": "CLUSTER15_TU38",
+      "child_task_unit_ids": [
+        "CLUSTER15_TU39"
+      ],
+      "relationship_reasoning": "Opening popular photos of a specific aircraft model includes looking up popular photos featuring a specific airline, as both involve viewing photos related to aviation."
+    },
+    {
+      "parent_task_unit_id": "CLUSTER15_TU40",
+      "child_task_unit_ids": [],
+      "relationship_reasoning": "Showing a list of countries with the highest number of seen aircraft is a standalone task without direct sub-tasks in the provided list."
+    },
+    {
+      "parent_task_unit_id": "CLUSTER15_TU42",
+      "child_task_unit_ids": [],
+      "relationship_reasoning": "Finding forum threads with a specific keyword in the title within the last month is a standalone task without direct sub-tasks in the provided list."
+    },
+    {
+      "parent_task_unit_id": "CLUSTER15_TU43",
+      "child_task_unit_ids": [],
+      "relationship_reasoning": "Opening a profile page for the author of the latest shot is a standalone task without direct sub-tasks in the provided list."
+    },
+    {
+      "parent_task_unit_id": "CLUSTER15_TU45",
+      "child_task_unit_ids": [],
+      "relationship_reasoning": "Renewing an existing rewards account is a standalone task without direct sub-tasks in the provided list."
+    },
+    {
+      "parent_task_unit_id": "CLUSTER15_TU47",
+      "child_task_unit_ids": [],
+      "relationship_reasoning": "Marking a review as helpful for the best-rated activity is a standalone task without direct sub-tasks in the provided list."
+    },
+    {
+      "parent_task_unit_id": "CLUSTER15_TU51",
+      "child_task_unit_ids": [],
+      "relationship_reasoning": "Finding push notification settings is a standalone task without direct sub-tasks in the provided list."
+    },
+    {
+      "parent_task_unit_id": "CLUSTER15_TU53",
+      "child_task_unit_ids": [],
+      "relationship_reasoning": "Showing reviews of top critics for a specific work is a standalone task without direct sub-tasks in the provided list."
+    },
+    {
+      "parent_task_unit_id": "CLUSTER15_TU55",
+      "child_task_unit_ids": [],
+      "relationship_reasoning": "Adding a new address to an account is a standalone task without direct sub-tasks in the provided list."
+    },
+    {
+      "parent_task_unit_id": "CLUSTER15_TU56",
+      "child_task_unit_ids": [],
+      "relationship_reasoning": "Deleting recent history is a standalone task without direct sub-tasks in the provided list."
+    },
+    {
+      "parent_task_unit_id": "CLUSTER15_TU57",
+      "child_task_unit_ids": [],
+      "relationship_reasoning": "Finding the birthplace of a specific person is a standalone task without direct sub-tasks in the provided list."
+    },
+    {
+      "parent_task_unit_id": "CLUSTER15_TU58",
+      "child_task_unit_ids": [],
+      "relationship_reasoning": "Sending a message to a specific user is a standalone task without direct sub-tasks in the provided list."
+    },
+    {
+      "parent_task_unit_id": "CLUSTER15_TU59",
+      "child_task_unit_ids": [],
+      "relationship_reasoning": "Finding a guide for a specific payment method is a standalone task without direct sub-tasks in the provided list."
+    },
+    {
+      "parent_task_unit_id": "CLUSTER15_TU60",
+      "child_task_unit_ids": [],
+      "relationship_reasoning": "Finding user reviews for a specific game is a standalone task without direct sub-tasks in the provided list."
+    },
+    {
+      "parent_task_unit_id": "CLUSTER15_TU61",
+      "child_task_unit_ids": [],
+      "relationship_reasoning": "Finding software requirements for a specific device is a standalone task without direct sub-tasks in the provided list."
+    }
+  ],
+  "validation": {
+    "is_acyclic": true,
+    "acyclic_reasoning": "The constructed DAG strictly follows a hierarchical structure of task objectives, with no cycles or contradictions in the dependencies. Each parent-child relationship is based on semantic containment, ensuring that the graph is acyclic."
+  }
+}

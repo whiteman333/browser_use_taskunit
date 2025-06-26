@@ -1,0 +1,87 @@
+{
+  "task_units": [
+    {
+      "id": "CLUSTER17_TU1",
+      "name": "Browse movies by criteria",
+      "sub_actions": [
+        "SELECT: Category",
+        "SELECT: Sub-category",
+        "APPLY filters",
+        "SORT by criteria"
+      ]
+    },
+    {
+      "id": "CLUSTER17_TU2",
+      "name": "Search for specific content",
+      "sub_actions": [
+        "TYPE: Search term",
+        "CLICK: Search result"
+      ]
+    },
+    {
+      "id": "CLUSTER17_TU3",
+      "name": "Navigate to specific section",
+      "sub_actions": [
+        "HOVER: Menu item",
+        "CLICK: Section link"
+      ]
+    },
+    {
+      "id": "CLUSTER17_TU4",
+      "name": "Filter content by attributes",
+      "sub_actions": [
+        "SELECT: Attribute",
+        "APPLY filters"
+      ]
+    },
+    {
+      "id": "CLUSTER17_TU5",
+      "name": "View detailed information",
+      "sub_actions": [
+        "CLICK: Item of interest",
+        "VIEW: Details page"
+      ]
+    },
+    {
+      "id": "CLUSTER17_TU6",
+      "name": "Add to list or watchlist",
+      "sub_actions": [
+        "CLICK: Add button",
+        "SELECT: List option"
+      ]
+    },
+    {
+      "id": "CLUSTER17_TU7",
+      "name": "Play media content",
+      "sub_actions": [
+        "CLICK: Media item",
+        "CLICK: Play button"
+      ]
+    },
+    {
+      "id": "CLUSTER17_TU8",
+      "name": "Find location-based information",
+      "sub_actions": [
+        "TYPE: Location",
+        "SUBMIT search",
+        "VIEW: Results"
+      ]
+    },
+    {
+      "id": "CLUSTER17_TU9",
+      "name": "Purchase or rent media",
+      "sub_actions": [
+        "SELECT: Purchase option",
+        "CLICK: Confirm button"
+      ]
+    },
+    {
+      "id": "CLUSTER17_TU10",
+      "name": "Explore menu or options",
+      "sub_actions": [
+        "CLICK: Menu link",
+        "VIEW: Menu options"
+      ]
+    }
+  ]
+}

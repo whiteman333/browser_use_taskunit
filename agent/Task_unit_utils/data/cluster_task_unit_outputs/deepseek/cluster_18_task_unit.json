@@ -1,0 +1,89 @@
+{
+  "task_units": [
+    {
+      "id": "CLUSTER18_TU1",
+      "name": "Search for event tickets",
+      "sub_actions": [
+        "TYPE: Event name or keyword",
+        "CLICK: Search button or link",
+        "SELECT: Event from search results"
+      ]
+    },
+    {
+      "id": "CLUSTER18_TU2",
+      "name": "Select event date",
+      "sub_actions": [
+        "CLICK: Date selector",
+        "SELECT: Specific date or date range"
+      ]
+    },
+    {
+      "id": "CLUSTER18_TU3",
+      "name": "Choose ticket quantity",
+      "sub_actions": [
+        "CLICK: Quantity selector",
+        "SELECT: Number of tickets"
+      ]
+    },
+    {
+      "id": "CLUSTER18_TU4",
+      "name": "Filter tickets by price",
+      "sub_actions": [
+        "CLICK: Price filter",
+        "TYPE: Minimum price",
+        "TYPE: Maximum price",
+        "CLICK: Apply filter"
+      ]
+    },
+    {
+      "id": "CLUSTER18_TU5",
+      "name": "Select ticket type or section",
+      "sub_actions": [
+        "CLICK: Ticket type or section",
+        "SELECT: Specific ticket type or section"
+      ]
+    },
+    {
+      "id": "CLUSTER18_TU6",
+      "name": "Proceed to checkout",
+      "sub_actions": [
+        "CLICK: Checkout or book now button"
+      ]
+    },
+    {
+      "id": "CLUSTER18_TU7",
+      "name": "Enter personal information",
+      "sub_actions": [
+        "TYPE: Name",
+        "TYPE: Email address",
+        "TYPE: Phone number",
+        "TYPE: Address details"
+      ]
+    },
+    {
+      "id": "CLUSTER18_TU8",
+      "name": "Complete purchase",
+      "sub_actions": [
+        "CLICK: Complete purchase or finalize booking button"
+      ]
+    },
+    {
+      "id": "CLUSTER18_TU9",
+      "name": "Search for location or venue",
+      "sub_actions": [
+        "TYPE: Location or venue name",
+        "CLICK: Search button or link",
+        "SELECT: Location or venue from search results"
+      ]
+    },
+    {
+      "id": "CLUSTER18_TU10",
+      "name": "Join event waitlist",
+      "sub_actions": [
+        "CLICK: Join waitlist button",
+        "TYPE: Required personal information",
+        "CLICK: Submit waitlist request"
+      ]
+    }
+  ]
+}

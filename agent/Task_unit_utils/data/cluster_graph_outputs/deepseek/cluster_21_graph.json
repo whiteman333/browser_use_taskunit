@@ -1,0 +1,55 @@
+{
+  "task_unit_dag": [
+    {
+      "parent_task_unit_id": "CLUSTER21_TU3",
+      "child_task_unit_ids": [
+        "CLUSTER21_TU1",
+        "CLUSTER21_TU2"
+      ],
+      "relationship_reasoning": "Making a restaurant reservation typically involves searching for restaurants by cuisine and location (TU1) and then filtering them by specific criteria such as date, time, and number of guests (TU2) before making the reservation (TU3)."
+    },
+    {
+      "parent_task_unit_id": "CLUSTER21_TU4",
+      "child_task_unit_ids": [
+        "CLUSTER21_TU1"
+      ],
+      "relationship_reasoning": "Finding and saving a restaurant (TU4) requires first searching for restaurants by cuisine and location (TU1) to identify the restaurant to save."
+    },
+    {
+      "parent_task_unit_id": "CLUSTER21_TU5",
+      "child_task_unit_ids": [
+        "CLUSTER21_TU1"
+      ],
+      "relationship_reasoning": "Notifying about restaurant availability (TU5) involves first searching for restaurants by cuisine and location (TU1) to select the restaurant for which notifications are desired."
+    },
+    {
+      "parent_task_unit_id": "CLUSTER21_TU6",
+      "child_task_unit_ids": [
+        "CLUSTER21_TU1"
+      ],
+      "relationship_reasoning": "Browsing restaurants by specific features (TU6) starts with searching for restaurants by cuisine and location (TU1) to narrow down the list before applying additional filters."
+    },
+    {
+      "parent_task_unit_id": "CLUSTER21_TU7",
+      "child_task_unit_ids": [
+        "CLUSTER21_TU1",
+        "CLUSTER21_TU2"
+      ],
+      "relationship_reasoning": "Booking a special event at a restaurant (TU7) involves searching for restaurants by cuisine and location (TU1) and then filtering them by specific criteria (TU2) to find a suitable venue for the event."
+    },
+    {
+      "parent_task_unit_id": "CLUSTER21_TU8",
+      "child_task_unit_ids": [],
+      "relationship_reasoning": "Searching for hotels for events (TU8) is a standalone task that does not depend on other task units for completion."
+    },
+    {
+      "parent_task_unit_id": "CLUSTER21_TU9",
+      "child_task_unit_ids": [],
+      "relationship_reasoning": "Favoriting a lodging option (TU9) is a standalone task that does not depend on other task units for completion."
+    }
+  ],
+  "validation": {
+    "is_acyclic": true,
+    "acyclic_reasoning": "The constructed DAG does not contain any cycles, as all dependencies are hierarchical and follow a logical sequence from broader to narrower tasks without any circular references."
+  }
+}

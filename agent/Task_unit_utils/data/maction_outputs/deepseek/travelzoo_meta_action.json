@@ -1,0 +1,118 @@
+{
+  "meta_actions": [
+    {
+      "id": "MA1",
+      "name": "Navigate to Specific Deal Category",
+      "website": "travelzoo",
+      "domain": "Travel",
+      "subdomain": "General",
+      "sub_actions": [
+        "[link] Last-Minute Deals -> CLICK",
+        "[heading] Last-Minute Flights & Car Rentals -> CLICK",
+        "[link] Cruises -> CLICK",
+        "[textbox] What type of deals? -> CLICK",
+        "[div] Hotels -> CLICK",
+        "[div] Vacations -> CLICK",
+        "[div] Luxury Trips -> CLICK",
+        "[div] Things To Do -> CLICK"
+      ]
+    },
+    {
+      "id": "MA2",
+      "name": "Specify Location",
+      "website": "travelzoo",
+      "domain": "Travel",
+      "subdomain": "General",
+      "sub_actions": [
+        "[textbox] Where? -> TYPE: Location",
+        "[div] Europe -> CLICK",
+        "[div] Mexico -> CLICK",
+        "[div] Las Vegas, NV -> CLICK",
+        "[div] New York City, NY -> CLICK",
+        "[div] Fiji -> CLICK",
+        "[div] Spain -> CLICK",
+        "[div] Anywhere -> CLICK"
+      ]
+    },
+    {
+      "id": "MA3",
+      "name": "Specify Time Period",
+      "website": "travelzoo",
+      "domain": "Travel",
+      "subdomain": "General",
+      "sub_actions": [
+        "[textbox] When? -> CLICK",
+        "[tab] Select a Month -> CLICK",
+        "[li] May -> CLICK",
+        "[li] Summer -> CLICK",
+        "[li] Spring -> CLICK",
+        "[li] July -> CLICK",
+        "[li] December -> CLICK",
+        "[link] 17 -> CLICK",
+        "[link] 20 -> CLICK"
+      ]
+    },
+    {
+      "id": "MA4",
+      "name": "Apply Filters",
+      "website": "travelzoo",
+      "domain": "Travel",
+      "subdomain": "General",
+      "sub_actions": [
+        "[button] Filter -> CLICK",
+        "[button] Highest Rated -> CLICK",
+        "[button] Airfare Included -> CLICK",
+        "[button] All-inclusive -> CLICK",
+        "[button] Pet-Friendly -> CLICK",
+        "[button] Road Trips -> CLICK",
+        "[button] Last-Minute -> CLICK",
+        "[button] $ Price: Low to High -> CLICK",
+        "[button] $ Price: High to Low -> CLICK",
+        "[button] Adults-Only -> CLICK",
+        "[button] Romantic -> CLICK",
+        "[button] 10+ Night Trips -> CLICK",
+        "[button] Guided Trips -> CLICK",
+        "[button] DONE -> CLICK"
+      ]
+    },
+    {
+      "id": "MA5",
+      "name": "Search for Deals",
+      "website": "travelzoo",
+      "domain": "Travel",
+      "subdomain": "General",
+      "sub_actions": [
+        "[button] SEARCH DEALS -> CLICK",
+        "[button] SET AN ALERT FOR LAS VEGAS -> CLICK"
+      ]
+    },
+    {
+      "id": "MA6",
+      "name": "Select Number of Guests",
+      "website": "travelzoo",
+      "domain": "Travel",
+      "subdomain": "General",
+      "sub_actions": [
+        "[combobox] How many guests? -> SELECT: Number"
+      ]
+    },
+    {
+      "id": "MA7",
+      "name": "View Deal Details",
+      "website": "travelzoo",
+      "domain": "Travel",
+      "subdomain": "General",
+      "sub_actions": [
+        "[heading] $139 Vermont: Cozy Kimpton in the heart of Manches... -> CLICK",
+        "[button] CHECK DATES -> CLICK",
+        "[link] $189 -> CLICK",
+        "[link] $259 -> CLICK",
+        "[button] CONTINUE -> CLICK",
+        "[heading] $207 -> CLICK",
+        "[heading] $2259 & up 6-Nt. Sydney & Fiji Island Trip w/Air &... -> CLICK",
+        "[span] Map -> CLICK",
+        "[generic] Go to Aspire Down Under site -> CLICK"
+      ]
+    }
+  ]
+}

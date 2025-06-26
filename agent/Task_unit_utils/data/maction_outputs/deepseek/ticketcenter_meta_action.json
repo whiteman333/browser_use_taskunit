@@ -1,0 +1,114 @@
+{
+  "meta_actions": [
+    {
+      "id": "MA1",
+      "name": "Search for Event or Artist",
+      "website": "ticketcenter",
+      "domain": "Entertainment",
+      "subdomain": "Event",
+      "sub_actions": [
+        "[textbox] Search for artists, teams or venues... -> TYPE: Event or Artist",
+        "[option] Event or Artist -> CLICK"
+      ]
+    },
+    {
+      "id": "MA2",
+      "name": "Select Event Category",
+      "website": "ticketcenter",
+      "domain": "Entertainment",
+      "subdomain": "Event",
+      "sub_actions": [
+        "[button] Event Category -> CLICK",
+        "[link] Specific Category -> CLICK"
+      ]
+    },
+    {
+      "id": "MA3",
+      "name": "Navigate to City Events",
+      "website": "ticketcenter",
+      "domain": "Entertainment",
+      "subdomain": "Event",
+      "sub_actions": [
+        "[button] CITY GUIDES -> HOVER",
+        "[link] City -> CLICK"
+      ]
+    },
+    {
+      "id": "MA4",
+      "name": "Select Date Range",
+      "website": "ticketcenter",
+      "domain": "Entertainment",
+      "subdomain": "Event",
+      "sub_actions": [
+        "[button] All dates -> CLICK",
+        "[link] Date Range -> CLICK"
+      ]
+    },
+    {
+      "id": "MA5",
+      "name": "Select Ticket Quantity",
+      "website": "ticketcenter",
+      "domain": "Entertainment",
+      "subdomain": "Event",
+      "sub_actions": [
+        "[div] Quantity -> CLICK",
+        "[label] Number -> CLICK"
+      ]
+    },
+    {
+      "id": "MA6",
+      "name": "Proceed to Payment",
+      "website": "ticketcenter",
+      "domain": "Entertainment",
+      "subdomain": "Event",
+      "sub_actions": [
+        "[textbox] *Email Address -> TYPE: Email",
+        "[button] Proceed to Payment -> CLICK"
+      ]
+    },
+    {
+      "id": "MA7",
+      "name": "Filter by Price",
+      "website": "ticketcenter",
+      "domain": "Entertainment",
+      "subdomain": "Event",
+      "sub_actions": [
+        "[span] Price Filter -> CLICK",
+        "[div] Price Range -> CLICK",
+        "[button] Done -> CLICK"
+      ]
+    },
+    {
+      "id": "MA8",
+      "name": "Select Specific Event",
+      "website": "ticketcenter",
+      "domain": "Entertainment",
+      "subdomain": "Event",
+      "sub_actions": [
+        "[link] TICKETS -> CLICK"
+      ]
+    },
+    {
+      "id": "MA9",
+      "name": "Search for Location",
+      "website": "ticketcenter",
+      "domain": "Entertainment",
+      "subdomain": "Event",
+      "sub_actions": [
+        "[textbox] Search for artists, teams or venues... -> TYPE: Location",
+        "[button] Search -> CLICK"
+      ]
+    },
+    {
+      "id": "MA10",
+      "name": "Select Ticket Type",
+      "website": "ticketcenter",
+      "domain": "Entertainment",
+      "subdomain": "Event",
+      "sub_actions": [
+        "[div] More Options -> CLICK",
+        "[span] Ticket Type -> CLICK"
+      ]
+    }
+  ]
+}

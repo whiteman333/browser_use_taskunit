@@ -1,0 +1,109 @@
+{
+  "meta_actions": [
+    {
+      "id": "MA1",
+      "name": "Navigate to Event Category",
+      "website": "seatgeek",
+      "domain": "Entertainment",
+      "subdomain": "Event",
+      "sub_actions": [
+        "[link] Music -> HOVER",
+        "[a] Genres -> HOVER",
+        "[link] Pop -> CLICK"
+      ]
+    },
+    {
+      "id": "MA2",
+      "name": "Search for Specific Event",
+      "website": "seatgeek",
+      "domain": "Entertainment",
+      "subdomain": "Event",
+      "sub_actions": [
+        "[textbox] Search by team, artist, event or venue -> CLICK",
+        "[textbox] Search by team, artist, event or venue -> TYPE: Artist/Event",
+        "[paragraph] Artist/Event -> CLICK"
+      ]
+    },
+    {
+      "id": "MA3",
+      "name": "Filter Events by Date",
+      "website": "seatgeek",
+      "domain": "Entertainment",
+      "subdomain": "Event",
+      "sub_actions": [
+        "[button] Filter by Date -> CLICK",
+        "[button] Next month -> CLICK",
+        "[div] Date -> CLICK",
+        "[button] Apply -> CLICK"
+      ]
+    },
+    {
+      "id": "MA4",
+      "name": "Change Location",
+      "website": "seatgeek",
+      "domain": "Entertainment",
+      "subdomain": "Event",
+      "sub_actions": [
+        "[button] Change Location -> CLICK",
+        "[searchbox] Search by city... -> TYPE: Location",
+        "[option] Location -> CLICK"
+      ]
+    },
+    {
+      "id": "MA5",
+      "name": "View Event Details",
+      "website": "seatgeek",
+      "domain": "Entertainment",
+      "subdomain": "Event",
+      "sub_actions": [
+        "[img] Event Image -> CLICK",
+        "[button] Read more -> CLICK"
+      ]
+    },
+    {
+      "id": "MA6",
+      "name": "Select Ticket Quantity",
+      "website": "seatgeek",
+      "domain": "Entertainment",
+      "subdomain": "Event",
+      "sub_actions": [
+        "[button] Quantity -> CLICK",
+        "[span] Number of Tickets -> CLICK"
+      ]
+    },
+    {
+      "id": "MA7",
+      "name": "View Pricing Options",
+      "website": "seatgeek",
+      "domain": "Entertainment",
+      "subdomain": "Event",
+      "sub_actions": [
+        "[span] From $Price -> CLICK",
+        "[button] Low prices -> CLICK",
+        "[button] Include fees -> CLICK"
+      ]
+    },
+    {
+      "id": "MA8",
+      "name": "Explore Seating Options",
+      "website": "seatgeek",
+      "domain": "Entertainment",
+      "subdomain": "Event",
+      "sub_actions": [
+        "[img] Overhead map of Floor -> CLICK",
+        "[button] VIP -> CLICK"
+      ]
+    },
+    {
+      "id": "MA9",
+      "name": "Browse Categories",
+      "website": "seatgeek",
+      "domain": "Entertainment",
+      "subdomain": "Event",
+      "sub_actions": [
+        "[button] See next Categories -> CLICK",
+        "[img] Category -> CLICK"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "task_unit_dag": [
+    {
+      "parent_task_unit_id": "CLUSTER28_TU2",
+      "child_task_unit_ids": [
+        "CLUSTER28_TU3",
+        "CLUSTER28_TU4",
+        "CLUSTER28_TU6"
+      ],
+      "relationship_reasoning": "Searching for train tickets involves filtering the results, selecting a train and seating preferences, and applying discounts or railcards as part of the process to finalize the ticket selection."
+    },
+    {
+      "parent_task_unit_id": "CLUSTER28_TU4",
+      "child_task_unit_ids": [
+        "CLUSTER28_TU5"
+      ],
+      "relationship_reasoning": "After selecting a train and seating preferences, the next logical step is to add the ticket to the cart or proceed to booking, making 'Add to cart or proceed to booking' a child of 'Select train and seating preferences'."
+    },
+    {
+      "parent_task_unit_id": "CLUSTER28_TU7",
+      "child_task_unit_ids": [],
+      "relationship_reasoning": "Requesting a vacation package quote is a standalone task that does not directly depend on or include other provided task units as sub-steps."
+    },
+    {
+      "parent_task_unit_id": "CLUSTER28_TU8",
+      "child_task_unit_ids": [],
+      "relationship_reasoning": "Viewing job openings is a standalone task that does not directly depend on or include other provided task units as sub-steps."
+    },
+    {
+      "parent_task_unit_id": "CLUSTER28_TU9",
+      "child_task_unit_ids": [],
+      "relationship_reasoning": "Viewing terms and conditions is a standalone task that does not directly depend on or include other provided task units as sub-steps."
+    },
+    {
+      "parent_task_unit_id": "CLUSTER28_TU1",
+      "child_task_unit_ids": [],
+      "relationship_reasoning": "Viewing a route map or schedule is a standalone task that does not directly depend on or include other provided task units as sub-steps."
+    }
+  ],
+  "validation": {
+    "is_acyclic": true,
+    "acyclic_reasoning": "The constructed DAG reflects hierarchical dependencies based on semantic containment without any cycles, ensuring that each task unit's dependencies logically follow from broader to narrower tasks without circular references."
+  }
+}

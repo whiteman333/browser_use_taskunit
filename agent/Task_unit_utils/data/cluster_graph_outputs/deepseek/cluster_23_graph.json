@@ -1,0 +1,57 @@
+{
+  "task_unit_dag": [
+    {
+      "parent_task_unit_id": "CLUSTER23_TU10",
+      "child_task_unit_ids": [
+        "CLUSTER23_TU1",
+        "CLUSTER23_TU2",
+        "CLUSTER23_TU4"
+      ],
+      "relationship_reasoning": "Finding cruise deals with specific inclusions involves filtering cruises by duration, searching by destination and departure port, and searching by date range as necessary steps to narrow down the options."
+    },
+    {
+      "parent_task_unit_id": "CLUSTER23_TU12",
+      "child_task_unit_ids": [
+        "CLUSTER23_TU2",
+        "CLUSTER23_TU4",
+        "CLUSTER23_TU3"
+      ],
+      "relationship_reasoning": "Booking a flight and cruise package requires searching cruises by destination and departure port, searching by date range, and adjusting the number of guests as part of the booking process."
+    },
+    {
+      "parent_task_unit_id": "CLUSTER23_TU7",
+      "child_task_unit_ids": [
+        "CLUSTER23_TU2",
+        "CLUSTER23_TU4",
+        "CLUSTER23_TU5"
+      ],
+      "relationship_reasoning": "Starting booking a selected cruise involves searching cruises by destination and departure port, searching by date range, and filtering by ship as prerequisites to selecting a cruise to book."
+    },
+    {
+      "parent_task_unit_id": "CLUSTER23_TU6",
+      "child_task_unit_ids": [],
+      "relationship_reasoning": "Viewing and filtering member-only offers is a standalone task that does not require completion of other task units as prerequisites."
+    },
+    {
+      "parent_task_unit_id": "CLUSTER23_TU8",
+      "child_task_unit_ids": [],
+      "relationship_reasoning": "Purchasing a beverage package as a gift is a standalone task that does not require completion of other task units as prerequisites."
+    },
+    {
+      "parent_task_unit_id": "CLUSTER23_TU9",
+      "child_task_unit_ids": [
+        "CLUSTER23_TU5"
+      ],
+      "relationship_reasoning": "Searching for dining options on a specific ship requires filtering cruises by ship as a prerequisite to view dining options."
+    },
+    {
+      "parent_task_unit_id": "CLUSTER23_TU11",
+      "child_task_unit_ids": [],
+      "relationship_reasoning": "Sorting cruise deals by price is a standalone task that does not require completion of other task units as prerequisites."
+    }
+  ],
+  "validation": {
+    "is_acyclic": true,
+    "acyclic_reasoning": "All relationships strictly follow a hierarchical structure of task objectives, with no cycles or contradictions in the dependencies. Each child task unit is a necessary step towards completing its parent task unit, ensuring a logical flow without circular references."
+  }
+}

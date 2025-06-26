@@ -1,0 +1,85 @@
+{
+  "task_units": [
+    {
+      "id": "CLUSTER19_TU1",
+      "name": "Filter events by category and location",
+      "sub_actions": [
+        "SELECT: Event category",
+        "TYPE: Location",
+        "CLICK: Search or apply filter"
+      ]
+    },
+    {
+      "id": "CLUSTER19_TU2",
+      "name": "Filter events by date range",
+      "sub_actions": [
+        "SELECT: Date range",
+        "CLICK: Apply date filter"
+      ]
+    },
+    {
+      "id": "CLUSTER19_TU3",
+      "name": "Search for specific event types",
+      "sub_actions": [
+        "TYPE: Event type",
+        "CLICK: Search or apply filter"
+      ]
+    },
+    {
+      "id": "CLUSTER19_TU4",
+      "name": "Navigate to event details",
+      "sub_actions": [
+        "CLICK: Event name or details link"
+      ]
+    },
+    {
+      "id": "CLUSTER19_TU5",
+      "name": "Follow or save event/organizer",
+      "sub_actions": [
+        "CLICK: Follow or save button"
+      ]
+    },
+    {
+      "id": "CLUSTER19_TU6",
+      "name": "Contact event organizer",
+      "sub_actions": [
+        "CLICK: Contact organizer",
+        "SELECT: Contact reason",
+        "CLICK: Send message"
+      ]
+    },
+    {
+      "id": "CLUSTER19_TU7",
+      "name": "Book tickets for an event",
+      "sub_actions": [
+        "SELECT: Number of tickets",
+        "SELECT: Ticket type",
+        "CLICK: Book or checkout"
+      ]
+    },
+    {
+      "id": "CLUSTER19_TU8",
+      "name": "Sort events by criteria",
+      "sub_actions": [
+        "SELECT: Sort criteria",
+        "CLICK: Apply sort"
+      ]
+    },
+    {
+      "id": "CLUSTER19_TU9",
+      "name": "Filter events by price",
+      "sub_actions": [
+        "SELECT: Price range",
+        "CLICK: Apply filter"
+      ]
+    },
+    {
+      "id": "CLUSTER19_TU10",
+      "name": "Browse events by venue",
+      "sub_actions": [
+        "TYPE: Venue name",
+        "CLICK: Search or select venue"
+      ]
+    }
+  ]
+}

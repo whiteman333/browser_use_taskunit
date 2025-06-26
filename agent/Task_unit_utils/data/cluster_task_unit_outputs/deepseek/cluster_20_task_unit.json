@@ -1,0 +1,103 @@
+{
+  "task_units": [
+    {
+      "id": "CLUSTER20_TU1",
+      "name": "Search for flights between two locations",
+      "sub_actions": [
+        "CLICK on search for flights",
+        "TYPE departure location",
+        "SELECT departure location from suggestions",
+        "TYPE arrival location",
+        "SELECT arrival location from suggestions",
+        "CLICK on search button"
+      ]
+    },
+    {
+      "id": "CLUSTER20_TU2",
+      "name": "Filter flight search results",
+      "sub_actions": [
+        "CLICK on filter options",
+        "SELECT filter criteria (e.g., non-stop, airline, price)",
+        "APPLY filters"
+      ]
+    },
+    {
+      "id": "CLUSTER20_TU3",
+      "name": "Select flight dates",
+      "sub_actions": [
+        "CLICK on date input field",
+        "SELECT departure date from calendar",
+        "SELECT return date from calendar (if applicable)",
+        "CONFIRM date selection"
+      ]
+    },
+    {
+      "id": "CLUSTER20_TU4",
+      "name": "Specify passenger details",
+      "sub_actions": [
+        "CLICK on passenger number input",
+        "ADJUST number of adults",
+        "ADJUST number of children",
+        "ADJUST number of infants",
+        "CONFIRM passenger details"
+      ]
+    },
+    {
+      "id": "CLUSTER20_TU5",
+      "name": "Choose flight class",
+      "sub_actions": [
+        "CLICK on flight class selector",
+        "SELECT desired flight class (e.g., economy, premium economy, business, first)",
+        "CONFIRM selection"
+      ]
+    },
+    {
+      "id": "CLUSTER20_TU6",
+      "name": "View and compare flight options",
+      "sub_actions": [
+        "SCROLL through flight options",
+        "COMPARE flight details (e.g., price, duration, stops)",
+        "SELECT preferred flight option"
+      ]
+    },
+    {
+      "id": "CLUSTER20_TU7",
+      "name": "Check flight status",
+      "sub_actions": [
+        "CLICK on flight status section",
+        "TYPE flight number or route details",
+        "SELECT date of flight",
+        "CLICK on search or check status button"
+      ]
+    },
+    {
+      "id": "CLUSTER20_TU8",
+      "name": "Book a flight",
+      "sub_actions": [
+        "SELECT flight to book",
+        "CLICK on book or select button",
+        "PROCEED to checkout or payment page"
+      ]
+    },
+    {
+      "id": "CLUSTER20_TU9",
+      "name": "Apply promo code or discounts",
+      "sub_actions": [
+        "CLICK on promo code input field",
+        "TYPE promo code",
+        "APPLY promo code",
+        "VERIFY discount application"
+      ]
+    },
+    {
+      "id": "CLUSTER20_TU10",
+      "name": "Manage booking or check-in",
+      "sub_actions": [
+        "CLICK on manage booking or check-in section",
+        "TYPE booking reference or ticket number",
+        "TYPE passenger last name",
+        "CLICK on search or find booking button"
+      ]
+    }
+  ]
+}

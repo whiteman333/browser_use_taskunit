@@ -1,0 +1,76 @@
+{
+  "task_units": [
+    {
+      "id": "CLUSTER6_TU1",
+      "name": "Filter books by category and attributes",
+      "sub_actions": [
+        "CLICK: Category selection",
+        "SELECT: Sub-category",
+        "SELECT: Language",
+        "SELECT: Availability",
+        "SELECT: Format",
+        "SELECT: Price range",
+        "CLICK: Apply filters"
+      ]
+    },
+    {
+      "id": "CLUSTER6_TU2",
+      "name": "Search for a book by specific criteria",
+      "sub_actions": [
+        "CLICK: Advanced search",
+        "TYPE: ISBN or author name",
+        "SELECT: Language",
+        "CLICK: Execute search"
+      ]
+    },
+    {
+      "id": "CLUSTER6_TU3",
+      "name": "Browse and sort books",
+      "sub_actions": [
+        "CLICK: Browse category",
+        "SELECT: Sort option",
+        "CLICK: Apply sort"
+      ]
+    },
+    {
+      "id": "CLUSTER6_TU4",
+      "name": "Add book to list or cart",
+      "sub_actions": [
+        "CLICK: Book selection",
+        "CLICK: Add to list or cart",
+        "TYPE: List name if applicable",
+        "CLICK: Confirm addition"
+      ]
+    },
+    {
+      "id": "CLUSTER6_TU5",
+      "name": "Search for books by keyword and filter",
+      "sub_actions": [
+        "TYPE: Search keyword",
+        "CLICK: Execute search",
+        "SELECT: Filter criteria",
+        "CLICK: Apply filters"
+      ]
+    },
+    {
+      "id": "CLUSTER6_TU6",
+      "name": "Check availability in specific area",
+      "sub_actions": [
+        "CLICK: Location selection",
+        "CLICK: Specific area",
+        "CLICK: Category within area"
+      ]
+    },
+    {
+      "id": "CLUSTER6_TU7",
+      "name": "Search and sort auction items",
+      "sub_actions": [
+        "TYPE: Search keyword",
+        "CLICK: Execute search",
+        "SELECT: Auction filter",
+        "SELECT: Sort option",
+        "CLICK: Apply sort"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "meta_actions": [
+    {
+      "id": "MA1",
+      "name": "Search for Product",
+      "website": "gamestop",
+      "domain": "Shopping",
+      "subdomain": "Speciality",
+      "sub_actions": [
+        "[searchbox] Search games, consoles & more -> TYPE: Product",
+        "[button] Search -> CLICK"
+      ]
+    },
+    {
+      "id": "MA2",
+      "name": "Navigate to Product Category",
+      "website": "gamestop",
+      "domain": "Shopping",
+      "subdomain": "Speciality",
+      "sub_actions": [
+        "[button] Main Menu -> CLICK",
+        "[button] Category chevron_right -> CLICK",
+        "[button] Subcategory -> CLICK"
+      ]
+    },
+    {
+      "id": "MA3",
+      "name": "Apply Filters",
+      "website": "gamestop",
+      "domain": "Shopping",
+      "subdomain": "Speciality",
+      "sub_actions": [
+        "[link] Filter -> CLICK",
+        "[generic] Refine by Category: Category -> CLICK",
+        "[checkbox] Filter Option -> CLICK",
+        "[button] Done -> CLICK"
+      ]
+    },
+    {
+      "id": "MA4",
+      "name": "Add to Cart",
+      "website": "gamestop",
+      "domain": "Shopping",
+      "subdomain": "Speciality",
+      "sub_actions": [
+        "[button] Add to Cart -> CLICK"
+      ]
+    },
+    {
+      "id": "MA5",
+      "name": "Gift Card Purchase",
+      "website": "gamestop",
+      "domain": "Shopping",
+      "subdomain": "Speciality",
+      "sub_actions": [
+        "[textbox] Recipient Name -> TYPE: Name",
+        "[textbox] Recipient Email -> TYPE: Email",
+        "[textbox] Sender Name -> TYPE: Name",
+        "[button] ADD TO CART -> CLICK"
+      ]
+    },
+    {
+      "id": "MA6",
+      "name": "Trade-In Inquiry",
+      "website": "gamestop",
+      "domain": "Shopping",
+      "subdomain": "Speciality",
+      "sub_actions": [
+        "[link] repeat Trade-In -> CLICK",
+        "[p] Category -> CLICK",
+        "[searchbox] Find values for games and more -> TYPE: Product",
+        "[button] SEARCH -> CLICK"
+      ]
+    },
+    {
+      "id": "MA7",
+      "name": "Job Application",
+      "website": "gamestop",
+      "domain": "Shopping",
+      "subdomain": "Speciality",
+      "sub_actions": [
+        "[link] Careers -> CLICK",
+        "[link] View Jobs Stores -> CLICK",
+        "[button] State / Province -> CLICK",
+        "[searchbox] City -> TYPE: Location",
+        "[button] Hiring Type -> CLICK",
+        "[combobox] Sort by -> SELECT: Sort Option",
+        "[link] Apply Now for Job -> CLICK"
+      ]
+    },
+    {
+      "id": "MA8",
+      "name": "Find Store Location",
+      "website": "gamestop",
+      "domain": "Shopping",
+      "subdomain": "Speciality",
+      "sub_actions": [
+        "[div] Find a Store -> CLICK",
+        "[link] FIND A STORE -> CLICK",
+        "[textbox] SEARCH BY CITY, STATE, OR ZIP CODE -> TYPE: Location",
+        "[button] SEARCH -> CLICK",
+        "[button] Store Name -> CLICK"
+      ]
+    }
+  ]
+}

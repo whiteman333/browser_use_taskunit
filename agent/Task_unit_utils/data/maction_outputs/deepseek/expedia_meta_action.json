@@ -1,0 +1,85 @@
+{
+  "meta_actions": [
+    {
+      "id": "ma1",
+      "name": "Select Destination",
+      "website": "expedia",
+      "domain": "Travel",
+      "subdomain": "General",
+      "sub_actions": [
+        "[tab] Things to do -> CLICK",
+        "[textbox] Things to do in -> TYPE: Location",
+        "[button] Location Location -> CLICK"
+      ]
+    },
+    {
+      "id": "ma2",
+      "name": "Set Date",
+      "website": "expedia",
+      "domain": "Travel",
+      "subdomain": "General",
+      "sub_actions": [
+        "[button] From Date -> CLICK",
+        "[button] Selected Date -> CLICK",
+        "[button] Done -> CLICK"
+      ]
+    },
+    {
+      "id": "ma3",
+      "name": "Apply Filters",
+      "website": "expedia",
+      "domain": "Travel",
+      "subdomain": "General",
+      "sub_actions": [
+        "[checkbox] Filter Option -> CLICK",
+        "[checkbox] Another Filter Option -> CLICK"
+      ]
+    },
+    {
+      "id": "ma4",
+      "name": "Search",
+      "website": "expedia",
+      "domain": "Travel",
+      "subdomain": "General",
+      "sub_actions": [
+        "[button] Search -> CLICK"
+      ]
+    },
+    {
+      "id": "ma5",
+      "name": "Select Travelers",
+      "website": "expedia",
+      "domain": "Travel",
+      "subdomain": "General",
+      "sub_actions": [
+        "[button] Number of travelers -> CLICK",
+        "[img] Increase adults -> CLICK",
+        "[img] Increase children -> CLICK",
+        "[combobox] Child age -> SELECT: Number",
+        "[combobox] Infant age -> SELECT: Number",
+        "[button] Done -> CLICK"
+      ]
+    },
+    {
+      "id": "ma6",
+      "name": "Select Flight Class",
+      "website": "expedia",
+      "domain": "Travel",
+      "subdomain": "General",
+      "sub_actions": [
+        "[button] Preferred flight class -> CLICK",
+        "[menuitem] Flight Class -> CLICK"
+      ]
+    },
+    {
+      "id": "ma7",
+      "name": "Sort Results",
+      "website": "expedia",
+      "domain": "Travel",
+      "subdomain": "General",
+      "sub_actions": [
+        "[combobox] Sort by -> SELECT: Option"
+      ]
+    }
+  ]
+}

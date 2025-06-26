@@ -1,0 +1,66 @@
+{
+  "task_unit_dag": [
+    {
+      "parent_task_unit_id": "CLUSTER2_TU3",
+      "child_task_unit_ids": [
+        "CLUSTER2_TU1",
+        "CLUSTER2_TU6"
+      ],
+      "relationship_reasoning": "Purchasing multiple digital gift cards with a message encompasses the actions of purchasing a single digital gift card and a branded gift card with a message, as these are specific instances of the broader task."
+    },
+    {
+      "parent_task_unit_id": "CLUSTER2_TU6",
+      "child_task_unit_ids": [
+        "CLUSTER2_TU12"
+      ],
+      "relationship_reasoning": "Purchasing a branded gift card with a message includes adding a branded gift card to cart with recipient details, as the latter is a necessary step to complete the former."
+    },
+    {
+      "parent_task_unit_id": "CLUSTER2_TU8",
+      "child_task_unit_ids": [
+        "CLUSTER2_TU1",
+        "CLUSTER2_TU9"
+      ],
+      "relationship_reasoning": "Adding multiple gift cards to cart involves the actions of purchasing a digital gift card and adding a digital gift card to cart with recipient email, as these are specific steps within the broader task."
+    },
+    {
+      "parent_task_unit_id": "CLUSTER2_TU11",
+      "child_task_unit_ids": [
+        "CLUSTER2_TU6"
+      ],
+      "relationship_reasoning": "Sending a physical gift card with a message includes purchasing a branded gift card with a message, as the latter is a specific type of the former."
+    },
+    {
+      "parent_task_unit_id": "CLUSTER2_TU12",
+      "child_task_unit_ids": [
+        "CLUSTER2_TU9"
+      ],
+      "relationship_reasoning": "Adding a branded gift card to cart with recipient details includes adding a digital gift card to cart with recipient email, as the latter is a specific instance of the former."
+    },
+    {
+      "parent_task_unit_id": "CLUSTER2_TU4",
+      "child_task_unit_ids": [
+        "CLUSTER2_TU2"
+      ],
+      "relationship_reasoning": "Opening a gift list for a category includes exploring gift shops at a location, as the latter is a way to achieve the former."
+    },
+    {
+      "parent_task_unit_id": "CLUSTER2_TU5",
+      "child_task_unit_ids": [
+        "CLUSTER2_TU1"
+      ],
+      "relationship_reasoning": "Searching for a specific gift card includes purchasing a digital gift card, as the latter is a potential outcome of the former."
+    },
+    {
+      "parent_task_unit_id": "CLUSTER2_TU10",
+      "child_task_unit_ids": [
+        "CLUSTER2_TU4"
+      ],
+      "relationship_reasoning": "Finding a gift registry includes opening a gift list for a category, as the latter is a step towards achieving the former."
+    }
+  ],
+  "validation": {
+    "is_acyclic": true,
+    "acyclic_reasoning": "All relationships strictly follow a hierarchical structure of task objectives, with no cycles or contradictions in the dependencies."
+  }
+}

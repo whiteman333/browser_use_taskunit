@@ -1,0 +1,98 @@
+{
+  "meta_actions": [
+    {
+      "id": "ma1",
+      "name": "Select Transportation Type",
+      "website": "booking",
+      "domain": "Travel",
+      "subdomain": "General",
+      "sub_actions": [
+        "[span] Airport taxis -> CLICK",
+        "[span] Attractions -> CLICK",
+        "[span] Car rentals -> CLICK",
+        "[span] Flight + Hotel -> CLICK",
+        "[span] Flights -> CLICK",
+        "[link] Homes -> CLICK"
+      ]
+    },
+    {
+      "id": "ma2",
+      "name": "Specify Location",
+      "website": "booking",
+      "domain": "Travel",
+      "subdomain": "General",
+      "sub_actions": [
+        "[textbox] Pick-up location -> TYPE: Location",
+        "[textbox] Drop-off location -> TYPE: Location",
+        "[searchbox] Where are you going? -> TYPE: Location",
+        "[textbox] Where from? -> TYPE: Location",
+        "[textbox] Where to? -> TYPE: Location",
+        "[searchbox] Please type your destination -> TYPE: Location"
+      ]
+    },
+    {
+      "id": "ma3",
+      "name": "Select Dates",
+      "website": "booking",
+      "domain": "Travel",
+      "subdomain": "General",
+      "sub_actions": [
+        "[button] pickup date input field -> CLICK",
+        "[button] Date -> CLICK",
+        "[div] Select your dates -> CLICK",
+        "[checkbox] Date -> CLICK",
+        "[gridcell] Date -> CLICK"
+      ]
+    },
+    {
+      "id": "ma4",
+      "name": "Specify Number of Passengers or Rooms",
+      "website": "booking",
+      "domain": "Travel",
+      "subdomain": "General",
+      "sub_actions": [
+        "[combobox] Passengers -> SELECT: Number",
+        "[button] Number of adults -> CLICK",
+        "[span] Number of adults -> CLICK"
+      ]
+    },
+    {
+      "id": "ma5",
+      "name": "Search for Options",
+      "website": "booking",
+      "domain": "Travel",
+      "subdomain": "General",
+      "sub_actions": [
+        "[button] Search -> CLICK"
+      ]
+    },
+    {
+      "id": "ma6",
+      "name": "Select Option",
+      "website": "booking",
+      "domain": "Travel",
+      "subdomain": "General",
+      "sub_actions": [
+        "[button] Choose a standard-size taxi costing US$126.84 -> CLICK",
+        "[div] Option -> CLICK",
+        "[link] See availability -> CLICK",
+        "[button] Choose your room -> CLICK",
+        "[button] Book Double Bed - Standard Room -> CLICK",
+        "[button] Select -> CLICK"
+      ]
+    },
+    {
+      "id": "ma7",
+      "name": "Complete Booking",
+      "website": "booking",
+      "domain": "Travel",
+      "subdomain": "General",
+      "sub_actions": [
+        "[button] Continue to book -> HOVER",
+        "[button] Reserve -> CLICK",
+        "[button] I'll reserve -> CLICK",
+        "[button] Continue to checkout -> CLICK"
+      ]
+    }
+  ]
+}

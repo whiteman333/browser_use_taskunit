@@ -1,0 +1,103 @@
+{
+  "meta_actions": [
+    {
+      "id": "ma1",
+      "name": "Navigate to Product Category",
+      "website": "apple",
+      "domain": "Shopping",
+      "subdomain": "Digital",
+      "sub_actions": [
+        "[link] Product Category -> HOVER",
+        "[link] Shop Product Category -> CLICK",
+        "[img] Product Image -> CLICK"
+      ]
+    },
+    {
+      "id": "ma2",
+      "name": "Access Support Information",
+      "website": "apple",
+      "domain": "Shopping",
+      "subdomain": "Digital",
+      "sub_actions": [
+        "[link] Support -> CLICK",
+        "[img] Support Image -> CLICK",
+        "[span] Support Topic -> CLICK"
+      ]
+    },
+    {
+      "id": "ma3",
+      "name": "Check Order Status",
+      "website": "apple",
+      "domain": "Shopping",
+      "subdomain": "Digital",
+      "sub_actions": [
+        "[link] Store -> HOVER",
+        "[link] Order Status -> CLICK",
+        "[textbox] Order number -> TYPE: OrderNumber",
+        "[textbox] Email address -> TYPE: Email",
+        "[button] Continue -> CLICK"
+      ]
+    },
+    {
+      "id": "ma4",
+      "name": "Find Store Location",
+      "website": "apple",
+      "domain": "Shopping",
+      "subdomain": "Digital",
+      "sub_actions": [
+        "[link] Store -> HOVER",
+        "[link] Find a Store -> CLICK",
+        "[combobox] Find a store -> TYPE: ZipCode",
+        "[option] Store Location -> CLICK"
+      ]
+    },
+    {
+      "id": "ma5",
+      "name": "View Product Details",
+      "website": "apple",
+      "domain": "Shopping",
+      "subdomain": "Digital",
+      "sub_actions": [
+        "[link] Product Category -> CLICK",
+        "[img] Product Image -> CLICK",
+        "[img] Product Detail Image -> CLICK"
+      ]
+    },
+    {
+      "id": "ma6",
+      "name": "Customize and Add Product to Cart",
+      "website": "apple",
+      "domain": "Shopping",
+      "subdomain": "Digital",
+      "sub_actions": [
+        "[link] Product -> CLICK",
+        "[link] Buy Product -> CLICK",
+        "[img] Color Option -> CLICK",
+        "[span] Storage Option -> CLICK",
+        "[div] Product Feature -> CLICK",
+        "[radio] Engraving Option -> CLICK",
+        "[textbox] Engraving Text -> TYPE: Text",
+        "[button] Save -> CLICK",
+        "[span] Accessory Option -> CLICK",
+        "[span] Trade-in Option -> CLICK",
+        "[span] Buy Option -> CLICK",
+        "[span] AppleCare+ Option -> CLICK",
+        "[button] Add to Bag -> CLICK"
+      ]
+    },
+    {
+      "id": "ma7",
+      "name": "Locate Store and Check Hours",
+      "website": "apple",
+      "domain": "Shopping",
+      "subdomain": "Digital",
+      "sub_actions": [
+        "[link] Store -> CLICK",
+        "[link] Find Store Near You -> CLICK",
+        "[combobox] Find a store -> TYPE: ZipCode",
+        "[option] Store Location -> CLICK",
+        "[address] Store Address -> CLICK"
+      ]
+    }
+  ]
+}

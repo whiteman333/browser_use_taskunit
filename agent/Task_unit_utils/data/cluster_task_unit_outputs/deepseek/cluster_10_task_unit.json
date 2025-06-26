@@ -1,0 +1,358 @@
+{
+  "task_units": [
+    {
+      "id": "CLUSTER10_TU1",
+      "name": "Search for a specific product",
+      "sub_actions": [
+        "TYPE: Product name",
+        "CLICK: Search button",
+        "CLICK: Product image"
+      ]
+    },
+    {
+      "id": "CLUSTER10_TU2",
+      "name": "Browse products by category",
+      "sub_actions": [
+        "CLICK: Main menu",
+        "CLICK: Category",
+        "CLICK: Subcategory",
+        "CLICK: Filter option",
+        "SELECT: Filter criteria",
+        "CLICK: Apply filter"
+      ]
+    },
+    {
+      "id": "CLUSTER10_TU3",
+      "name": "View recently accessed items",
+      "sub_actions": [
+        "HOVER: User profile",
+        "CLICK: Games section",
+        "CLICK: Recently played"
+      ]
+    },
+    {
+      "id": "CLUSTER10_TU4",
+      "name": "View popular items based on criteria",
+      "sub_actions": [
+        "CLICK: Popular items section",
+        "SELECT: Criteria (e.g., daily players)",
+        "CLICK: View more"
+      ]
+    },
+    {
+      "id": "CLUSTER10_TU5",
+      "name": "Purchase a product bundle",
+      "sub_actions": [
+        "CLICK: Categories",
+        "CLICK: Specific category",
+        "CLICK: Product",
+        "CLICK: Bundle info",
+        "CLICK: Add to cart",
+        "CLICK: Purchase"
+      ]
+    },
+    {
+      "id": "CLUSTER10_TU6",
+      "name": "Browse products under a price limit",
+      "sub_actions": [
+        "CLICK: Categories",
+        "CLICK: Specific category",
+        "CLICK: Narrow by",
+        "SELECT: Price range",
+        "CLICK: Apply"
+      ]
+    },
+    {
+      "id": "CLUSTER10_TU7",
+      "name": "List items by publisher",
+      "sub_actions": [
+        "CLICK: Browse",
+        "CLICK: Publishers"
+      ]
+    },
+    {
+      "id": "CLUSTER10_TU8",
+      "name": "Browse store categories",
+      "sub_actions": [
+        "CLICK: Shopping",
+        "CLICK: Store section",
+        "CLICK: Category",
+        "CLICK: Subcategory"
+      ]
+    },
+    {
+      "id": "CLUSTER10_TU9",
+      "name": "Search and filter for a specific product",
+      "sub_actions": [
+        "TYPE: Product name",
+        "CLICK: Search button",
+        "CLICK: Filter",
+        "SELECT: Category",
+        "SELECT: Subcategory",
+        "CLICK: Apply filter",
+        "CLICK: Product variant",
+        "CLICK: Add to cart"
+      ]
+    },
+    {
+      "id": "CLUSTER10_TU10",
+      "name": "View upcoming releases",
+      "sub_actions": [
+        "CLICK: New & Noteworthy",
+        "CLICK: Popular upcoming",
+        "CLICK: View releases"
+      ]
+    },
+    {
+      "id": "CLUSTER10_TU11",
+      "name": "Customize avatar",
+      "sub_actions": [
+        "CLICK: Store",
+        "CLICK: Points shop",
+        "CLICK: Avatar section",
+        "SELECT: Avatar item",
+        "CLICK: Apply"
+      ]
+    },
+    {
+      "id": "CLUSTER10_TU12",
+      "name": "Find game by release date and platform",
+      "sub_actions": [
+        "CLICK: Discover",
+        "CLICK: Upcoming games",
+        "SELECT: Platform",
+        "SELECT: Release month",
+        "CLICK: Game title"
+      ]
+    },
+    {
+      "id": "CLUSTER10_TU13",
+      "name": "Add DLC to cart",
+      "sub_actions": [
+        "TYPE: Game name",
+        "CLICK: Game title",
+        "HOVER: Add all DLC"
+      ]
+    },
+    {
+      "id": "CLUSTER10_TU14",
+      "name": "Search and apply for a job",
+      "sub_actions": [
+        "CLICK: Careers",
+        "CLICK: View jobs",
+        "SELECT: Location",
+        "TYPE: City name",
+        "SELECT: Job type",
+        "SELECT: Sort by",
+        "CLICK: Apply now"
+      ]
+    },
+    {
+      "id": "CLUSTER10_TU15",
+      "name": "Sort games by player count",
+      "sub_actions": [
+        "CLICK: Most played",
+        "SELECT: Sort criteria",
+        "CLICK: Apply"
+      ]
+    },
+    {
+      "id": "CLUSTER10_TU16",
+      "name": "Filter games by feature",
+      "sub_actions": [
+        "CLICK: Game category",
+        "CLICK: Feature filter",
+        "CLICK: Show more"
+      ]
+    },
+    {
+      "id": "CLUSTER10_TU17",
+      "name": "Find highest rated game in category",
+      "sub_actions": [
+        "CLICK: Categories",
+        "CLICK: Specific category",
+        "CLICK: Narrow by",
+        "SELECT: Rating",
+        "CLICK: Game title"
+      ]
+    },
+    {
+      "id": "CLUSTER10_TU18",
+      "name": "Find and print product details",
+      "sub_actions": [
+        "CLICK: Trade-in",
+        "CLICK: Product category",
+        "CLICK: Filter",
+        "SELECT: Platform",
+        "SELECT: Rating",
+        "SELECT: Genre",
+        "CLICK: Apply filter",
+        "SELECT: Sort by",
+        "CLICK: Product",
+        "CLICK: Print"
+      ]
+    },
+    {
+      "id": "CLUSTER10_TU19",
+      "name": "Explore products by age suitability",
+      "sub_actions": [
+        "CLICK: Categories",
+        "CLICK: Toys",
+        "CLICK: Games & puzzles",
+        "CLICK: Explore all",
+        "SELECT: Age range",
+        "CLICK: Close"
+      ]
+    },
+    {
+      "id": "CLUSTER10_TU20",
+      "name": "Browse products within price range",
+      "sub_actions": [
+        "TYPE: Product name",
+        "CLICK: Search",
+        "TYPE: Minimum price",
+        "TYPE: Maximum price",
+        "CLICK: Submit price range"
+      ]
+    },
+    {
+      "id": "CLUSTER10_TU21",
+      "name": "Filter products by feature",
+      "sub_actions": [
+        "CLICK: Electronics",
+        "CLICK: Video games & consoles",
+        "CLICK: Video game consoles",
+        "CLICK: All filters",
+        "SELECT: Feature",
+        "CLICK: Apply"
+      ]
+    },
+    {
+      "id": "CLUSTER10_TU22",
+      "name": "Find used product",
+      "sub_actions": [
+        "CLICK: Main menu",
+        "CLICK: Consoles & hardware",
+        "CLICK: Specific console",
+        "CLICK: Filter",
+        "SELECT: Condition",
+        "CLICK: Apply filter"
+      ]
+    },
+    {
+      "id": "CLUSTER10_TU23",
+      "name": "Add game to guide and find information",
+      "sub_actions": [
+        "CLICK: Guides",
+        "TYPE: Game name",
+        "CLICK: Game title",
+        "CLICK: Open guide",
+        "CLICK: Table of contents",
+        "CLICK: Information section"
+      ]
+    },
+    {
+      "id": "CLUSTER10_TU24",
+      "name": "Find game release details",
+      "sub_actions": [
+        "CLICK: Search",
+        "TYPE: Game name"
+      ]
+    },
+    {
+      "id": "CLUSTER10_TU25",
+      "name": "Search for news",
+      "sub_actions": [
+        "CLICK: Search",
+        "TYPE: Topic"
+      ]
+    },
+    {
+      "id": "CLUSTER10_TU26",
+      "name": "Add game to collection",
+      "sub_actions": [
+        "TYPE: Game title",
+        "CLICK: Search",
+        "CLICK: Game title",
+        "CLICK: Add to collection",
+        "CLICK: Save"
+      ]
+    },
+    {
+      "id": "CLUSTER10_TU27",
+      "name": "Find cheapest product",
+      "sub_actions": [
+        "TYPE: Product category",
+        "CLICK: Search",
+        "SELECT: Sort by price",
+        "CLICK: Product"
+      ]
+    },
+    {
+      "id": "CLUSTER10_TU28",
+      "name": "Open game guide",
+      "sub_actions": [
+        "CLICK: Guides",
+        "CLICK: Open guide"
+      ]
+    },
+    {
+      "id": "CLUSTER10_TU29",
+      "name": "Browse pre-order products",
+      "sub_actions": [
+        "CLICK: Main menu",
+        "CLICK: Video games",
+        "CLICK: Specific console",
+        "CLICK: Filter",
+        "SELECT: Pre-orders",
+        "CLICK: Apply filter"
+      ]
+    },
+    {
+      "id": "CLUSTER10_TU30",
+      "name": "Sell product for trade-in",
+      "sub_actions": [
+        "CLICK: Trade-in",
+        "CLICK: Product",
+        "CLICK: Find store",
+        "TYPE: Location",
+        "CLICK: Search",
+        "CLICK: Store location"
+      ]
+    },
+    {
+      "id": "CLUSTER10_TU31",
+      "name": "Purchase top-ranked product",
+      "sub_actions": [
+        "CLICK: Browse",
+        "CLICK: All boardgames",
+        "CLICK: Product title",
+        "CLICK: Message seller"
+      ]
+    },
+    {
+      "id": "CLUSTER10_TU32",
+      "name": "View submission rules",
+      "sub_actions": [
+        "CLICK: Help",
+        "CLICK: Guide",
+        "CLICK: Submission rules"
+      ]
+    },
+    {
+      "id": "CLUSTER10_TU33",
+      "name": "Purchase cheapest product with shipping filter",
+      "sub_actions": [
+        "CLICK: Shopping",
+        "CLICK: Marketplace",
+        "TYPE: Product name",
+        "CLICK: Product title",
+        "SELECT: Sort by price",
+        "ADD: Shipping filter",
+        "SELECT: Shipping location",
+        "CLICK: Product title",
+        "CLICK: Message seller"
+      ]
+    }
+  ]
+}

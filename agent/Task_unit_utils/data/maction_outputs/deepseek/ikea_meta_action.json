@@ -1,0 +1,127 @@
+{
+  "meta_actions": [
+    {
+      "id": "ma1",
+      "name": "Navigate to Product Category",
+      "website": "ikea",
+      "domain": "Shopping",
+      "subdomain": "Speciality",
+      "sub_actions": [
+        "[link] Products -> CLICK",
+        "[button] TYPE: Category -> CLICK",
+        "[link] TYPE: Subcategory -> CLICK"
+      ]
+    },
+    {
+      "id": "ma2",
+      "name": "Search for Product",
+      "website": "ikea",
+      "domain": "Shopping",
+      "subdomain": "Speciality",
+      "sub_actions": [
+        "[combobox] Search by product -> TYPE: Product",
+        "[button] Search -> CLICK"
+      ]
+    },
+    {
+      "id": "ma3",
+      "name": "Filter Products",
+      "website": "ikea",
+      "domain": "Shopping",
+      "subdomain": "Speciality",
+      "sub_actions": [
+        "[button] Show more filters modal -> CLICK",
+        "[button] TYPE: Filter -> CLICK",
+        "[span] TYPE: Filter Option -> CLICK",
+        "[button] Close -> CLICK"
+      ]
+    },
+    {
+      "id": "ma4",
+      "name": "Sort Products",
+      "website": "ikea",
+      "domain": "Shopping",
+      "subdomain": "Speciality",
+      "sub_actions": [
+        "[button] Show sorting options modal -> CLICK",
+        "[radio] TYPE: Sort Option -> CLICK"
+      ]
+    },
+    {
+      "id": "ma5",
+      "name": "Select Store Location",
+      "website": "ikea",
+      "domain": "Shopping",
+      "subdomain": "Speciality",
+      "sub_actions": [
+        "[span] Columbus -> CLICK",
+        "[searchbox] Search by ZIP code or city, state -> TYPE: Location",
+        "[button] Submit -> CLICK",
+        "[span] Select store -> CLICK"
+      ]
+    },
+    {
+      "id": "ma6",
+      "name": "Add to Cart or Favorites",
+      "website": "ikea",
+      "domain": "Shopping",
+      "subdomain": "Speciality",
+      "sub_actions": [
+        "[button] Add to bag -> CLICK",
+        "[button] Save to favorites -> CLICK"
+      ]
+    },
+    {
+      "id": "ma7",
+      "name": "Checkout Process",
+      "website": "ikea",
+      "domain": "Shopping",
+      "subdomain": "Speciality",
+      "sub_actions": [
+        "[link] Shopping bag -> CLICK",
+        "[span] Continue to checkout -> CLICK",
+        "[span] Guest checkout -> CLICK",
+        "[span] Select a store -> CLICK",
+        "[span] TYPE: Store -> CLICK"
+      ]
+    },
+    {
+      "id": "ma8",
+      "name": "Browse Deals or Offers",
+      "website": "ikea",
+      "domain": "Shopping",
+      "subdomain": "Speciality",
+      "sub_actions": [
+        "[link] Deals -> CLICK",
+        "[link] TYPE: Deal -> CLICK"
+      ]
+    },
+    {
+      "id": "ma9",
+      "name": "Search by Color",
+      "website": "ikea",
+      "domain": "Shopping",
+      "subdomain": "Speciality",
+      "sub_actions": [
+        "[link] Shop by Color -> CLICK",
+        "[link] TYPE: Color -> CLICK"
+      ]
+    },
+    {
+      "id": "ma10",
+      "name": "Order Spare Parts",
+      "website": "ikea",
+      "domain": "Shopping",
+      "subdomain": "Speciality",
+      "sub_actions": [
+        "[link] Customer Service -> CLICK",
+        "[div] Need an extra part? -> CLICK",
+        "[link] Order spare parts -> CLICK",
+        "[input] -> TYPE: Part Number",
+        "[button] TYPE: Part Number -> CLICK",
+        "[combobox] Change quantity -> SELECT: Number",
+        "[span] Add to cart -> CLICK"
+      ]
+    }
+  ]
+}

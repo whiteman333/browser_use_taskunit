@@ -1,0 +1,138 @@
+{
+  "meta_actions": [
+    {
+      "id": "MA1",
+      "name": "Initiate Trade-In Process",
+      "website": "rei",
+      "domain": "Shopping",
+      "subdomain": "Speciality",
+      "sub_actions": [
+        "[link] Trade In -> CLICK",
+        "[link] Trade in by mail -> CLICK",
+        "[combobox] search input -> TYPE: Product Name",
+        "[img] search icon -> CLICK",
+        "[button] Trade in -> CLICK",
+        "[link] Complete trade-in -> CLICK",
+        "[button] Verify membership to continue -> CLICK",
+        "[input] -> TYPE: First Name",
+        "[input] -> TYPE: Last Name",
+        "[input] -> TYPE: Phone Number",
+        "[button] Proceed to checkout -> CLICK"
+      ]
+    },
+    {
+      "id": "MA2",
+      "name": "Filter Products by Attributes",
+      "website": "rei",
+      "domain": "Shopping",
+      "subdomain": "Speciality",
+      "sub_actions": [
+        "[button] Category -> HOVER/CLICK",
+        "[link] Subcategory -> CLICK",
+        "[link] add filter: Attribute -> CLICK"
+      ]
+    },
+    {
+      "id": "MA3",
+      "name": "Search and Select Product",
+      "website": "rei",
+      "domain": "Shopping",
+      "subdomain": "Speciality",
+      "sub_actions": [
+        "[searchbox] Search -> TYPE: Product Name",
+        "[button] Search -> CLICK",
+        "[img] Product Image -> CLICK",
+        "[button] Add to cart -> CLICK"
+      ]
+    },
+    {
+      "id": "MA4",
+      "name": "Checkout Process",
+      "website": "rei",
+      "domain": "Shopping",
+      "subdomain": "Speciality",
+      "sub_actions": [
+        "[link] Cart & Checkout -> CLICK",
+        "[link] Proceed to checkout -> CLICK",
+        "[button] Continue without membership -> CLICK",
+        "[button] Continue -> CLICK",
+        "[button] Continue with this address -> CLICK",
+        "[button] Continue -> CLICK",
+        "[textbox] Credit card number -> TYPE: Number",
+        "[combobox] Expiration month -> TYPE: Month",
+        "[combobox] Expiration year -> SELECT: Year",
+        "[textbox] Security code -> TYPE: Code"
+      ]
+    },
+    {
+      "id": "MA5",
+      "name": "Sort Products",
+      "website": "rei",
+      "domain": "Shopping",
+      "subdomain": "Speciality",
+      "sub_actions": [
+        "[combobox] Sort By -> SELECT: Sort Option"
+      ]
+    },
+    {
+      "id": "MA6",
+      "name": "Find Services or Stores",
+      "website": "rei",
+      "domain": "Shopping",
+      "subdomain": "Speciality",
+      "sub_actions": [
+        "[button] Category -> CLICK",
+        "[link] Services or Stores -> CLICK",
+        "[textbox] Enter ZIP or City, State -> TYPE: Location",
+        "[button] Search nearest REI stores -> CLICK",
+        "[link] See services menu -> CLICK"
+      ]
+    },
+    {
+      "id": "MA7",
+      "name": "Browse and Filter Used Gear",
+      "website": "rei",
+      "domain": "Shopping",
+      "subdomain": "Speciality",
+      "sub_actions": [
+        "[link] Used Gear -> CLICK",
+        "[menuitem] Category -> CLICK",
+        "[menuitem] Subcategory -> CLICK",
+        "[label] Size -> CLICK",
+        "[combobox] Sort By: -> SELECT: Sort Option",
+        "[img] Product Image -> CLICK",
+        "[radio] Size -> CLICK",
+        "[radio] Condition -> CLICK",
+        "[button] Add To Cart -> CLICK"
+      ]
+    },
+    {
+      "id": "MA8",
+      "name": "Select Product Variant",
+      "website": "rei",
+      "domain": "Shopping",
+      "subdomain": "Speciality",
+      "sub_actions": [
+        "[button] Color: Variant -> CLICK",
+        "[span] Variant -> CLICK",
+        "[button] Change store -> CLICK",
+        "[searchbox] Search by location -> TYPE: Location",
+        "[button] Search by location -> CLICK"
+      ]
+    },
+    {
+      "id": "MA9",
+      "name": "Browse Classes or Events",
+      "website": "rei",
+      "domain": "Shopping",
+      "subdomain": "Speciality",
+      "sub_actions": [
+        "[link] Classes & Events -> CLICK",
+        "[combobox] Activity -> SELECT: Activity",
+        "[textbox] Location -> TYPE: Location",
+        "[combobox] Distance -> SELECT: Distance",
+        "[button] Search -> CLICK"
+      ]
+    }
+  ]
+}

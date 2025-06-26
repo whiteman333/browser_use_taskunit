@@ -1,0 +1,209 @@
+{
+  "meta_actions": [
+    {
+      "id": "ma1",
+      "name": "Navigate to Game Section",
+      "website": "store.steampowered",
+      "domain": "Entertainment",
+      "subdomain": "Game",
+      "sub_actions": [
+        "[link] User Profile -> HOVER",
+        "[link] GAMES -> CLICK"
+      ]
+    },
+    {
+      "id": "ma2",
+      "name": "Access Recently Played Games",
+      "website": "store.steampowered",
+      "domain": "Entertainment",
+      "subdomain": "Game",
+      "sub_actions": [
+        "[link] Recently Played -> CLICK"
+      ]
+    },
+    {
+      "id": "ma3",
+      "name": "View Most Played Games",
+      "website": "store.steampowered",
+      "domain": "Entertainment",
+      "subdomain": "Game",
+      "sub_actions": [
+        "[link] Most Played -> CLICK",
+        "[generic] By Current Players -> CLICK",
+        "[div] By Daily Players -> CLICK"
+      ]
+    },
+    {
+      "id": "ma4",
+      "name": "Access Reviews",
+      "website": "store.steampowered",
+      "domain": "Entertainment",
+      "subdomain": "Game",
+      "sub_actions": [
+        "[link] Reviews -> CLICK"
+      ]
+    },
+    {
+      "id": "ma5",
+      "name": "Purchase Game Bundle",
+      "website": "store.steampowered",
+      "domain": "Entertainment",
+      "subdomain": "Game",
+      "sub_actions": [
+        "[link] Categories -> HOVER",
+        "[link] Simulation -> CLICK",
+        "[link] Game Title -> CLICK",
+        "[link] Bundle info -> CLICK",
+        "[link] Add to Cart -> CLICK",
+        "[link] Purchase for myself -> CLICK"
+      ]
+    },
+    {
+      "id": "ma6",
+      "name": "Browse Games by Category and Price",
+      "website": "store.steampowered",
+      "domain": "Entertainment",
+      "subdomain": "Game",
+      "sub_actions": [
+        "[link] Categories -> CLICK",
+        "[link] Adventure -> CLICK",
+        "[div] Narrow By -> CLICK",
+        "[div] Price -> CLICK"
+      ]
+    },
+    {
+      "id": "ma7",
+      "name": "Access Inventory",
+      "website": "store.steampowered",
+      "domain": "Entertainment",
+      "subdomain": "Game",
+      "sub_actions": [
+        "[link] User Profile -> HOVER",
+        "[link] INVENTORY -> CLICK"
+      ]
+    },
+    {
+      "id": "ma8",
+      "name": "View Trade Offers",
+      "website": "store.steampowered",
+      "domain": "Entertainment",
+      "subdomain": "Game",
+      "sub_actions": [
+        "[link] Trade Offers -> CLICK"
+      ]
+    },
+    {
+      "id": "ma9",
+      "name": "View Popular Upcoming Releases",
+      "website": "store.steampowered",
+      "domain": "Entertainment",
+      "subdomain": "Game",
+      "sub_actions": [
+        "[link] New & Noteworthy -> CLICK",
+        "[link] Popular Upcoming -> CLICK"
+      ]
+    },
+    {
+      "id": "ma10",
+      "name": "Customize Avatar with Points",
+      "website": "store.steampowered",
+      "domain": "Entertainment",
+      "subdomain": "Game",
+      "sub_actions": [
+        "[link] STORE -> HOVER",
+        "[link] POINTS SHOP -> CLICK",
+        "[link] Avatar -> CLICK",
+        "[svg] Item -> CLICK"
+      ]
+    },
+    {
+      "id": "ma11",
+      "name": "Search and Add Game DLC to Cart",
+      "website": "store.steampowered",
+      "domain": "Entertainment",
+      "subdomain": "Game",
+      "sub_actions": [
+        "[textbox] search -> TYPE: Game Title",
+        "[link] Game Title -> CLICK",
+        "[link] Add all DLC to Cart -> HOVER"
+      ]
+    },
+    {
+      "id": "ma12",
+      "name": "Browse Game Discussion Forums",
+      "website": "store.steampowered",
+      "domain": "Entertainment",
+      "subdomain": "Game",
+      "sub_actions": [
+        "[link] COMMUNITY -> HOVER",
+        "[link] DISCUSSIONS -> CLICK",
+        "[link] Game Forums -> CLICK",
+        "[div] My Games -> CLICK"
+      ]
+    },
+    {
+      "id": "ma13",
+      "name": "Add Top Rated Game to Wishlist",
+      "website": "store.steampowered",
+      "domain": "Entertainment",
+      "subdomain": "Game",
+      "sub_actions": [
+        "[link] Categories -> CLICK",
+        "[link] Game Genre -> CLICK",
+        "[generic] TOP RATED -> CLICK",
+        "[svg] Wishlist -> CLICK"
+      ]
+    },
+    {
+      "id": "ma14",
+      "name": "Search Game Discussions",
+      "website": "store.steampowered",
+      "domain": "Entertainment",
+      "subdomain": "Game",
+      "sub_actions": [
+        "[textbox] Search by game -> TYPE: Game Title",
+        "[div] Game Title -> CLICK"
+      ]
+    },
+    {
+      "id": "ma15",
+      "name": "View and Rate Game Reviews",
+      "website": "store.steampowered",
+      "domain": "Entertainment",
+      "subdomain": "Game",
+      "sub_actions": [
+        "[textbox] search -> TYPE: Game Title",
+        "[link] Game Title -> CLICK",
+        "[link] View Page -> CLICK",
+        "[link] Yes -> CLICK"
+      ]
+    },
+    {
+      "id": "ma16",
+      "name": "Filter Games by VR Compatibility",
+      "website": "store.steampowered",
+      "domain": "Entertainment",
+      "subdomain": "Game",
+      "sub_actions": [
+        "[link] Game Genre -> CLICK",
+        "[generic] VR -> CLICK",
+        "[button] Show more -> CLICK"
+      ]
+    },
+    {
+      "id": "ma17",
+      "name": "Find Top Rated Early Access Game",
+      "website": "store.steampowered",
+      "domain": "Entertainment",
+      "subdomain": "Game",
+      "sub_actions": [
+        "[link] Categories -> HOVER",
+        "[link] Early Access -> CLICK",
+        "[div] Narrow By -> CLICK",
+        "[link] Game Genre -> CLICK",
+        "[generic] TOP RATED -> CLICK",
+        "[link] Game Title -> CLICK"
+      ]
+    }
+  ]
+}

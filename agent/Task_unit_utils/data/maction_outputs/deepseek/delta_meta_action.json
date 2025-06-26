@@ -1,0 +1,138 @@
+{
+  "meta_actions": [
+    {
+      "id": "MA1",
+      "name": "Search Award Deals",
+      "website": "delta",
+      "domain": "Travel",
+      "subdomain": "Airlines",
+      "sub_actions": [
+        "[tab] SkyMiles -> CLICK",
+        "[link] SkyMiles Award Deals -> CLICK",
+        "[combobox] Origin -> CLICK",
+        "[option] TYPE: Location -> CLICK",
+        "[combobox] Destination -> CLICK",
+        "[option] TYPE: Location -> CLICK",
+        "[button] Filters -> CLICK",
+        "[combobox] Select Region Type -> CLICK",
+        "[option] TYPE: Region -> CLICK",
+        "[button] FILTER SUBMIT -> CLICK"
+      ]
+    },
+    {
+      "id": "MA2",
+      "name": "Check Flight Status",
+      "website": "delta",
+      "domain": "Travel",
+      "subdomain": "Airlines",
+      "sub_actions": [
+        "[tab] FLIGHT STATUS -> CLICK",
+        "[span] TYPE: Date -> CLICK",
+        "[link] TYPE: Date -> CLICK",
+        "[button] done -> CLICK",
+        "[spinbutton] Flight Number (Required) -> CLICK",
+        "[spinbutton] Flight Number (Required) -> TYPE: Number",
+        "[button] SUBMIT -> CLICK"
+      ]
+    },
+    {
+      "id": "MA3",
+      "name": "Rent A Car",
+      "website": "delta",
+      "domain": "Travel",
+      "subdomain": "Airlines",
+      "sub_actions": [
+        "[tab] Travel Info -> CLICK",
+        "[link] Rent A Car -> CLICK",
+        "[button] Pick-up -> TYPE: Location",
+        "[button] TYPE: Location -> CLICK",
+        "[button] Search -> CLICK",
+        "[input] -> CLICK",
+        "[input] -> CLICK",
+        "[button] Reserve -> HOVER"
+      ]
+    },
+    {
+      "id": "MA4",
+      "name": "Find Flight",
+      "website": "delta",
+      "domain": "Travel",
+      "subdomain": "Airlines",
+      "sub_actions": [
+        "[link] From Departure Airport or City Your Origin -> TYPE: Location",
+        "[link] TYPE: Location -> CLICK",
+        "[link] To Destination Airport or City Your Destination -> CLICK",
+        "[textbox] Destination City or Airport -> TYPE: Location",
+        "[link] TYPE: Location -> CLICK",
+        "[combobox] Trip Type -> CLICK",
+        "[option] TYPE: TripType -> CLICK",
+        "[button] Depart and Return Calendar -> CLICK",
+        "[link] TYPE: Date -> CLICK",
+        "[button] done -> CLICK",
+        "[button] SUBMIT -> CLICK",
+        "[link] Refundable Economy Classic Cabin class details -> CLICK"
+      ]
+    },
+    {
+      "id": "MA5",
+      "name": "Find Hotel",
+      "website": "delta",
+      "domain": "Travel",
+      "subdomain": "Airlines",
+      "sub_actions": [
+        "[tab] Travel Info -> CLICK",
+        "[link] Shop Hotels -> CLICK",
+        "[button] Going to -> TYPE: Location",
+        "[button] TYPE: Location -> CLICK",
+        "[button] Check-out -> CLICK",
+        "[button] TYPE: Date -> CLICK",
+        "[button] Done -> CLICK",
+        "[button] Search -> CLICK",
+        "[combobox] Sort by -> SELECT: SortOption",
+        "[svg] -> CLICK",
+        "[svg] -> CLICK",
+        "[svg] -> CLICK"
+      ]
+    },
+    {
+      "id": "MA6",
+      "name": "Find My Trip",
+      "website": "delta",
+      "domain": "Travel",
+      "subdomain": "Airlines",
+      "sub_actions": [
+        "[tab] MY TRIPS -> CLICK",
+        "[combobox] Find Your Trip By -> CLICK",
+        "[option] TYPE: FindOption -> CLICK",
+        "[input] -> TYPE: TicketNumber",
+        "[input] -> TYPE: FirstName",
+        "[input] -> TYPE: LastName",
+        "[button] SUBMIT -> CLICK"
+      ]
+    },
+    {
+      "id": "MA7",
+      "name": "Check Travel Requirements",
+      "website": "delta",
+      "domain": "Travel",
+      "subdomain": "Airlines",
+      "sub_actions": [
+        "[tab] Travel Info -> CLICK",
+        "[link] Travel Planning Center -> CLICK",
+        "[button] Find Your Destination -> CLICK",
+        "[link] Explore Destinations & Travel Requirements -> CLICK",
+        "[combobox] Origin -> CLICK",
+        "[combobox] Origin -> TYPE: Location",
+        "[p] TYPE: Location -> CLICK",
+        "[combobox] Destination -> CLICK",
+        "[combobox] Destination -> TYPE: Location",
+        "[span] TYPE: AirportCode -> CLICK",
+        "[combobox] Nationality -> CLICK",
+        "[option] TYPE: Country -> CLICK",
+        "[combobox] Vaccination status -> CLICK",
+        "[option] TYPE: VaccinationStatus -> CLICK",
+        "[button] Search -> CLICK"
+      ]
+    }
+  ]
+}

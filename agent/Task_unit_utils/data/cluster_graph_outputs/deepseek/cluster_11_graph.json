@@ -1,0 +1,78 @@
+{
+  "task_unit_dag": [
+    {
+      "parent_task_unit_id": "CLUSTER11_TU1",
+      "child_task_unit_ids": [],
+      "relationship_reasoning": "This task unit represents a complete, standalone process of trading in an item via mail, with no sub-goals identified that are not already encapsulated within its sub-actions."
+    },
+    {
+      "parent_task_unit_id": "CLUSTER11_TU2",
+      "child_task_unit_ids": [
+        "CLUSTER11_TU4",
+        "CLUSTER11_TU5",
+        "CLUSTER11_TU12",
+        "CLUSTER11_TU14",
+        "CLUSTER11_TU15",
+        "CLUSTER11_TU17",
+        "CLUSTER11_TU18"
+      ],
+      "relationship_reasoning": "Searching for a specific product with filters inherently involves filtering and sorting products, browsing products with specific features, and other related sub-tasks that are necessary steps to achieve the broader goal."
+    },
+    {
+      "parent_task_unit_id": "CLUSTER11_TU3",
+      "child_task_unit_ids": [
+        "CLUSTER11_TU7",
+        "CLUSTER11_TU8",
+        "CLUSTER11_TU9",
+        "CLUSTER11_TU10",
+        "CLUSTER11_TU11",
+        "CLUSTER11_TU13"
+      ],
+      "relationship_reasoning": "Locating a park with specific features encompasses various campground-related searches and actions, such as finding campgrounds by location, features, or dates, which are all sub-goals within the broader task of locating a park."
+    },
+    {
+      "parent_task_unit_id": "CLUSTER11_TU4",
+      "child_task_unit_ids": [
+        "CLUSTER11_TU12",
+        "CLUSTER11_TU15"
+      ],
+      "relationship_reasoning": "Filtering and sorting products are prerequisite steps that are often part of broader browsing or searching tasks, making them child tasks within those larger objectives."
+    },
+    {
+      "parent_task_unit_id": "CLUSTER11_TU5",
+      "child_task_unit_ids": [
+        "CLUSTER11_TU17",
+        "CLUSTER11_TU18"
+      ],
+      "relationship_reasoning": "Browsing products with specific features may involve finding products for specific activities or within specific size ranges, which are narrower tasks within the broader browsing goal."
+    },
+    {
+      "parent_task_unit_id": "CLUSTER11_TU6",
+      "child_task_unit_ids": [
+        "CLUSTER11_TU12",
+        "CLUSTER11_TU15"
+      ],
+      "relationship_reasoning": "Ordering the cheapest product in a category involves sorting products by price, a sub-goal that is necessary for achieving the broader task."
+    },
+    {
+      "parent_task_unit_id": "CLUSTER11_TU7",
+      "child_task_unit_ids": [
+        "CLUSTER11_TU8",
+        "CLUSTER11_TU9",
+        "CLUSTER11_TU10",
+        "CLUSTER11_TU11",
+        "CLUSTER11_TU13"
+      ],
+      "relationship_reasoning": "Searching for a campground by location is a specific instance of the broader task of finding campgrounds, which may involve additional filters or features, making those tasks child units."
+    },
+    {
+      "parent_task_unit_id": "CLUSTER11_TU16",
+      "child_task_unit_ids": [],
+      "relationship_reasoning": "Finding classes near a location is a standalone task with no identified sub-goals that are not already part of its sub-actions."
+    }
+  ],
+  "validation": {
+    "is_acyclic": true,
+    "acyclic_reasoning": "The constructed DAG reflects hierarchical relationships based on semantic containment without any cycles, ensuring that each task unit's dependencies logically follow from broader to narrower objectives without contradiction."
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "meta_actions": [
+    {
+      "id": "MA1",
+      "name": "Select Vehicle Model",
+      "website": "tesla",
+      "domain": "Shopping",
+      "subdomain": "Auto",
+      "sub_actions": [
+        "[link] Model S -> CLICK",
+        "[link] Model Y -> CLICK",
+        "[link] Model X -> CLICK",
+        "[link] Powerwall -> CLICK",
+        "[link] Solar Roof -> CLICK",
+        "[link] Solar Panels -> CLICK"
+      ]
+    },
+    {
+      "id": "MA2",
+      "name": "View Inventory or Order",
+      "website": "tesla",
+      "domain": "Shopping",
+      "subdomain": "Auto",
+      "sub_actions": [
+        "[link] View Inventory -> CLICK",
+        "[link] Order Now -> CLICK",
+        "[link] Schedule a virtual consultation -> CLICK",
+        "[link] Demo Drive -> CLICK",
+        "[link] Shop -> CLICK",
+        "[link] Shop Now -> CLICK"
+      ]
+    },
+    {
+      "id": "MA3",
+      "name": "Specify Vehicle or Product Preferences",
+      "website": "tesla",
+      "domain": "Shopping",
+      "subdomain": "Auto",
+      "sub_actions": [
+        "[radio] Used -> CLICK",
+        "[checkbox] 19\" Wheels -> CLICK",
+        "[combobox] Number of Stories -> SELECT: Number",
+        "[spinbutton] Home Square Footage -> TYPE: Number",
+        "[combobox] Sort By -> SELECT: Option",
+        "[checkbox] Solar Roof -> CLICK"
+      ]
+    },
+    {
+      "id": "MA4",
+      "name": "Enter Location or Contact Information",
+      "website": "tesla",
+      "domain": "Shopping",
+      "subdomain": "Auto",
+      "sub_actions": [
+        "[textbox] Shipping Address -> TYPE: Location",
+        "[textbox] Registration Zip Code Where you will register the ... -> TYPE: ZipCode",
+        "[textbox] First Name -> TYPE: Name",
+        "[textbox] Last Name -> TYPE: Name",
+        "[textbox] Phone Number -> TYPE: PhoneNumber",
+        "[textbox] Email Address -> TYPE: Email",
+        "[textbox] Name of Recipient -> TYPE: Name",
+        "[textbox] Email Address of Recipient -> TYPE: Email",
+        "[textbox] search input -> TYPE: Location"
+      ]
+    },
+    {
+      "id": "MA5",
+      "name": "Submit or Confirm Selection",
+      "website": "tesla",
+      "domain": "Shopping",
+      "subdomain": "Auto",
+      "sub_actions": [
+        "[button] Search -> CLICK",
+        "[button] Submit -> HOVER",
+        "[button] Next -> CLICK",
+        "[button] Confirm -> CLICK",
+        "[button] Add to Cart -> CLICK",
+        "[button] Submit and Continue -> HOVER"
+      ]
+    },
+    {
+      "id": "MA6",
+      "name": "Navigate to Specific Section",
+      "website": "tesla",
+      "domain": "Shopping",
+      "subdomain": "Auto",
+      "sub_actions": [
+        "[button] Menu -> CLICK",
+        "[link] Charging -> CLICK",
+        "[link] Find Us -> CLICK",
+        "[heading] Best Sellers -> CLICK",
+        "[menuitem] Lifestyle -> CLICK",
+        "[div] Dual Motor All-Wheel Drive -> CLICK"
+      ]
+    }
+  ]
+}

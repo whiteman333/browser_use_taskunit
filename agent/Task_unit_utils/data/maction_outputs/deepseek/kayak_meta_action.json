@@ -1,0 +1,94 @@
+{
+  "meta_actions": [
+    {
+      "id": "MA1",
+      "name": "Search Accommodation",
+      "website": "kayak",
+      "domain": "Travel",
+      "subdomain": "Airlines",
+      "sub_actions": [
+        "[link] Search for hotels -> CLICK",
+        "[textbox] Enter a city, hotel, airport, address or landmark -> TYPE: Location",
+        "[option] Location, Region, Country -> CLICK",
+        "[button] Date -> CLICK",
+        "[button] Search -> CLICK"
+      ]
+    },
+    {
+      "id": "MA2",
+      "name": "Filter Accommodation",
+      "website": "kayak",
+      "domain": "Travel",
+      "subdomain": "Airlines",
+      "sub_actions": [
+        "[svg] -> CLICK",
+        "[tab] Review score -> CLICK",
+        "[checkbox] Free internet -> CLICK",
+        "[checkbox] Free cancellation -> CLICK"
+      ]
+    },
+    {
+      "id": "MA3",
+      "name": "Search Flights",
+      "website": "kayak",
+      "domain": "Travel",
+      "subdomain": "Airlines",
+      "sub_actions": [
+        "[link] Search for flights -> CLICK",
+        "[textbox] Flight origin input -> TYPE: Location",
+        "[div] Location, Region, Country -> CLICK",
+        "[path] -> CLICK",
+        "[button] Search -> CLICK"
+      ]
+    },
+    {
+      "id": "MA4",
+      "name": "Filter Flights",
+      "website": "kayak",
+      "domain": "Travel",
+      "subdomain": "Airlines",
+      "sub_actions": [
+        "[svg] -> CLICK",
+        "[label] Airline -> HOVER",
+        "[button] Airline only -> CLICK",
+        "[button] Cheapest -> CLICK"
+      ]
+    },
+    {
+      "id": "MA5",
+      "name": "Search Vacation Packages",
+      "website": "kayak",
+      "domain": "Travel",
+      "subdomain": "Airlines",
+      "sub_actions": [
+        "[link] Search for packages -> CLICK",
+        "[link] Destination Vacations -> CLICK",
+        "[button] Search packages -> CLICK"
+      ]
+    },
+    {
+      "id": "MA6",
+      "name": "Search Rental Cars",
+      "website": "kayak",
+      "domain": "Travel",
+      "subdomain": "Airlines",
+      "sub_actions": [
+        "[link] Search for cars -> CLICK",
+        "[textbox] Pick-up location -> TYPE: Location",
+        "[span] Location, Region, Country -> CLICK",
+        "[svg] -> CLICK"
+      ]
+    },
+    {
+      "id": "MA7",
+      "name": "Filter Rental Cars",
+      "website": "kayak",
+      "domain": "Travel",
+      "subdomain": "Airlines",
+      "sub_actions": [
+        "[svg] -> CLICK",
+        "[tab] Best score -> CLICK"
+      ]
+    }
+  ]
+}

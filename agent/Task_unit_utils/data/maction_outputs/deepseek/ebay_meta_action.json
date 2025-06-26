@@ -1,0 +1,127 @@
+{
+  "meta_actions": [
+    {
+      "id": "MA1",
+      "name": "Search and Filter by Keywords",
+      "website": "ebay",
+      "domain": "Shopping",
+      "subdomain": "General",
+      "sub_actions": [
+        "[combobox] Search for anything -> TYPE: Product",
+        "[button] Search -> CLICK"
+      ]
+    },
+    {
+      "id": "MA2",
+      "name": "Filter by Price Range",
+      "website": "ebay",
+      "domain": "Shopping",
+      "subdomain": "General",
+      "sub_actions": [
+        "[textbox] Minimum Value in $ -> TYPE: Number",
+        "[textbox] Maximum Value in $ -> TYPE: Number",
+        "[button] Submit price range -> CLICK"
+      ]
+    },
+    {
+      "id": "MA3",
+      "name": "Sort Results",
+      "website": "ebay",
+      "domain": "Shopping",
+      "subdomain": "General",
+      "sub_actions": [
+        "[button] Sort selector. Best Match selected. -> CLICK",
+        "[link] Price + Shipping: lowest first -> CLICK",
+        "[link] Price + Shipping: highest first -> CLICK",
+        "[link] Time: ending soonest -> CLICK",
+        "[link] Time: newly listed -> CLICK"
+      ]
+    },
+    {
+      "id": "MA4",
+      "name": "Filter by Condition",
+      "website": "ebay",
+      "domain": "Shopping",
+      "subdomain": "General",
+      "sub_actions": [
+        "[button] Condition -> CLICK",
+        "[link] Certified - Refurbished -> CLICK",
+        "[link] Pre-owned -> CLICK",
+        "[link] Used -> CLICK"
+      ]
+    },
+    {
+      "id": "MA5",
+      "name": "Filter by Specific Attributes",
+      "website": "ebay",
+      "domain": "Shopping",
+      "subdomain": "General",
+      "sub_actions": [
+        "[button] US Shoe Size -> CLICK",
+        "[link] Size -> CLICK",
+        "[button] Style -> CLICK",
+        "[link] Style Type -> CLICK",
+        "[button] Material -> CLICK",
+        "[link] Material Type -> CLICK",
+        "[button] Time Period Manufactured -> CLICK",
+        "[link] Year -> CLICK",
+        "[button] Features -> CLICK",
+        "[link] Feature -> CLICK",
+        "[button] Delivery Options -> CLICK",
+        "[link] Delivery Option -> CLICK",
+        "[button] All Filters -> CLICK",
+        "[tab] Features -> CLICK",
+        "[checkbox] Feature -> CLICK",
+        "[button] Apply -> CLICK"
+      ]
+    },
+    {
+      "id": "MA6",
+      "name": "Navigate to Category",
+      "website": "ebay",
+      "domain": "Shopping",
+      "subdomain": "General",
+      "sub_actions": [
+        "[link] Category -> HOVER",
+        "[link] Subcategory -> CLICK"
+      ]
+    },
+    {
+      "id": "MA7",
+      "name": "Select Product",
+      "website": "ebay",
+      "domain": "Shopping",
+      "subdomain": "General",
+      "sub_actions": [
+        "[heading] Product Name -> CLICK",
+        "[combobox] Please select a Option -> SELECT: Option",
+        "[link] Add to cart -> CLICK"
+      ]
+    },
+    {
+      "id": "MA8",
+      "name": "Filter by Location",
+      "website": "ebay",
+      "domain": "Shopping",
+      "subdomain": "General",
+      "sub_actions": [
+        "[textbox] Zip code -> TYPE: Location",
+        "[button] Apply within filter -> CLICK",
+        "[button] Local -> CLICK",
+        "[menuitemcheckbox] Free Local Pickup -> CLICK"
+      ]
+    },
+    {
+      "id": "MA9",
+      "name": "Filter by Buying Format",
+      "website": "ebay",
+      "domain": "Shopping",
+      "subdomain": "General",
+      "sub_actions": [
+        "[button] Buying Format -> CLICK",
+        "[link] Buy It Now -> CLICK",
+        "[link] Auction -> CLICK"
+      ]
+    }
+  ]
+}

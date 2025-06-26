@@ -1,0 +1,204 @@
+{
+  "meta_actions": [
+    {
+      "id": "MA1",
+      "name": "Navigate to Department",
+      "website": "instacart",
+      "domain": "Shopping",
+      "subdomain": "General",
+      "sub_actions": [
+        "[path] -> CLICK",
+        "[button] Departments -> CLICK",
+        "[link] Wine -> CLICK",
+        "[p] Kroger -> CLICK"
+      ]
+    },
+    {
+      "id": "MA2",
+      "name": "Navigate to Gift List",
+      "website": "instacart",
+      "domain": "Shopping",
+      "subdomain": "General",
+      "sub_actions": [
+        "[path] -> CLICK",
+        "[button] More ways to shop -> CLICK",
+        "[link] Send gifts -> CLICK",
+        "[span] Beauty -> CLICK"
+      ]
+    },
+    {
+      "id": "MA3",
+      "name": "Add Items to Cart and Schedule Delivery",
+      "website": "instacart",
+      "domain": "Shopping",
+      "subdomain": "General",
+      "sub_actions": [
+        "[img] -> CLICK",
+        "[link] Produce -> CLICK",
+        "[link] Fresh Fruits -> CLICK",
+        "[span] Add -> CLICK",
+        "[span] Add -> CLICK",
+        "[path] -> CLICK",
+        "[link] Fresh Vegetables -> CLICK",
+        "[span] Add -> CLICK",
+        "[span] Add -> CLICK",
+        "[link] Herbs -> CLICK",
+        "[div] Add -> CLICK",
+        "[button] View Cart. Items in cart: 5 -> CLICK",
+        "[button] View Cart. Items in cart: 5 -> CLICK",
+        "[div] Go to checkout -> CLICK",
+        "[div] -> CLICK",
+        "[button] Confirm address -> CLICK",
+        "[p] Choose 3-hour window -> CLICK",
+        "[div] 10am - 1pm -> CLICK",
+        "[button] Save -> CLICK"
+      ]
+    },
+    {
+      "id": "MA4",
+      "name": "Search and Sort Items by Price",
+      "website": "instacart",
+      "domain": "Shopping",
+      "subdomain": "General",
+      "sub_actions": [
+        "[img] -> CLICK",
+        "[textbox] Search Kroger... -> TYPE: Product",
+        "[span] Product -> CLICK",
+        "[span] Best match -> CLICK",
+        "[option] Price: lowest first -> CLICK"
+      ]
+    },
+    {
+      "id": "MA5",
+      "name": "Search Recipe and Add Ingredients to Cart",
+      "website": "instacart",
+      "domain": "Shopping",
+      "subdomain": "General",
+      "sub_actions": [
+        "[textbox] Search -> TYPE: Recipe",
+        "[link] Recipe -> CLICK",
+        "[button] Recipes -> CLICK",
+        "[img] -> CLICK",
+        "[button] Add items to cart -> CLICK"
+      ]
+    },
+    {
+      "id": "MA6",
+      "name": "Create and Populate Shopping List",
+      "website": "instacart",
+      "domain": "Shopping",
+      "subdomain": "General",
+      "sub_actions": [
+        "[svg] -> CLICK",
+        "[link] Your lists -> CLICK",
+        "[link] Create a list -> CLICK",
+        "[svg] -> CLICK",
+        "[span] Store -> CLICK",
+        "[textbox] Add a title (Required) -> TYPE: List Title",
+        "[img] -> CLICK",
+        "[button] Next -> CLICK",
+        "[link] Category -> CLICK",
+        "[svg] -> CLICK",
+        "[img] -> CLICK",
+        "[span] Add to list -> CLICK",
+        "[checkbox] List Name -> CLICK",
+        "[button] Done -> CLICK",
+        "[path] -> CLICK",
+        "[link] View More -> CLICK",
+        "[img] -> CLICK",
+        "[span] Add to list -> CLICK",
+        "[checkbox] List Name -> CLICK",
+        "[button] Done -> CLICK",
+        "[button] Back -> CLICK",
+        "[link] Lists -> CLICK"
+      ]
+    },
+    {
+      "id": "MA7",
+      "name": "Navigate to Notification Settings",
+      "website": "instacart",
+      "domain": "Shopping",
+      "subdomain": "General",
+      "sub_actions": [
+        "[svg] -> CLICK",
+        "[link] Your account settings -> CLICK",
+        "[link] Notification settings -> CLICK"
+      ]
+    },
+    {
+      "id": "MA8",
+      "name": "Compare Prices Across Stores and Add to Cart",
+      "website": "instacart",
+      "domain": "Shopping",
+      "subdomain": "General",
+      "sub_actions": [
+        "[textbox] Search -> CLICK",
+        "[textbox] Search -> TYPE: Product",
+        "[span] Product -> CLICK",
+        "[img] Product -> CLICK",
+        "[span] All stores -> CLICK",
+        "[textbox] Search -> TYPE: Product",
+        "[span] Product -> CLICK",
+        "[img] Product -> CLICK",
+        "[span] All stores -> CLICK",
+        "[textbox] Search -> TYPE: Product",
+        "[span] Product -> CLICK",
+        "[img] Product -> CLICK",
+        "[span] All stores -> CLICK",
+        "[textbox] Search -> TYPE: Product",
+        "[span] Product -> CLICK",
+        "[img] Product -> CLICK",
+        "[img] -> CLICK",
+        "[button] Add to cart -> CLICK"
+      ]
+    },
+    {
+      "id": "MA9",
+      "name": "Add Deals Items to Cart",
+      "website": "instacart",
+      "domain": "Shopping",
+      "subdomain": "General",
+      "sub_actions": [
+        "[img] -> CLICK",
+        "[link] Deals -> CLICK",
+        "[div] Add -> CLICK",
+        "[span] Add -> CLICK",
+        "[link] View More -> CLICK",
+        "[div] Add -> CLICK"
+      ]
+    },
+    {
+      "id": "MA10",
+      "name": "Add New Address",
+      "website": "instacart",
+      "domain": "Shopping",
+      "subdomain": "General",
+      "sub_actions": [
+        "[span] Current Address -> CLICK",
+        "[textbox] Add a new address -> TYPE: Address",
+        "[span] Address -> CLICK",
+        "[textbox] Apt, floor, suite, etc (optional) -> TYPE: Apt",
+        "[textbox] Business name (optional) -> TYPE: Business Name",
+        "[button] Save Address -> CLICK"
+      ]
+    },
+    {
+      "id": "MA11",
+      "name": "Search and Add Pet Items to Cart",
+      "website": "instacart",
+      "domain": "Shopping",
+      "subdomain": "General",
+      "sub_actions": [
+        "[textbox] Search -> TYPE: Pet Product",
+        "[span] Pet Product -> CLICK",
+        "[span] View all items -> CLICK",
+        "[span] Best match -> CLICK",
+        "[option] Price: lowest first -> CLICK",
+        "[span] Add -> CLICK",
+        "[span] Add -> CLICK",
+        "[button] Load more -> CLICK",
+        "[span] Add to cart -> CLICK"
+      ]
+    }
+  ]
+}

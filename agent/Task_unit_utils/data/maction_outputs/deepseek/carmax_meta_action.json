@@ -1,0 +1,122 @@
+{
+  "meta_actions": [
+    {
+      "id": "MA1",
+      "name": "Search for Vehicles by Make and Model",
+      "website": "carmax",
+      "domain": "Shopping",
+      "subdomain": "Auto",
+      "sub_actions": [
+        "[link] Shop -> CLICK",
+        "[link] Crossover vehicle icon Crossovers -> CLICK",
+        "[button] Make -> CLICK",
+        "[listitem] TYPE: Make -> CLICK",
+        "[button] Back to all categories -> CLICK",
+        "[button] Model -> CLICK",
+        "[listitem] TYPE: Model -> CLICK"
+      ]
+    },
+    {
+      "id": "MA2",
+      "name": "Compare Selected Vehicles",
+      "website": "carmax",
+      "domain": "Shopping",
+      "subdomain": "Auto",
+      "sub_actions": [
+        "[switch] COMPARE -> CLICK",
+        "[button] Add to Compare -> CLICK",
+        "[button] Go button to Compare the Selected Car's -> CLICK"
+      ]
+    },
+    {
+      "id": "MA3",
+      "name": "Find and Set a Store Location",
+      "website": "carmax",
+      "domain": "Shopping",
+      "subdomain": "Auto",
+      "sub_actions": [
+        "[link] Find a store -> CLICK",
+        "[searchbox] Enter ZIP or State -> TYPE: Location",
+        "[button] Search for CarMax stores. -> CLICK",
+        "[button] set store -> CLICK"
+      ]
+    },
+    {
+      "id": "MA4",
+      "name": "Navigate to Service Options",
+      "website": "carmax",
+      "domain": "Shopping",
+      "subdomain": "Auto",
+      "sub_actions": [
+        "[button] Open helpful links menu -> CLICK",
+        "[link] Service & Repairs -> CLICK",
+        "[tab] Yes -> CLICK"
+      ]
+    },
+    {
+      "id": "MA5",
+      "name": "Search for Jobs",
+      "website": "carmax",
+      "domain": "Shopping",
+      "subdomain": "Auto",
+      "sub_actions": [
+        "[button] Open helpful links menu -> CLICK",
+        "[link] Search jobs at CarMax -> CLICK",
+        "[textbox] Search for Job title -> TYPE: Job Category",
+        "[link] TYPE: Job Category -> CLICK",
+        "[button] State -> CLICK",
+        "[span] TYPE: State -> CLICK",
+        "[button] City -> CLICK",
+        "[span] TYPE: City -> CLICK"
+      ]
+    },
+    {
+      "id": "MA6",
+      "name": "Calculate Vehicle Financing",
+      "website": "carmax",
+      "domain": "Shopping",
+      "subdomain": "Auto",
+      "sub_actions": [
+        "[link] Finance -> CLICK",
+        "[link] Car payment calculator -> CLICK",
+        "[textbox] Vehicle Price -> TYPE: Amount",
+        "[textbox] Down Payment -> TYPE: Amount",
+        "[combobox] State -> SELECT: State",
+        "[combobox] Credit Score -> SELECT: Credit Score Range",
+        "[combobox] Term Length -> SELECT: Term Length"
+      ]
+    },
+    {
+      "id": "MA7",
+      "name": "Book a Service Appointment",
+      "website": "carmax",
+      "domain": "Shopping",
+      "subdomain": "Auto",
+      "sub_actions": [
+        "[button] Open helpful links menu -> CLICK",
+        "[link] Service & Repairs -> CLICK",
+        "[link] FIND A SHOP NEAR YOU -> CLICK",
+        "[textbox] Zip Code -> TYPE: ZIP Code",
+        "[button] Request Appointment -> CLICK",
+        "[gridcell] TYPE: Date -> CLICK"
+      ]
+    },
+    {
+      "id": "MA8",
+      "name": "Save a Vehicle Search",
+      "website": "carmax",
+      "domain": "Shopping",
+      "subdomain": "Auto",
+      "sub_actions": [
+        "[searchbox] Search make, model, or keyword -> TYPE: Search Term",
+        "[button] Advanced Search -> CLICK",
+        "[textbox] Ex. Black exterior -> TYPE: Feature",
+        "[button] SAVE SEARCH -> CLICK",
+        "[textbox] Custom name your search -> TYPE: Search Name",
+        "[button] CONTINUE -> CLICK",
+        "[radio] Daily summary -> CLICK",
+        "[button] CONTINUE -> CLICK"
+      ]
+    }
+  ]
+}

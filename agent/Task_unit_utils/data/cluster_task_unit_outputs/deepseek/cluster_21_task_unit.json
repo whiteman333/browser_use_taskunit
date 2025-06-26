@@ -1,0 +1,90 @@
+{
+  "task_units": [
+    {
+      "id": "CLUSTER21_TU1",
+      "name": "Search for restaurants by cuisine and location",
+      "sub_actions": [
+        "TYPE: Cuisine",
+        "CLICK: Cuisine",
+        "TYPE: Location",
+        "CLICK: Location"
+      ]
+    },
+    {
+      "id": "CLUSTER21_TU2",
+      "name": "Filter restaurants by specific criteria",
+      "sub_actions": [
+        "SELECT: Number of Guests",
+        "SELECT: Date",
+        "SELECT: Time",
+        "CLICK: Filter Option"
+      ]
+    },
+    {
+      "id": "CLUSTER21_TU3",
+      "name": "Make a restaurant reservation",
+      "sub_actions": [
+        "SELECT: Number of Guests",
+        "SELECT: Date",
+        "SELECT: Time",
+        "CLICK: Reserve Now"
+      ]
+    },
+    {
+      "id": "CLUSTER21_TU4",
+      "name": "Find and save a restaurant",
+      "sub_actions": [
+        "TYPE: Restaurant Name",
+        "CLICK: Save Option"
+      ]
+    },
+    {
+      "id": "CLUSTER21_TU5",
+      "name": "Notify about restaurant availability",
+      "sub_actions": [
+        "CLICK: Notify Option",
+        "SELECT: Time Range"
+      ]
+    },
+    {
+      "id": "CLUSTER21_TU6",
+      "name": "Browse restaurants by specific features",
+      "sub_actions": [
+        "CLICK: Feature Option",
+        "CLICK: Sort Option"
+      ]
+    },
+    {
+      "id": "CLUSTER21_TU7",
+      "name": "Book a special event at a restaurant",
+      "sub_actions": [
+        "SELECT: Number of Tickets",
+        "SELECT: Event Time",
+        "CLICK: Reserve Now"
+      ]
+    },
+    {
+      "id": "CLUSTER21_TU8",
+      "name": "Search for hotels for events",
+      "sub_actions": [
+        "TYPE: Destination",
+        "SELECT: Start Date",
+        "SELECT: End Date",
+        "TYPE: Number of Guest Rooms",
+        "TYPE: Event Space Capacity",
+        "CLICK: Find Option"
+      ]
+    },
+    {
+      "id": "CLUSTER21_TU9",
+      "name": "Favorite a lodging option",
+      "sub_actions": [
+        "TYPE: Location",
+        "SELECT: Date Range",
+        "TYPE: Maximum Price",
+        "SELECT: Room Type",
+        "CLICK: Favorite Option"
+      ]
+    }
+  ]
+}

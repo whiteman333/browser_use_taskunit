@@ -1,0 +1,101 @@
+{
+  "task_units": [
+    {
+      "id": "CLUSTER13_TU1",
+      "name": "Navigate to job listings",
+      "sub_actions": [
+        "CLICK: Careers",
+        "CLICK: Openings or equivalent"
+      ]
+    },
+    {
+      "id": "CLUSTER13_TU2",
+      "name": "Filter jobs by country",
+      "sub_actions": [
+        "CLICK: Country filter",
+        "SELECT: Country"
+      ]
+    },
+    {
+      "id": "CLUSTER13_TU3",
+      "name": "Filter jobs by department or team",
+      "sub_actions": [
+        "CLICK: Department or Team filter",
+        "SELECT: Department or Team"
+      ]
+    },
+    {
+      "id": "CLUSTER13_TU4",
+      "name": "Filter jobs by employment type",
+      "sub_actions": [
+        "CLICK: Employment Type filter",
+        "SELECT: Employment Type"
+      ]
+    },
+    {
+      "id": "CLUSTER13_TU5",
+      "name": "Search for specific job titles or keywords",
+      "sub_actions": [
+        "CLICK: Search by job title or keyword",
+        "TYPE: Job title or keyword"
+      ]
+    },
+    {
+      "id": "CLUSTER13_TU6",
+      "name": "View job details",
+      "sub_actions": [
+        "CLICK: Job title"
+      ]
+    },
+    {
+      "id": "CLUSTER13_TU7",
+      "name": "Apply for a job",
+      "sub_actions": [
+        "CLICK: Apply Now or equivalent",
+        "TYPE: Personal information",
+        "CLICK: Submit application"
+      ]
+    },
+    {
+      "id": "CLUSTER13_TU8",
+      "name": "Save a job",
+      "sub_actions": [
+        "CLICK: Save job option"
+      ]
+    },
+    {
+      "id": "CLUSTER13_TU9",
+      "name": "Set up job alerts",
+      "sub_actions": [
+        "CLICK: Set alert or subscribe",
+        "TYPE: Alert frequency",
+        "TYPE: Personal information",
+        "CLICK: Submit alert setup"
+      ]
+    },
+    {
+      "id": "CLUSTER13_TU10",
+      "name": "Filter jobs by location",
+      "sub_actions": [
+        "CLICK: Location filter",
+        "SELECT: Location"
+      ]
+    },
+    {
+      "id": "CLUSTER13_TU11",
+      "name": "Filter jobs by posting date",
+      "sub_actions": [
+        "CLICK: Posting date filter",
+        "SELECT: Posting date range"
+      ]
+    },
+    {
+      "id": "CLUSTER13_TU12",
+      "name": "Sort job listings",
+      "sub_actions": [
+        "CLICK: Sort by option",
+        "SELECT: Sorting criteria"
+      ]
+    }
+  ]
+}

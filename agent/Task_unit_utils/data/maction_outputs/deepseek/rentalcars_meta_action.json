@@ -1,0 +1,71 @@
+{
+  "meta_actions": [
+    {
+      "id": "ma1",
+      "name": "Select Pick-up Location",
+      "website": "rentalcars",
+      "domain": "Travel",
+      "subdomain": "Car rental",
+      "sub_actions": [
+        "[label] Pick-up location -> TYPE: Location",
+        "[div] Location -> CLICK"
+      ]
+    },
+    {
+      "id": "ma2",
+      "name": "Select Dates and Times",
+      "website": "rentalcars",
+      "domain": "Travel",
+      "subdomain": "Car rental",
+      "sub_actions": [
+        "[div] Calendar -> CLICK",
+        "[checkbox] Date -> CLICK",
+        "[combobox] Pick up time -> SELECT: Time",
+        "[combobox] Drop off time -> SELECT: Time"
+      ]
+    },
+    {
+      "id": "ma3",
+      "name": "Search for Cars",
+      "website": "rentalcars",
+      "domain": "Travel",
+      "subdomain": "Car rental",
+      "sub_actions": [
+        "[div] Search -> CLICK"
+      ]
+    },
+    {
+      "id": "ma4",
+      "name": "Filter Car Options",
+      "website": "rentalcars",
+      "domain": "Travel",
+      "subdomain": "Car rental",
+      "sub_actions": [
+        "[div] Car Type -> CLICK",
+        "[label] Filter Option -> CLICK"
+      ]
+    },
+    {
+      "id": "ma5",
+      "name": "View Deal Details",
+      "website": "rentalcars",
+      "domain": "Travel",
+      "subdomain": "Car rental",
+      "sub_actions": [
+        "[div] View deal -> CLICK",
+        "[span] Go to book -> CLICK"
+      ]
+    },
+    {
+      "id": "ma6",
+      "name": "Select Car Specifications",
+      "website": "rentalcars",
+      "domain": "Travel",
+      "subdomain": "Car rental",
+      "sub_actions": [
+        "[heading] Car specs -> CLICK",
+        "[span] Specification -> CLICK"
+      ]
+    }
+  ]
+}

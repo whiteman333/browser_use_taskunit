@@ -1,0 +1,101 @@
+{
+  "meta_actions": [
+    {
+      "id": "ma1",
+      "name": "Navigate to Record Store Information",
+      "website": "discogs",
+      "domain": "Entertainment",
+      "subdomain": "Music",
+      "sub_actions": [
+        "[button] Community -> CLICK",
+        "[link] Record Stores -> CLICK",
+        "[link] Explore the directory -> CLICK",
+        "[searchbox] Refine Location -> TYPE: Location",
+        "[span] Location Identifier -> CLICK",
+        "[button] Specific Store -> CLICK"
+      ]
+    },
+    {
+      "id": "ma2",
+      "name": "Search and Purchase Album",
+      "website": "discogs",
+      "domain": "Entertainment",
+      "subdomain": "Music",
+      "sub_actions": [
+        "[combobox] Search artists, albums and more... -> TYPE: Artist/Album",
+        "[link] Specific Artist/Album -> CLICK",
+        "[link] Buy a copy -> CLICK",
+        "[link] Add to Cart -> CLICK"
+      ]
+    },
+    {
+      "id": "ma3",
+      "name": "Filter and Purchase Album by Criteria",
+      "website": "discogs",
+      "domain": "Entertainment",
+      "subdomain": "Music",
+      "sub_actions": [
+        "[button] Marketplace -> CLICK",
+        "[link] Genre -> CLICK",
+        "[link] Country -> CLICK",
+        "[link] Format -> CLICK",
+        "[link] Release Type -> CLICK",
+        "[link] Show more… -> CLICK",
+        "[link] Year -> CLICK",
+        "[link] Price Range -> CLICK",
+        "[link] Condition -> CLICK",
+        "[link] Specific Album -> CLICK",
+        "[link] Add to Cart -> CLICK",
+        "[checkbox] Agreement -> CLICK",
+        "[button] Place order and pay now -> CLICK"
+      ]
+    },
+    {
+      "id": "ma4",
+      "name": "Create and Manage Album List",
+      "website": "discogs",
+      "domain": "Entertainment",
+      "subdomain": "Music",
+      "sub_actions": [
+        "[button] Explore -> CLICK",
+        "[link] Genre -> CLICK",
+        "[img] Artist/Album -> CLICK",
+        "[link] Specific Artist/Album -> CLICK",
+        "[button] Add to List -> CLICK",
+        "[radio] New List -> CLICK",
+        "[textbox] Title -> TYPE: List Name",
+        "[button] Save -> CLICK",
+        "[combobox] List -> SELECT: List Name",
+        "[button] Save -> CLICK",
+        "[button] Explore -> CLICK",
+        "[link] List Explorer -> CLICK",
+        "[link] Manage My Lists -> CLICK",
+        "[link] Specific List -> CLICK"
+      ]
+    },
+    {
+      "id": "ma5",
+      "name": "Navigate to Specific Genre and Year",
+      "website": "discogs",
+      "domain": "Entertainment",
+      "subdomain": "Music",
+      "sub_actions": [
+        "[button] Explore -> CLICK",
+        "[link] Genre -> CLICK",
+        "[link] Year -> CLICK"
+      ]
+    },
+    {
+      "id": "ma6",
+      "name": "Filter Records by Price",
+      "website": "discogs",
+      "domain": "Entertainment",
+      "subdomain": "Music",
+      "sub_actions": [
+        "[button] Marketplace -> CLICK",
+        "[link] Format -> CLICK",
+        "[combobox] Sort -> SELECT: Price Criteria"
+      ]
+    }
+  ]
+}

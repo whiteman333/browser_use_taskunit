@@ -1,0 +1,50 @@
+{
+  "task_unit_dag": [
+    {
+      "parent_task_unit_id": "CLUSTER3_TU1",
+      "child_task_unit_ids": [
+        "CLUSTER3_TU6"
+      ],
+      "relationship_reasoning": "Exploring deals and promotions can lead to saving or bookmarking specific deals, making 'Save or bookmark deals' a subordinate action within 'Explore deals and promotions'."
+    },
+    {
+      "parent_task_unit_id": "CLUSTER3_TU2",
+      "child_task_unit_ids": [
+        "CLUSTER3_TU5"
+      ],
+      "relationship_reasoning": "Accessing account or order information is a prerequisite for managing orders (cancel, refund, track), as order details are needed to perform these actions."
+    },
+    {
+      "parent_task_unit_id": "CLUSTER3_TU3",
+      "child_task_unit_ids": [
+        "CLUSTER3_TU1"
+      ],
+      "relationship_reasoning": "Browsing products or services with specific filters can include exploring deals and promotions as a way to find products or services of interest."
+    },
+    {
+      "parent_task_unit_id": "CLUSTER3_TU4",
+      "child_task_unit_ids": [
+        "CLUSTER3_TU2"
+      ],
+      "relationship_reasoning": "Searching for information or assistance may involve accessing account or order information to resolve issues or answer questions."
+    },
+    {
+      "parent_task_unit_id": "CLUSTER3_TU5",
+      "child_task_unit_ids": [
+        "CLUSTER3_TU4"
+      ],
+      "relationship_reasoning": "Managing orders (cancel, refund, track) might require searching for information or assistance to complete these actions, especially if issues arise."
+    },
+    {
+      "parent_task_unit_id": "CLUSTER3_TU6",
+      "child_task_unit_ids": [
+        "CLUSTER3_TU1"
+      ],
+      "relationship_reasoning": "Saving or bookmarking deals is a specific action that can be part of the broader activity of exploring deals and promotions."
+    }
+  ],
+  "validation": {
+    "is_acyclic": true,
+    "acyclic_reasoning": "The dependencies between task units are structured hierarchically, with no cycles present. Each relationship is based on logical and semantic containment, ensuring a clear and acyclic structure."
+  }
+}

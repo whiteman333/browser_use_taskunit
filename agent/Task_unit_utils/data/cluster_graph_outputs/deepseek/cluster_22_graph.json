@@ -1,0 +1,37 @@
+{
+  "task_unit_dag": [
+    {
+      "parent_task_unit_id": "CLUSTER22_TU1",
+      "child_task_unit_ids": [
+        "CLUSTER22_TU2",
+        "CLUSTER22_TU5"
+      ],
+      "relationship_reasoning": "Searching for hotels based on criteria is a broader goal that includes filtering results and modifying search parameters as necessary steps to refine the search."
+    },
+    {
+      "parent_task_unit_id": "CLUSTER22_TU2",
+      "child_task_unit_ids": [
+        "CLUSTER22_TU3"
+      ],
+      "relationship_reasoning": "Filtering hotel search results leads to selecting specific hotel and room options, making the selection a dependent step after filtering."
+    },
+    {
+      "parent_task_unit_id": "CLUSTER22_TU3",
+      "child_task_unit_ids": [
+        "CLUSTER22_TU4"
+      ],
+      "relationship_reasoning": "Selecting a hotel and room options is a prerequisite for completing the booking process, establishing a direct dependency."
+    },
+    {
+      "parent_task_unit_id": "CLUSTER22_TU5",
+      "child_task_unit_ids": [
+        "CLUSTER22_TU1"
+      ],
+      "relationship_reasoning": "Modifying search parameters is a step that may lead back to searching for hotels based on new criteria, indicating a feedback loop in the search process."
+    }
+  ],
+  "validation": {
+    "is_acyclic": true,
+    "acyclic_reasoning": "The dependencies form a hierarchical structure where broader tasks encompass narrower ones without creating any cycles. Each child task unit is a logical step towards completing its parent task unit."
+  }
+}

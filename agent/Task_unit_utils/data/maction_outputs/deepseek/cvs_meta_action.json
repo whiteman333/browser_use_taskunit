@@ -1,0 +1,121 @@
+{
+  "meta_actions": [
+    {
+      "id": "MA1",
+      "name": "Search for Product",
+      "website": "cvs",
+      "domain": "Shopping",
+      "subdomain": "Speciality",
+      "sub_actions": [
+        "[combobox] Search products and services -> TYPE: Product",
+        "[button] Search for Product -> CLICK"
+      ]
+    },
+    {
+      "id": "MA2",
+      "name": "Filter Product by Form or Type",
+      "website": "cvs",
+      "domain": "Shopping",
+      "subdomain": "Speciality",
+      "sub_actions": [
+        "[button] Form -> CLICK",
+        "[div] -> CLICK"
+      ]
+    },
+    {
+      "id": "MA3",
+      "name": "Browse Health Services",
+      "website": "cvs",
+      "domain": "Shopping",
+      "subdomain": "Speciality",
+      "sub_actions": [
+        "[link] Schedule a women's health exam -> CLICK",
+        "[link] Explore all MinuteClinic health services -> CLICK",
+        "[p] Skin, Hair & Nails -> CLICK",
+        "[span] In-Person Care -> CLICK",
+        "[button] Hair Loss Evaluation & Treatment -> CLICK",
+        "[link] Hair Loss Evaluation & Treatment -> CLICK"
+      ]
+    },
+    {
+      "id": "MA4",
+      "name": "Find Location by ZIP Code",
+      "website": "cvs",
+      "domain": "Shopping",
+      "subdomain": "Speciality",
+      "sub_actions": [
+        "[textbox] Tell us a location Enter a ZIP code or city & stat... -> TYPE: ZIP Code",
+        "[button] Find care -> CLICK"
+      ]
+    },
+    {
+      "id": "MA5",
+      "name": "View Product Details",
+      "website": "cvs",
+      "domain": "Shopping",
+      "subdomain": "Speciality",
+      "sub_actions": [
+        "[img] -> CLICK",
+        "[div] -> CLICK"
+      ]
+    },
+    {
+      "id": "MA6",
+      "name": "Add Product to Cart",
+      "website": "cvs",
+      "domain": "Shopping",
+      "subdomain": "Speciality",
+      "sub_actions": [
+        "[button] Add Product to Cart -> CLICK"
+      ]
+    },
+    {
+      "id": "MA7",
+      "name": "Sort Products",
+      "website": "cvs",
+      "domain": "Shopping",
+      "subdomain": "Speciality",
+      "sub_actions": [
+        "[div] Relevance -> CLICK",
+        "[div] Price Low to High -> CLICK"
+      ]
+    },
+    {
+      "id": "MA8",
+      "name": "Browse Weekly Deals",
+      "website": "cvs",
+      "domain": "Shopping",
+      "subdomain": "Speciality",
+      "sub_actions": [
+        "[button] Savings & Memberships -> CLICK",
+        "[link] Weekly Ad -> CLICK",
+        "[tab] List View -> CLICK"
+      ]
+    },
+    {
+      "id": "MA9",
+      "name": "Schedule Health Service",
+      "website": "cvs",
+      "domain": "Shopping",
+      "subdomain": "Speciality",
+      "sub_actions": [
+        "[span] Health Service -> CLICK",
+        "[link] Schedule Health Service -> CLICK",
+        "[textbox] Location -> TYPE: ZIP Code",
+        "[button] Schedule -> CLICK"
+      ]
+    },
+    {
+      "id": "MA10",
+      "name": "Sign Up for Service",
+      "website": "cvs",
+      "domain": "Shopping",
+      "subdomain": "Speciality",
+      "sub_actions": [
+        "[button] Prescriptions -> CLICK",
+        "[link] Service -> CLICK",
+        "[link] Join Service -> CLICK"
+      ]
+    }
+  ]
+}

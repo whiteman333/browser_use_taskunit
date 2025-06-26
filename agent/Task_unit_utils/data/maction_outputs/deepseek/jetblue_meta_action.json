@@ -1,0 +1,118 @@
+{
+  "meta_actions": [
+    {
+      "id": "ma1",
+      "name": "Search Flights",
+      "website": "jetblue",
+      "domain": "Travel",
+      "subdomain": "Airlines",
+      "sub_actions": [
+        "[textbox] From -> TYPE: Location",
+        "[textbox] To -> TYPE: Location",
+        "[button] Explore flights -> CLICK",
+        "[button] Search flights -> CLICK"
+      ]
+    },
+    {
+      "id": "ma2",
+      "name": "Check Flight Status",
+      "website": "jetblue",
+      "domain": "Travel",
+      "subdomain": "Airlines",
+      "sub_actions": [
+        "[button] Travel Info -> CLICK",
+        "[link] Flight Tracker -> CLICK",
+        "[textbox] From -> TYPE: Location",
+        "[textbox] To -> TYPE: Location",
+        "[button] Check status -> CLICK"
+      ]
+    },
+    {
+      "id": "ma3",
+      "name": "Find Cheapest Flight",
+      "website": "jetblue",
+      "domain": "Travel",
+      "subdomain": "Airlines",
+      "sub_actions": [
+        "[textbox] From -> TYPE: Location",
+        "[textbox] To -> TYPE: Location",
+        "[span] Search flights -> CLICK",
+        "[link] Sort & Filter -> CLICK",
+        "[span] Price (low to high) -> CLICK",
+        "[button] Apply -> CLICK"
+      ]
+    },
+    {
+      "id": "ma4",
+      "name": "Find Jobs",
+      "website": "jetblue",
+      "domain": "Travel",
+      "subdomain": "Airlines",
+      "sub_actions": [
+        "[link] Careers -> CLICK",
+        "[textbox] Search by Location -> TYPE: Location",
+        "[button] Search Jobs -> CLICK"
+      ]
+    },
+    {
+      "id": "ma5",
+      "name": "Check In Flight",
+      "website": "jetblue",
+      "domain": "Travel",
+      "subdomain": "Airlines",
+      "sub_actions": [
+        "[link] Check In -> CLICK",
+        "[textbox] first name -> TYPE: Name",
+        "[textbox] last name -> TYPE: Name",
+        "[select] Confirmation Code -> SELECT: Ticket Number",
+        "[textbox] ticket number -> TYPE: Number",
+        "[button] FIND FLIGHTS -> CLICK"
+      ]
+    },
+    {
+      "id": "ma6",
+      "name": "Book Flight + Cruise",
+      "website": "jetblue",
+      "domain": "Travel",
+      "subdomain": "Airlines",
+      "sub_actions": [
+        "[span] Flights + Cruise -> CLICK",
+        "[combobox] Departing from -> TYPE: Location",
+        "[span] Search flights + cruise -> CLICK",
+        "[label] Date -> CLICK",
+        "[span] Nights -> CLICK",
+        "[button] View details -> CLICK",
+        "[link] Select package -> CLICK",
+        "[span] Checkout -> CLICK"
+      ]
+    },
+    {
+      "id": "ma7",
+      "name": "Find Press Releases",
+      "website": "jetblue",
+      "domain": "Travel",
+      "subdomain": "Airlines",
+      "sub_actions": [
+        "[link] Press Room -> CLICK",
+        "[link] View All Releases -> CLICK",
+        "[combobox] Select year: -> SELECT: Year",
+        "[combobox] Category: -> SELECT: Category"
+      ]
+    },
+    {
+      "id": "ma8",
+      "name": "Search Hotel",
+      "website": "jetblue",
+      "domain": "Travel",
+      "subdomain": "Airlines",
+      "sub_actions": [
+        "[span] Stays -> CLICK",
+        "[div] Search location -> TYPE: Location",
+        "[textbox] Select a date range. -> CLICK",
+        "[button] Search -> CLICK",
+        "[option] Price (Low to High) -> CLICK",
+        "[button] Book now -> CLICK"
+      ]
+    }
+  ]
+}

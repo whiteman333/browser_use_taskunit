@@ -1,0 +1,158 @@
+{
+  "meta_actions": [
+    {
+      "id": "MA1",
+      "name": "Search for Car Rental",
+      "website": "united",
+      "domain": "Travel",
+      "subdomain": "Airlines",
+      "sub_actions": [
+        "[heading] CAR -> CLICK",
+        "[combobox] Enter pick up city, airport name, or airport code. -> TYPE: Location",
+        "[div] Location -> CLICK",
+        "[textbox] Pickup -> CLICK",
+        "[button] Date -> CLICK",
+        "[button] Date -> CLICK",
+        "[button] Find cars button. -> CLICK"
+      ]
+    },
+    {
+      "id": "MA2",
+      "name": "Check-in for Flight",
+      "website": "united",
+      "domain": "Travel",
+      "subdomain": "Airlines",
+      "sub_actions": [
+        "[heading] Check-in -> CLICK",
+        "[textbox] Confirmation or ticket number* -> TYPE: Number",
+        "[textbox] Last name* -> TYPE: Name",
+        "[button] Search -> CLICK"
+      ]
+    },
+    {
+      "id": "MA3",
+      "name": "Search for Flight Deals",
+      "website": "united",
+      "domain": "Travel",
+      "subdomain": "Airlines",
+      "sub_actions": [
+        "[tab] DEALS -> CLICK",
+        "[link] Flights to popular destinations -> CLICK",
+        "[textbox] Input departure airport -> TYPE: Location",
+        "[textbox] Input arrival airport -> TYPE: Location",
+        "[option] Location -> CLICK",
+        "[textbox] Budget. Please enter a numerical value -> TYPE: Number",
+        "[div] Economy -> CLICK",
+        "[div] Premium economy -> CLICK"
+      ]
+    },
+    {
+      "id": "MA4",
+      "name": "View Baggage Charges",
+      "website": "united",
+      "domain": "Travel",
+      "subdomain": "Airlines",
+      "sub_actions": [
+        "[tab] TRAVEL INFO -> CLICK",
+        "[link] Baggage info -> CLICK",
+        "[link] Baggage fee calculator -> CLICK",
+        "[combobox] From -> TYPE: Location",
+        "[button] Location -> CLICK",
+        "[combobox] To -> TYPE: Location",
+        "[button] Location -> CLICK",
+        "[textbox] Depart date -> CLICK",
+        "[button] Date -> CLICK",
+        "[combobox] Cabin -> SELECT: Cabin Type",
+        "[button] View bag charges -> CLICK"
+      ]
+    },
+    {
+      "id": "MA5",
+      "name": "Book a Flight",
+      "website": "united",
+      "domain": "Travel",
+      "subdomain": "Airlines",
+      "sub_actions": [
+        "[combobox] Enter your departing city, airport name, or airport... -> TYPE: Location",
+        "[button] Location -> CLICK",
+        "[combobox] Enter your destination city, airport name, or airport... -> TYPE: Location",
+        "[button] Location -> CLICK",
+        "[textbox] Depart -> CLICK",
+        "[button] Date -> CLICK",
+        "[button] Date -> CLICK",
+        "[button] Find flights -> CLICK"
+      ]
+    },
+    {
+      "id": "MA6",
+      "name": "Search for Job Openings",
+      "website": "united",
+      "domain": "Travel",
+      "subdomain": "Airlines",
+      "sub_actions": [
+        "[link] Careers -> CLICK",
+        "[link] Open Jobs -> CLICK",
+        "[button] Country -> CLICK",
+        "[button] State / Province -> CLICK",
+        "[button] City -> CLICK",
+        "[button] Hiring Type -> CLICK",
+        "[combobox] Sort by -> SELECT: Sort Option",
+        "[span] Job Title -> CLICK",
+        "[button] Apply Now -> CLICK",
+        "[textbox] Email * is a required field. -> TYPE: Email",
+        "[button] Continue -> CLICK"
+      ]
+    },
+    {
+      "id": "MA7",
+      "name": "Check Flight Status",
+      "website": "united",
+      "domain": "Travel",
+      "subdomain": "Airlines",
+      "sub_actions": [
+        "[tab] TRAVEL INFO -> CLICK",
+        "[link] Flight status -> CLICK",
+        "[combobox] Airline. Enter to change collapsed list. Selected ... -> CLICK",
+        "[option] Airline -> CLICK",
+        "[combobox] Enter your departing city, airport name, or airport... -> TYPE: Location",
+        "[button] Location -> CLICK",
+        "[combobox] Enter your destination city, airport name, or airport... -> TYPE: Location",
+        "[button] Location -> CLICK",
+        "[button] Check status -> CLICK"
+      ]
+    },
+    {
+      "id": "MA8",
+      "name": "Find Trip Receipt",
+      "website": "united",
+      "domain": "Travel",
+      "subdomain": "Airlines",
+      "sub_actions": [
+        "[tab] MY TRIPS -> CLICK",
+        "[link] Find a receipt -> CLICK",
+        "[radio] Confirmation or eTicket number -> CLICK",
+        "[textbox] Confirmation or eTicket More information about con... -> TYPE: Number",
+        "[textbox] First name -> TYPE: Name",
+        "[textbox] Last name -> TYPE: Name",
+        "[button] Search -> CLICK"
+      ]
+    },
+    {
+      "id": "MA9",
+      "name": "Request a Refund",
+      "website": "united",
+      "domain": "Travel",
+      "subdomain": "Airlines",
+      "sub_actions": [
+        "[tab] MY TRIPS -> CLICK",
+        "[link] Request a refund -> CLICK",
+        "[button] Add trip -> CLICK",
+        "[textbox] Last Name* -> TYPE: Name",
+        "[textbox] Confirmation or ticket number* -> TYPE: Number",
+        "[button] Add flight -> CLICK",
+        "[textbox] Email address * -> TYPE: Email",
+        "[button] Continue -> CLICK"
+      ]
+    }
+  ]
+}

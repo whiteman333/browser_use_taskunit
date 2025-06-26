@@ -1,0 +1,111 @@
+{
+  "meta_actions": [
+    {
+      "id": "ma1",
+      "name": "Specify Location",
+      "website": "viator",
+      "domain": "Travel",
+      "subdomain": "Other",
+      "sub_actions": [
+        "[textbox] Where to? -> TYPE: Location",
+        "[button] Location -> CLICK"
+      ]
+    },
+    {
+      "id": "ma2",
+      "name": "Select Date Range",
+      "website": "viator",
+      "domain": "Travel",
+      "subdomain": "Other",
+      "sub_actions": [
+        "[button] When -> CLICK",
+        "[button] Next -> CLICK",
+        "[path] -> CLICK",
+        "[gridcell] Start Date -> CLICK",
+        "[gridcell] End Date -> CLICK",
+        "[button] Apply -> CLICK"
+      ]
+    },
+    {
+      "id": "ma3",
+      "name": "Filter by Activity Type",
+      "website": "viator",
+      "domain": "Travel",
+      "subdomain": "Other",
+      "sub_actions": [
+        "[div] Activity Type -> CLICK"
+      ]
+    },
+    {
+      "id": "ma4",
+      "name": "Filter by Duration",
+      "website": "viator",
+      "domain": "Travel",
+      "subdomain": "Other",
+      "sub_actions": [
+        "[label] Duration -> CLICK"
+      ]
+    },
+    {
+      "id": "ma5",
+      "name": "Filter by Time of Day",
+      "website": "viator",
+      "domain": "Travel",
+      "subdomain": "Other",
+      "sub_actions": [
+        "[div] Time Range -> CLICK"
+      ]
+    },
+    {
+      "id": "ma6",
+      "name": "Sort Results",
+      "website": "viator",
+      "domain": "Travel",
+      "subdomain": "Other",
+      "sub_actions": [
+        "[span] Sort Option -> CLICK"
+      ]
+    },
+    {
+      "id": "ma7",
+      "name": "Filter by Cancellation Policy",
+      "website": "viator",
+      "domain": "Travel",
+      "subdomain": "Other",
+      "sub_actions": [
+        "[label] Free Cancellation -> CLICK"
+      ]
+    },
+    {
+      "id": "ma8",
+      "name": "Filter by Rating",
+      "website": "viator",
+      "domain": "Travel",
+      "subdomain": "Other",
+      "sub_actions": [
+        "[label] Rating -> CLICK"
+      ]
+    },
+    {
+      "id": "ma9",
+      "name": "Browse Recommendations",
+      "website": "viator",
+      "domain": "Travel",
+      "subdomain": "Other",
+      "sub_actions": [
+        "[span] Trip Inspiration -> HOVER",
+        "[link] Location -> CLICK"
+      ]
+    },
+    {
+      "id": "ma10",
+      "name": "Select Specific Activity",
+      "website": "viator",
+      "domain": "Travel",
+      "subdomain": "Other",
+      "sub_actions": [
+        "[link] Activity Name -> CLICK"
+      ]
+    }
+  ]
+}

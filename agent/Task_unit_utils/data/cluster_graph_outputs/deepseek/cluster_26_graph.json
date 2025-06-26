@@ -1,0 +1,143 @@
+{
+  "task_unit_dag": [
+    {
+      "parent_task_unit_id": "CLUSTER26_TU1",
+      "child_task_unit_ids": [
+        "CLUSTER26_TU11",
+        "CLUSTER26_TU12"
+      ],
+      "relationship_reasoning": "Searching for a specific used car model with color preference can involve searching by make and model with the lowest price or showing all used cars by make within a location, which are narrower tasks within the broader search goal."
+    },
+    {
+      "parent_task_unit_id": "CLUSTER26_TU2",
+      "child_task_unit_ids": [
+        "CLUSTER26_TU16",
+        "CLUSTER26_TU25",
+        "CLUSTER26_TU30",
+        "CLUSTER26_TU31"
+      ],
+      "relationship_reasoning": "Calculating a car loan payment is a broader task that includes calculating monthly payments with specific financial details, calculating vehicle price with specific financial details, and calculating monthly payment and shopping with budget as necessary sub-steps."
+    },
+    {
+      "parent_task_unit_id": "CLUSTER26_TU3",
+      "child_task_unit_ids": [
+        "CLUSTER26_TU4",
+        "CLUSTER26_TU27",
+        "CLUSTER26_TU29"
+      ],
+      "relationship_reasoning": "Finding the lowest price for a certified pre-owned car with specific features encompasses searching for the cheapest car with specific features and confirming availability, finding the cheapest car with specific features within a distance, and searching for certified pre-owned cars with specific features within a distance."
+    },
+    {
+      "parent_task_unit_id": "CLUSTER26_TU5",
+      "child_task_unit_ids": [
+        "CLUSTER26_TU6",
+        "CLUSTER26_TU19"
+      ],
+      "relationship_reasoning": "Browsing and comparing used cars by make and year includes searching for used cars by model and comparing mileage and browsing listings for a used car by make, model, and year as specific actions within the broader browsing goal."
+    },
+    {
+      "parent_task_unit_id": "CLUSTER26_TU7",
+      "child_task_unit_ids": [
+        "CLUSTER26_TU21",
+        "CLUSTER26_TU23"
+      ],
+      "relationship_reasoning": "Searching for a car with specific features and comparing results involves showing cars with specific drive type and budget and finding a car with specific features and price range as necessary steps to achieve the broader search goal."
+    },
+    {
+      "parent_task_unit_id": "CLUSTER26_TU8",
+      "child_task_unit_ids": [
+        "CLUSTER26_TU33",
+        "CLUSTER26_TU41"
+      ],
+      "relationship_reasoning": "Finding car value with specific details includes selling a car with specific details and getting an offer and getting an offer for a car with specific VIN and condition as sub-tasks within the broader goal of evaluating a car's value."
+    },
+    {
+      "parent_task_unit_id": "CLUSTER26_TU9",
+      "child_task_unit_ids": [
+        "CLUSTER26_TU26",
+        "CLUSTER26_TU39"
+      ],
+      "relationship_reasoning": "Finding the cheapest car within a specific distance encompasses finding a car for sale within a distance from location and viewing inventory of a car model within a distance from location as specific actions to locate the desired vehicle."
+    },
+    {
+      "parent_task_unit_id": "CLUSTER26_TU10",
+      "child_task_unit_ids": [
+        "CLUSTER26_TU28"
+      ],
+      "relationship_reasoning": "Finding documents required to sell a car includes getting an offer to sell a car with a license plate as a necessary step in the selling process."
+    },
+    {
+      "parent_task_unit_id": "CLUSTER26_TU13",
+      "child_task_unit_ids": [
+        "CLUSTER26_TU14",
+        "CLUSTER26_TU37"
+      ],
+      "relationship_reasoning": "Finding the newest car with specific features within a distance includes finding cars by series within the nearest store location and viewing inventory of a new car model with specific features within a distance as specific actions to locate the desired vehicle."
+    },
+    {
+      "parent_task_unit_id": "CLUSTER26_TU15",
+      "child_task_unit_ids": [
+        "CLUSTER26_TU20"
+      ],
+      "relationship_reasoning": "Finding fuel economy for a specific car includes finding the safety rating for a specific car as both involve researching specific attributes of a car model."
+    },
+    {
+      "parent_task_unit_id": "CLUSTER26_TU17",
+      "child_task_unit_ids": [],
+      "relationship_reasoning": "Viewing price trends for used cars and comparing with an index is a standalone task without narrower sub-tasks within the provided task units."
+    },
+    {
+      "parent_task_unit_id": "CLUSTER26_TU18",
+      "child_task_unit_ids": [],
+      "relationship_reasoning": "Browsing convertibles for sale under a specific price is a standalone task without narrower sub-tasks within the provided task units."
+    },
+    {
+      "parent_task_unit_id": "CLUSTER26_TU22",
+      "child_task_unit_ids": [],
+      "relationship_reasoning": "Getting a price quote for a new car is a standalone task without narrower sub-tasks within the provided task units."
+    },
+    {
+      "parent_task_unit_id": "CLUSTER26_TU24",
+      "child_task_unit_ids": [
+        "CLUSTER26_TU43"
+      ],
+      "relationship_reasoning": "Browsing listings for a used car by make and model near a location and sorting by price includes finding a car with the lowest price and saving the listing as a specific action within the browsing goal."
+    },
+    {
+      "parent_task_unit_id": "CLUSTER26_TU32",
+      "child_task_unit_ids": [],
+      "relationship_reasoning": "Getting prequalified for financing is a standalone task without narrower sub-tasks within the provided task units."
+    },
+    {
+      "parent_task_unit_id": "CLUSTER26_TU34",
+      "child_task_unit_ids": [],
+      "relationship_reasoning": "Finding the cheapest car model with color preference for registration is a standalone task without narrower sub-tasks within the provided task units."
+    },
+    {
+      "parent_task_unit_id": "CLUSTER26_TU35",
+      "child_task_unit_ids": [],
+      "relationship_reasoning": "Searching for used cars excluding a specific color and saving the search is a standalone task without narrower sub-tasks within the provided task units."
+    },
+    {
+      "parent_task_unit_id": "CLUSTER26_TU36",
+      "child_task_unit_ids": [
+        "CLUSTER26_TU40"
+      ],
+      "relationship_reasoning": "Scheduling a test drive for a specific car model includes scheduling a demo drive with personal details as a necessary step in the scheduling process."
+    },
+    {
+      "parent_task_unit_id": "CLUSTER26_TU38",
+      "child_task_unit_ids": [],
+      "relationship_reasoning": "Viewing best seller accessories for a specific car model is a standalone task without narrower sub-tasks within the provided task units."
+    },
+    {
+      "parent_task_unit_id": "CLUSTER26_TU42",
+      "child_task_unit_ids": [],
+      "relationship_reasoning": "Checking the price of a car model for a specific location is a standalone task without narrower sub-tasks within the provided task units."
+    }
+  ],
+  "validation": {
+    "is_acyclic": true,
+    "acyclic_reasoning": "All relationships strictly follow a hierarchical structure of task objectives, with no cycles or contradictions in the dependencies."
+  }
+}

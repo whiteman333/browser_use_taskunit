@@ -1,0 +1,102 @@
+{
+  "meta_actions": [
+    {
+      "id": "ma1",
+      "name": "Select Vehicle Type",
+      "website": "enterprise",
+      "domain": "Travel",
+      "subdomain": "Car rental",
+      "sub_actions": [
+        "[link] Exotic Cars -> CLICK",
+        "[link] Reserve Now -> CLICK",
+        "[button] Car Sales -> CLICK",
+        "[link] Shop Vehicles Under $20,000 Link opens in a new wi... -> CLICK",
+        "[button] Vehicles -> CLICK",
+        "[link] Explore Vehicles -> CLICK"
+      ]
+    },
+    {
+      "id": "ma2",
+      "name": "Set Location",
+      "website": "enterprise",
+      "domain": "Travel",
+      "subdomain": "Car rental",
+      "sub_actions": [
+        "[link] Beverly Hills -> CLICK",
+        "[searchbox] Location (required) * Required Field -> TYPE: Location",
+        "[span] Location -> CLICK",
+        "[searchbox] Pick-up & Return Location (ZIP, City or Airport) (... -> TYPE: Location",
+        "[option] Location Select -> CLICK"
+      ]
+    },
+    {
+      "id": "ma3",
+      "name": "Set Date and Time",
+      "website": "enterprise",
+      "domain": "Travel",
+      "subdomain": "Car rental",
+      "sub_actions": [
+        "[button] Selected Pick-Up Date -> CLICK",
+        "[button] Date -> CLICK",
+        "[combobox] Pick-Up Time Selector -> SELECT: Time",
+        "[button] Selected Return Date -> CLICK",
+        "[combobox] Return Time Selector -> SELECT: Time"
+      ]
+    },
+    {
+      "id": "ma4",
+      "name": "Filter Vehicles",
+      "website": "enterprise",
+      "domain": "Travel",
+      "subdomain": "Car rental",
+      "sub_actions": [
+        "[checkbox] Vehicle Type -> CLICK",
+        "[combobox] SORT BY -> SELECT: Sort Option",
+        "[checkbox] Number of Passengers -> CLICK",
+        "[radio] Vehicle Class -> CLICK",
+        "[button] Apply Filter -> CLICK"
+      ]
+    },
+    {
+      "id": "ma5",
+      "name": "Browse and Select Vehicle",
+      "website": "enterprise",
+      "domain": "Travel",
+      "subdomain": "Car rental",
+      "sub_actions": [
+        "[button] Browse Vehicles -> CLICK",
+        "[button] Select Vehicle -> CLICK",
+        "[button] Continue to Review -> CLICK"
+      ]
+    },
+    {
+      "id": "ma6",
+      "name": "Modify Reservation",
+      "website": "enterprise",
+      "domain": "Travel",
+      "subdomain": "Car rental",
+      "sub_actions": [
+        "[button] View / Modify / Cancel Reservation -> CLICK",
+        "[textbox] Confirmation Number (required) -> TYPE: Number",
+        "[textbox] First Name (required) -> TYPE: Name",
+        "[textbox] Last Name (required) -> TYPE: Name",
+        "[button] Search -> CLICK"
+      ]
+    },
+    {
+      "id": "ma7",
+      "name": "Sign Up for Offers",
+      "website": "enterprise",
+      "domain": "Travel",
+      "subdomain": "Car rental",
+      "sub_actions": [
+        "[textbox] First Name (required) -> TYPE: Name",
+        "[textbox] Last Name (required) -> TYPE: Name",
+        "[textbox] Email Address (required) -> TYPE: Email",
+        "[textbox] Confirm Email Address (required) -> TYPE: Email",
+        "[textbox] ZIP Code (required) -> TYPE: ZIP",
+        "[button] Submit -> CLICK"
+      ]
+    }
+  ]
+}

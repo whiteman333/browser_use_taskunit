@@ -1,0 +1,90 @@
+{
+  "task_units": [
+    {
+      "id": "CLUSTER14_TU1",
+      "name": "Search for service providers with specific attributes",
+      "sub_actions": [
+        "TYPE: Service type",
+        "CLICK: Service type option",
+        "TYPE: Location",
+        "CLICK: Location option",
+        "CLICK: Attribute filter",
+        "CLICK: Apply filters"
+      ]
+    },
+    {
+      "id": "CLUSTER14_TU2",
+      "name": "Filter search results by rating and price",
+      "sub_actions": [
+        "CLICK: Rating filter",
+        "SELECT: Rating option",
+        "CLICK: Price filter",
+        "SELECT: Price range"
+      ]
+    },
+    {
+      "id": "CLUSTER14_TU3",
+      "name": "Navigate to specific service category",
+      "sub_actions": [
+        "HOVER: Main menu",
+        "CLICK: Service category"
+      ]
+    },
+    {
+      "id": "CLUSTER14_TU4",
+      "name": "Request service or consultation",
+      "sub_actions": [
+        "CLICK: Request option",
+        "TYPE: Personal information",
+        "CLICK: Submit request"
+      ]
+    },
+    {
+      "id": "CLUSTER14_TU5",
+      "name": "Find and sort registry or list",
+      "sub_actions": [
+        "CLICK: Registry or list option",
+        "TYPE: Search criteria",
+        "SELECT: Sort option"
+      ]
+    },
+    {
+      "id": "CLUSTER14_TU6",
+      "name": "Browse products with specific ratings and price range",
+      "sub_actions": [
+        "TYPE: Product name",
+        "CLICK: Search button",
+        "CLICK: Rating filter",
+        "SELECT: Rating option",
+        "CLICK: Price filter",
+        "SELECT: Price range"
+      ]
+    },
+    {
+      "id": "CLUSTER14_TU7",
+      "name": "Locate nearest service provider",
+      "sub_actions": [
+        "TYPE: Location",
+        "CLICK: Search button",
+        "CLICK: Map view"
+      ]
+    },
+    {
+      "id": "CLUSTER14_TU8",
+      "name": "Sign up for membership or rewards",
+      "sub_actions": [
+        "CLICK: Membership option",
+        "CLICK: Sign up button"
+      ]
+    },
+    {
+      "id": "CLUSTER14_TU9",
+      "name": "Schedule appointment or test",
+      "sub_actions": [
+        "CLICK: Schedule option",
+        "TYPE: Location",
+        "CLICK: Schedule button"
+      ]
+    }
+  ]
+}

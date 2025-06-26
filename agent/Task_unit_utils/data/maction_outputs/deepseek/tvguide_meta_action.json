@@ -1,0 +1,109 @@
+{
+  "meta_actions": [
+    {
+      "id": "ma1",
+      "name": "Search for Content",
+      "website": "tvguide",
+      "domain": "Entertainment",
+      "subdomain": "Movie",
+      "sub_actions": [
+        "[textbox] Search TV Shows and Movies... -> TYPE: Content Title",
+        "[div] Content Title -> CLICK"
+      ]
+    },
+    {
+      "id": "ma2",
+      "name": "Navigate to Content Details",
+      "website": "tvguide",
+      "domain": "Entertainment",
+      "subdomain": "Movie",
+      "sub_actions": [
+        "[div] See All Where to Watch -> CLICK",
+        "[link] Cast & Crew -> CLICK",
+        "[link] Seasons & Episodes -> CLICK",
+        "[span] Where to Watch -> CLICK"
+      ]
+    },
+    {
+      "id": "ma3",
+      "name": "Filter Content",
+      "website": "tvguide",
+      "domain": "Entertainment",
+      "subdomain": "Movie",
+      "sub_actions": [
+        "[button] Filter -> CLICK",
+        "[button] Highest Rated -> CLICK",
+        "[button] Documentary -> CLICK",
+        "[button] Release Date -> CLICK",
+        "[button] Comedy -> CLICK",
+        "[button] TV Shows -> CLICK",
+        "[span] Year -> CLICK",
+        "[button] View Results -> CLICK"
+      ]
+    },
+    {
+      "id": "ma4",
+      "name": "Add to Watchlist",
+      "website": "tvguide",
+      "domain": "Entertainment",
+      "subdomain": "Movie",
+      "sub_actions": [
+        "[span] Watchlist -> CLICK"
+      ]
+    },
+    {
+      "id": "ma5",
+      "name": "Browse Recommendations",
+      "website": "tvguide",
+      "domain": "Entertainment",
+      "subdomain": "Movie",
+      "sub_actions": [
+        "[link] Recommendations -> CLICK",
+        "[link] Recommendations -> HOVER",
+        "[menuitem] Seasonal Preview -> CLICK",
+        "[link] Trailer -> CLICK"
+      ]
+    },
+    {
+      "id": "ma6",
+      "name": "Find Local TV Information",
+      "website": "tvguide",
+      "domain": "Entertainment",
+      "subdomain": "Movie",
+      "sub_actions": [
+        "[link] Live TV -> CLICK",
+        "[button] Broadcast TV Location -> CLICK",
+        "[textbox] Search -> TYPE: ZIP Code",
+        "[button] Antenna -> CLICK",
+        "[button] Apply -> CLICK",
+        "[button] Skip -> CLICK",
+        "[div] Channel Number -> CLICK"
+      ]
+    },
+    {
+      "id": "ma7",
+      "name": "Search for Person",
+      "website": "tvguide",
+      "domain": "Entertainment",
+      "subdomain": "Movie",
+      "sub_actions": [
+        "[textbox] Search TV Shows and Movies... -> TYPE: Person Name",
+        "[div] Person Name: Content Title -> CLICK",
+        "[a] -> CLICK"
+      ]
+    },
+    {
+      "id": "ma8",
+      "name": "Browse Streaming Content",
+      "website": "tvguide",
+      "domain": "Entertainment",
+      "subdomain": "Movie",
+      "sub_actions": [
+        "[link] What to Watch on Streaming Service -> CLICK",
+        "[button] Filter -> CLICK",
+        "[button] Content Type -> CLICK",
+        "[button] View Results -> CLICK"
+      ]
+    }
+  ]
+}

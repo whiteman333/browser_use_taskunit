@@ -1,0 +1,24 @@
+{
+    "azure": {
+        "endpoint": "https://baaiks-sn.openai.azure.com/",
+        "api_version": "2024-02-15-preview",
+        "api_key": "d6231d19b312432da3a08df4e5c77137"
+    },
+    "deepseek": {
+        "models": ["deepseek-chat"],
+        "base_url": "https://api.deepseek.com",
+        "api_key": "sk-540a1de875594e23a02bbbd687685b65"
+    },
+    "deepseek-backup": {
+        "models": ["deepseek-chat"],
+        "base_url": "https://api.deepseek.com",
+        "api_key": "sk-357fa19282af4a9e8a430d1fd2cd7034"
+    },
+    "aliyun": {
+        "api_key": "sk-4146501af6c44f8ba3d73ca75978c343"
+    },
+    "openrouter": {
+        "api_key": "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",
+        "base_url": "https://openrouter.ai/api/v1"
+    }
+}

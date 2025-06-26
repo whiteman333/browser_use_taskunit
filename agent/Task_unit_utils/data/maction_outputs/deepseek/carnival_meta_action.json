@@ -1,0 +1,90 @@
+{
+  "meta_actions": [
+    {
+      "id": "ma1",
+      "name": "Navigate to Information Section",
+      "website": "carnival",
+      "domain": "Travel",
+      "subdomain": "Other",
+      "sub_actions": [
+        "[button] Plan -> HOVER",
+        "[use] -> CLICK",
+        "[img] -> CLICK"
+      ]
+    },
+    {
+      "id": "ma2",
+      "name": "Search for Cruises by Destination",
+      "website": "carnival",
+      "domain": "Travel",
+      "subdomain": "Other",
+      "sub_actions": [
+        "[button] SAIL TO -> CLICK",
+        "[button] TYPE: Location -> CLICK",
+        "[button] SEARCH CRUISES -> CLICK"
+      ]
+    },
+    {
+      "id": "ma3",
+      "name": "Filter Cruise Options",
+      "website": "carnival",
+      "domain": "Travel",
+      "subdomain": "Other",
+      "sub_actions": [
+        "[select] DURATION -> SELECT: Number",
+        "[button] Filter Results -> CLICK"
+      ]
+    },
+    {
+      "id": "ma4",
+      "name": "Customize Guest Number",
+      "website": "carnival",
+      "domain": "Travel",
+      "subdomain": "Other",
+      "sub_actions": [
+        "[button] Number of Guests -> CLICK",
+        "[path] -> CLICK",
+        "[button] Increase to TYPE: Number guest button -> CLICK"
+      ]
+    },
+    {
+      "id": "ma5",
+      "name": "Search for Travel Agents",
+      "website": "carnival",
+      "domain": "Travel",
+      "subdomain": "Other",
+      "sub_actions": [
+        "[button] Search -> CLICK",
+        "[textbox] Search the site -> TYPE: Keyword",
+        "[button] Find -> CLICK",
+        "[textbox] City -> TYPE: Location",
+        "[combobox] State -> SELECT: Location"
+      ]
+    },
+    {
+      "id": "ma6",
+      "name": "Browse Deals",
+      "website": "carnival",
+      "domain": "Travel",
+      "subdomain": "Other",
+      "sub_actions": [
+        "[link] Today's Deals -> CLICK",
+        "[link] Trending (TYPE: Number) -> CLICK"
+      ]
+    },
+    {
+      "id": "ma7",
+      "name": "Explore Dining Options",
+      "website": "carnival",
+      "domain": "Travel",
+      "subdomain": "Other",
+      "sub_actions": [
+        "[button] Explore -> HOVER",
+        "[link] Dining -> CLICK",
+        "[span] EXPLORE DINING -> CLICK",
+        "[radio] Filter group Ship: TYPE: Ship -> CLICK",
+        "[radio] Filter group Meal Time: TYPE: Meal Time -> CLICK"
+      ]
+    }
+  ]
+}

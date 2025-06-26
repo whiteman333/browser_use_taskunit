@@ -1,0 +1,103 @@
+{
+  "meta_actions": [
+    {
+      "id": "ma1",
+      "name": "Navigate to Category",
+      "website": "cabelas",
+      "domain": "Shopping",
+      "subdomain": "Speciality",
+      "sub_actions": [
+        "[link] Category -> CLICK",
+        "[menuitem] View All -> CLICK"
+      ]
+    },
+    {
+      "id": "ma2",
+      "name": "Filter by Type",
+      "website": "cabelas",
+      "domain": "Shopping",
+      "subdomain": "Speciality",
+      "sub_actions": [
+        "[div] Type -> CLICK",
+        "[label] Type Option -> CLICK"
+      ]
+    },
+    {
+      "id": "ma3",
+      "name": "Select Product",
+      "website": "cabelas",
+      "domain": "Shopping",
+      "subdomain": "Speciality",
+      "sub_actions": [
+        "[link] Product Name -> CLICK",
+        "[button] ADD TO CART -> CLICK"
+      ]
+    },
+    {
+      "id": "ma4",
+      "name": "Apply Filters",
+      "website": "cabelas",
+      "domain": "Shopping",
+      "subdomain": "Speciality",
+      "sub_actions": [
+        "[label] Filter Option -> CLICK",
+        "[svg] Filter Icon -> CLICK"
+      ]
+    },
+    {
+      "id": "ma5",
+      "name": "Sort Results",
+      "website": "cabelas",
+      "domain": "Shopping",
+      "subdomain": "Speciality",
+      "sub_actions": [
+        "[span] Sort by: -> CLICK",
+        "[div] Sort Option -> CLICK"
+      ]
+    },
+    {
+      "id": "ma6",
+      "name": "Search with Criteria",
+      "website": "cabelas",
+      "domain": "Shopping",
+      "subdomain": "Speciality",
+      "sub_actions": [
+        "[textbox] Search -> TYPE: Keyword",
+        "[button] Search -> CLICK",
+        "[textbox] Upper Bound -> TYPE: Number",
+        "[textbox] Lower Bound -> TYPE: Number",
+        "[button] GO -> CLICK"
+      ]
+    },
+    {
+      "id": "ma7",
+      "name": "Find Registry",
+      "website": "cabelas",
+      "domain": "Shopping",
+      "subdomain": "Speciality",
+      "sub_actions": [
+        "[link] Gift Registry -> CLICK",
+        "[span] Find a Registry -> CLICK",
+        "[textbox] First Name -> TYPE: Name",
+        "[textbox] Last Name -> TYPE: Name",
+        "[link] SEARCH -> CLICK",
+        "[span] View -> CLICK",
+        "[link] I don't have the password -> CLICK",
+        "[textbox] Your Name -> TYPE: Name",
+        "[textbox] Your Email -> TYPE: Email",
+        "[link] REQUEST PASSWORD -> CLICK"
+      ]
+    },
+    {
+      "id": "ma8",
+      "name": "Check Availability",
+      "website": "cabelas",
+      "domain": "Shopping",
+      "subdomain": "Speciality",
+      "sub_actions": [
+        "[label] In Stock -> CLICK",
+        "[label] Available in Store -> CLICK"
+      ]
+    }
+  ]
+}

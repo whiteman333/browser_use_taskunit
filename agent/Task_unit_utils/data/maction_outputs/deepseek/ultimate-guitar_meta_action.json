@@ -1,0 +1,98 @@
+{
+  "meta_actions": [
+    {
+      "id": "ma1",
+      "name": "Search for Music Content",
+      "website": "ultimate-guitar",
+      "domain": "Entertainment",
+      "subdomain": "Music",
+      "sub_actions": [
+        "[textbox] Enter artist name or song title -> TYPE: Song/Artist",
+        "[button] SEARCH -> CLICK"
+      ]
+    },
+    {
+      "id": "ma2",
+      "name": "Navigate to Specific Content Type",
+      "website": "ultimate-guitar",
+      "domain": "Entertainment",
+      "subdomain": "Music",
+      "sub_actions": [
+        "[link] Chords -> CLICK",
+        "[link] High rated -> CLICK",
+        "[link] Tabs -> CLICK",
+        "[link] Beginner -> CLICK",
+        "[link] Drop C -> CLICK",
+        "[link] Rock -> CLICK",
+        "[link] Tab -> CLICK",
+        "[link] Non-acoustic -> CLICK",
+        "[link] Intro -> CLICK",
+        "[link] Guitar Pro -> CLICK",
+        "[link] Drop D -> CLICK",
+        "[link] 1990s -> CLICK",
+        "[link] Absolute Beginner -> CLICK"
+      ]
+    },
+    {
+      "id": "ma3",
+      "name": "Filter Content by Criteria",
+      "website": "ultimate-guitar",
+      "domain": "Entertainment",
+      "subdomain": "Music",
+      "sub_actions": [
+        "[combobox] Find Posts from -> SELECT: Time Period",
+        "[div] Today's most popular -> CLICK",
+        "[link] Most popular of all time -> CLICK",
+        "[link] Rating -> CLICK",
+        "[svg] -> CLICK"
+      ]
+    },
+    {
+      "id": "ma4",
+      "name": "Access User Profile or Content",
+      "website": "ultimate-guitar",
+      "domain": "Entertainment",
+      "subdomain": "Music",
+      "sub_actions": [
+        "[link] Shots -> CLICK",
+        "[button] New -> CLICK",
+        "[link] Author -> CLICK"
+      ]
+    },
+    {
+      "id": "ma5",
+      "name": "Save or Favorite Content",
+      "website": "ultimate-guitar",
+      "domain": "Entertainment",
+      "subdomain": "Music",
+      "sub_actions": [
+        "[button] ADD TO FAVORITES -> CLICK",
+        "[button] ADD TO PLAYLIST -> CLICK"
+      ]
+    },
+    {
+      "id": "ma6",
+      "name": "Search Within Forums",
+      "website": "ultimate-guitar",
+      "domain": "Entertainment",
+      "subdomain": "Music",
+      "sub_actions": [
+        "[link] Forums -> CLICK",
+        "[link] Advanced search -> CLICK",
+        "[textbox] Search by keyword -> TYPE: Keyword",
+        "[button] Search -> CLICK"
+      ]
+    },
+    {
+      "id": "ma7",
+      "name": "Browse Artists",
+      "website": "ultimate-guitar",
+      "domain": "Entertainment",
+      "subdomain": "Music",
+      "sub_actions": [
+        "[button] Tabs -> CLICK",
+        "[span] Artists -> CLICK"
+      ]
+    }
+  ]
+}

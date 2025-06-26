@@ -1,0 +1,204 @@
+{
+  "task_units": [
+    {
+      "id": "CLUSTER11_TU1",
+      "name": "Trade in an item via mail",
+      "sub_actions": [
+        "CLICK: Trade In",
+        "CLICK: Trade in by mail",
+        "TYPE: Item name",
+        "CLICK: Search icon",
+        "CLICK: Trade in",
+        "CLICK: Complete trade-in",
+        "CLICK: Verify membership to continue",
+        "TYPE: First name",
+        "TYPE: Last name",
+        "TYPE: Phone number",
+        "CLICK: Proceed to checkout"
+      ]
+    },
+    {
+      "id": "CLUSTER11_TU2",
+      "name": "Search for a specific product with filters",
+      "sub_actions": [
+        "CLICK: Category",
+        "CLICK: View All",
+        "CLICK: Subcategory",
+        "CLICK: Filter option",
+        "CLICK: Size option",
+        "CLICK: Price range",
+        "CLICK: Sort by option",
+        "CLICK: In Stock",
+        "CLICK: Rating filter",
+        "CLICK: Product"
+      ]
+    },
+    {
+      "id": "CLUSTER11_TU3",
+      "name": "Locate a park with specific features",
+      "sub_actions": [
+        "CLICK: FIND A PARK",
+        "CLICK: Search by Activity or Topic",
+        "SELECT: State",
+        "CLICK: Activity",
+        "CLICK: Search"
+      ]
+    },
+    {
+      "id": "CLUSTER11_TU4",
+      "name": "Filter and sort products",
+      "sub_actions": [
+        "CLICK: Category",
+        "CLICK: Subcategory",
+        "CLICK: Add filter",
+        "SELECT: Sort By option"
+      ]
+    },
+    {
+      "id": "CLUSTER11_TU5",
+      "name": "Browse products with specific features",
+      "sub_actions": [
+        "HOVER: Category",
+        "CLICK: Subcategory",
+        "CLICK: Add filter"
+      ]
+    },
+    {
+      "id": "CLUSTER11_TU6",
+      "name": "Order the cheapest product in a category",
+      "sub_actions": [
+        "HOVER: Deals",
+        "CLICK: Explore Deals",
+        "CLICK: Category",
+        "SELECT: Sort By option",
+        "CLICK: Product",
+        "CLICK: Add to cart",
+        "CLICK: Cart & Checkout",
+        "CLICK: Proceed to checkout"
+      ]
+    },
+    {
+      "id": "CLUSTER11_TU7",
+      "name": "Search for a campground by location",
+      "sub_actions": [
+        "CLICK: CAMPING AT KOA",
+        "CLICK: KOA HOLIDAY CAMPGROUNDS",
+        "CLICK: Location",
+        "CLICK: Campground"
+      ]
+    },
+    {
+      "id": "CLUSTER11_TU8",
+      "name": "Find all campgrounds in a state",
+      "sub_actions": [
+        "CLICK: FIND A CAMPGROUND",
+        "CLICK: FIND BY STATE/PROVINCE",
+        "CLICK: State"
+      ]
+    },
+    {
+      "id": "CLUSTER11_TU9",
+      "name": "Find a campground with specific features",
+      "sub_actions": [
+        "CLICK: Filters",
+        "CLICK: Feature checkbox",
+        "TYPE: Location",
+        "CLICK: FIND A KOA"
+      ]
+    },
+    {
+      "id": "CLUSTER11_TU10",
+      "name": "Search for a campground by date and location",
+      "sub_actions": [
+        "TYPE: Location",
+        "CLICK: Campground option",
+        "CLICK: CHECK IN",
+        "CLICK: Next month",
+        "CLICK: Date",
+        "CLICK: CHECK OUT",
+        "CLICK: Date",
+        "CLICK: FIND A KOA"
+      ]
+    },
+    {
+      "id": "CLUSTER11_TU11",
+      "name": "Find a campground with specific features for today",
+      "sub_actions": [
+        "TYPE: Location",
+        "CLICK: CHECK IN",
+        "CLICK: Today's date",
+        "CLICK: Filters",
+        "CLICK: Feature checkbox",
+        "CLICK: FIND A KOA"
+      ]
+    },
+    {
+      "id": "CLUSTER11_TU12",
+      "name": "Browse products sorted by price",
+      "sub_actions": [
+        "CLICK: Category",
+        "CLICK: Subcategory",
+        "SELECT: Sort By option"
+      ]
+    },
+    {
+      "id": "CLUSTER11_TU13",
+      "name": "Get directions to a campground",
+      "sub_actions": [
+        "CLICK: CAMPING AT KOA",
+        "CLICK: KOA RESORT CAMPGROUNDS",
+        "CLICK: State",
+        "CLICK: Campground",
+        "CLICK: Get Directions"
+      ]
+    },
+    {
+      "id": "CLUSTER11_TU14",
+      "name": "Browse products with specific features in stock",
+      "sub_actions": [
+        "CLICK: Category",
+        "CLICK: Subcategory",
+        "CLICK: Feature filter",
+        "CLICK: In Stock"
+      ]
+    },
+    {
+      "id": "CLUSTER11_TU15",
+      "name": "Browse and sort products",
+      "sub_actions": [
+        "CLICK: Category",
+        "CLICK: Subcategory",
+        "SELECT: Sort By option"
+      ]
+    },
+    {
+      "id": "CLUSTER11_TU16",
+      "name": "Find classes near a location",
+      "sub_actions": [
+        "CLICK: Classes & Events",
+        "SELECT: Activity",
+        "TYPE: Location",
+        "SELECT: Distance",
+        "CLICK: Search"
+      ]
+    },
+    {
+      "id": "CLUSTER11_TU17",
+      "name": "Find a product for a specific activity",
+      "sub_actions": [
+        "CLICK: Category",
+        "CLICK: Subcategory",
+        "CLICK: Add filter"
+      ]
+    },
+    {
+      "id": "CLUSTER11_TU18",
+      "name": "Find a product within a specific size range",
+      "sub_actions": [
+        "CLICK: Category",
+        "CLICK: Subcategory",
+        "CLICK: Add filter"
+      ]
+    }
+  ]
+}

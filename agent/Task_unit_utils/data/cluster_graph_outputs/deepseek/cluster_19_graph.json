@@ -1,0 +1,49 @@
+{
+  "task_unit_dag": [
+    {
+      "parent_task_unit_id": "CLUSTER19_TU1",
+      "child_task_unit_ids": [
+        "CLUSTER19_TU2",
+        "CLUSTER19_TU3",
+        "CLUSTER19_TU8",
+        "CLUSTER19_TU9",
+        "CLUSTER19_TU10"
+      ],
+      "relationship_reasoning": "Filtering events by category and location is a broad task that can involve further narrowing down by date range, specific event types, sorting criteria, price range, or venue, making these tasks subordinate actions within the broader filtering goal."
+    },
+    {
+      "parent_task_unit_id": "CLUSTER19_TU4",
+      "child_task_unit_ids": [
+        "CLUSTER19_TU5",
+        "CLUSTER19_TU6",
+        "CLUSTER19_TU7"
+      ],
+      "relationship_reasoning": "Navigating to event details is a prerequisite for following or saving the event/organizer, contacting the organizer, or booking tickets, as these actions require specific event information only available after viewing details."
+    },
+    {
+      "parent_task_unit_id": "CLUSTER19_TU5",
+      "child_task_unit_ids": [
+        "CLUSTER19_TU6"
+      ],
+      "relationship_reasoning": "Following or saving an event/organizer may lead to contacting the organizer, as users interested in the event or organizer might have questions or need further information."
+    },
+    {
+      "parent_task_unit_id": "CLUSTER19_TU7",
+      "child_task_unit_ids": [
+        "CLUSTER19_TU6"
+      ],
+      "relationship_reasoning": "Booking tickets for an event might necessitate contacting the organizer for any queries or issues related to the booking, making 'Contact event organizer' a potential subsequent step."
+    },
+    {
+      "parent_task_unit_id": "CLUSTER19_TU10",
+      "child_task_unit_ids": [
+        "CLUSTER19_TU4"
+      ],
+      "relationship_reasoning": "Browsing events by venue leads to selecting a specific event to view its details, as the user's goal is to find and possibly attend an event at a particular venue."
+    }
+  ],
+  "validation": {
+    "is_acyclic": true,
+    "acyclic_reasoning": "The directed graph structure ensures that each task unit is a parent or child based on semantic containment without creating any cycles, reflecting logical hierarchies in task completion."
+  }
+}

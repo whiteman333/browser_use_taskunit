@@ -1,0 +1,68 @@
+{
+  "meta_actions": [
+    {
+      "id": "ma1",
+      "name": "Search and Filter Products",
+      "website": "amazon",
+      "domain": "Shopping",
+      "subdomain": "General",
+      "sub_actions": [
+        "[textbox] Search Amazon -> TYPE: Product",
+        "[button] Go -> CLICK",
+        "[region] Rating Filter -> CLICK",
+        "[link] Product Type -> CLICK",
+        "[span] Sort by -> CLICK",
+        "[option] Sort Option -> CLICK"
+      ]
+    },
+    {
+      "id": "ma2",
+      "name": "Navigate to Specific Category",
+      "website": "amazon",
+      "domain": "Shopping",
+      "subdomain": "General",
+      "sub_actions": [
+        "[button] Open Menu -> CLICK",
+        "[link] Category -> CLICK",
+        "[link] Subcategory -> CLICK"
+      ]
+    },
+    {
+      "id": "ma3",
+      "name": "Add Product to Cart or List",
+      "website": "amazon",
+      "domain": "Shopping",
+      "subdomain": "General",
+      "sub_actions": [
+        "[img] Product Image -> CLICK",
+        "[button] Add to Cart -> CLICK",
+        "[button] Add to List -> CLICK",
+        "[button] Submit -> CLICK"
+      ]
+    },
+    {
+      "id": "ma4",
+      "name": "Select Product Variant",
+      "website": "amazon",
+      "domain": "Shopping",
+      "subdomain": "General",
+      "sub_actions": [
+        "[button] Variant Option -> CLICK",
+        "[textbox] Recipient Email -> TYPE: Email",
+        "[span] Quantity -> CLICK",
+        "[option] Quantity Option -> CLICK"
+      ]
+    },
+    {
+      "id": "ma5",
+      "name": "Follow Store or Brand",
+      "website": "amazon",
+      "domain": "Shopping",
+      "subdomain": "General",
+      "sub_actions": [
+        "[link] Store or Brand -> CLICK",
+        "[button] Follow -> CLICK"
+      ]
+    }
+  ]
+}

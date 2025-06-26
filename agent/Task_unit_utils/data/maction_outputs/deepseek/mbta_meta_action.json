@@ -1,0 +1,223 @@
+{
+  "meta_actions": [
+    {
+      "id": "ma1",
+      "name": "Navigate to Transit Schedule",
+      "website": "mbta",
+      "domain": "Travel",
+      "subdomain": "Ground",
+      "sub_actions": [
+        "[tab] Schedules -> CLICK",
+        "[span] Transit Near Me -> CLICK",
+        "[input] -> TYPE: Location",
+        "[option] Location -> CLICK",
+        "[link] Go to route -> CLICK",
+        "[button] Destination -> CLICK",
+        "[menuitem] Route Option -> CLICK",
+        "[button] View schedule -> CLICK"
+      ]
+    },
+    {
+      "id": "ma2",
+      "name": "Check Service Alerts",
+      "website": "mbta",
+      "domain": "Travel",
+      "subdomain": "Ground",
+      "sub_actions": [
+        "[link] Subway Lines -> CLICK",
+        "[span] Line Name -> CLICK",
+        "[link] Alerts -> CLICK",
+        "[link] Alert Type -> CLICK"
+      ]
+    },
+    {
+      "id": "ma3",
+      "name": "Search Departures",
+      "website": "mbta",
+      "domain": "Travel",
+      "subdomain": "Ground",
+      "sub_actions": [
+        "[combobox] Search MBTA.com -> TYPE: Station Name",
+        "[button] search -> CLICK",
+        "[link] Route Option -> CLICK",
+        "[link] Go to route -> CLICK",
+        "[button] View upcoming departures -> CLICK",
+        "[combobox] Choose a direction -> SELECT: Direction",
+        "[button] Station Name -> CLICK"
+      ]
+    },
+    {
+      "id": "ma4",
+      "name": "Plan Trip",
+      "website": "mbta",
+      "domain": "Travel",
+      "subdomain": "Ground",
+      "sub_actions": [
+        "[tab] Trip Planner -> CLICK",
+        "[combobox] From -> TYPE: Location",
+        "[link] Route Option -> CLICK",
+        "[combobox] To -> TYPE: Location",
+        "[span] Location -> CLICK",
+        "[button] Get trip suggestions -> CLICK",
+        "[button] Depart at -> CLICK",
+        "[LabelText] Date Selection -> CLICK",
+        "[gridcell] Specific Date -> CLICK",
+        "[combobox] Hour -> TYPE: Time",
+        "[combobox] Minute -> TYPE: Time",
+        "[combobox] AM or PM -> SELECT: Time Period",
+        "[button] Get trip suggestions -> CLICK",
+        "[button] Show fare calculator -> CLICK"
+      ]
+    },
+    {
+      "id": "ma5",
+      "name": "View Schedule and Maps",
+      "website": "mbta",
+      "domain": "Travel",
+      "subdomain": "Ground",
+      "sub_actions": [
+        "[link] Subway Lines -> CLICK",
+        "[span] Line Name -> CLICK",
+        "[link] Schedules & Maps -> CLICK"
+      ]
+    },
+    {
+      "id": "ma6",
+      "name": "Find Ferry Information",
+      "website": "mbta",
+      "domain": "Travel",
+      "subdomain": "Ground",
+      "sub_actions": [
+        "[button] Transit -> CLICK",
+        "[link] Ferry -> CLICK",
+        "[span] Ferry Name -> CLICK",
+        "[link] Schedule & Maps -> CLICK",
+        "[button] Connections -> CLICK",
+        "[button] Fares -> CLICK",
+        "[link] Schedule PDF -> CLICK"
+      ]
+    },
+    {
+      "id": "ma7",
+      "name": "Sign Up for Job Alerts",
+      "website": "mbta",
+      "domain": "Travel",
+      "subdomain": "Ground",
+      "sub_actions": [
+        "[link] Careers -> CLICK",
+        "[link] Sign up for job posting alerts -> CLICK",
+        "[span] -> CLICK",
+        "[button] Subscribe -> CLICK",
+        "[textbox] First Name -> TYPE: Name",
+        "[textbox] Last Name -> TYPE: Name",
+        "[textbox] Email Address -> TYPE: Email",
+        "[button] Submit -> HOVER"
+      ]
+    },
+    {
+      "id": "ma8",
+      "name": "Find Fare Information",
+      "website": "mbta",
+      "domain": "Travel",
+      "subdomain": "Ground",
+      "sub_actions": [
+        "[button] Fares -> CLICK",
+        "[link] Bus Fares -> CLICK",
+        "[link] Learn more about reduced fares -> CLICK"
+      ]
+    },
+    {
+      "id": "ma9",
+      "name": "Search Commuter Rail",
+      "website": "mbta",
+      "domain": "Travel",
+      "subdomain": "Ground",
+      "sub_actions": [
+        "[link] Commuter Rail -> CLICK",
+        "[combobox] Search for a line -> TYPE: Location",
+        "[span] Location -> CLICK",
+        "[link] Go to route -> CLICK"
+      ]
+    },
+    {
+      "id": "ma10",
+      "name": "Plan Airport Trip",
+      "website": "mbta",
+      "domain": "Travel",
+      "subdomain": "Ground",
+      "sub_actions": [
+        "[tab] Trip Planner -> CLICK",
+        "[combobox] From -> TYPE: Airport",
+        "[option] Airport -> CLICK",
+        "[combobox] To -> TYPE: Destination",
+        "[link] Route Option -> CLICK",
+        "[button] Get trip suggestions -> CLICK"
+      ]
+    },
+    {
+      "id": "ma11",
+      "name": "Open Subway Schedule",
+      "website": "mbta",
+      "domain": "Travel",
+      "subdomain": "Ground",
+      "sub_actions": [
+        "[button] Transit -> CLICK",
+        "[link] Subway -> CLICK",
+        "[span] Line Name -> CLICK"
+      ]
+    },
+    {
+      "id": "ma12",
+      "name": "Check Current Alerts",
+      "website": "mbta",
+      "domain": "Travel",
+      "subdomain": "Ground",
+      "sub_actions": [
+        "[tab] Alerts -> CLICK",
+        "[link] Line Name -> CLICK",
+        "[link] Current Alerts -> CLICK"
+      ]
+    },
+    {
+      "id": "ma13",
+      "name": "Find Parking and Plan Trip",
+      "website": "mbta",
+      "domain": "Travel",
+      "subdomain": "Ground",
+      "sub_actions": [
+        "[button] Transit -> CLICK",
+        "[link] Parking -> CLICK",
+        "[link] Find Parking Lots -> CLICK",
+        "[button] Stations -> CLICK",
+        "[link] Station Name -> CLICK",
+        "[link] Plan a trip from this station -> CLICK",
+        "[combobox] To -> TYPE: Destination",
+        "[em] Destination -> CLICK",
+        "[button] Depart at -> CLICK",
+        "[LabelText] Date Selection -> CLICK",
+        "[gridcell] Specific Date -> CLICK",
+        "[combobox] Hour -> TYPE: Time",
+        "[combobox] Minute -> TYPE: Time",
+        "[combobox] AM or PM -> SELECT: Time Period",
+        "[button] Get trip suggestions -> CLICK",
+        "[button] Show map and trip details -> CLICK"
+      ]
+    },
+    {
+      "id": "ma14",
+      "name": "Calculate Fare",
+      "website": "mbta",
+      "domain": "Travel",
+      "subdomain": "Ground",
+      "sub_actions": [
+        "[button] Fares -> CLICK",
+        "[link] Fares Overview -> CLICK",
+        "[combobox] Enter a location -> TYPE: Start Location",
+        "[link] Route Option -> CLICK",
+        "[combobox] Enter a location -> TYPE: End Location",
+        "[link] Route Option -> CLICK",
+        "[button] Calculate my fare -> CLICK"
+      ]
+    }
+  ]
+}

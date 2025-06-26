@@ -1,0 +1,83 @@
+{
+  "task_units": [
+    {
+      "id": "CLUSTER29_TU1",
+      "name": "Track a bus by service number",
+      "sub_actions": [
+        "CLICK: Track my bus",
+        "CLICK: Service Number tab",
+        "TYPE: Service number",
+        "CLICK: Find my bus"
+      ]
+    },
+    {
+      "id": "CLUSTER29_TU2",
+      "name": "Find bus stop information",
+      "sub_actions": [
+        "CLICK: Explore",
+        "CLICK: Bus stops",
+        "TYPE: Location",
+        "CLICK: Specific bus stop"
+      ]
+    },
+    {
+      "id": "CLUSTER29_TU3",
+      "name": "View transit schedules and maps",
+      "sub_actions": [
+        "CLICK: Transit",
+        "CLICK: Specific line",
+        "CLICK: Schedules & Maps"
+      ]
+    },
+    {
+      "id": "CLUSTER29_TU4",
+      "name": "Check service alerts",
+      "sub_actions": [
+        "CLICK: Alerts",
+        "CLICK: Specific line",
+        "CLICK: Current or Planned Alerts"
+      ]
+    },
+    {
+      "id": "CLUSTER29_TU5",
+      "name": "Plan a trip",
+      "sub_actions": [
+        "CLICK: Trip Planner",
+        "TYPE: From location",
+        "TYPE: To location",
+        "CLICK: Get trip suggestions"
+      ]
+    },
+    {
+      "id": "CLUSTER29_TU6",
+      "name": "Find fare information",
+      "sub_actions": [
+        "CLICK: Fares & Tolls",
+        "CLICK: Specific fare type",
+        "TYPE: From location",
+        "TYPE: To location",
+        "CLICK: Calculate fare"
+      ]
+    },
+    {
+      "id": "CLUSTER29_TU7",
+      "name": "Find toll rates",
+      "sub_actions": [
+        "CLICK: Fares & Tolls",
+        "CLICK: Bridges & Tunnels",
+        "CLICK: Specific vehicle type",
+        "CLICK: Specific bridge or tunnel"
+      ]
+    },
+    {
+      "id": "CLUSTER29_TU8",
+      "name": "View transit route details",
+      "sub_actions": [
+        "CLICK: Destinations",
+        "CLICK: Specific region",
+        "CLICK: Specific route",
+        "CLICK: Specific stop"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "task_units": [
+    {
+      "id": "CLUSTER9_TU1",
+      "name": "Search for and select a specific music album",
+      "sub_actions": [
+        "TYPE: Artist or album name",
+        "CLICK: Search result matching the artist or album",
+        "CLICK: Option to purchase or view details"
+      ]
+    },
+    {
+      "id": "CLUSTER9_TU2",
+      "name": "Filter and select music items based on criteria",
+      "sub_actions": [
+        "CLICK: Marketplace or explore section",
+        "SELECT: Genre",
+        "SELECT: Country",
+        "SELECT: Format",
+        "SELECT: Release year",
+        "SELECT: Price range",
+        "SELECT: Condition",
+        "CLICK: Item matching criteria",
+        "CLICK: Add to cart or purchase option"
+      ]
+    },
+    {
+      "id": "CLUSTER9_TU3",
+      "name": "Find and interact with artist's top tracks",
+      "sub_actions": [
+        "CLICK: Search function",
+        "TYPE: Artist name",
+        "CLICK: Search result matching the artist",
+        "CLICK: Top tracks or popular tracks section",
+        "CLICK: Play or like option for a track"
+      ]
+    },
+    {
+      "id": "CLUSTER9_TU4",
+      "name": "Create and manage a music playlist",
+      "sub_actions": [
+        "CLICK: Playlist section",
+        "CLICK: Create new playlist",
+        "TYPE: Playlist name",
+        "CLICK: Add tracks option",
+        "TYPE: Track or artist name to search",
+        "CLICK: Add track to playlist",
+        "CLICK: Save playlist"
+      ]
+    },
+    {
+      "id": "CLUSTER9_TU5",
+      "name": "Search for and interact with music tabs or chords",
+      "sub_actions": [
+        "TYPE: Song or artist name",
+        "CLICK: Search result matching the song or artist",
+        "SELECT: Tab or chords option",
+        "SELECT: Difficulty level",
+        "SELECT: Tuning or other specific criteria",
+        "CLICK: High rated or popular option",
+        "CLICK: Add to favorites or playlist"
+      ]
+    },
+    {
+      "id": "CLUSTER9_TU6",
+      "name": "Follow an artist and interact with their content",
+      "sub_actions": [
+        "TYPE: Artist name",
+        "CLICK: Search result matching the artist",
+        "CLICK: Follow option",
+        "CLICK: Popular tracks or albums section",
+        "CLICK: Play or add to playlist option"
+      ]
+    },
+    {
+      "id": "CLUSTER9_TU7",
+      "name": "Explore music by genre or time period",
+      "sub_actions": [
+        "CLICK: Music or explore section",
+        "SELECT: Genre",
+        "SELECT: Time period or decade",
+        "CLICK: View albums or tracks"
+      ]
+    },
+    {
+      "id": "CLUSTER9_TU8",
+      "name": "Interact with music charts",
+      "sub_actions": [
+        "CLICK: Charts section",
+        "SELECT: Time frame (e.g., weekly, all time)",
+        "CLICK: Top artist or track",
+        "CLICK: Play or like option"
+      ]
+    },
+    {
+      "id": "CLUSTER9_TU9",
+      "name": "Search for and like or repost music content",
+      "sub_actions": [
+        "TYPE: Search term (e.g., genre, artist, album)",
+        "CLICK: Search result matching the term",
+        "CLICK: Like or repost option"
+      ]
+    },
+    {
+      "id": "CLUSTER9_TU10",
+      "name": "Filter music search results",
+      "sub_actions": [
+        "CLICK: Search or tabs section",
+        "SELECT: Filter criteria (e.g., difficulty, type, time period)",
+        "CLICK: Apply filters"
+      ]
+    }
+  ]
+}

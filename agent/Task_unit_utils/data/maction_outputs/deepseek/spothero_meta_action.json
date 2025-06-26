@@ -1,0 +1,122 @@
+{
+  "meta_actions": [
+    {
+      "id": "ma1",
+      "name": "Search for Parking Location",
+      "website": "spothero",
+      "domain": "Travel",
+      "subdomain": "Other",
+      "sub_actions": [
+        "[textbox] Search for parking -> TYPE: Location",
+        "[li] Location -> CLICK"
+      ]
+    },
+    {
+      "id": "ma2",
+      "name": "Filter Parking Options",
+      "website": "spothero",
+      "domain": "Travel",
+      "subdomain": "Other",
+      "sub_actions": [
+        "[button] Filter -> CLICK",
+        "[checkbox] Filter Option -> CLICK",
+        "[button] Show Results -> CLICK"
+      ]
+    },
+    {
+      "id": "ma3",
+      "name": "Sort Parking Options",
+      "website": "spothero",
+      "domain": "Travel",
+      "subdomain": "Other",
+      "sub_actions": [
+        "[select] Sort by -> SELECT: Sort Option"
+      ]
+    },
+    {
+      "id": "ma4",
+      "name": "Select Parking Dates and Times",
+      "website": "spothero",
+      "domain": "Travel",
+      "subdomain": "Other",
+      "sub_actions": [
+        "[textbox] Start Date -> CLICK",
+        "[gridcell] Date -> CLICK",
+        "[combobox] Start Time -> SELECT: Time",
+        "[combobox] End Time -> SELECT: Time",
+        "[button] Update Search -> CLICK"
+      ]
+    },
+    {
+      "id": "ma5",
+      "name": "View Parking Details",
+      "website": "spothero",
+      "domain": "Travel",
+      "subdomain": "Other",
+      "sub_actions": [
+        "[button] View Details -> CLICK"
+      ]
+    },
+    {
+      "id": "ma6",
+      "name": "Book Parking",
+      "website": "spothero",
+      "domain": "Travel",
+      "subdomain": "Other",
+      "sub_actions": [
+        "[button] Book Now -> CLICK"
+      ]
+    },
+    {
+      "id": "ma7",
+      "name": "Navigate to Specific Parking Type",
+      "website": "spothero",
+      "domain": "Travel",
+      "subdomain": "Other",
+      "sub_actions": [
+        "[tab] Parking Type -> CLICK"
+      ]
+    },
+    {
+      "id": "ma8",
+      "name": "Submit Parking Space for Rent",
+      "website": "spothero",
+      "domain": "Travel",
+      "subdomain": "Other",
+      "sub_actions": [
+        "[link] Rent My Parking Space -> CLICK",
+        "[textbox] First Name * -> TYPE: Name",
+        "[textbox] Last Name * -> TYPE: Name",
+        "[textbox] Email * -> TYPE: Email",
+        "[textbox] Phone * -> TYPE: Phone",
+        "[combobox] Market: * -> SELECT: Market",
+        "[textbox] Spot Address: * -> TYPE: Address",
+        "[button] Submit -> HOVER"
+      ]
+    },
+    {
+      "id": "ma9",
+      "name": "Search for Airport Parking",
+      "website": "spothero",
+      "domain": "Travel",
+      "subdomain": "Other",
+      "sub_actions": [
+        "[tab] Airport -> CLICK",
+        "[searchbox] Airport Name, Code or City -> TYPE: Airport",
+        "[li] Airport -> CLICK"
+      ]
+    },
+    {
+      "id": "ma10",
+      "name": "Download Guide",
+      "website": "spothero",
+      "domain": "Travel",
+      "subdomain": "Other",
+      "sub_actions": [
+        "[p] About -> HOVER",
+        "[link] SpotHero for Business -> CLICK",
+        "[button] Download Guide -> CLICK"
+      ]
+    }
+  ]
+}

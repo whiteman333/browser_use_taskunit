@@ -1,0 +1,91 @@
+{
+  "meta_actions": [
+    {
+      "id": "MA1",
+      "name": "Navigate to Job Search",
+      "website": "budget",
+      "domain": "Travel",
+      "subdomain": "Car rental",
+      "sub_actions": [
+        "[link] Careers -> CLICK",
+        "[link] Openings -> CLICK",
+        "[button] Country -> CLICK",
+        "[searchbox] Search -> CLICK",
+        "[option] United States of America -> CLICK",
+        "[button] Team -> CLICK",
+        "[searchbox] Search -> CLICK",
+        "[option] Finance -> CLICK",
+        "[button] Time Type -> CLICK",
+        "[searchbox] Search -> CLICK",
+        "[option] Full time -> CLICK",
+        "[button] SEARCH BY JOB TITLE OR KEYWORD -> CLICK"
+      ]
+    },
+    {
+      "id": "MA2",
+      "name": "Search for Luxury Car Rental",
+      "website": "budget",
+      "domain": "Travel",
+      "subdomain": "Car rental",
+      "sub_actions": [
+        "[link] Luxury Car Rental -> CLICK",
+        "[textbox] Enter your pick-up location or zip code -> TYPE: Location",
+        "[textbox] Enter your pick-up location or zip code -> ENTER",
+        "[link] Close -> CLICK",
+        "[div] Sort by: -> CLICK",
+        "[link] Price (Low to High) -> CLICK"
+      ]
+    },
+    {
+      "id": "MA3",
+      "name": "Book Long-Term Car Rental",
+      "website": "budget",
+      "domain": "Travel",
+      "subdomain": "Car rental",
+      "sub_actions": [
+        "[link] Long-Term Car Rental -> CLICK",
+        "[textbox] Enter your pick-up location or zip code -> TYPE: Location",
+        "[span] Location -> CLICK",
+        "[textbox] mm/dd/yyyy -> CLICK",
+        "[link] Date -> CLICK",
+        "[link] Date -> CLICK",
+        "[combobox] Pick Up Time -> SELECT: Time",
+        "[combobox] Return Time -> SELECT: Time",
+        "[button] Select My Car -> CLICK",
+        "[link] Recommended -> CLICK",
+        "[link] Price (Low to High) -> CLICK",
+        "[link] Pay Now -> CLICK",
+        "[checkbox] Option -> CLICK",
+        "[checkbox] Option -> CLICK",
+        "[checkbox] Option -> CLICK",
+        "[button] Continue -> CLICK"
+      ]
+    },
+    {
+      "id": "MA4",
+      "name": "View Product Information",
+      "website": "budget",
+      "domain": "Travel",
+      "subdomain": "Car rental",
+      "sub_actions": [
+        "[button] Cars & Services -> CLICK",
+        "[link] Products & Services -> CLICK",
+        "[div] Learn More -> CLICK",
+        "[div] Learn More -> CLICK",
+        "[link] click here -> HOVER"
+      ]
+    },
+    {
+      "id": "MA5",
+      "name": "Explore Partner Deals",
+      "website": "budget",
+      "domain": "Travel",
+      "subdomain": "Car rental",
+      "sub_actions": [
+        "[button] Deals -> CLICK",
+        "[link] Partner Deals -> CLICK",
+        "[button] Learn More -> CLICK"
+      ]
+    }
+  ]
+}

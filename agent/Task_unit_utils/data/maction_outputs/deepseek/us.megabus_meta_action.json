@@ -1,0 +1,94 @@
+{
+  "meta_actions": [
+    {
+      "id": "ma1",
+      "name": "Track Bus by Service Number",
+      "website": "us.megabus",
+      "domain": "Travel",
+      "subdomain": "Ground",
+      "sub_actions": [
+        "[button] Check my bus -> CLICK",
+        "[link] Track my bus -> CLICK",
+        "[tab] Service Number -> CLICK",
+        "[combobox] Search by Service Number -> TYPE: ServiceNumber",
+        "[combobox] Search by Service Number -> ENTER"
+      ]
+    },
+    {
+      "id": "ma2",
+      "name": "Search Bus Tickets by Location and Date",
+      "website": "us.megabus",
+      "domain": "Travel",
+      "subdomain": "Ground",
+      "sub_actions": [
+        "[textbox] From -> TYPE: Location",
+        "[span] Location -> CLICK",
+        "[textbox] To -> TYPE: Location",
+        "[span] Location -> CLICK",
+        "[input] -> CLICK",
+        "[gridcell] Date -> CLICK",
+        "[button] Find tickets -> CLICK"
+      ]
+    },
+    {
+      "id": "ma3",
+      "name": "Add Tickets to Basket",
+      "website": "us.megabus",
+      "domain": "Travel",
+      "subdomain": "Ground",
+      "sub_actions": [
+        "[textbox] From -> TYPE: Location",
+        "[span] Location -> CLICK",
+        "[textbox] To -> TYPE: Location",
+        "[span] Location -> CLICK",
+        "[textbox] Pick a date -> CLICK",
+        "[gridcell] Date -> CLICK",
+        "[button] Find tickets -> CLICK",
+        "[button] Add to basket -> CLICK"
+      ]
+    },
+    {
+      "id": "ma4",
+      "name": "Find Bus Stop Information",
+      "website": "us.megabus",
+      "domain": "Travel",
+      "subdomain": "Ground",
+      "sub_actions": [
+        "[button] Explore -> CLICK",
+        "[link] Bus stops -> CLICK",
+        "[button] Location -> CLICK",
+        "[button] Bus stop detail -> CLICK"
+      ]
+    },
+    {
+      "id": "ma5",
+      "name": "Search Route Map",
+      "website": "us.megabus",
+      "domain": "Travel",
+      "subdomain": "Ground",
+      "sub_actions": [
+        "[button] Explore -> CLICK",
+        "[link] Route map -> CLICK",
+        "[textbox] Pick an origin -> TYPE: Location",
+        "[span] Location -> CLICK",
+        "[textbox] Enter a destination -> TYPE: Location",
+        "[span] Location -> CLICK",
+        "[button] Search -> CLICK",
+        "[input] -> CLICK",
+        "[gridcell] Date -> CLICK",
+        "[button] Find tickets -> CLICK"
+      ]
+    },
+    {
+      "id": "ma6",
+      "name": "Find Cancellation Policy",
+      "website": "us.megabus",
+      "domain": "Travel",
+      "subdomain": "Ground",
+      "sub_actions": [
+        "[link] Help -> CLICK",
+        "[button] Cancellation policy -> CLICK"
+      ]
+    }
+  ]
+}

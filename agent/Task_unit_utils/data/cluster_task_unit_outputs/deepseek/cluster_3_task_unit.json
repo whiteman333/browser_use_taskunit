@@ -1,0 +1,62 @@
+{
+  "task_units": [
+    {
+      "id": "CLUSTER3_TU1",
+      "name": "Explore deals and promotions",
+      "sub_actions": [
+        "CLICK: Deals or Promotions section",
+        "SELECT: Specific deal or promotion category",
+        "VIEW: Details of selected deal or promotion"
+      ]
+    },
+    {
+      "id": "CLUSTER3_TU2",
+      "name": "Access account or order information",
+      "sub_actions": [
+        "CLICK: Account or Order Status section",
+        "TYPE: Order number or account identifier",
+        "TYPE: Email or phone number associated with the account",
+        "CLICK: Submit or search button"
+      ]
+    },
+    {
+      "id": "CLUSTER3_TU3",
+      "name": "Browse products or services with specific filters",
+      "sub_actions": [
+        "CLICK: Category or section of interest",
+        "SELECT: Filter options (e.g., price range, size, stock status)",
+        "VIEW: Filtered products or services"
+      ]
+    },
+    {
+      "id": "CLUSTER3_TU4",
+      "name": "Search for information or assistance",
+      "sub_actions": [
+        "CLICK: Help or FAQ section",
+        "TYPE: Search query related to the issue",
+        "SELECT: Relevant help topic or question",
+        "VIEW: Information or solution provided"
+      ]
+    },
+    {
+      "id": "CLUSTER3_TU5",
+      "name": "Manage orders (cancel, refund, track)",
+      "sub_actions": [
+        "CLICK: Order management section",
+        "TYPE: Order details (number, name, email)",
+        "SELECT: Action (cancel, refund, track)",
+        "TYPE: Additional required information",
+        "CLICK: Submit request"
+      ]
+    },
+    {
+      "id": "CLUSTER3_TU6",
+      "name": "Save or bookmark deals",
+      "sub_actions": [
+        "CLICK: Deals section",
+        "SELECT: Deal of interest",
+        "CLICK: Save or bookmark option"
+      ]
+    }
+  ]
+}

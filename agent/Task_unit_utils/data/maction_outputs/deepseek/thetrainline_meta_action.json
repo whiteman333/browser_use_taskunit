@@ -1,0 +1,127 @@
+{
+  "meta_actions": [
+    {
+      "id": "ma1",
+      "name": "Select Departure and Arrival Stations",
+      "website": "thetrainline",
+      "domain": "Travel",
+      "subdomain": "Ground",
+      "sub_actions": [
+        "[combobox] Departure station -> TYPE: Location",
+        "[span] Location -> CLICK",
+        "[combobox] Arrival station -> TYPE: Location",
+        "[span] Location -> CLICK"
+      ]
+    },
+    {
+      "id": "ma2",
+      "name": "Select Travel Date and Time",
+      "website": "thetrainline",
+      "domain": "Travel",
+      "subdomain": "Ground",
+      "sub_actions": [
+        "[textbox] Date -> CLICK",
+        "[link] Day -> CLICK",
+        "[listbox] hour -> SELECT: Time",
+        "[listbox] minutes -> SELECT: Time"
+      ]
+    },
+    {
+      "id": "ma3",
+      "name": "Select Number of Passengers and Passenger Details",
+      "website": "thetrainline",
+      "domain": "Travel",
+      "subdomain": "Ground",
+      "sub_actions": [
+        "[listbox] select adults -> SELECT: Number",
+        "[listbox] select children -> SELECT: Number",
+        "[listbox] select child age -> SELECT: Age Range",
+        "[button] Done -> CLICK"
+      ]
+    },
+    {
+      "id": "ma4",
+      "name": "Search for Tickets",
+      "website": "thetrainline",
+      "domain": "Travel",
+      "subdomain": "Ground",
+      "sub_actions": [
+        "[button] Get cheapest tickets -> CLICK"
+      ]
+    },
+    {
+      "id": "ma5",
+      "name": "Navigate to Specific Information or Section",
+      "website": "thetrainline",
+      "domain": "Travel",
+      "subdomain": "Ground",
+      "sub_actions": [
+        "[img] Menu -> CLICK",
+        "[menuitem] Section -> CLICK",
+        "[link] Information -> CLICK"
+      ]
+    },
+    {
+      "id": "ma6",
+      "name": "Select Seat Preferences",
+      "website": "thetrainline",
+      "domain": "Travel",
+      "subdomain": "Ground",
+      "sub_actions": [
+        "[listbox] Direction -> SELECT: Direction",
+        "[listbox] Position -> SELECT: Position",
+        "[div] Seat -> CLICK",
+        "[span] Continue -> CLICK"
+      ]
+    },
+    {
+      "id": "ma7",
+      "name": "Add Railcard",
+      "website": "thetrainline",
+      "domain": "Travel",
+      "subdomain": "Ground",
+      "sub_actions": [
+        "[button] Add railcard -> CLICK",
+        "[listbox] Select railcard -> SELECT: Railcard Type",
+        "[button] Done -> CLICK"
+      ]
+    },
+    {
+      "id": "ma8",
+      "name": "Confirm and Continue Booking",
+      "website": "thetrainline",
+      "domain": "Travel",
+      "subdomain": "Ground",
+      "sub_actions": [
+        "[button] Continue -> CLICK",
+        "[button] Confirm Seats -> CLICK",
+        "[button] Continue -> CLICK"
+      ]
+    },
+    {
+      "id": "ma9",
+      "name": "Change Language or Currency",
+      "website": "thetrainline",
+      "domain": "Travel",
+      "subdomain": "Ground",
+      "sub_actions": [
+        "[svg] Settings -> CLICK",
+        "[combobox] Language -> SELECT: Language",
+        "[svg] Settings -> CLICK",
+        "[combobox] Currency -> SELECT: Currency"
+      ]
+    },
+    {
+      "id": "ma10",
+      "name": "Select Railcard Options Based on User Profile",
+      "website": "thetrainline",
+      "domain": "Travel",
+      "subdomain": "Ground",
+      "sub_actions": [
+        "[combobox] How old are you? -> SELECT: Age Range",
+        "[combobox] Who do you usually travel with? -> SELECT: Travel Companion",
+        "[combobox] Do you travel within London and the South East? -> SELECT: Yes/No"
+      ]
+    }
+  ]
+}

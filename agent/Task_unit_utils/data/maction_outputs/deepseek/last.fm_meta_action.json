@@ -1,0 +1,123 @@
+{
+  "meta_actions": [
+    {
+      "id": "ma1",
+      "name": "Search for Artist",
+      "website": "last.fm",
+      "domain": "Entertainment",
+      "subdomain": "Music",
+      "sub_actions": [
+        "[link] Search -> CLICK",
+        "[textbox] Search -> TYPE: Artist",
+        "[button] Search -> CLICK"
+      ]
+    },
+    {
+      "id": "ma2",
+      "name": "Navigate to Genre",
+      "website": "last.fm",
+      "domain": "Entertainment",
+      "subdomain": "Music",
+      "sub_actions": [
+        "[link] Music -> CLICK",
+        "[link] Genre -> CLICK"
+      ]
+    },
+    {
+      "id": "ma3",
+      "name": "View Artist Tracks",
+      "website": "last.fm",
+      "domain": "Entertainment",
+      "subdomain": "Music",
+      "sub_actions": [
+        "[link] Artist -> CLICK",
+        "[button] Play all -> CLICK"
+      ]
+    },
+    {
+      "id": "ma4",
+      "name": "Like Track",
+      "website": "last.fm",
+      "domain": "Entertainment",
+      "subdomain": "Music",
+      "sub_actions": [
+        "[button] Love this track -> CLICK"
+      ]
+    },
+    {
+      "id": "ma5",
+      "name": "Play Track",
+      "website": "last.fm",
+      "domain": "Entertainment",
+      "subdomain": "Music",
+      "sub_actions": [
+        "[link] Play track -> CLICK"
+      ]
+    },
+    {
+      "id": "ma6",
+      "name": "Navigate to Charts",
+      "website": "last.fm",
+      "domain": "Entertainment",
+      "subdomain": "Music",
+      "sub_actions": [
+        "[link] Charts -> CLICK",
+        "[link] Chart Type -> CLICK"
+      ]
+    },
+    {
+      "id": "ma7",
+      "name": "Create Playlist",
+      "website": "last.fm",
+      "domain": "Entertainment",
+      "subdomain": "Music",
+      "sub_actions": [
+        "[img] User -> CLICK",
+        "[link] Playlists -> CLICK",
+        "[link] NEW PLAYLIST -> CLICK",
+        "[button] START FROM SCRATCH -> CLICK",
+        "[h1] Playlist Name -> TYPE: Playlist Name",
+        "[button] ADD TRACK -> CLICK",
+        "[textbox] Search -> TYPE: Artist",
+        "[button] Search -> CLICK",
+        "[button] Add -> CLICK"
+      ]
+    },
+    {
+      "id": "ma8",
+      "name": "Find Events",
+      "website": "last.fm",
+      "domain": "Entertainment",
+      "subdomain": "Music",
+      "sub_actions": [
+        "[link] Events -> CLICK",
+        "[button] Near you -> CLICK",
+        "[textbox] Location search -> TYPE: Location",
+        "[span] Location -> CLICK",
+        "[button] APPLY -> CLICK"
+      ]
+    },
+    {
+      "id": "ma9",
+      "name": "Bookmark Artist",
+      "website": "last.fm",
+      "domain": "Entertainment",
+      "subdomain": "Music",
+      "sub_actions": [
+        "[button] BOOKMARK -> CLICK",
+        "[button] OKAY -> CLICK"
+      ]
+    },
+    {
+      "id": "ma10",
+      "name": "Set Track as Current Obsession",
+      "website": "last.fm",
+      "domain": "Entertainment",
+      "subdomain": "Music",
+      "sub_actions": [
+        "[button] More -> CLICK",
+        "[button] Set track as current obsession -> CLICK"
+      ]
+    }
+  ]
+}

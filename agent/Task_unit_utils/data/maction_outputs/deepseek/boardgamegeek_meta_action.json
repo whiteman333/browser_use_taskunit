@@ -1,0 +1,140 @@
+{
+  "meta_actions": [
+    {
+      "id": "ma1",
+      "name": "Navigate to Section",
+      "website": "boardgamegeek",
+      "domain": "Entertainment",
+      "subdomain": "Game",
+      "sub_actions": [
+        "[button] Browse -> CLICK",
+        "[link] Publishers -> CLICK"
+      ]
+    },
+    {
+      "id": "ma2",
+      "name": "Search and View Game Details",
+      "website": "boardgamegeek",
+      "domain": "Entertainment",
+      "subdomain": "Game",
+      "sub_actions": [
+        "[combobox] Search -> TYPE: Game Title",
+        "[link] Game Title (Year) -> CLICK",
+        "[div] 'Complexity' Rating -> CLICK"
+      ]
+    },
+    {
+      "id": "ma3",
+      "name": "Search and View Game Ratings",
+      "website": "boardgamegeek",
+      "domain": "Entertainment",
+      "subdomain": "Game",
+      "sub_actions": [
+        "[combobox] Search -> TYPE: Game Title",
+        "[link] Game Title (Year) -> CLICK",
+        "[tab] Ratings -> CLICK"
+      ]
+    },
+    {
+      "id": "ma4",
+      "name": "Navigate to Shopping Section",
+      "website": "boardgamegeek",
+      "domain": "Entertainment",
+      "subdomain": "Game",
+      "sub_actions": [
+        "[button] Shopping -> CLICK",
+        "[link] BGG Store -> CLICK",
+        "[link] Clothing -> CLICK",
+        "[link] Shirts and Hoodies -> CLICK"
+      ]
+    },
+    {
+      "id": "ma5",
+      "name": "View Recent Trades",
+      "website": "boardgamegeek",
+      "domain": "Entertainment",
+      "subdomain": "Game",
+      "sub_actions": [
+        "[button] Shopping -> CLICK",
+        "[link] Trades -> CLICK",
+        "[link] Recent Trades -> CLICK"
+      ]
+    },
+    {
+      "id": "ma6",
+      "name": "Add Game to Collection",
+      "website": "boardgamegeek",
+      "domain": "Entertainment",
+      "subdomain": "Game",
+      "sub_actions": [
+        "[combobox] Search -> TYPE: Game Title",
+        "[svg] -> CLICK",
+        "[link] Game Title -> CLICK",
+        "[button] Add To Collection -> CLICK",
+        "[button] Save -> CLICK"
+      ]
+    },
+    {
+      "id": "ma7",
+      "name": "Purchase Top Ranked Game",
+      "website": "boardgamegeek",
+      "domain": "Entertainment",
+      "subdomain": "Game",
+      "sub_actions": [
+        "[button] Browse -> CLICK",
+        "[link] All Boardgames -> CLICK",
+        "[link] Game Title -> CLICK",
+        "[span] Game Title (Edition) -> CLICK",
+        "[link] Message -> CLICK"
+      ]
+    },
+    {
+      "id": "ma8",
+      "name": "Send Message to User",
+      "website": "boardgamegeek",
+      "domain": "Entertainment",
+      "subdomain": "Game",
+      "sub_actions": [
+        "[button] Community -> CLICK",
+        "[link] Find Users -> CLICK",
+        "[link] User Search -> CLICK",
+        "[textbox] Enter First name, last name, and/or username: -> TYPE: User Name",
+        "[button] Go -> CLICK",
+        "[img] msg -> CLICK"
+      ]
+    },
+    {
+      "id": "ma9",
+      "name": "Access Help Section",
+      "website": "boardgamegeek",
+      "domain": "Entertainment",
+      "subdomain": "Game",
+      "sub_actions": [
+        "[button] Help -> CLICK",
+        "[link] Guide to BGG -> CLICK",
+        "[link] Submit game listings -> CLICK"
+      ]
+    },
+    {
+      "id": "ma10",
+      "name": "Search and Purchase Game with Filters",
+      "website": "boardgamegeek",
+      "domain": "Entertainment",
+      "subdomain": "Game",
+      "sub_actions": [
+        "[button] Shopping -> CLICK",
+        "[link] GeekMarket -> CLICK",
+        "[combobox] Search Board Games... -> TYPE: Game Title",
+        "[link] Game Title -> CLICK",
+        "[button] Sort: Recently Added -> CLICK",
+        "[link] Price (lowest first) -> CLICK",
+        "[button] Add Filter -> CLICK",
+        "[link] Ship Location -> CLICK",
+        "[button] Ship Location: Any -> CLICK",
+        "[link] Country -> CLICK",
+        "[link] Game Title -> CLICK",
+        "[button] Message -> CLICK"
+      ]
+    }
+  ]
+}

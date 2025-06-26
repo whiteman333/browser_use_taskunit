@@ -1,0 +1,111 @@
+{
+  "meta_actions": [
+    {
+      "id": "ma1",
+      "name": "Navigate to League Section",
+      "website": "sports.yahoo",
+      "domain": "Entertainment",
+      "subdomain": "Sports",
+      "sub_actions": [
+        "[link] League -> CLICK"
+      ]
+    },
+    {
+      "id": "ma2",
+      "name": "Access Standings or Stats",
+      "website": "sports.yahoo",
+      "domain": "Entertainment",
+      "subdomain": "Sports",
+      "sub_actions": [
+        "[link] Standings -> CLICK",
+        "[link] Stats -> CLICK"
+      ]
+    },
+    {
+      "id": "ma3",
+      "name": "Search for Team or Player",
+      "website": "sports.yahoo",
+      "domain": "Entertainment",
+      "subdomain": "Sports",
+      "sub_actions": [
+        "[combobox] Search query -> TYPE: Team or Player",
+        "[img] Team or Player -> CLICK"
+      ]
+    },
+    {
+      "id": "ma4",
+      "name": "Access Team Information",
+      "website": "sports.yahoo",
+      "domain": "Entertainment",
+      "subdomain": "Sports",
+      "sub_actions": [
+        "[link] Teams -> CLICK",
+        "[link] Team Name -> CLICK"
+      ]
+    },
+    {
+      "id": "ma5",
+      "name": "Access Injury Reports",
+      "website": "sports.yahoo",
+      "domain": "Entertainment",
+      "subdomain": "Sports",
+      "sub_actions": [
+        "[link] Injuries -> CLICK"
+      ]
+    },
+    {
+      "id": "ma6",
+      "name": "Access Game Schedules or Results",
+      "website": "sports.yahoo",
+      "domain": "Entertainment",
+      "subdomain": "Sports",
+      "sub_actions": [
+        "[link] Scores/Schedules -> CLICK",
+        "[link] Next day -> CLICK"
+      ]
+    },
+    {
+      "id": "ma7",
+      "name": "Access Fantasy Sports Options",
+      "website": "sports.yahoo",
+      "domain": "Entertainment",
+      "subdomain": "Sports",
+      "sub_actions": [
+        "[link] Fantasy -> CLICK",
+        "[link] Fantasy Sport -> CLICK",
+        "[link] Leaders -> CLICK"
+      ]
+    },
+    {
+      "id": "ma8",
+      "name": "Share Content on Social Media",
+      "website": "sports.yahoo",
+      "domain": "Entertainment",
+      "subdomain": "Sports",
+      "sub_actions": [
+        "[button] Social media share article menu -> CLICK",
+        "[link] Share article on Social Media -> CLICK"
+      ]
+    },
+    {
+      "id": "ma9",
+      "name": "Follow Team",
+      "website": "sports.yahoo",
+      "domain": "Entertainment",
+      "subdomain": "Sports",
+      "sub_actions": [
+        "[button] Follow team -> CLICK"
+      ]
+    },
+    {
+      "id": "ma10",
+      "name": "Access Team Roster",
+      "website": "sports.yahoo",
+      "domain": "Entertainment",
+      "subdomain": "Sports",
+      "sub_actions": [
+        "[link] Roster -> CLICK"
+      ]
+    }
+  ]
+}

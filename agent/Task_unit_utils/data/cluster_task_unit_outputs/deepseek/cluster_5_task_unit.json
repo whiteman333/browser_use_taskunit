@@ -1,0 +1,89 @@
+{
+  "task_units": [
+    {
+      "id": "CLUSTER5_TU1",
+      "name": "Filter and select clothing items by category, size, and color",
+      "sub_actions": [
+        "SELECT: Category",
+        "SELECT: Subcategory",
+        "SELECT: Size",
+        "SELECT: Color",
+        "CLICK: Apply filters"
+      ]
+    },
+    {
+      "id": "CLUSTER5_TU2",
+      "name": "Search for specific items using keywords",
+      "sub_actions": [
+        "TYPE: Search keyword",
+        "CLICK: Search button"
+      ]
+    },
+    {
+      "id": "CLUSTER5_TU3",
+      "name": "Sort items by price, popularity, or new arrivals",
+      "sub_actions": [
+        "SELECT: Sort option",
+        "CLICK: Apply sort"
+      ]
+    },
+    {
+      "id": "CLUSTER5_TU4",
+      "name": "Add items to cart or wishlist",
+      "sub_actions": [
+        "CLICK: Add to cart",
+        "CLICK: Add to wishlist"
+      ]
+    },
+    {
+      "id": "CLUSTER5_TU5",
+      "name": "Navigate to checkout or view cart",
+      "sub_actions": [
+        "CLICK: View cart",
+        "CLICK: Proceed to checkout"
+      ]
+    },
+    {
+      "id": "CLUSTER5_TU6",
+      "name": "Filter items by price range",
+      "sub_actions": [
+        "SELECT: Price range",
+        "CLICK: Apply price filter"
+      ]
+    },
+    {
+      "id": "CLUSTER5_TU7",
+      "name": "Select delivery or pickup options",
+      "sub_actions": [
+        "SELECT: Delivery option",
+        "TYPE: Location for pickup",
+        "CLICK: Confirm pickup location"
+      ]
+    },
+    {
+      "id": "CLUSTER5_TU8",
+      "name": "Browse new arrivals or best sellers",
+      "sub_actions": [
+        "CLICK: New arrivals",
+        "CLICK: Best sellers"
+      ]
+    },
+    {
+      "id": "CLUSTER5_TU9",
+      "name": "View product details or size guide",
+      "sub_actions": [
+        "CLICK: Product",
+        "CLICK: Size guide"
+      ]
+    },
+    {
+      "id": "CLUSTER5_TU10",
+      "name": "Filter items by rating or condition",
+      "sub_actions": [
+        "SELECT: Rating filter",
+        "SELECT: Condition filter",
+        "CLICK: Apply filters"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "meta_actions": [
+    {
+      "id": "MA1",
+      "name": "Search for Theatres by Location",
+      "website": "amctheatres",
+      "domain": "Entertainment",
+      "subdomain": "Movie",
+      "sub_actions": [
+        "[link] Visit the Our Theatres page -> CLICK",
+        "[link] Find a Theatre -> CLICK",
+        "[textbox] Find A Theatre -> TYPE: ZipCode",
+        "[generic] Submit Search -> CLICK"
+      ]
+    },
+    {
+      "id": "MA2",
+      "name": "Explore Movie Details",
+      "website": "amctheatres",
+      "domain": "Entertainment",
+      "subdomain": "Movie",
+      "sub_actions": [
+        "[img] movie poster for MovieTitle -> CLICK",
+        "[link] get tickets for MovieTitle -> CLICK"
+      ]
+    },
+    {
+      "id": "MA3",
+      "name": "Change Theatre Location",
+      "website": "amctheatres",
+      "domain": "Entertainment",
+      "subdomain": "Movie",
+      "sub_actions": [
+        "[select] CurrentTheatre -> SELECT: Change Location...",
+        "[textbox] Search by City, Zip or Theatre -> TYPE: Location",
+        "[generic] Submit Search -> CLICK"
+      ]
+    },
+    {
+      "id": "MA4",
+      "name": "View Food & Drinks Menu",
+      "website": "amctheatres",
+      "domain": "Entertainment",
+      "subdomain": "Movie",
+      "sub_actions": [
+        "[link] Visit the Food & Drinks page -> CLICK",
+        "[link] Explore Menu -> CLICK",
+        "[link] View Full Menu -> CLICK"
+      ]
+    },
+    {
+      "id": "MA5",
+      "name": "Order Food & Drinks",
+      "website": "amctheatres",
+      "domain": "Entertainment",
+      "subdomain": "Movie",
+      "sub_actions": [
+        "[link] Visit the Food & Drinks page -> HOVER",
+        "[link] Order Food & Drinks -> CLICK",
+        "[select] TheatreName -> SELECT: TheatreName",
+        "[button] Order Now -> CLICK",
+        "[img] ItemImage -> CLICK",
+        "[button] Select -> CLICK",
+        "[div] ItemOption -> CLICK",
+        "[button] Add to Order -> CLICK"
+      ]
+    },
+    {
+      "id": "MA6",
+      "name": "Browse On Demand Content",
+      "website": "amctheatres",
+      "domain": "Entertainment",
+      "subdomain": "Movie",
+      "sub_actions": [
+        "[link] Visit the On Demand page -> CLICK",
+        "[link] ContentCategory -> CLICK"
+      ]
+    },
+    {
+      "id": "MA7",
+      "name": "Check Gift Card Balance",
+      "website": "amctheatres",
+      "domain": "Entertainment",
+      "subdomain": "Movie",
+      "sub_actions": [
+        "[link] Visit the Gift Cards page -> CLICK",
+        "[link] Check Balance -> CLICK",
+        "[spinbutton] Gift Card Number -> TYPE: CardNumber",
+        "[spinbutton] Gift Card Pin -> TYPE: Pin",
+        "[button] Search -> CLICK"
+      ]
+    },
+    {
+      "id": "MA8",
+      "name": "Rent On Demand Movie",
+      "website": "amctheatres",
+      "domain": "Entertainment",
+      "subdomain": "Movie",
+      "sub_actions": [
+        "[img] movie poster for MovieTitle -> CLICK",
+        "[button] Rent from Price -> CLICK",
+        "[option] Rent -> CLICK"
+      ]
+    },
+    {
+      "id": "MA9",
+      "name": "Select Movie Showtime and Seats",
+      "website": "amctheatres",
+      "domain": "Entertainment",
+      "subdomain": "Movie",
+      "sub_actions": [
+        "[select] TheatreName -> SELECT: TheatreName",
+        "[select] All Movies -> SELECT: MovieTitle",
+        "[select] Date -> SELECT: Date",
+        "[link] Showtime -> CLICK",
+        "[text] SeatNumber -> CLICK",
+        "[svg] ConfirmSelection -> CLICK"
+      ]
+    }
+  ]
+}

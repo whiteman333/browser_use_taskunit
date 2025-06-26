@@ -1,0 +1,90 @@
+{
+  "task_units": [
+    {
+      "id": "CLUSTER8_TU1",
+      "name": "Navigate to sports league section",
+      "sub_actions": [
+        "CLICK on sports domain link",
+        "CLICK on specific league link"
+      ]
+    },
+    {
+      "id": "CLUSTER8_TU2",
+      "name": "Find standings or stats for a sports league",
+      "sub_actions": [
+        "HOVER over league link",
+        "CLICK on standings or stats link"
+      ]
+    },
+    {
+      "id": "CLUSTER8_TU3",
+      "name": "Search for team or player information",
+      "sub_actions": [
+        "CLICK on search functionality",
+        "TYPE: Team or player name",
+        "CLICK on search result"
+      ]
+    },
+    {
+      "id": "CLUSTER8_TU4",
+      "name": "View team schedule or fixtures",
+      "sub_actions": [
+        "CLICK on team link",
+        "CLICK on schedule or fixtures link",
+        "SELECT: Specific competition or date"
+      ]
+    },
+    {
+      "id": "CLUSTER8_TU5",
+      "name": "Check scores or results of games",
+      "sub_actions": [
+        "CLICK on scores link",
+        "SELECT: Specific date or league",
+        "CLICK on game result"
+      ]
+    },
+    {
+      "id": "CLUSTER8_TU6",
+      "name": "Find player statistics or profile",
+      "sub_actions": [
+        "CLICK on players link",
+        "CLICK on specific player",
+        "CLICK on stats or profile link"
+      ]
+    },
+    {
+      "id": "CLUSTER8_TU7",
+      "name": "Browse sports news or videos",
+      "sub_actions": [
+        "CLICK on news or videos link",
+        "CLICK on specific news item or video"
+      ]
+    },
+    {
+      "id": "CLUSTER8_TU8",
+      "name": "Find event tickets or parking passes",
+      "sub_actions": [
+        "CLICK on tickets link",
+        "TYPE: Event or team name",
+        "CLICK on specific ticket or parking pass option"
+      ]
+    },
+    {
+      "id": "CLUSTER8_TU9",
+      "name": "Follow a team or player",
+      "sub_actions": [
+        "CLICK on team or player link",
+        "CLICK on follow button"
+      ]
+    },
+    {
+      "id": "CLUSTER8_TU10",
+      "name": "Check odds for sports events",
+      "sub_actions": [
+        "CLICK on odds link",
+        "SELECT: Specific league or event",
+        "CLICK on specific game odds"
+      ]
+    }
+  ]
+}

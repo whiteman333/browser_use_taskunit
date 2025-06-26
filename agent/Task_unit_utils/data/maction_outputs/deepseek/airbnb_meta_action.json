@@ -1,0 +1,90 @@
+{
+  "meta_actions": [
+    {
+      "id": "ma1",
+      "name": "Set Price Range",
+      "website": "airbnb",
+      "domain": "Travel",
+      "subdomain": "Hotel",
+      "sub_actions": [
+        "[span] Filters -> CLICK",
+        "[textbox] min price $ -> TYPE: Number",
+        "[textbox] max price $ -> TYPE: Number",
+        "[link] Show stays -> CLICK"
+      ]
+    },
+    {
+      "id": "ma2",
+      "name": "Set Location",
+      "website": "airbnb",
+      "domain": "Travel",
+      "subdomain": "Hotel",
+      "sub_actions": [
+        "[button] Location Anywhere -> CLICK",
+        "[textbox] Where -> TYPE: Location",
+        "[div] Location -> CLICK"
+      ]
+    },
+    {
+      "id": "ma3",
+      "name": "Set Accommodation Type",
+      "website": "airbnb",
+      "domain": "Travel",
+      "subdomain": "Hotel",
+      "sub_actions": [
+        "[span] Accommodation Type -> CLICK",
+        "[div] Accommodation Type -> CLICK"
+      ]
+    },
+    {
+      "id": "ma4",
+      "name": "Set Dates",
+      "website": "airbnb",
+      "domain": "Travel",
+      "subdomain": "Hotel",
+      "sub_actions": [
+        "[button] Check in / Check out Any week -> CLICK",
+        "[button] Date -> CLICK",
+        "[button] Date -> CLICK"
+      ]
+    },
+    {
+      "id": "ma5",
+      "name": "Set Guest Count",
+      "website": "airbnb",
+      "domain": "Travel",
+      "subdomain": "Hotel",
+      "sub_actions": [
+        "[div] Add guests -> CLICK",
+        "[svg] Increase value -> CLICK",
+        "[svg] Increase value -> CLICK"
+      ]
+    },
+    {
+      "id": "ma6",
+      "name": "Create Wishlist",
+      "website": "airbnb",
+      "domain": "Travel",
+      "subdomain": "Hotel",
+      "sub_actions": [
+        "[path] Wishlist -> CLICK",
+        "[textbox] Name -> TYPE: Text",
+        "[button] Create -> CLICK",
+        "[div] Wishlist Name -> CLICK"
+      ]
+    },
+    {
+      "id": "ma7",
+      "name": "Apply Filters",
+      "website": "airbnb",
+      "domain": "Travel",
+      "subdomain": "Hotel",
+      "sub_actions": [
+        "[span] Filters -> CLICK",
+        "[textbox] max price $ -> TYPE: Number",
+        "[div] Room Type -> CLICK",
+        "[link] Show stays -> CLICK"
+      ]
+    }
+  ]
+}

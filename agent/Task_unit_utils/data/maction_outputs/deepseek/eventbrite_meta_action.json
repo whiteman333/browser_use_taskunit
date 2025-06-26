@@ -1,0 +1,119 @@
+{
+  "meta_actions": [
+    {
+      "id": "ma1",
+      "name": "Search Events by Keyword and Location",
+      "website": "eventbrite",
+      "domain": "Entertainment",
+      "subdomain": "Event",
+      "sub_actions": [
+        "[div] Search for events -> CLICK",
+        "[textbox] Search events -> TYPE: Event Keyword",
+        "[combobox] autocomplete -> TYPE: Location",
+        "[div] Location -> CLICK",
+        "[generic] Run Search -> CLICK"
+      ]
+    },
+    {
+      "id": "ma2",
+      "name": "Filter Events by Date",
+      "website": "eventbrite",
+      "domain": "Entertainment",
+      "subdomain": "Event",
+      "sub_actions": [
+        "[span] Pick a date... -> CLICK",
+        "[button] Start Date -> CLICK",
+        "[button] End Date -> CLICK"
+      ]
+    },
+    {
+      "id": "ma3",
+      "name": "Select Event Category",
+      "website": "eventbrite",
+      "domain": "Entertainment",
+      "subdomain": "Event",
+      "sub_actions": [
+        "[link] Category -> CLICK"
+      ]
+    },
+    {
+      "id": "ma4",
+      "name": "View Event Details",
+      "website": "eventbrite",
+      "domain": "Entertainment",
+      "subdomain": "Event",
+      "sub_actions": [
+        "[div] Event Name -> CLICK"
+      ]
+    },
+    {
+      "id": "ma5",
+      "name": "Reserve or Purchase Tickets",
+      "website": "eventbrite",
+      "domain": "Entertainment",
+      "subdomain": "Event",
+      "sub_actions": [
+        "[button] Get tickets -> CLICK",
+        "[listbox] Select quantity: Ticket Type -> SELECT: Number",
+        "[button] Check out -> CLICK"
+      ]
+    },
+    {
+      "id": "ma6",
+      "name": "Follow Event Organizer",
+      "website": "eventbrite",
+      "domain": "Entertainment",
+      "subdomain": "Event",
+      "sub_actions": [
+        "[button] Follow -> CLICK"
+      ]
+    },
+    {
+      "id": "ma7",
+      "name": "Save Event to Collection",
+      "website": "eventbrite",
+      "domain": "Entertainment",
+      "subdomain": "Event",
+      "sub_actions": [
+        "[button] Save Event -> CLICK"
+      ]
+    },
+    {
+      "id": "ma8",
+      "name": "Contact Event Organizer",
+      "website": "eventbrite",
+      "domain": "Entertainment",
+      "subdomain": "Event",
+      "sub_actions": [
+        "[button] Contact -> CLICK",
+        "[button] Contact the organizer -> CLICK",
+        "[listbox] Contact reason * (required) -> SELECT: Reason"
+      ]
+    },
+    {
+      "id": "ma9",
+      "name": "Join Event Waitlist",
+      "website": "eventbrite",
+      "domain": "Entertainment",
+      "subdomain": "Event",
+      "sub_actions": [
+        "[button] Join Waitlist -> CLICK",
+        "[textbox] First Name * (required) -> TYPE: Name",
+        "[textbox] Surname * (required) -> TYPE: Surname",
+        "[textbox] Email * (required) -> TYPE: Email"
+      ]
+    },
+    {
+      "id": "ma10",
+      "name": "Navigate to Help Center",
+      "website": "eventbrite",
+      "domain": "Entertainment",
+      "subdomain": "Event",
+      "sub_actions": [
+        "[span] Help -> HOVER",
+        "[div] Visit the help center -> CLICK",
+        "[link] Request a refund -> CLICK"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "meta_actions": [
+    {
+      "id": "ma1",
+      "name": "Navigate to Player Information",
+      "website": "nfl",
+      "domain": "Entertainment",
+      "subdomain": "Sports",
+      "sub_actions": [
+        "[link] Players -> CLICK",
+        "[link] TYPE: Player Name -> CLICK",
+        "[link] STATS -> CLICK",
+        "[link] CAREER -> CLICK",
+        "[columnheader] TYPE: Statistic -> CLICK"
+      ]
+    },
+    {
+      "id": "ma2",
+      "name": "Access Super Bowl Content",
+      "website": "nfl",
+      "domain": "Entertainment",
+      "subdomain": "Sports",
+      "sub_actions": [
+        "[link] Super Bowl -> CLICK",
+        "[link] WATCH -> CLICK"
+      ]
+    },
+    {
+      "id": "ma3",
+      "name": "Find Team Schedule",
+      "website": "nfl",
+      "domain": "Entertainment",
+      "subdomain": "Sports",
+      "sub_actions": [
+        "[link] Schedule -> CLICK",
+        "[link] Team Schedules -> CLICK",
+        "[link] Schedule - Opens new window -> CLICK"
+      ]
+    },
+    {
+      "id": "ma4",
+      "name": "Search for Retired Player",
+      "website": "nfl",
+      "domain": "Entertainment",
+      "subdomain": "Sports",
+      "sub_actions": [
+        "[link] Players -> CLICK",
+        "[link] RETIRED -> CLICK",
+        "[textbox] Search by player name -> TYPE: Player Name",
+        "[button] Search Players -> CLICK"
+      ]
+    },
+    {
+      "id": "ma5",
+      "name": "Access Player Statistics",
+      "website": "nfl",
+      "domain": "Entertainment",
+      "subdomain": "Sports",
+      "sub_actions": [
+        "[link] Stats -> CLICK",
+        "[link] TYPE: Statistic Category -> CLICK",
+        "[link] TYPE: Player Name profile page -> CLICK"
+      ]
+    },
+    {
+      "id": "ma6",
+      "name": "Find Game Score",
+      "website": "nfl",
+      "domain": "Entertainment",
+      "subdomain": "Sports",
+      "sub_actions": [
+        "[link] Scores -> CLICK",
+        "[select] TYPE: Year -> SELECT: Year"
+      ]
+    },
+    {
+      "id": "ma7",
+      "name": "Watch Game Highlights",
+      "website": "nfl",
+      "domain": "Entertainment",
+      "subdomain": "Sports",
+      "sub_actions": [
+        "[link] Super Bowl -> CLICK",
+        "[button] Next -> CLICK",
+        "[heading] TYPE: Highlight Description -> CLICK"
+      ]
+    },
+    {
+      "id": "ma8",
+      "name": "Share News Article",
+      "website": "nfl",
+      "domain": "Entertainment",
+      "subdomain": "Sports",
+      "sub_actions": [
+        "[link] TYPE: News Article Title -> CLICK",
+        "[link] Send email -> CLICK"
+      ]
+    }
+  ]
+}

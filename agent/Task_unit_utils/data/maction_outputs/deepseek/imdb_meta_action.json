@@ -1,0 +1,260 @@
+{
+  "meta_actions": [
+    {
+      "id": "ma1",
+      "name": "Navigate to Specific Content",
+      "website": "imdb",
+      "domain": "Entertainment",
+      "subdomain": "Movie",
+      "sub_actions": [
+        "[button] Open Navigation Drawer -> CLICK",
+        "[span] Oscars -> CLICK",
+        "[link] 1990 -> CLICK",
+        "[link] Denzel Washington -> CLICK"
+      ]
+    },
+    {
+      "id": "ma2",
+      "name": "Add Content to Watchlist",
+      "website": "imdb",
+      "domain": "Entertainment",
+      "subdomain": "Movie",
+      "sub_actions": [
+        "[button] Expand Upcoming -> CLICK",
+        "[button] add to watchlist -> CLICK"
+      ]
+    },
+    {
+      "id": "ma3",
+      "name": "Edit Watchlist",
+      "website": "imdb",
+      "domain": "Entertainment",
+      "subdomain": "Movie",
+      "sub_actions": [
+        "[button] Watchlist5 -> CLICK",
+        "[link] EDIT -> CLICK"
+      ]
+    },
+    {
+      "id": "ma4",
+      "name": "Search and Select Content",
+      "website": "imdb",
+      "domain": "Entertainment",
+      "subdomain": "Movie",
+      "sub_actions": [
+        "[textbox] Search IMDb -> TYPE: The Last of Us",
+        "[link] The Last of Us The Last of Us 2023 Pedro Pascal, B... -> CLICK"
+      ]
+    },
+    {
+      "id": "ma5",
+      "name": "Browse Recommendations",
+      "website": "imdb",
+      "domain": "Entertainment",
+      "subdomain": "Movie",
+      "sub_actions": [
+        "[button] Open Navigation Drawer -> CLICK",
+        "[span] What to Watch -> CLICK"
+      ]
+    },
+    {
+      "id": "ma6",
+      "name": "Filter and Sort Content",
+      "website": "imdb",
+      "domain": "Entertainment",
+      "subdomain": "Movie",
+      "sub_actions": [
+        "[button] Open Navigation Drawer -> CLICK",
+        "[span] Browse Movies by Genre -> CLICK",
+        "[img] Comedy -> CLICK",
+        "[link] User Rating -> CLICK"
+      ]
+    },
+    {
+      "id": "ma7",
+      "name": "Play Trailer",
+      "website": "imdb",
+      "domain": "Entertainment",
+      "subdomain": "Movie",
+      "sub_actions": [
+        "[textbox] Search IMDb -> CLICK",
+        "[textbox] Search IMDb -> TYPE: The Flash",
+        "[div] The Flash -> CLICK",
+        "[generic] Watch Official Trailer -> CLICK"
+      ]
+    },
+    {
+      "id": "ma8",
+      "name": "Search and Add to Watchlist",
+      "website": "imdb",
+      "domain": "Entertainment",
+      "subdomain": "Movie",
+      "sub_actions": [
+        "[textbox] Search IMDb -> TYPE: Star Wars",
+        "[button] Submit Search -> CLICK",
+        "[button] Star Wars: Episode IV - A New Hope -> CLICK",
+        "[generic] Watch Original Teaser Trailer -> CLICK"
+      ]
+    },
+    {
+      "id": "ma9",
+      "name": "Browse and Add Popular Content",
+      "website": "imdb",
+      "domain": "Entertainment",
+      "subdomain": "Movie",
+      "sub_actions": [
+        "[path]  -> CLICK",
+        "[span] Most Popular TV Shows -> CLICK",
+        "[link] Horror -> CLICK",
+        "[generic] Click to add to watchlist -> CLICK"
+      ]
+    },
+    {
+      "id": "ma10",
+      "name": "Find and Watch Videos",
+      "website": "imdb",
+      "domain": "Entertainment",
+      "subdomain": "Movie",
+      "sub_actions": [
+        "[button] Open Navigation Drawer -> CLICK",
+        "[span] Oscars -> CLICK",
+        "[link] VIDEO -> CLICK"
+      ]
+    },
+    {
+      "id": "ma11",
+      "name": "Search and View Reviews",
+      "website": "imdb",
+      "domain": "Entertainment",
+      "subdomain": "Movie",
+      "sub_actions": [
+        "[textbox] Search IMDb -> TYPE: creed III",
+        "[div] Creed III -> CLICK",
+        "[span] Critic reviews -> CLICK"
+      ]
+    },
+    {
+      "id": "ma12",
+      "name": "Advanced Search and Add to Watchlist",
+      "website": "imdb",
+      "domain": "Entertainment",
+      "subdomain": "Movie",
+      "sub_actions": [
+        "[path]  -> CLICK",
+        "[span] Browse Movies by Genre -> CLICK",
+        "[link] Superhero -> CLICK",
+        "[checkbox] Superhero Sci Fi (745) -> CLICK",
+        "[checkbox] Based On Comic Book (226) -> CLICK",
+        "[strong] IMDb Rating -> CLICK",
+        "[group] IMDb user rating (average) -> SELECT: 7.0",
+        "[group] IMDb user rating (average) -> SELECT: 9.0",
+        "[strong] Refine -> CLICK",
+        "[select] Popularity -> SELECT: Number of Votes",
+        "[generic] Compact view -> CLICK",
+        "[generic] Click to add to watchlist -> CLICK"
+      ]
+    },
+    {
+      "id": "ma13",
+      "name": "Search and View Upcoming Projects",
+      "website": "imdb",
+      "domain": "Entertainment",
+      "subdomain": "Movie",
+      "sub_actions": [
+        "[textbox] Search IMDb -> TYPE: Jerry Trainor",
+        "[button] Submit Search -> CLICK",
+        "[button] Jerry Trainor -> CLICK",
+        "[li] Upcoming -> CLICK"
+      ]
+    },
+    {
+      "id": "ma14",
+      "name": "Search and Add Movie to Watchlist",
+      "website": "imdb",
+      "domain": "Entertainment",
+      "subdomain": "Movie",
+      "sub_actions": [
+        "[textbox] Search IMDb -> CLICK",
+        "[textbox] Search IMDb -> TYPE: Prometheus",
+        "[div] Prometheus -> CLICK",
+        "[button] Add to Watchlist Added by 412K users -> CLICK"
+      ]
+    },
+    {
+      "id": "ma15",
+      "name": "Search and Add Multiple to Watchlist",
+      "website": "imdb",
+      "domain": "Entertainment",
+      "subdomain": "Movie",
+      "sub_actions": [
+        "[textbox] Search IMDb -> TYPE: The Elephant Whisperers",
+        "[div] The Elephant Whisperers -> CLICK",
+        "[div] Add to Watchlist -> CLICK",
+        "[textbox] Search IMDb -> TYPE: The Magician's Elephant",
+        "[div] The Magician's Elephant -> CLICK",
+        "[div] Add to Watchlist -> CLICK"
+      ]
+    },
+    {
+      "id": "ma16",
+      "name": "Search and View Producer's Movies",
+      "website": "imdb",
+      "domain": "Entertainment",
+      "subdomain": "Movie",
+      "sub_actions": [
+        "[textbox] Search IMDb -> TYPE: Aaron Horvath",
+        "[div] Aaron Horvath -> CLICK",
+        "[button] Expand Previous -> CLICK"
+      ]
+    },
+    {
+      "id": "ma17",
+      "name": "Create and Add to New List",
+      "website": "imdb",
+      "domain": "Entertainment",
+      "subdomain": "Movie",
+      "sub_actions": [
+        "[button] Open Navigation Drawer -> CLICK",
+        "[span] Cannes -> CLICK",
+        "[link] 2022 -> CLICK",
+        "[link] Eo -> CLICK",
+        "[button] ​Jerzy Skolimowski -> CLICK",
+        "[button] Add to list -> CLICK",
+        "[menuitem] Create new list -> CLICK",
+        "[textarea]  -> TYPE: Directors",
+        "[textarea]  -> TYPE: To Watch",
+        "[combobox] Type of List * -> SELECT: People",
+        "[button] CREATE -> CLICK"
+      ]
+    },
+    {
+      "id": "ma18",
+      "name": "Browse and View Top Content",
+      "website": "imdb",
+      "domain": "Entertainment",
+      "subdomain": "Movie",
+      "sub_actions": [
+        "[button] Open Navigation Drawer -> CLICK",
+        "[span] Browse TV Shows by Genre -> CLICK",
+        "[link] Documentary -> CLICK",
+        "[link] User Rating -> CLICK",
+        "[link] Going Postal -> CLICK"
+      ]
+    },
+    {
+      "id": "ma19",
+      "name": "View Top Movies and TV Shows by Genre",
+      "website": "imdb",
+      "domain": "Entertainment",
+      "subdomain": "Movie",
+      "sub_actions": [
+        "[path]  -> CLICK",
+        "[span] Top 250 Movies -> CLICK",
+        "[link] Sci-Fi -> CLICK",
+        "[button] Open Navigation Drawer -> CLICK",
+        "[span] Top 250 TV Shows -> CLICK",
+        "[link] Sci-Fi -> CLICK"
+      ]
+    }
+  ]
+}

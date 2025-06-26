@@ -1,0 +1,195 @@
+{
+  "meta_actions": [
+    {
+      "id": "MA1",
+      "name": "Search Restaurant by Name",
+      "website": "resy",
+      "domain": "Travel",
+      "subdomain": "Restaurant",
+      "sub_actions": [
+        "[textbox] Search restaurants, cuisines, etc. -> TYPE: Restaurant Name",
+        "[heading] Restaurant Name -> CLICK"
+      ]
+    },
+    {
+      "id": "MA2",
+      "name": "Search Restaurant by Cuisine",
+      "website": "resy",
+      "domain": "Travel",
+      "subdomain": "Restaurant",
+      "sub_actions": [
+        "[textbox] Search restaurants, cuisines, etc. -> TYPE: Cuisine",
+        "[b] Cuisine -> CLICK"
+      ]
+    },
+    {
+      "id": "MA3",
+      "name": "Select Location",
+      "website": "resy",
+      "domain": "Travel",
+      "subdomain": "Restaurant",
+      "sub_actions": [
+        "[button] Location -> CLICK",
+        "[button] Specific Location -> CLICK"
+      ]
+    },
+    {
+      "id": "MA4",
+      "name": "Select Date",
+      "website": "resy",
+      "domain": "Travel",
+      "subdomain": "Restaurant",
+      "sub_actions": [
+        "[button] Today -> CLICK",
+        "[button] Specific Date -> CLICK"
+      ]
+    },
+    {
+      "id": "MA5",
+      "name": "Select Number of Guests",
+      "website": "resy",
+      "domain": "Travel",
+      "subdomain": "Restaurant",
+      "sub_actions": [
+        "[combobox] Party of 2 -> SELECT: Number of Guests"
+      ]
+    },
+    {
+      "id": "MA6",
+      "name": "Select Time",
+      "website": "resy",
+      "domain": "Travel",
+      "subdomain": "Restaurant",
+      "sub_actions": [
+        "[button] Specific Time -> CLICK"
+      ]
+    },
+    {
+      "id": "MA7",
+      "name": "Reserve Now",
+      "website": "resy",
+      "domain": "Travel",
+      "subdomain": "Restaurant",
+      "sub_actions": [
+        "[button] Reserve Now -> CLICK"
+      ]
+    },
+    {
+      "id": "MA8",
+      "name": "Notify for Availability",
+      "website": "resy",
+      "domain": "Travel",
+      "subdomain": "Restaurant",
+      "sub_actions": [
+        "[button] Notify for Meal Time -> CLICK",
+        "[combobox] Preferred end time -> SELECT: Time",
+        "[button] Confirm -> CLICK"
+      ]
+    },
+    {
+      "id": "MA9",
+      "name": "View All Options",
+      "website": "resy",
+      "domain": "Travel",
+      "subdomain": "Restaurant",
+      "sub_actions": [
+        "[button] View All -> CLICK"
+      ]
+    },
+    {
+      "id": "MA10",
+      "name": "Search and Apply for Job",
+      "website": "resy",
+      "domain": "Travel",
+      "subdomain": "Restaurant",
+      "sub_actions": [
+        "[link] Careers -> CLICK",
+        "[link] View All Open Positions -> CLICK",
+        "[span] Filters -> CLICK",
+        "[a] Job Type -> CLICK",
+        "[a] Work Mode -> CLICK",
+        "[button] Apply Now -> CLICK",
+        "[button] NEXT -> CLICK"
+      ]
+    },
+    {
+      "id": "MA11",
+      "name": "Book Special Event",
+      "website": "resy",
+      "domain": "Travel",
+      "subdomain": "Restaurant",
+      "sub_actions": [
+        "[link] Special Event -> CLICK",
+        "[combobox] Number of tickets -> SELECT: Number",
+        "[button] Book Now -> CLICK"
+      ]
+    },
+    {
+      "id": "MA12",
+      "name": "Share Restaurant Information",
+      "website": "resy",
+      "domain": "Travel",
+      "subdomain": "Restaurant",
+      "sub_actions": [
+        "[link] Share Option -> CLICK"
+      ]
+    },
+    {
+      "id": "MA13",
+      "name": "Save Restaurant",
+      "website": "resy",
+      "domain": "Travel",
+      "subdomain": "Restaurant",
+      "sub_actions": [
+        "[path] Save Option -> CLICK"
+      ]
+    },
+    {
+      "id": "MA14",
+      "name": "View Staff Picks",
+      "website": "resy",
+      "domain": "Travel",
+      "subdomain": "Restaurant",
+      "sub_actions": [
+        "[link] Staff Picks -> CLICK"
+      ]
+    },
+    {
+      "id": "MA15",
+      "name": "View New Openings",
+      "website": "resy",
+      "domain": "Travel",
+      "subdomain": "Restaurant",
+      "sub_actions": [
+        "[link] New Openings -> CLICK"
+      ]
+    },
+    {
+      "id": "MA16",
+      "name": "Book from Hit List",
+      "website": "resy",
+      "domain": "Travel",
+      "subdomain": "Restaurant",
+      "sub_actions": [
+        "[link] The Hit List -> CLICK",
+        "[a] Restaurant -> CLICK",
+        "[link] Book Now -> CLICK"
+      ]
+    },
+    {
+      "id": "MA17",
+      "name": "Search and Book Top-rated Restaurant",
+      "website": "resy",
+      "domain": "Travel",
+      "subdomain": "Restaurant",
+      "sub_actions": [
+        "[link] Nearby Restaurants -> CLICK",
+        "[button] Specific Location -> CLICK",
+        "[button] Specific Date -> CLICK",
+        "[combobox] Party of 2 -> SELECT: Number of Guests",
+        "[button] Specific Time -> CLICK",
+        "[button] Reserve Now -> CLICK"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "meta_actions": [
+    {
+      "id": "ma1",
+      "name": "Search Parking by Location",
+      "website": "parking",
+      "domain": "Travel",
+      "subdomain": "Other",
+      "sub_actions": [
+        "[combobox] Enter an Address or Venue to find parking -> TYPE: Location",
+        "[em] Location -> CLICK"
+      ]
+    },
+    {
+      "id": "ma2",
+      "name": "Apply Parking Filters",
+      "website": "parking",
+      "domain": "Travel",
+      "subdomain": "Other",
+      "sub_actions": [
+        "[strong] Filters -> CLICK",
+        "[checkbox] Filter Option -> CLICK"
+      ]
+    },
+    {
+      "id": "ma3",
+      "name": "Navigate to Support Information",
+      "website": "parking",
+      "domain": "Travel",
+      "subdomain": "Other",
+      "sub_actions": [
+        "[link] SUPPORT -> CLICK",
+        "[heading] Information Topic -> CLICK"
+      ]
+    },
+    {
+      "id": "ma4",
+      "name": "Browse Parking by Category",
+      "website": "parking",
+      "domain": "Travel",
+      "subdomain": "Other",
+      "sub_actions": [
+        "[link] CITIES -> CLICK",
+        "[heading] City -> CLICK",
+        "[link] Category -> CLICK",
+        "[link] Specific Option -> CLICK"
+      ]
+    },
+    {
+      "id": "ma5",
+      "name": "Customize Parking Widget",
+      "website": "parking",
+      "domain": "Travel",
+      "subdomain": "Other",
+      "sub_actions": [
+        "[link] ADD PARKING TO YOUR WEBSITE -> CLICK",
+        "[textbox] Company Name -> TYPE: Text",
+        "[combobox] Location -> TYPE: Location",
+        "[span] Dimension Option -> CLICK",
+        "[li] Distance Option -> CLICK",
+        "[link] Get My Code -> CLICK"
+      ]
+    },
+    {
+      "id": "ma6",
+      "name": "Search Monthly Parking",
+      "website": "parking",
+      "domain": "Travel",
+      "subdomain": "Other",
+      "sub_actions": [
+        "[span] Enter an Address or Venue to find parking -> TYPE: Location",
+        "[option] Location Option -> CLICK",
+        "[link] MONTHLY -> CLICK",
+        "[span] Sort Option -> CLICK",
+        "[link] View Details -> CLICK"
+      ]
+    },
+    {
+      "id": "ma7",
+      "name": "Book Parking Spot",
+      "website": "parking",
+      "domain": "Travel",
+      "subdomain": "Other",
+      "sub_actions": [
+        "[span] Enter an Address or Venue to find parking -> TYPE: Location",
+        "[option] Location Option -> CLICK",
+        "[span] Date -> CLICK",
+        "[gridcell] Day -> CLICK",
+        "[span] Time -> CLICK",
+        "[link] Time Option -> CLICK",
+        "[button] SEARCH -> CLICK",
+        "[button] Book now -> CLICK",
+        "[button] YES, PROCEED -> CLICK"
+      ]
+    },
+    {
+      "id": "ma8",
+      "name": "Complete Booking Form",
+      "website": "parking",
+      "domain": "Travel",
+      "subdomain": "Other",
+      "sub_actions": [
+        "[textbox] First Name -> TYPE: Text",
+        "[textbox] Last Name -> TYPE: Text",
+        "[textbox] Address -> TYPE: Text",
+        "[textbox] City Name -> TYPE: Text",
+        "[select] State -> SELECT: State",
+        "[textbox] Zip Code -> TYPE: Number",
+        "[textbox] Phone Number -> TYPE: Number",
+        "[textbox] Email Address -> TYPE: Email",
+        "[textbox] Employer Name -> TYPE: Text",
+        "[button] Submit -> CLICK"
+      ]
+    }
+  ]
+}

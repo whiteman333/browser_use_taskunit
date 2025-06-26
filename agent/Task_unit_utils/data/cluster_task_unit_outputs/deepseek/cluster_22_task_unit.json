@@ -1,0 +1,60 @@
+{
+  "task_units": [
+    {
+      "id": "CLUSTER22_TU1",
+      "name": "Search for hotels based on criteria",
+      "sub_actions": [
+        "CLICK: Search for hotels",
+        "TYPE: Location",
+        "CLICK: Select location",
+        "SELECT: Date range",
+        "CLICK: Search",
+        "CLICK: Apply filters",
+        "SELECT: Sort option"
+      ]
+    },
+    {
+      "id": "CLUSTER22_TU2",
+      "name": "Filter hotel search results",
+      "sub_actions": [
+        "CLICK: Filter options",
+        "SELECT: Rating",
+        "SELECT: Amenities",
+        "SELECT: Price range",
+        "CLICK: Apply filters"
+      ]
+    },
+    {
+      "id": "CLUSTER22_TU3",
+      "name": "Select hotel and room options",
+      "sub_actions": [
+        "CLICK: View hotel details",
+        "SELECT: Room type",
+        "SELECT: Number of rooms",
+        "SELECT: Number of guests",
+        "CLICK: Book or reserve"
+      ]
+    },
+    {
+      "id": "CLUSTER22_TU4",
+      "name": "Complete booking process",
+      "sub_actions": [
+        "TYPE: Personal information",
+        "TYPE: Payment details",
+        "CLICK: Accept terms",
+        "CLICK: Confirm booking"
+      ]
+    },
+    {
+      "id": "CLUSTER22_TU5",
+      "name": "Modify search parameters",
+      "sub_actions": [
+        "CLICK: Modify search",
+        "TYPE: New location",
+        "SELECT: New date range",
+        "SELECT: New guest count",
+        "CLICK: Update search"
+      ]
+    }
+  ]
+}

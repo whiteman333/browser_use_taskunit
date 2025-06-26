@@ -1,0 +1,66 @@
+{
+  "task_unit_dag": [
+    {
+      "parent_task_unit_id": "CLUSTER5_TU1",
+      "child_task_unit_ids": [
+        "CLUSTER5_TU6",
+        "CLUSTER5_TU10"
+      ],
+      "relationship_reasoning": "Filtering and selecting clothing items by category, size, and color can involve filtering by price range and rating or condition as sub-steps to narrow down the selection."
+    },
+    {
+      "parent_task_unit_id": "CLUSTER5_TU2",
+      "child_task_unit_ids": [
+        "CLUSTER5_TU1",
+        "CLUSTER5_TU3"
+      ],
+      "relationship_reasoning": "Searching for specific items using keywords may require filtering and sorting the results to find the desired items."
+    },
+    {
+      "parent_task_unit_id": "CLUSTER5_TU3",
+      "child_task_unit_ids": [
+        "CLUSTER5_TU1"
+      ],
+      "relationship_reasoning": "Sorting items by price, popularity, or new arrivals often follows filtering items to organize the filtered results."
+    },
+    {
+      "parent_task_unit_id": "CLUSTER5_TU4",
+      "child_task_unit_ids": [
+        "CLUSTER5_TU5"
+      ],
+      "relationship_reasoning": "Adding items to cart or wishlist is a prerequisite for navigating to checkout or viewing the cart."
+    },
+    {
+      "parent_task_unit_id": "CLUSTER5_TU5",
+      "child_task_unit_ids": [
+        "CLUSTER5_TU7"
+      ],
+      "relationship_reasoning": "Navigating to checkout or viewing the cart may involve selecting delivery or pickup options as a subsequent step."
+    },
+    {
+      "parent_task_unit_id": "CLUSTER5_TU8",
+      "child_task_unit_ids": [
+        "CLUSTER5_TU3"
+      ],
+      "relationship_reasoning": "Browsing new arrivals or best sellers may require sorting these items to find the most relevant ones."
+    },
+    {
+      "parent_task_unit_id": "CLUSTER5_TU9",
+      "child_task_unit_ids": [
+        "CLUSTER5_TU1"
+      ],
+      "relationship_reasoning": "Viewing product details or size guide is often done after filtering items to ensure the selected item meets the user's requirements."
+    },
+    {
+      "parent_task_unit_id": "CLUSTER5_TU10",
+      "child_task_unit_ids": [
+        "CLUSTER5_TU1"
+      ],
+      "relationship_reasoning": "Filtering items by rating or condition is a specific case of the broader task of filtering and selecting items, which may include other filters like size and color."
+    }
+  ],
+  "validation": {
+    "is_acyclic": true,
+    "acyclic_reasoning": "The dependencies are structured hierarchically, with broader tasks encompassing narrower ones without any circular references, ensuring a logical flow from general to specific actions."
+  }
+}

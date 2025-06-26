@@ -1,0 +1,102 @@
+{
+  "meta_actions": [
+    {
+      "id": "MA1",
+      "name": "Locate Store",
+      "website": "target",
+      "domain": "Shopping",
+      "subdomain": "General",
+      "sub_actions": [
+        "[link] Find Stores -> CLICK",
+        "[link] View store directory -> CLICK",
+        "[link] TYPE: State -> CLICK",
+        "[link] TYPE: City -> CLICK"
+      ]
+    },
+    {
+      "id": "MA2",
+      "name": "Browse Category",
+      "website": "target",
+      "domain": "Shopping",
+      "subdomain": "General",
+      "sub_actions": [
+        "[link] Categories -> CLICK",
+        "[span] TYPE: Category -> CLICK",
+        "[span] TYPE: Subcategory -> CLICK"
+      ]
+    },
+    {
+      "id": "MA3",
+      "name": "Search Product",
+      "website": "target",
+      "domain": "Shopping",
+      "subdomain": "General",
+      "sub_actions": [
+        "[searchbox] Search: suggestions appear below -> TYPE: Product",
+        "[button] go -> CLICK"
+      ]
+    },
+    {
+      "id": "MA4",
+      "name": "Filter Products",
+      "website": "target",
+      "domain": "Shopping",
+      "subdomain": "General",
+      "sub_actions": [
+        "[button] TYPE: Filter -> CLICK",
+        "[div] -> CLICK",
+        "[button] close -> CLICK"
+      ]
+    },
+    {
+      "id": "MA5",
+      "name": "Add to Cart",
+      "website": "target",
+      "domain": "Shopping",
+      "subdomain": "General",
+      "sub_actions": [
+        "[button] Add to cart for TYPE: Product -> CLICK"
+      ]
+    },
+    {
+      "id": "MA6",
+      "name": "Check Product Availability",
+      "website": "target",
+      "domain": "Shopping",
+      "subdomain": "General",
+      "sub_actions": [
+        "[button] pickup - unselected - TYPE: Quantity - Ready within TYPE: Time -> CLICK",
+        "[button] Check other stores -> CLICK"
+      ]
+    },
+    {
+      "id": "MA7",
+      "name": "Set Store Location",
+      "website": "target",
+      "domain": "Shopping",
+      "subdomain": "General",
+      "sub_actions": [
+        "[textbox] zip or city, state -> TYPE: Location",
+        "[button] Look up -> CLICK",
+        "[heading] TYPE: City -> CLICK",
+        "[button] make it my store -> CLICK"
+      ]
+    },
+    {
+      "id": "MA8",
+      "name": "Find Registry",
+      "website": "target",
+      "domain": "Shopping",
+      "subdomain": "General",
+      "sub_actions": [
+        "[link] Registry -> CLICK",
+        "[button] Find a registry -> CLICK",
+        "[textbox] First name -> TYPE: Name",
+        "[textbox] Last name -> TYPE: Name",
+        "[button] Search -> CLICK",
+        "[combobox] Location -> SELECT: State",
+        "[combobox] Sort by -> SELECT: Criteria"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,632 @@
+{
+  "task_units": [
+    {
+      "id": "CLUSTER15_TU1",
+      "name": "Search and view game reviews",
+      "sub_actions": [
+        "CLICK: Reviews",
+        "CLICK: Game Reviews",
+        "SELECT: Platform",
+        "SELECT: Sort by Score"
+      ]
+    },
+    {
+      "id": "CLUSTER15_TU2",
+      "name": "View photo gallery for a specific restaurant",
+      "sub_actions": [
+        "TYPE: Restaurant Name",
+        "CLICK: Restaurant Name",
+        "CLICK: View All Photos"
+      ]
+    },
+    {
+      "id": "CLUSTER15_TU3",
+      "name": "Sign up for newsletter",
+      "sub_actions": [
+        "TYPE: Email Address",
+        "CLICK: Sign Up"
+      ]
+    },
+    {
+      "id": "CLUSTER15_TU4",
+      "name": "Download fantasy apps",
+      "sub_actions": [
+        "HOVER: Fantasy",
+        "CLICK: Download the App"
+      ]
+    },
+    {
+      "id": "CLUSTER15_TU5",
+      "name": "Open design tool for home office",
+      "sub_actions": [
+        "CLICK: Design",
+        "CLICK: Home Office Option"
+      ]
+    },
+    {
+      "id": "CLUSTER15_TU6",
+      "name": "View brochure for specific protection plan",
+      "sub_actions": [
+        "CLICK: Cars & Services",
+        "CLICK: Products & Services",
+        "CLICK: Learn More",
+        "CLICK: Learn More",
+        "HOVER: click here"
+      ]
+    },
+    {
+      "id": "CLUSTER15_TU7",
+      "name": "Open user's game reviews",
+      "sub_actions": [
+        "HOVER: User Profile",
+        "CLICK: Games",
+        "CLICK: Reviews"
+      ]
+    },
+    {
+      "id": "CLUSTER15_TU8",
+      "name": "Check game rating and user reviews",
+      "sub_actions": [
+        "CLICK: Search",
+        "TYPE: Game Name",
+        "CLICK: Game Name"
+      ]
+    },
+    {
+      "id": "CLUSTER15_TU9",
+      "name": "Find FAQs related to specific topic",
+      "sub_actions": [
+        "HOVER: Plan",
+        "CLICK: FAQ Section",
+        "CLICK: Specific Topic"
+      ]
+    },
+    {
+      "id": "CLUSTER15_TU10",
+      "name": "Compare and sign up for premium subscriptions",
+      "sub_actions": [
+        "CLICK: Products",
+        "CLICK: Premium Subscriptions",
+        "CLICK: Compare Subscriptions",
+        "CLICK: Upgrade"
+      ]
+    },
+    {
+      "id": "CLUSTER15_TU11",
+      "name": "Find airport information and check weather",
+      "sub_actions": [
+        "SELECT: Search Method",
+        "TYPE: Airport City",
+        "CLICK: Airport Name",
+        "CLICK: View Airport Stats",
+        "CLICK: Weather"
+      ]
+    },
+    {
+      "id": "CLUSTER15_TU12",
+      "name": "Compare membership tier benefits",
+      "sub_actions": [
+        "CLICK: Membership Section",
+        "TYPE: Membership Tier",
+        "CLICK: Search",
+        "CLICK: Privilege Club Membership Tiers"
+      ]
+    },
+    {
+      "id": "CLUSTER15_TU13",
+      "name": "Compare products with specific ratings",
+      "sub_actions": [
+        "TYPE: Product Type",
+        "CLICK: Submit Search",
+        "CLICK: Customer Ratings",
+        "CLICK: Apply Filters",
+        "CLICK: Compare",
+        "CLICK: Compare",
+        "CLICK: COMPARE"
+      ]
+    },
+    {
+      "id": "CLUSTER15_TU14",
+      "name": "View complexity rating for a game",
+      "sub_actions": [
+        "TYPE: Game Name",
+        "CLICK: Game Name",
+        "CLICK: Complexity Rating"
+      ]
+    },
+    {
+      "id": "CLUSTER15_TU15",
+      "name": "View game ratings",
+      "sub_actions": [
+        "TYPE: Game Name",
+        "CLICK: Game Name",
+        "CLICK: Ratings Tab"
+      ]
+    },
+    {
+      "id": "CLUSTER15_TU16",
+      "name": "Find person by phone number",
+      "sub_actions": [
+        "CLICK: Find People",
+        "CLICK: BY PHONE NUMBER",
+        "TYPE: Phone Number",
+        "CLICK: Search by Phone"
+      ]
+    },
+    {
+      "id": "CLUSTER15_TU17",
+      "name": "Ask a question in a specific category",
+      "sub_actions": [
+        "CLICK: QUESTIONS & ANSWERS",
+        "CLICK: Specific Category",
+        "TYPE: Question",
+        "HOVER: Add a Question"
+      ]
+    },
+    {
+      "id": "CLUSTER15_TU18",
+      "name": "Locate park and find current conditions",
+      "sub_actions": [
+        "CLICK: Find a Park by State",
+        "CLICK: State",
+        "CLICK: Current Conditions"
+      ]
+    },
+    {
+      "id": "CLUSTER15_TU19",
+      "name": "Browse photo gallery of a national park",
+      "sub_actions": [
+        "CLICK: Open Menu",
+        "CLICK: Photos & Multimedia",
+        "CLICK: NPGallery",
+        "CLICK: Search all Parks",
+        "CLICK: Park Name",
+        "CLICK: View Photos"
+      ]
+    },
+    {
+      "id": "CLUSTER15_TU20",
+      "name": "View policy certificates for specific location",
+      "sub_actions": [
+        "CLICK: Cars & Services",
+        "CLICK: Protections & Coverages",
+        "CLICK: Specific Plan",
+        "CLICK: View Certificates"
+      ]
+    },
+    {
+      "id": "CLUSTER15_TU21",
+      "name": "Download PDF for accessible stations",
+      "sub_actions": [
+        "CLICK: Menu",
+        "CLICK: Accessibility",
+        "CLICK: List of Accessible Stations",
+        "CLICK: Download PDF"
+      ]
+    },
+    {
+      "id": "CLUSTER15_TU22",
+      "name": "Search for news and share on social media",
+      "sub_actions": [
+        "TYPE: Search Query",
+        "CLICK: News Item",
+        "CLICK: News Tab",
+        "CLICK: Social Media Share",
+        "CLICK: Share on Twitter"
+      ]
+    },
+    {
+      "id": "CLUSTER15_TU23",
+      "name": "Search for person by name and location",
+      "sub_actions": [
+        "CLICK: Find People",
+        "TYPE: First Name",
+        "TYPE: Last Name",
+        "TYPE: Location",
+        "CLICK: Search for Someone"
+      ]
+    },
+    {
+      "id": "CLUSTER15_TU24",
+      "name": "Open user's item inventory",
+      "sub_actions": [
+        "HOVER: User Profile",
+        "CLICK: INVENTORY"
+      ]
+    },
+    {
+      "id": "CLUSTER15_TU25",
+      "name": "Find and share article about new restaurant",
+      "sub_actions": [
+        "CLICK: New Openings",
+        "CLICK: Article",
+        "CLICK: Share"
+      ]
+    },
+    {
+      "id": "CLUSTER15_TU26",
+      "name": "Compare subscription plans",
+      "sub_actions": [
+        "CLICK: Try Next Pro",
+        "CLICK: Compare plans"
+      ]
+    },
+    {
+      "id": "CLUSTER15_TU27",
+      "name": "Browse discussion forums for owned games",
+      "sub_actions": [
+        "HOVER: COMMUNITY",
+        "CLICK: DISCUSSIONS",
+        "CLICK: Game Forums",
+        "CLICK: Most Popular",
+        "CLICK: My Games"
+      ]
+    },
+    {
+      "id": "CLUSTER15_TU28",
+      "name": "Read specific star reviews of a product",
+      "sub_actions": [
+        "TYPE: Product Name",
+        "CLICK: Submit Search",
+        "CLICK: Product",
+        "CLICK: Reviews",
+        "CLICK: Specific Star Rating"
+      ]
+    },
+    {
+      "id": "CLUSTER15_TU29",
+      "name": "Open community discussions for specific game",
+      "sub_actions": [
+        "HOVER: COMMUNITY",
+        "CLICK: DISCUSSIONS",
+        "CLICK: Game Forums",
+        "TYPE: Game Name",
+        "CLICK: Game Name",
+        "CLICK: Latest Topic"
+      ]
+    },
+    {
+      "id": "CLUSTER15_TU30",
+      "name": "View and mark game review as helpful",
+      "sub_actions": [
+        "TYPE: Game Name",
+        "CLICK: Game Name",
+        "SELECT: Year",
+        "CLICK: View Page",
+        "CLICK: Yes (Helpful)"
+      ]
+    },
+    {
+      "id": "CLUSTER15_TU31",
+      "name": "Change language and currency settings",
+      "sub_actions": [
+        "CLICK: Settings",
+        "SELECT: Language",
+        "CLICK: Settings",
+        "SELECT: Currency"
+      ]
+    },
+    {
+      "id": "CLUSTER15_TU32",
+      "name": "View information about Wi-Fi subscriptions",
+      "sub_actions": [
+        "CLICK: TRAVEL INFO",
+        "CLICK: Pre-paid Wi-Fi",
+        "CLICK: Wi-Fi subscriptions"
+      ]
+    },
+    {
+      "id": "CLUSTER15_TU33",
+      "name": "Find information about Fastbreak program",
+      "sub_actions": [
+        "CLICK: Fastbreak",
+        "CLICK: Fastbreak Program",
+        "CLICK: Join Now",
+        "HOVER: Save"
+      ]
+    },
+    {
+      "id": "CLUSTER15_TU34",
+      "name": "Research and check reviews for specific car model",
+      "sub_actions": [
+        "CLICK: Research",
+        "SELECT: Make",
+        "SELECT: Model",
+        "SELECT: Year",
+        "CLICK: Search",
+        "CLICK: User reviews"
+      ]
+    },
+    {
+      "id": "CLUSTER15_TU35",
+      "name": "Find park policies regarding security",
+      "sub_actions": [
+        "CLICK: Browse the Parks Below",
+        "CLICK: Specific Park",
+        "CLICK: Go!",
+        "CLICK: Plan Your Visit",
+        "CLICK: Park Policies",
+        "CLICK: Security"
+      ]
+    },
+    {
+      "id": "CLUSTER15_TU36",
+      "name": "Find details on converting points to miles",
+      "sub_actions": [
+        "CLICK: Redeem Points",
+        "CLICK: Learn More"
+      ]
+    },
+    {
+      "id": "CLUSTER15_TU37",
+      "name": "Check player bio",
+      "sub_actions": [
+        "CLICK: MORE",
+        "CLICK: Soccer",
+        "CLICK: League",
+        "CLICK: Team",
+        "CLICK: ROSTER",
+        "CLICK: Player Name",
+        "CLICK: BIO"
+      ]
+    },
+    {
+      "id": "CLUSTER15_TU38",
+      "name": "Open popular photos of specific aircraft model",
+      "sub_actions": [
+        "HOVER: Community",
+        "CLICK: Highest Ranked",
+        "SELECT: Aircraft Model"
+      ]
+    },
+    {
+      "id": "CLUSTER15_TU39",
+      "name": "Look up popular photos featuring specific airline",
+      "sub_actions": [
+        "CLICK: Community",
+        "CLICK: Popular Photos",
+        "SELECT: Airline"
+      ]
+    },
+    {
+      "id": "CLUSTER15_TU40",
+      "name": "Show list of countries with highest number of seen aircrafts",
+      "sub_actions": [
+        "HOVER: ADS-B",
+        "CLICK: Statistics",
+        "CLICK: Top Countries"
+      ]
+    },
+    {
+      "id": "CLUSTER15_TU41",
+      "name": "Find airport information and check weather",
+      "sub_actions": [
+        "SELECT: Search Method",
+        "TYPE: Airport City",
+        "CLICK: Airport Name",
+        "CLICK: View Airport Stats",
+        "CLICK: WEATHER"
+      ]
+    },
+    {
+      "id": "CLUSTER15_TU42",
+      "name": "Find forum threads with specific keyword in title within last month",
+      "sub_actions": [
+        "CLICK: Forums",
+        "CLICK: Advanced search",
+        "TYPE: Keyword",
+        "SELECT: Time Frame",
+        "CLICK: Search"
+      ]
+    },
+    {
+      "id": "CLUSTER15_TU43",
+      "name": "Open profile page for author of latest shot",
+      "sub_actions": [
+        "CLICK: Shots",
+        "CLICK: New",
+        "CLICK: Author Name"
+      ]
+    },
+    {
+      "id": "CLUSTER15_TU44",
+      "name": "Show photo gallery for specific location",
+      "sub_actions": [
+        "TYPE: Location Name",
+        "CLICK: Location",
+        "CLICK: FIND A KOA",
+        "CLICK: PHOTOS"
+      ]
+    },
+    {
+      "id": "CLUSTER15_TU45",
+      "name": "Renew existing rewards account",
+      "sub_actions": [
+        "CLICK: REWARDS PROGRAM",
+        "CLICK: PURCHASE OR RENEW NOW",
+        "CLICK: RENEW - An Existing Account",
+        "TYPE: Rewards Number",
+        "TYPE: Postal Code",
+        "CLICK: Continue"
+      ]
+    },
+    {
+      "id": "CLUSTER15_TU46",
+      "name": "Find bio information about specific player",
+      "sub_actions": [
+        "CLICK: Search",
+        "TYPE: Player Name",
+        "CLICK: Player Name",
+        "CLICK: BIO"
+      ]
+    },
+    {
+      "id": "CLUSTER15_TU47",
+      "name": "Mark review as helpful for best rated activity",
+      "sub_actions": [
+        "TYPE: Location",
+        "CLICK: Location",
+        "CLICK: Next",
+        "CLICK: Next",
+        "CLICK: Date",
+        "CLICK: Activity",
+        "CLICK: Traveler Rating",
+        "CLICK: Reviews",
+        "CLICK: Helpful"
+      ]
+    },
+    {
+      "id": "CLUSTER15_TU48",
+      "name": "Find latest news article and send email about it",
+      "sub_actions": [
+        "CLICK: News Article",
+        "CLICK: Share",
+        "CLICK: Send email"
+      ]
+    },
+    {
+      "id": "CLUSTER15_TU49",
+      "name": "Find player bio",
+      "sub_actions": [
+        "CLICK: Open Search",
+        "TYPE: Player Name",
+        "CLICK: Player Name",
+        "CLICK: Bio"
+      ]
+    },
+    {
+      "id": "CLUSTER15_TU50",
+      "name": "Open page to answer question in specific section",
+      "sub_actions": [
+        "CLICK: QUESTIONS & ANSWERS",
+        "CLICK: Specific Section"
+      ]
+    },
+    {
+      "id": "CLUSTER15_TU51",
+      "name": "Find push notification settings",
+      "sub_actions": [
+        "CLICK: Settings",
+        "CLICK: Your account settings",
+        "CLICK: Notification settings"
+      ]
+    },
+    {
+      "id": "CLUSTER15_TU52",
+      "name": "Sign up for email offers",
+      "sub_actions": [
+        "CLICK: Sign Up",
+        "TYPE: First Name",
+        "TYPE: Last Name",
+        "TYPE: Email Address",
+        "TYPE: Confirm Email Address",
+        "TYPE: ZIP Code",
+        "CLICK: Submit"
+      ]
+    },
+    {
+      "id": "CLUSTER15_TU53",
+      "name": "Show reviews of top critics for specific work",
+      "sub_actions": [
+        "TYPE: Person Name",
+        "CLICK: Person Name",
+        "CLICK: Specific Work",
+        "CLICK: Top Critics"
+      ]
+    },
+    {
+      "id": "CLUSTER15_TU54",
+      "name": "Sign up for emails with specific preferences",
+      "sub_actions": [
+        "TYPE: First Name",
+        "TYPE: Last Name",
+        "TYPE: Email",
+        "SELECT: Park of Preference",
+        "CLICK: Sign Up"
+      ]
+    },
+    {
+      "id": "CLUSTER15_TU55",
+      "name": "Add new address to account",
+      "sub_actions": [
+        "CLICK: Address",
+        "TYPE: Street Address",
+        "CLICK: Street Address",
+        "TYPE: Apartment Number",
+        "TYPE: Business Name",
+        "CLICK: Save Address"
+      ]
+    },
+    {
+      "id": "CLUSTER15_TU56",
+      "name": "Delete recent history",
+      "sub_actions": [
+        "CLICK: Library",
+        "CLICK: History",
+        "CLICK: Clear all history",
+        "CLICK: Clear my history"
+      ]
+    },
+    {
+      "id": "CLUSTER15_TU57",
+      "name": "Find birth place of specific person",
+      "sub_actions": [
+        "TYPE: Person Name",
+        "CLICK: Person Name",
+        "CLICK: Birth Place"
+      ]
+    },
+    {
+      "id": "CLUSTER15_TU58",
+      "name": "Send message to specific user",
+      "sub_actions": [
+        "CLICK: Community",
+        "CLICK: Find Users",
+        "CLICK: User Search",
+        "TYPE: User Name",
+        "CLICK: Go",
+        "CLICK: Message"
+      ]
+    },
+    {
+      "id": "CLUSTER15_TU59",
+      "name": "Find guide for specific payment method",
+      "sub_actions": [
+        "HOVER: About",
+        "CLICK: Specific Section",
+        "CLICK: Download Guide"
+      ]
+    },
+    {
+      "id": "CLUSTER15_TU60",
+      "name": "Find user reviews for specific game",
+      "sub_actions": [
+        "CLICK: Search",
+        "TYPE: Game Name",
+        "CLICK: Game Name"
+      ]
+    },
+    {
+      "id": "CLUSTER15_TU61",
+      "name": "Find software requirements for specific device",
+      "sub_actions": [
+        "HOVER: Navigate to on-demand",
+        "CLICK: Supported Devices",
+        "CLICK: Specific Feature"
+      ]
+    },
+    {
+      "id": "CLUSTER15_TU62",
+      "name": "Check reviews and mark specific rating as helpful",
+      "sub_actions": [
+        "HOVER: Car Reviews",
+        "CLICK: Best Cars",
+        "CLICK: Best SUVs",
+        "CLICK: SUVs",
+        "CLICK: See Details",
+        "CLICK: Specific Rating",
+        "CLICK: Helpful"
+      ]
+    }
+  ]
+}

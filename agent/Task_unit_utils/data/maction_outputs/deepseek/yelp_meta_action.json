@@ -1,0 +1,113 @@
+{
+  "meta_actions": [
+    {
+      "id": "MA1",
+      "name": "Search for Services by Location",
+      "website": "yelp",
+      "domain": "Travel",
+      "subdomain": "Restaurant",
+      "sub_actions": [
+        "[textbox] Near -> TYPE: Location",
+        "[span] Location -> CLICK"
+      ]
+    },
+    {
+      "id": "MA2",
+      "name": "Filter by Service Type",
+      "website": "yelp",
+      "domain": "Travel",
+      "subdomain": "Restaurant",
+      "sub_actions": [
+        "[textbox] Find -> TYPE: Service Type",
+        "[span] Service Type -> CLICK"
+      ]
+    },
+    {
+      "id": "MA3",
+      "name": "Apply Additional Filters",
+      "website": "yelp",
+      "domain": "Travel",
+      "subdomain": "Restaurant",
+      "sub_actions": [
+        "[checkbox] Filter Option -> CLICK",
+        "[button] Add -> CLICK"
+      ]
+    },
+    {
+      "id": "MA4",
+      "name": "Search for Highest Rated",
+      "website": "yelp",
+      "domain": "Travel",
+      "subdomain": "Restaurant",
+      "sub_actions": [
+        "[button] Recommended -> CLICK",
+        "[span] Highest Rated -> CLICK"
+      ]
+    },
+    {
+      "id": "MA5",
+      "name": "Initiate Service Request",
+      "website": "yelp",
+      "domain": "Travel",
+      "subdomain": "Restaurant",
+      "sub_actions": [
+        "[button] Request a Quote -> CLICK",
+        "[radio] Service Detail -> CLICK",
+        "[button] Request pricing -> CLICK"
+      ]
+    },
+    {
+      "id": "MA6",
+      "name": "Browse with Specific Requirements",
+      "website": "yelp",
+      "domain": "Travel",
+      "subdomain": "Restaurant",
+      "sub_actions": [
+        "[button] All -> CLICK",
+        "[button] See all -> CLICK",
+        "[checkbox] Requirement -> CLICK"
+      ]
+    },
+    {
+      "id": "MA7",
+      "name": "Select Virtual Consultation Option",
+      "website": "yelp",
+      "domain": "Travel",
+      "subdomain": "Restaurant",
+      "sub_actions": [
+        "[button] Virtual Consultations -> CLICK"
+      ]
+    },
+    {
+      "id": "MA8",
+      "name": "Filter by Availability",
+      "website": "yelp",
+      "domain": "Travel",
+      "subdomain": "Restaurant",
+      "sub_actions": [
+        "[button] Open Now -> CLICK"
+      ]
+    },
+    {
+      "id": "MA9",
+      "name": "Start Order",
+      "website": "yelp",
+      "domain": "Travel",
+      "subdomain": "Restaurant",
+      "sub_actions": [
+        "[button] Start Order -> CLICK"
+      ]
+    },
+    {
+      "id": "MA10",
+      "name": "Verify License",
+      "website": "yelp",
+      "domain": "Travel",
+      "subdomain": "Restaurant",
+      "sub_actions": [
+        "[button] Verified License -> CLICK",
+        "[button] Got it -> CLICK"
+      ]
+    }
+  ]
+}

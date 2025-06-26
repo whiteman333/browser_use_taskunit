@@ -1,0 +1,168 @@
+{
+  "meta_actions": [
+    {
+      "id": "MA1",
+      "name": "Search for Product",
+      "website": "newegg",
+      "domain": "Shopping",
+      "subdomain": "Digital",
+      "sub_actions": [
+        "[searchbox] Search Site -> TYPE: Product",
+        "[button] Search -> CLICK"
+      ]
+    },
+    {
+      "id": "MA2",
+      "name": "Filter Products by Rating",
+      "website": "newegg",
+      "domain": "Shopping",
+      "subdomain": "Digital",
+      "sub_actions": [
+        "[dt] Customer Ratings -> CLICK",
+        "[i] Rating -> CLICK",
+        "[button] APPLY -> CLICK"
+      ]
+    },
+    {
+      "id": "MA3",
+      "name": "Filter Products by Price",
+      "website": "newegg",
+      "domain": "Shopping",
+      "subdomain": "Digital",
+      "sub_actions": [
+        "[textbox] price to -> TYPE: Price",
+        "[button] APPLY -> CLICK"
+      ]
+    },
+    {
+      "id": "MA4",
+      "name": "Filter Products by Brand",
+      "website": "newegg",
+      "domain": "Shopping",
+      "subdomain": "Digital",
+      "sub_actions": [
+        "[span] Brand -> CLICK",
+        "[button] APPLY -> CLICK"
+      ]
+    },
+    {
+      "id": "MA5",
+      "name": "Filter Products by Condition",
+      "website": "newegg",
+      "domain": "Shopping",
+      "subdomain": "Digital",
+      "sub_actions": [
+        "[span] Condition -> CLICK",
+        "[button] APPLY -> CLICK"
+      ]
+    },
+    {
+      "id": "MA6",
+      "name": "Sort Products",
+      "website": "newegg",
+      "domain": "Shopping",
+      "subdomain": "Digital",
+      "sub_actions": [
+        "[combobox] Featured Items -> SELECT: Sort Option"
+      ]
+    },
+    {
+      "id": "MA7",
+      "name": "Add Product to Cart",
+      "website": "newegg",
+      "domain": "Shopping",
+      "subdomain": "Digital",
+      "sub_actions": [
+        "[button] ADD TO CART -> CLICK"
+      ]
+    },
+    {
+      "id": "MA8",
+      "name": "Navigate to Shopping Cart",
+      "website": "newegg",
+      "domain": "Shopping",
+      "subdomain": "Digital",
+      "sub_actions": [
+        "[link] Shopping Cart -> CLICK"
+      ]
+    },
+    {
+      "id": "MA9",
+      "name": "Remove Item from Cart",
+      "website": "newegg",
+      "domain": "Shopping",
+      "subdomain": "Digital",
+      "sub_actions": [
+        "[button] trash REMOVE -> CLICK"
+      ]
+    },
+    {
+      "id": "MA10",
+      "name": "Update Item Quantity in Cart",
+      "website": "newegg",
+      "domain": "Shopping",
+      "subdomain": "Digital",
+      "sub_actions": [
+        "[textbox] qty -> TYPE: Quantity",
+        "[textbox] qty -> ENTER"
+      ]
+    },
+    {
+      "id": "MA11",
+      "name": "Navigate to Category",
+      "website": "newegg",
+      "domain": "Shopping",
+      "subdomain": "Digital",
+      "sub_actions": [
+        "[generic] Site Menu -> CLICK",
+        "[link] Category -> CLICK"
+      ]
+    },
+    {
+      "id": "MA12",
+      "name": "Filter Products by Feature",
+      "website": "newegg",
+      "domain": "Shopping",
+      "subdomain": "Digital",
+      "sub_actions": [
+        "[span] Feature -> CLICK",
+        "[button] APPLY -> CLICK"
+      ]
+    },
+    {
+      "id": "MA13",
+      "name": "Select Product",
+      "website": "newegg",
+      "domain": "Shopping",
+      "subdomain": "Digital",
+      "sub_actions": [
+        "[link] Product -> CLICK"
+      ]
+    },
+    {
+      "id": "MA14",
+      "name": "Set Price Alert",
+      "website": "newegg",
+      "domain": "Shopping",
+      "subdomain": "Digital",
+      "sub_actions": [
+        "[div] Price Alert -> CLICK",
+        "[textbox] price from -> TYPE: Price",
+        "[button] SUBMIT -> CLICK"
+      ]
+    },
+    {
+      "id": "MA15",
+      "name": "Build Custom PC",
+      "website": "newegg",
+      "domain": "Shopping",
+      "subdomain": "Digital",
+      "sub_actions": [
+        "[link] Build Your Own Custom PC -> CLICK",
+        "[button] START A NEW BUILD -> CLICK",
+        "[button] SELECT -> CLICK",
+        "[button] SAVE LIST -> CLICK"
+      ]
+    }
+  ]
+}

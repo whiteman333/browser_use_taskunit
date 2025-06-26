@@ -1,0 +1,49 @@
+{
+  "task_unit_dag": [
+    {
+      "parent_task_unit_id": "CLUSTER12_TU1",
+      "child_task_unit_ids": [
+        "CLUSTER12_TU2",
+        "CLUSTER12_TU4",
+        "CLUSTER12_TU5",
+        "CLUSTER12_TU6",
+        "CLUSTER12_TU10",
+        "CLUSTER12_TU11",
+        "CLUSTER12_TU12"
+      ],
+      "relationship_reasoning": "Selecting a park location is a prerequisite for navigating to specific park information, purchasing tickets or passes, finding park hours or calendar, viewing park map, exploring park events, purchasing dining passes or add-ons, confirming VIP tours, and purchasing group tickets with add-ons. These actions are all dependent on first selecting a park location."
+    },
+    {
+      "parent_task_unit_id": "CLUSTER12_TU2",
+      "child_task_unit_ids": [
+        "CLUSTER12_TU3",
+        "CLUSTER12_TU10",
+        "CLUSTER12_TU11"
+      ],
+      "relationship_reasoning": "Navigating to specific park information section is necessary for purchasing park tickets or passes, purchasing dining passes or add-ons, and confirming VIP tours. These actions are sub-steps within the broader task of navigating park information."
+    },
+    {
+      "parent_task_unit_id": "CLUSTER12_TU8",
+      "child_task_unit_ids": [
+        "CLUSTER12_TU9"
+      ],
+      "relationship_reasoning": "Searching for a park by state or topic is a prerequisite for finding specific park information. The latter is a more detailed action that follows the initial search."
+    },
+    {
+      "parent_task_unit_id": "CLUSTER12_TU3",
+      "child_task_unit_ids": [
+        "CLUSTER12_TU10"
+      ],
+      "relationship_reasoning": "Purchasing park tickets or passes may include purchasing dining passes or add-ons as part of the checkout process, making the latter a child task unit of the former."
+    },
+    {
+      "parent_task_unit_id": "CLUSTER12_TU12",
+      "child_task_unit_ids": [],
+      "relationship_reasoning": "Purchasing group tickets with add-ons is a standalone task that does not have any child task units as it represents the final step in a series of actions."
+    }
+  ],
+  "validation": {
+    "is_acyclic": true,
+    "acyclic_reasoning": "The dependencies strictly follow a hierarchical structure where each parent task unit logically encompasses its child task units without any cycles or contradictions."
+  }
+}

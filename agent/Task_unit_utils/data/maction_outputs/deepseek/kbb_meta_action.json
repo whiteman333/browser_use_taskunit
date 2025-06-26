@@ -1,0 +1,231 @@
+{
+  "meta_actions": [
+    {
+      "id": "ma1",
+      "name": "Search for Vehicles with Specific Criteria",
+      "website": "kbb",
+      "domain": "Shopping",
+      "subdomain": "Auto",
+      "sub_actions": [
+        "[link] Cars for sale near TYPE: Location -> CLICK",
+        "[checkbox] Third-Party Certified -> CLICK",
+        "[span] Drive Type -> CLICK",
+        "[checkbox] Front Wheel Drive -> CLICK",
+        "[span] Exterior Color -> CLICK",
+        "[checkbox] Online Paperwork -> CLICK",
+        "[span] Vehicle History -> CLICK",
+        "[checkbox] No Accidents -> CLICK",
+        "[combobox] Sort By: -> SELECT: Price - Lowest"
+      ]
+    },
+    {
+      "id": "ma2",
+      "name": "Confirm Vehicle Availability",
+      "website": "kbb",
+      "domain": "Shopping",
+      "subdomain": "Auto",
+      "sub_actions": [
+        "[link] Confirm Availability -> CLICK",
+        "[textbox] First Name -> TYPE: Name",
+        "[textbox] Last Name -> TYPE: Name",
+        "[button] Send Email -> CLICK"
+      ]
+    },
+    {
+      "id": "ma3",
+      "name": "Browse Vehicles by Make and Year",
+      "website": "kbb",
+      "domain": "Shopping",
+      "subdomain": "Auto",
+      "sub_actions": [
+        "[div] Make -> CLICK",
+        "[select] Year -> SELECT: Year",
+        "[button] Close dialog -> CLICK",
+        "[combobox] Sort By -> SELECT: Price: Low to High",
+        "[link] Compare -> CLICK"
+      ]
+    },
+    {
+      "id": "ma4",
+      "name": "Search for New Electric Vehicles",
+      "website": "kbb",
+      "domain": "Shopping",
+      "subdomain": "Auto",
+      "sub_actions": [
+        "[link] Cars for Sale -> CLICK",
+        "[checkbox] New -> CLICK",
+        "[heading] Fuel Type -> CLICK",
+        "[checkbox] Electric -> CLICK",
+        "[heading] Electric Mile Range -> CLICK",
+        "[checkbox] 300+ Miles -> CLICK",
+        "[combobox] Sort By: -> SELECT: Price - Lowest"
+      ]
+    },
+    {
+      "id": "ma5",
+      "name": "Find Vehicle Value",
+      "website": "kbb",
+      "domain": "Shopping",
+      "subdomain": "Auto",
+      "sub_actions": [
+        "[link] My Car's Value -> CLICK",
+        "[combobox] Year -> SELECT: Year",
+        "[combobox] Make -> SELECT: Make",
+        "[combobox] Model -> SELECT: Model",
+        "[textbox] Mileage -> TYPE: Number",
+        "[button] Go -> CLICK",
+        "[div] Style -> CLICK",
+        "[button] Next -> CLICK",
+        "[div] Select Your Options -> CLICK",
+        "[generic] Color -> CLICK",
+        "[button] Next -> CLICK",
+        "[div] License Plate -> CLICK",
+        "[textbox] License Plate -> TYPE: Text",
+        "[combobox] State -> SELECT: State",
+        "[button] Go -> HOVER"
+      ]
+    },
+    {
+      "id": "ma6",
+      "name": "Search for Vehicles by Location and Year",
+      "website": "kbb",
+      "domain": "Shopping",
+      "subdomain": "Auto",
+      "sub_actions": [
+        "[link] Cars for Sale -> CLICK",
+        "[textbox] ZIP Code -> TYPE: ZIP",
+        "[combobox] Distance -> SELECT: Distance",
+        "[combobox] Minimum Year -> SELECT: Year",
+        "[combobox] Maximum Year -> SELECT: Year",
+        "[button] Make -> CLICK",
+        "[checkbox] Make -> CLICK",
+        "[checkbox] Model -> CLICK",
+        "[combobox] Sort By: -> SELECT: Price - Lowest"
+      ]
+    },
+    {
+      "id": "ma7",
+      "name": "Find Vehicle Fuel Economy",
+      "website": "kbb",
+      "domain": "Shopping",
+      "subdomain": "Auto",
+      "sub_actions": [
+        "[link] Price New/Used -> CLICK",
+        "[combobox] Year -> SELECT: Year",
+        "[combobox] Make -> SELECT: Make",
+        "[combobox] Model -> SELECT: Model",
+        "[button] Next -> CLICK",
+        "[button] Close dialog -> CLICK"
+      ]
+    },
+    {
+      "id": "ma8",
+      "name": "Browse Used Vehicles",
+      "website": "kbb",
+      "domain": "Shopping",
+      "subdomain": "Auto",
+      "sub_actions": [
+        "[link] Price New/Used -> CLICK",
+        "[combobox] Year -> SELECT: Year",
+        "[combobox] Make -> SELECT: Make",
+        "[combobox] Model -> SELECT: Model",
+        "[button] Next -> CLICK",
+        "[link] See Cars for Sale -> CLICK"
+      ]
+    },
+    {
+      "id": "ma9",
+      "name": "Find Vehicle Safety Rating",
+      "website": "kbb",
+      "domain": "Shopping",
+      "subdomain": "Auto",
+      "sub_actions": [
+        "[link] Price New/Used -> CLICK",
+        "[combobox] Year -> SELECT: Year",
+        "[combobox] Make -> SELECT: Make",
+        "[combobox] Model -> SELECT: Model",
+        "[button] Next -> CLICK",
+        "[div] Safety -> CLICK"
+      ]
+    },
+    {
+      "id": "ma10",
+      "name": "Search for Vehicles by Drive Type and Budget",
+      "website": "kbb",
+      "domain": "Shopping",
+      "subdomain": "Auto",
+      "sub_actions": [
+        "[link] Cars for Sale -> CLICK",
+        "[span] AWD/4WD -> CLICK",
+        "[textbox] Max Price -> TYPE: Number"
+      ]
+    },
+    {
+      "id": "ma11",
+      "name": "Get Price Quote for New Vehicle",
+      "website": "kbb",
+      "domain": "Shopping",
+      "subdomain": "Auto",
+      "sub_actions": [
+        "[link] Free Dealer Price Quote -> CLICK",
+        "[select] Make -> SELECT: Make",
+        "[select] Model -> SELECT: Model",
+        "[textbox] ZIP -> TYPE: ZIP",
+        "[button] Find Dealers -> CLICK",
+        "[button] Get My Free Quotes -> HOVER"
+      ]
+    },
+    {
+      "id": "ma12",
+      "name": "Get Service Estimate",
+      "website": "kbb",
+      "domain": "Shopping",
+      "subdomain": "Auto",
+      "sub_actions": [
+        "[link] Auto Repair Prices -> CLICK",
+        "[combobox] Year -> SELECT: Year",
+        "[combobox] Make -> SELECT: Make",
+        "[combobox] Model -> SELECT: Model",
+        "[combobox] Style -> SELECT: Style",
+        "[button] Select Vehicle -> CLICK",
+        "[textbox] Other Ways We Can Help -> TYPE: Text",
+        "[button] See Pricing -> CLICK",
+        "[button] Get Service Estimates -> CLICK",
+        "[textbox] Your Name * -> TYPE: Name",
+        "[textbox] Email Address * -> TYPE: Email",
+        "[textbox] Phone Number * -> TYPE: Phone",
+        "[button] Get Estimates -> CLICK"
+      ]
+    },
+    {
+      "id": "ma13",
+      "name": "Check Vehicle Reviews",
+      "website": "kbb",
+      "domain": "Shopping",
+      "subdomain": "Auto",
+      "sub_actions": [
+        "[link] Best Cars -> CLICK",
+        "[img] Best SUVs image -> CLICK",
+        "[div] SUVs -> CLICK",
+        "[link] See Details -> CLICK",
+        "[span] Rating -> CLICK",
+        "[button] helpful -> CLICK"
+      ]
+    },
+    {
+      "id": "ma14",
+      "name": "Find and Save Vehicle Listing",
+      "website": "kbb",
+      "domain": "Shopping",
+      "subdomain": "Auto",
+      "sub_actions": [
+        "[link] Cars for Sale -> CLICK",
+        "[textbox] Search by Make, Model, Body Style or Keyword -> TYPE: Text",
+        "[div] Make -> CLICK",
+        "[combobox] Sort By: -> SELECT: Price - Lowest",
+        "[heading] Vehicle Listing -> CLICK",
+        "[button] Save -> CLICK"
+      ]
+    }
+  ]
+}

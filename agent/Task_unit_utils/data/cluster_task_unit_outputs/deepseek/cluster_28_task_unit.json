@@ -1,0 +1,89 @@
+{
+  "task_units": [
+    {
+      "id": "CLUSTER28_TU1",
+      "name": "View route map or schedule",
+      "sub_actions": [
+        "CLICK on destinations or schedules link",
+        "CLICK on specific route or timetable link"
+      ]
+    },
+    {
+      "id": "CLUSTER28_TU2",
+      "name": "Search for train tickets",
+      "sub_actions": [
+        "SELECT departure location",
+        "SELECT arrival location",
+        "SELECT date",
+        "SELECT time",
+        "SELECT number of passengers",
+        "CLICK on search or find trains button"
+      ]
+    },
+    {
+      "id": "CLUSTER28_TU3",
+      "name": "Filter search results",
+      "sub_actions": [
+        "CLICK on sort/filter options",
+        "SELECT filter criteria (e.g., time of day, train type)",
+        "CLICK on apply filters button"
+      ]
+    },
+    {
+      "id": "CLUSTER28_TU4",
+      "name": "Select train and seating preferences",
+      "sub_actions": [
+        "SELECT train option",
+        "SELECT seating preferences (e.g., forward facing, window)",
+        "CLICK on continue or confirm button"
+      ]
+    },
+    {
+      "id": "CLUSTER28_TU5",
+      "name": "Add to cart or proceed to booking",
+      "sub_actions": [
+        "CLICK on add to cart or book button",
+        "CLICK on continue to payment or checkout button"
+      ]
+    },
+    {
+      "id": "CLUSTER28_TU6",
+      "name": "Apply discounts or railcards",
+      "sub_actions": [
+        "CLICK on add railcard or discount option",
+        "SELECT railcard or discount type",
+        "CLICK on done or apply button"
+      ]
+    },
+    {
+      "id": "CLUSTER28_TU7",
+      "name": "Request vacation package quote",
+      "sub_actions": [
+        "CLICK on deals or vacation packages link",
+        "SELECT departure city",
+        "SELECT package options (e.g., deluxe bedroom)",
+        "SELECT travel date",
+        "ENTER personal and trip information",
+        "CLICK on submit quote request button"
+      ]
+    },
+    {
+      "id": "CLUSTER28_TU8",
+      "name": "View job openings",
+      "sub_actions": [
+        "CLICK on careers link",
+        "TYPE job keyword",
+        "TYPE location",
+        "CLICK on search or view jobs button"
+      ]
+    },
+    {
+      "id": "CLUSTER28_TU9",
+      "name": "View terms and conditions",
+      "sub_actions": [
+        "CLICK on deals or specific service link",
+        "CLICK on terms and conditions link"
+      ]
+    }
+  ]
+}

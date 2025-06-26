@@ -1,0 +1,207 @@
+{
+  "meta_actions": [
+    {
+      "id": "ma1",
+      "name": "Navigate to Reviews Section",
+      "website": "ign",
+      "domain": "Entertainment",
+      "subdomain": "Game",
+      "sub_actions": [
+        "[button] Reviews -> CLICK",
+        "[link] Game Reviews -> CLICK"
+      ]
+    },
+    {
+      "id": "ma2",
+      "name": "Filter Content by Platform",
+      "website": "ign",
+      "domain": "Entertainment",
+      "subdomain": "Game",
+      "sub_actions": [
+        "[combobox] Platform -> SELECT: Platform"
+      ]
+    },
+    {
+      "id": "ma3",
+      "name": "Sort Content",
+      "website": "ign",
+      "domain": "Entertainment",
+      "subdomain": "Game",
+      "sub_actions": [
+        "[combobox] Sort -> SELECT: Sort Criteria"
+      ]
+    },
+    {
+      "id": "ma4",
+      "name": "Search for Specific Content",
+      "website": "ign",
+      "domain": "Entertainment",
+      "subdomain": "Game",
+      "sub_actions": [
+        "[button] Search -> CLICK",
+        "[searchbox] Search -> TYPE: Content Name"
+      ]
+    },
+    {
+      "id": "ma5",
+      "name": "Navigate to Specific Content Page",
+      "website": "ign",
+      "domain": "Entertainment",
+      "subdomain": "Game",
+      "sub_actions": [
+        "[div] Content Name -> CLICK"
+      ]
+    },
+    {
+      "id": "ma6",
+      "name": "Toggle Sidebar Navigation",
+      "website": "ign",
+      "domain": "Entertainment",
+      "subdomain": "Game",
+      "sub_actions": [
+        "[button] Toggle Sidebar -> CLICK"
+      ]
+    },
+    {
+      "id": "ma7",
+      "name": "Navigate to Discover Section",
+      "website": "ign",
+      "domain": "Entertainment",
+      "subdomain": "Game",
+      "sub_actions": [
+        "[button] Discover -> CLICK"
+      ]
+    },
+    {
+      "id": "ma8",
+      "name": "Navigate to Upcoming Content",
+      "website": "ign",
+      "domain": "Entertainment",
+      "subdomain": "Game",
+      "sub_actions": [
+        "[link] Upcoming Games -> CLICK",
+        "[link] Upcoming Movies -> CLICK"
+      ]
+    },
+    {
+      "id": "ma9",
+      "name": "Select Date for Upcoming Content",
+      "website": "ign",
+      "domain": "Entertainment",
+      "subdomain": "Game",
+      "sub_actions": [
+        "[tab] Date -> CLICK"
+      ]
+    },
+    {
+      "id": "ma10",
+      "name": "Navigate to Store Section",
+      "website": "ign",
+      "domain": "Entertainment",
+      "subdomain": "Game",
+      "sub_actions": [
+        "[link] Store -> CLICK"
+      ]
+    },
+    {
+      "id": "ma11",
+      "name": "Navigate to Pre-Orders Section",
+      "website": "ign",
+      "domain": "Entertainment",
+      "subdomain": "Game",
+      "sub_actions": [
+        "[link] Pre-Orders -> CLICK"
+      ]
+    },
+    {
+      "id": "ma12",
+      "name": "Navigate to Guides Section",
+      "website": "ign",
+      "domain": "Entertainment",
+      "subdomain": "Game",
+      "sub_actions": [
+        "[link] Guides -> CLICK"
+      ]
+    },
+    {
+      "id": "ma13",
+      "name": "Open Guide",
+      "website": "ign",
+      "domain": "Entertainment",
+      "subdomain": "Game",
+      "sub_actions": [
+        "[button] Open Guide -> CLICK"
+      ]
+    },
+    {
+      "id": "ma14",
+      "name": "Navigate to Table of Contents",
+      "website": "ign",
+      "domain": "Entertainment",
+      "subdomain": "Game",
+      "sub_actions": [
+        "[button] Table of Contents -> CLICK"
+      ]
+    },
+    {
+      "id": "ma15",
+      "name": "Navigate to Specific Guide Section",
+      "website": "ign",
+      "domain": "Entertainment",
+      "subdomain": "Game",
+      "sub_actions": [
+        "[link] Guide Section -> CLICK"
+      ]
+    },
+    {
+      "id": "ma16",
+      "name": "Add Item to Cart",
+      "website": "ign",
+      "domain": "Entertainment",
+      "subdomain": "Game",
+      "sub_actions": [
+        "[button] Add to cart -> CLICK"
+      ]
+    },
+    {
+      "id": "ma17",
+      "name": "Navigate to News Section",
+      "website": "ign",
+      "domain": "Entertainment",
+      "subdomain": "Game",
+      "sub_actions": [
+        "[button] News -> CLICK"
+      ]
+    },
+    {
+      "id": "ma18",
+      "name": "Navigate to Comics Section",
+      "website": "ign",
+      "domain": "Entertainment",
+      "subdomain": "Game",
+      "sub_actions": [
+        "[link] Comics -> CLICK"
+      ]
+    },
+    {
+      "id": "ma19",
+      "name": "Navigate to Movies Section",
+      "website": "ign",
+      "domain": "Entertainment",
+      "subdomain": "Game",
+      "sub_actions": [
+        "[tab] MOVIES -> CLICK"
+      ]
+    },
+    {
+      "id": "ma20",
+      "name": "Navigate to Reviews Tab",
+      "website": "ign",
+      "domain": "Entertainment",
+      "subdomain": "Game",
+      "sub_actions": [
+        "[tab] Reviews -> CLICK"
+      ]
+    }
+  ]
+}

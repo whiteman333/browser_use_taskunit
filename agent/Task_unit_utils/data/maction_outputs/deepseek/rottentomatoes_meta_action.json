@@ -1,0 +1,147 @@
+{
+  "meta_actions": [
+    {
+      "id": "MA1",
+      "name": "Navigate to Category",
+      "website": "rottentomatoes",
+      "domain": "Entertainment",
+      "subdomain": "Movie",
+      "sub_actions": [
+        "[link] MOVIES -> HOVER",
+        "[link] Certified fresh movies -> CLICK",
+        "[svg] -> CLICK",
+        "[div] -> CLICK",
+        "[button] APPLY -> CLICK"
+      ]
+    },
+    {
+      "id": "MA2",
+      "name": "Search and Select Actor",
+      "website": "rottentomatoes",
+      "domain": "Entertainment",
+      "subdomain": "Movie",
+      "sub_actions": [
+        "[textbox] Search -> TYPE: Actor",
+        "[p] Actor Name -> CLICK",
+        "[link] Actor Name -> CLICK",
+        "[link] Movie Title -> CLICK"
+      ]
+    },
+    {
+      "id": "MA3",
+      "name": "Browse Latest News",
+      "website": "rottentomatoes",
+      "domain": "Entertainment",
+      "subdomain": "Movie",
+      "sub_actions": [
+        "[link] NEWS -> HOVER",
+        "[link] VIEW ALL -> CLICK"
+      ]
+    },
+    {
+      "id": "MA4",
+      "name": "Filter and Sort Movies",
+      "website": "rottentomatoes",
+      "domain": "Entertainment",
+      "subdomain": "Movie",
+      "sub_actions": [
+        "[link] MOVIES -> HOVER",
+        "[link] Trailers -> CLICK",
+        "[link] VIEW ALL -> CLICK",
+        "[span] Tomatometer -> CLICK",
+        "[div] -> CLICK",
+        "[button] APPLY -> CLICK"
+      ]
+    },
+    {
+      "id": "MA5",
+      "name": "Filter by Streaming Service and Genre",
+      "website": "rottentomatoes",
+      "domain": "Entertainment",
+      "subdomain": "Movie",
+      "sub_actions": [
+        "[link] TV SHOWS -> CLICK",
+        "[img] Streaming Service -> CLICK",
+        "[span] Genre -> CLICK",
+        "[div] -> CLICK",
+        "[button] APPLY -> CLICK",
+        "[span] Sort: Most popular -> CLICK",
+        "[span] Audience score (highest) -> CLICK"
+      ]
+    },
+    {
+      "id": "MA6",
+      "name": "Locate and Sort Movies at Home",
+      "website": "rottentomatoes",
+      "domain": "Entertainment",
+      "subdomain": "Movie",
+      "sub_actions": [
+        "[link] MOVIES -> CLICK",
+        "[button] IN THEATERS -> CLICK",
+        "[link] AT HOME -> CLICK",
+        "[span] Genre -> CLICK",
+        "[div] -> CLICK",
+        "[button] APPLY -> CLICK",
+        "[span] Sort -> CLICK",
+        "[span] Newest -> CLICK"
+      ]
+    },
+    {
+      "id": "MA7",
+      "name": "Find Upcoming Movies by Genre",
+      "website": "rottentomatoes",
+      "domain": "Entertainment",
+      "subdomain": "Movie",
+      "sub_actions": [
+        "[link] MOVIES -> HOVER",
+        "[link] Coming soon to theaters -> CLICK",
+        "[span] Genre -> CLICK",
+        "[div] -> CLICK",
+        "[button] APPLY -> CLICK"
+      ]
+    },
+    {
+      "id": "MA8",
+      "name": "Browse and Filter Animation Movies",
+      "website": "rottentomatoes",
+      "domain": "Entertainment",
+      "subdomain": "Movie",
+      "sub_actions": [
+        "[link] MOVIES -> CLICK",
+        "[button] IN THEATERS -> CLICK",
+        "[link] COMING SOON -> CLICK",
+        "[span] Genre -> CLICK",
+        "[div] -> CLICK",
+        "[div] -> CLICK",
+        "[button] APPLY -> CLICK"
+      ]
+    },
+    {
+      "id": "MA9",
+      "name": "Filter Certified Fresh Movies",
+      "website": "rottentomatoes",
+      "domain": "Entertainment",
+      "subdomain": "Movie",
+      "sub_actions": [
+        "[link] MOVIES -> CLICK",
+        "[svg] -> CLICK",
+        "[div] -> CLICK",
+        "[button] APPLY -> CLICK",
+        "[svg] -> CLICK",
+        "[div] -> CLICK"
+      ]
+    },
+    {
+      "id": "MA10",
+      "name": "Search and Filter by Actor",
+      "website": "rottentomatoes",
+      "domain": "Entertainment",
+      "subdomain": "Movie",
+      "sub_actions": [
+        "[textbox] Search -> TYPE: Actor",
+        "[p] Actor Name -> CLICK",
+        "[button] BOX OFFICE -> CLICK"
+      ]
+    }
+  ]
+}

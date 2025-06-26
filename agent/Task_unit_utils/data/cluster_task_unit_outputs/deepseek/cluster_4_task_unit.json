@@ -1,0 +1,164 @@
+{
+  "task_units": [
+    {
+      "id": "CLUSTER4_TU1",
+      "name": "Navigate to product category",
+      "sub_actions": [
+        "HOVER: Category",
+        "CLICK: Subcategory"
+      ]
+    },
+    {
+      "id": "CLUSTER4_TU2",
+      "name": "Filter products by price",
+      "sub_actions": [
+        "CLICK: Price filter",
+        "SELECT: Price range"
+      ]
+    },
+    {
+      "id": "CLUSTER4_TU3",
+      "name": "Select product",
+      "sub_actions": [
+        "CLICK: Product"
+      ]
+    },
+    {
+      "id": "CLUSTER4_TU4",
+      "name": "Add product to cart",
+      "sub_actions": [
+        "CLICK: Add to cart button"
+      ]
+    },
+    {
+      "id": "CLUSTER4_TU5",
+      "name": "Search for product",
+      "sub_actions": [
+        "TYPE: Search term",
+        "CLICK: Search button"
+      ]
+    },
+    {
+      "id": "CLUSTER4_TU6",
+      "name": "Sort products",
+      "sub_actions": [
+        "CLICK: Sort option",
+        "SELECT: Sort criteria"
+      ]
+    },
+    {
+      "id": "CLUSTER4_TU7",
+      "name": "Specify product quantity",
+      "sub_actions": [
+        "TYPE: Quantity",
+        "ENTER: Confirm quantity"
+      ]
+    },
+    {
+      "id": "CLUSTER4_TU8",
+      "name": "Remove product from cart",
+      "sub_actions": [
+        "CLICK: Remove button"
+      ]
+    },
+    {
+      "id": "CLUSTER4_TU9",
+      "name": "Checkout process",
+      "sub_actions": [
+        "CLICK: Proceed to checkout",
+        "CLICK: Continue with default options",
+        "TYPE: Payment details",
+        "SELECT: Expiration date",
+        "TYPE: Security code",
+        "CLICK: Finalize purchase"
+      ]
+    },
+    {
+      "id": "CLUSTER4_TU10",
+      "name": "Apply coupon code",
+      "sub_actions": [
+        "TYPE: Coupon code",
+        "CLICK: Apply coupon button"
+      ]
+    },
+    {
+      "id": "CLUSTER4_TU11",
+      "name": "Select product color",
+      "sub_actions": [
+        "CLICK: Color option"
+      ]
+    },
+    {
+      "id": "CLUSTER4_TU12",
+      "name": "Select delivery option",
+      "sub_actions": [
+        "CLICK: Delivery option",
+        "TYPE: Location",
+        "CLICK: Confirm location"
+      ]
+    },
+    {
+      "id": "CLUSTER4_TU13",
+      "name": "Create new shopping list",
+      "sub_actions": [
+        "CLICK: Create list",
+        "TYPE: List title",
+        "CLICK: Confirm list creation"
+      ]
+    },
+    {
+      "id": "CLUSTER4_TU14",
+      "name": "Add items to shopping list",
+      "sub_actions": [
+        "CLICK: Add item",
+        "CLICK: Confirm addition"
+      ]
+    },
+    {
+      "id": "CLUSTER4_TU15",
+      "name": "Update product quantity in cart",
+      "sub_actions": [
+        "TYPE: New quantity",
+        "ENTER: Confirm quantity"
+      ]
+    },
+    {
+      "id": "CLUSTER4_TU16",
+      "name": "Filter products by compatibility",
+      "sub_actions": [
+        "CLICK: Compatibility filter",
+        "SELECT: Compatibility option"
+      ]
+    },
+    {
+      "id": "CLUSTER4_TU17",
+      "name": "Filter products by review rating",
+      "sub_actions": [
+        "CLICK: Review rating filter",
+        "SELECT: Minimum rating"
+      ]
+    },
+    {
+      "id": "CLUSTER4_TU18",
+      "name": "Filter products by availability",
+      "sub_actions": [
+        "CLICK: Availability filter",
+        "SELECT: Availability option"
+      ]
+    },
+    {
+      "id": "CLUSTER4_TU19",
+      "name": "Select product size",
+      "sub_actions": [
+        "CLICK: Size option"
+      ]
+    },
+    {
+      "id": "CLUSTER4_TU20",
+      "name": "View shopping cart",
+      "sub_actions": [
+        "CLICK: View cart button"
+      ]
+    }
+  ]
+}

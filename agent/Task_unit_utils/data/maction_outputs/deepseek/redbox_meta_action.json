@@ -1,0 +1,82 @@
+{
+  "meta_actions": [
+    {
+      "id": "ma1",
+      "name": "Locate Kiosk",
+      "website": "redbox",
+      "domain": "Entertainment",
+      "subdomain": "Movie",
+      "sub_actions": [
+        "[button] Navigate to Find a kiosk nearby -> CLICK",
+        "[textbox] City or ZIP Code -> TYPE: Location",
+        "[button] select to search for a kiosk using city or zipcode -> CLICK",
+        "[button] select to browse a kiosk -> CLICK"
+      ]
+    },
+    {
+      "id": "ma2",
+      "name": "Filter Movies",
+      "website": "redbox",
+      "domain": "Entertainment",
+      "subdomain": "Movie",
+      "sub_actions": [
+        "[button] Show Filters -> CLICK",
+        "[button] Filter by rent -> CLICK",
+        "[span] Hide Filters -> CLICK",
+        "[combobox] sortBy -> SELECT: SortOption"
+      ]
+    },
+    {
+      "id": "ma3",
+      "name": "Browse Deals",
+      "website": "redbox",
+      "domain": "Entertainment",
+      "subdomain": "Movie",
+      "sub_actions": [
+        "[link] Navigate to deals -> CLICK",
+        "[link] Navigate to 1-Night Kiosk Rentals See More -> CLICK",
+        "[img] Movie -> CLICK",
+        "[button] select to rent on demand movie -> CLICK"
+      ]
+    },
+    {
+      "id": "ma4",
+      "name": "Watch Trailer",
+      "website": "redbox",
+      "domain": "Entertainment",
+      "subdomain": "Movie",
+      "sub_actions": [
+        "[link] Navigate to on-demand -> HOVER",
+        "[link] select to navigate to Genres -> CLICK",
+        "[img] Movie -> CLICK",
+        "[path] -> CLICK"
+      ]
+    },
+    {
+      "id": "ma5",
+      "name": "Check Device Compatibility",
+      "website": "redbox",
+      "domain": "Entertainment",
+      "subdomain": "Movie",
+      "sub_actions": [
+        "[link] Navigate to on-demand -> HOVER",
+        "[link] select to navigate to Supported Devices -> CLICK",
+        "[generic] FREE LIVE TV -> CLICK",
+        "[generic] ... -> CLICK"
+      ]
+    },
+    {
+      "id": "ma6",
+      "name": "Add to Wishlist",
+      "website": "redbox",
+      "domain": "Entertainment",
+      "subdomain": "Movie",
+      "sub_actions": [
+        "[link] Navigate to at-the kiosk -> CLICK",
+        "[link] Navigate to New Releases At The Kiosk See More -> CLICK",
+        "[img] Movie -> CLICK",
+        "[button] Click to add title to wishlist. -> CLICK"
+      ]
+    }
+  ]
+}
